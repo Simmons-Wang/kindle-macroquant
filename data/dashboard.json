@@ -1,10 +1,10 @@
 {
   "session": "FRI 06 NOV 2026",
   "edition": "PM",
-  "generated_utc": "2026-11-05T18:11:02Z",
+  "generated_utc": "2026-11-05T20:44:00Z",
   "summary": {
-    "regime": "Energy-shock re-tightening: BoE +25bp → 4.00% today (8–1, Mann 50bp); Fed 3.75–4.00% w/ 2 hike dissents; RBA 4.85%; BoJ eyes Dec. Midterm risk cleared → VIX 16.6, WTI $88.",
-    "alert": "VOL WINDOW Fri 13:30 GMT / 08:30 EST — US NFP · SPX Fri expiry implies ±0.87%"
+    "regime": "AI/chip unwind after Dem midterm sweep: SPX -4.1%, Nasdaq -5.3%, SOX -11% intraday, VIX ~26. BoE +25bp to 4.00% (8-1, dissent wanted more); Fed 3.75-4.00%; Brent ~$98.",
+    "alert": "VOL WINDOW Fri 13:30 GMT / 08:30 EST - US NFP after rout"
   },
   "board": [
     {
@@ -15,8 +15,16 @@
           "ldn": "AMC",
           "ny": "",
           "cat": "EARN",
-          "event": "ABNB, BKNG, NET, LITE, TEAM (AMC)",
-          "notes": "Gap risk at Fri 14:30/09:30 open; ABNB EPS est $2.89"
+          "imp": "H",
+          "event": "NET, LITE, MCHP, IONQ (AMC)",
+          "notes": "AI/semis read-through after SOX -11% intraday; gap risk at Fri 14:30/09:30 open"
+        },
+        {
+          "ldn": "AMC",
+          "ny": "",
+          "cat": "EARN",
+          "event": "ABNB, TEAM, MNST, SPG (AMC)",
+          "notes": "Consumer / software check; EPS consensus n/v this run"
         }
       ]
     },
@@ -25,38 +33,20 @@
       "tag": "Next Session",
       "rows": [
         {
-          "ldn": "BMO",
-          "ny": "",
-          "cat": "EARN",
-          "event": "MRNA, ENB (BMO)",
-          "notes": "No mega-cap prints; index sensitivity low"
-        },
-        {
           "ldn": "13:30",
           "ny": "08:30",
           "cat": "ECO",
           "imp": "H",
           "event": "US Non-Farm Payrolls (Oct)",
-          "notes": "Cons +59k (rng +50–95k), UR 4.2%; Sep +29k. Hot → 2Y↑ USD↑; cold → bull-steepener"
+          "notes": "Cons +65k (FactSet; rng +50-125k), UR 4.2% | Sep +29k, 4.2%. Hot -> 2Y up, USD up"
         },
         {
-          "ldn": "13:30",
-          "ny": "08:30",
-          "cat": "ECO",
-          "event": "Canada Labour Force Survey",
-          "notes": "Same print as NFP; CAD crosses gap together"
-        }
-      ]
-    },
-    {
-      "date": "Mon, Nov 9",
-      "rows": [
-        {
-          "ldn": "01:30",
-          "ny": "20:30*",
-          "cat": "ECO",
-          "event": "China CPI / PPI (Oct)",
-          "notes": "*Sun. AUD/USD & CNH read; RBA carry"
+          "ldn": "14:30",
+          "ny": "09:30",
+          "cat": "RISK",
+          "imp": "H",
+          "event": "US open after -4% SPX day",
+          "notes": "Chip/AI de-gross follow-through; Challenger Oct cuts 43,994 (-71% y/y) = low-fire backdrop"
         }
       ]
     },
@@ -69,7 +59,7 @@
           "cat": "ECO",
           "imp": "H",
           "event": "US CPI (Oct)",
-          "notes": "Core vs Dec Fed hike risk; front-end duration"
+          "notes": "BLS sched. Consensus n/v. Core drives Dec 9 FOMC hike odds; front-end duration"
         }
       ]
     },
@@ -82,33 +72,7 @@
           "cat": "RISK",
           "imp": "H",
           "event": "Veterans Day: USD bond mkts closed",
-          "notes": "SIFMA US/UK/JP; equities open → bond-ETF NAVs stale, prem/disc & TE widen"
-        },
-        {
-          "ldn": "—",
-          "ny": "",
-          "cat": "RISK",
-          "event": "MSCI Nov Index Review announced",
-          "notes": "Time n/v. Effective 1 Dec → 30 Nov MOC volume spike"
-        }
-      ]
-    },
-    {
-      "date": "Thu, Nov 12",
-      "rows": [
-        {
-          "ldn": "07:00",
-          "ny": "02:00",
-          "cat": "ECO",
-          "event": "UK GDP Q3 (prelim)",
-          "notes": "Post-hike gilts; BoE Dec ~50% priced"
-        },
-        {
-          "ldn": "AMC",
-          "ny": "",
-          "cat": "EARN",
-          "event": "CSCO (AMC)",
-          "notes": "Call 21:30/16:30"
+          "notes": "SIFMA full close US/UK/JP; equities open -> bond-ETF NAVs stale, prem/disc widen"
         }
       ]
     },
@@ -116,18 +80,11 @@
       "date": "Fri, Nov 13",
       "rows": [
         {
-          "ldn": "10:00",
-          "ny": "05:00",
-          "cat": "ECO",
-          "event": "Eurozone GDP flash Q3",
-          "notes": "ECB depo 2.50% on hold"
-        },
-        {
           "ldn": "13:30",
           "ny": "08:30",
           "cat": "ECO",
           "event": "US PPI (Oct)",
-          "notes": ""
+          "notes": "BLS schedule. Consensus n/v. Pipeline read after Brent ~$98"
         }
       ]
     }
@@ -135,16 +92,16 @@
   "levels": [
     {
       "k": "RATES",
-      "v": "UST 2Y 4.51 / 10Y 4.85 (2s10s +34bp) · 10Y real 2.62% · Gilts 2Y 4.79 / 10Y 5.17"
+      "v": "UST 10Y 4.83% (4.89 prior) · Gilt 2Y 4.76% (+2bp) · UST 2Y, 2s10s, real, gilt 10Y n/v"
     },
     {
       "k": "FX",
-      "v": "GBP/USD 1.346 (R 1.3503 / S 1.3450) · USD/JPY ~157 · EUR/USD, AUD/USD n/v"
+      "v": "USD/JPY 157.69 · AUD/USD 0.6943 (-0.9%) · GBP/USD 1.3477 · DXY 101.5 · EUR n/v"
     },
     {
       "k": "VOL",
-      "v": "VIX 16.61 · VIX3M/VIX 1.13 · SKEW 150.9 (median 146) · dealer gamma n/v"
+      "v": "VIX 25.76 intraday (+55%; Wed 16.61) · term str, skew, gamma n/v"
     }
   ],
-  "sources": "BoE·Fed·BLS·FRED·SIFMA·MSCI·co. IR·Kiplinger·Saxo·TE·IG"
+  "sources": "SIFMA·BLS·FactSet·Kiplinger·Reuters/Euronext·AP·Yahoo·JournalArta·MarketDaily·StockTitan·SA"
 }
