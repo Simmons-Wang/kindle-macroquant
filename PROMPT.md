@@ -23,25 +23,28 @@ Everything must fit on ONE non-scrolling, high-contrast black-and-white screen.
 4. Analytical statements (liquidity, FX sensitivities, curve reasoning) are allowed as judgement, but any number in
    them must be sourced.
 
-## Content modules (keys in `data/dashboard.json`)
-1. `summary.regime` (≤ 330 chars) — the immediate market-regime driver; `summary.alert` (≤ 120 chars) — the active
-   volatility window with LDN/NY times. `tz` — current transatlantic alignment (offsets, Δh, DST notes).
-2. `agenda` — day-by-day, same-day events stacked vertically (one row each), covering tonight's AMC and the next
-   session. Each item: `ldn`, `ny`, `cat` ∈ {CB, ECO, EARN, RISK}, `imp` ∈ {H, M}, `text` (≤ 48 chars),
-   `val` (consensus | prior, ≤ 18 chars).
-   Badges: CB = Central Bank Policy (FOMC, BoE, ECB, BoJ, PBoC, SNB, RBA); ECO = Economic Indicators (CPI, PCE, NFP,
-   GDP, flash PMIs…); EARN = Corporate Earnings; RISK = Systemic / structural risk.
-3. `roadmap.macro` (3–4 bullets: release times, consensus, fixed-income/FX model impacts, hot/cold scenarios) and
-   `roadmap.earnings` (3–4 bullets: tickers, BMO/AMC windows, consensus EPS, options-implied moves or `n/v`,
-   index-weight sensitivity).
-4. `horizon` — the next 5–10 trading sessions after `session`, one row per day: `day`, `cat`, `text` (major catalysts
-   with LDN/NY times), optional `note` (structural constraint: MOC auction distortions vs index effective dates,
-   bond-market holidays, OPEX / quad witching, VIX expiry, central-bank speaker slates, index reviews).
-5. `quant` — exactly five rows with keys `LIQ`, `ETF`, `FX`, `RATES`, `VOL`: liquidity vacuums / top-of-book depth /
-   spread widening; ETF basket dynamics & tracking-error risk; explicit EUR/USD, GBP/USD, USD/JPY, AUD/USD and JPY-cross
-   sensitivities; UST & gilt 2Y/10Y levels, 2s10s, real yields, duration risk; VIX / term structure / skew /
-   dealer gamma (or `n/v`). Each ≤ 300 chars.
-Also set `session` (e.g. `FRI 06 NOV 2026`), `edition` (`AM`/`PM`), `generated_utc` (ISO, now), `sources` (≤ 70 chars).
+## Layout (ZW's preferred style): one date-grouped event table
+Columns: **Date | Time (GMT/EST — label auto from the session date) | Category | Event / Catalyst | Consensus / Notes**.
+The five analytical modules are folded into this one board:
+
+- `summary.regime` (≤ 200 chars) — the immediate market-regime driver.
+  `summary.alert` (≤ 85 chars) — the active volatility window with LDN/NY times.
+- `board` — list of date groups, chronological, starting with tonight's AMC (if any) and the next session, then the
+  following 5–10 trading sessions. Group: `date` (e.g. `Fri, Nov 6`), optional `tag` (`Tonight`, `Next Session`),
+  `rows`. Same-day events are separate rows, in time order (never merge two times into one row).
+  Row: `ldn`, `ny` (HH:MM, or `BMO` / `AMC` / `All day` with `ny` empty; mark a different calendar day with `*`
+  and explain in notes, e.g. `*Sun`), `cat` ∈ {CB, ECO, EARN, RISK}, optional `imp: "H"` (★, underlined),
+  `event` (≤ 36 chars, bold), `notes` (≤ 95 chars: consensus | prior, FI/FX model impact, BMO/AMC call times,
+  implied move or `n/v`, index-weight sensitivity).
+  Categories: CB = Central Bank Policy (FOMC, BoE, ECB, BoJ, PBoC, SNB, RBA, incl. minutes / key speakers);
+  ECO = Economic Indicators (CPI, PCE, NFP, GDP, flash PMIs…); EARN = Corporate Earnings (mega-cap first);
+  RISK = Systemic / market-structure events: bond-market holidays, OPEX / quad witching, VIX expiry, index review
+  announcements vs effective dates (MOC distortions), elections, liquidity vacuums.
+  Budget: ~20–26 rows total; drop low-impact rows before shrinking text.
+- `levels` — exactly three rows: `RATES` (UST & gilt 2Y/10Y, 2s10s, 10Y real yield), `FX` (EUR/USD, GBP/USD,
+  USD/JPY, AUD/USD; JPY crosses if notable), `VOL` (VIX, term structure, skew, dealer gamma) — each ≤ 95 chars,
+  numbers sourced or `n/v`. Quant / ETF / liquidity commentary goes in the relevant row's `notes`.
+Also set `session` (e.g. `FRI 06 NOV 2026`), `edition` (`AM`/`PM`), `generated_utc` (ISO, now), `sources`.
 
 ## Build & publish
 ```bash
