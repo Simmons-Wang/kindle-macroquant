@@ -135,14 +135,14 @@ def build_html(d):
 
 
 def next_fetch_epoch(now_utc):
-    """Next scheduled run start (London) + FETCH_LAG_MIN, as a UTC epoch."""
+    """Start of the next scheduled run after now (London) + FETCH_LAG_MIN, as a UTC epoch."""
     now_l = now_utc.astimezone(LDN)
     for add in range(0, 8):
         day = (now_l + dt.timedelta(days=add)).date()
         for hh, mm in RUNS[day.weekday()]:
-            t = dt.datetime(day.year, day.month, day.day, hh, mm, tzinfo=LDN) + dt.timedelta(minutes=FETCH_LAG_MIN)
-            if t > now_l + dt.timedelta(minutes=5):
-                return int(t.timestamp())
+            start = dt.datetime(day.year, day.month, day.day, hh, mm, tzinfo=LDN)
+            if start > now_l:  # the NEXT run, never the run that is publishing right now
+                return int((start + dt.timedelta(minutes=FETCH_LAG_MIN)).timestamp())
     return int((now_utc + dt.timedelta(hours=12)).timestamp())
 
 
