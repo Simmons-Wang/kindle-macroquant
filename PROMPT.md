@@ -29,8 +29,10 @@ The five analytical modules are folded into this one board:
 
 - `summary.regime` (≤ 200 chars) — the immediate market-regime driver.
   `summary.alert` (≤ 85 chars) — the active volatility window with LDN/NY times.
-- `board` — list of date groups, chronological, starting with tonight's AMC (if any) and the next session, then the
-  following 5–10 trading sessions. Group: `date` (e.g. `Fri, Nov 6`), optional `tag` (`Tonight`, `Next Session`),
+- `board` — list of date groups, chronological, covering **only the current trading week and the following week**:
+  start with tonight's AMC (if any) and the next session, run through the rest of the session's week (to Friday),
+  then the whole next week (Mon–Fri). Nothing beyond that week. (On a Sunday PM run the "current week" is the week
+  starting tomorrow.) Group: `date` (e.g. `Fri, Nov 6`), optional `tag` (`Tonight`, `Next Session`),
   `rows`. Same-day events are separate rows, in time order (never merge two times into one row).
   Row: `ldn`, `ny` (HH:MM, or `BMO` / `AMC` / `All day` with `ny` empty; mark a different calendar day with `*`
   and explain in notes, e.g. `*Sun`), `cat` ∈ {CB, ECO, EARN, RISK}, optional `imp: "H"` (★, underlined),
@@ -40,7 +42,7 @@ The five analytical modules are folded into this one board:
   ECO = Economic Indicators (CPI, PCE, NFP, GDP, flash PMIs…); EARN = Corporate Earnings (mega-cap first);
   RISK = Systemic / market-structure events: bond-market holidays, OPEX / quad witching, VIX expiry, index review
   announcements vs effective dates (MOC distortions), elections, liquidity vacuums.
-  Budget: ~20–26 rows total; drop low-impact rows before shrinking text.
+  Budget: ~14–22 rows total; drop low-impact rows before shrinking text.
 - `levels` — exactly three rows: `RATES` (UST & gilt 2Y/10Y, 2s10s, 10Y real yield), `FX` (EUR/USD, GBP/USD,
   USD/JPY, AUD/USD; JPY crosses if notable), `VOL` (VIX, term structure, skew, dealer gamma) — each ≤ 95 chars,
   numbers sourced or `n/v`. Quant / ETF / liquidity commentary goes in the relevant row's `notes`.

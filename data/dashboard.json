@@ -1,7 +1,7 @@
 {
   "session": "FRI 06 NOV 2026",
   "edition": "PM",
-  "generated_utc": "2026-11-05T17:44:47Z",
+  "generated_utc": "2026-11-05T18:11:02Z",
   "summary": {
     "regime": "Energy-shock re-tightening: BoE +25bp → 4.00% today (8–1, Mann 50bp); Fed 3.75–4.00% w/ 2 hike dissents; RBA 4.85%; BoJ eyes Dec. Midterm risk cleared → VIX 16.6, WTI $88.",
     "alert": "VOL WINDOW Fri 13:30 GMT / 08:30 EST — US NFP · SPX Fri expiry implies ±0.87%"
@@ -128,110 +128,6 @@
           "cat": "ECO",
           "event": "US PPI (Oct)",
           "notes": ""
-        }
-      ]
-    },
-    {
-      "date": "Mon, Nov 16",
-      "rows": [
-        {
-          "ldn": "23:50*",
-          "ny": "18:50*",
-          "cat": "ECO",
-          "event": "Japan GDP Q3",
-          "notes": "*Sun 15. BoJ Dec hike odds; USD/JPY ~157"
-        }
-      ]
-    },
-    {
-      "date": "Tue, Nov 17",
-      "rows": [
-        {
-          "ldn": "BMO",
-          "ny": "",
-          "cat": "EARN",
-          "event": "HD, DIS (BMO)",
-          "notes": "HD call 14:00/09:00"
-        },
-        {
-          "ldn": "13:30",
-          "ny": "08:30",
-          "cat": "ECO",
-          "event": "US Retail Sales (Oct)",
-          "notes": ""
-        },
-        {
-          "ldn": "~21:20",
-          "ny": "~16:20",
-          "cat": "EARN",
-          "imp": "H",
-          "event": "NVDA Q3 FY27 (AMC)",
-          "notes": "Call 22:00/17:00; SPX/NDX/SMH beta; IV n/v"
-        }
-      ]
-    },
-    {
-      "date": "Wed, Nov 18",
-      "rows": [
-        {
-          "ldn": "07:00",
-          "ny": "02:00",
-          "cat": "ECO",
-          "event": "UK CPI (Oct)",
-          "notes": "BoE projects ~5% by Q2'27"
-        },
-        {
-          "ldn": "14:30",
-          "ny": "09:30",
-          "cat": "RISK",
-          "event": "VIX Nov expiry (SOQ at open)",
-          "notes": ""
-        },
-        {
-          "ldn": "19:00",
-          "ny": "14:00",
-          "cat": "CB",
-          "imp": "H",
-          "event": "FOMC Minutes (Oct 27–28)",
-          "notes": "Hike bias; Cook & Hammack dissented"
-        }
-      ]
-    },
-    {
-      "date": "Thu, Nov 19",
-      "rows": [
-        {
-          "ldn": "12:00",
-          "ny": "07:00",
-          "cat": "EARN",
-          "event": "WMT (BMO)",
-          "notes": "US consumer read"
-        },
-        {
-          "ldn": "23:30",
-          "ny": "18:30",
-          "cat": "ECO",
-          "event": "Japan CPI (Oct)",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "date": "Fri, Nov 20",
-      "rows": [
-        {
-          "ldn": "01:00",
-          "ny": "20:00*",
-          "cat": "CB",
-          "event": "PBoC Loan Prime Rate",
-          "notes": "*Thu 19"
-        },
-        {
-          "ldn": "All day",
-          "ny": "",
-          "cat": "RISK",
-          "event": "Monthly OPEX",
-          "notes": "Quad witching 18 Dec"
         }
       ]
     }

@@ -52,8 +52,8 @@ body{font-family:'DejaVu Sans Condensed','DejaVu Sans',sans-serif;font-size:calc
   line-height:1.2;-webkit-font-smoothing:antialiased}
 #root{padding:0 6px}
 .hdr{background:#000;color:#fff;margin:0 -6px;padding:4px 6px 3px;display:flex;justify-content:space-between;align-items:baseline}
-.hdr .t{font-family:'DejaVu Sans',sans-serif;font-weight:700;font-size:calc(14.5px*var(--s));letter-spacing:.6px}
-.hdr .r{font-weight:700;font-size:calc(10.6px*var(--s))}
+.hdr .t{font-family:'DejaVu Sans',sans-serif;font-weight:700;font-size:14.5px;letter-spacing:.6px;white-space:nowrap}
+.hdr .r{font-weight:700;font-size:10.6px;white-space:nowrap}
 .ban{padding:calc(3px*var(--s)) 0 calc(3px*var(--s));border-bottom:2px solid #000}
 .ban .rg{font-size:calc(10.2px*var(--s))}
 .ban .al{margin-top:2px;font-weight:700;border:2px solid #000;padding:1px 4px}
@@ -67,8 +67,7 @@ table.bd{border-collapse:collapse;width:100%;table-layout:fixed;margin-top:1px}
 .bd td.tm{white-space:nowrap;font-variant-numeric:tabular-nums}
 .bd td.tm b{display:block}
 .bd td.tm span{font-size:calc(9.2px*var(--s))}
-.bd td.ct{white-space:nowrap}
-.bd td.ct i{font-style:normal;display:inline-block;width:calc(11px*var(--s));font-family:'DejaVu Sans',sans-serif}
+.bd td.ct i{font-style:normal;font-family:'DejaVu Sans',sans-serif;margin-right:2px}
 .bd td.ev{font-weight:700}
 .bd tr.h td.ev{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:2px}
 .bd tr.h td.ev:after{content:' ★';font-family:'DejaVu Sans',sans-serif}
@@ -99,8 +98,8 @@ def build_html(d):
     gen_s = gen.strftime("%a %H:%M ") + gen.tzname()
     lz, nz = tz_labels(parse_session(d["session"]))
 
-    rows = [f'<colgroup><col style="width:13%"><col style="width:10%"><col style="width:16.5%">'
-            f'<col style="width:28%"><col></colgroup>',
+    rows = [f'<colgroup><col style="width:12.5%"><col style="width:11%"><col style="width:14%">'
+            f'<col style="width:28.5%"><col></colgroup>',
             f'<tr><th>Date</th><th>{lz} / {nz}</th><th>Category</th><th>Event / Catalyst</th>'
             f'<th>Consensus / Notes</th></tr>']
     for g in d["board"]:
@@ -111,7 +110,8 @@ def build_html(d):
             if r.get("imp") == "H":
                 cls.append("h")
             sym, label = CATS.get(r["cat"].upper(), ("·", r["cat"]))
-            date_td = f'<td class="dt" rowspan="{n}">{esc(g["date"])}{tag}</td>' if i == 0 else ""
+            date_s = esc(g["date"]).replace(", ", ",<br>").replace(" ", "&nbsp;")
+            date_td = f'<td class="dt" rowspan="{n}">{date_s}{tag}</td>' if i == 0 else ""
             ny = f'<span>{esc(r["ny"])}</span>' if r.get("ny") else ""
             rows.append(
                 f'<tr class="{" ".join(cls)}">{date_td}'
@@ -161,7 +161,7 @@ def main():
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
         pg.set_content(doc, wait_until="load")
-        s, fitted = 1.0, False
+        s, fitted = 1.32, False  # grow type when there is room, shrink until it fits
         while s >= 0.80:
             pg.evaluate(f"document.documentElement.style.setProperty('--s','{s:.2f}')")
             h = pg.evaluate("document.getElementById('root').scrollHeight")
