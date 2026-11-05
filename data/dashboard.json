@@ -1,0 +1,177 @@
+{
+  "session": "FRI 06 NOV 2026",
+  "edition": "PM",
+  "generated_utc": "2026-11-05T17:36:52Z",
+  "tz": "LDN GMT (UTC+0) · NY EST (UTC−5) · Δ5h · both off DST (UK 25 Oct, US 1 Nov) — aligned",
+  "summary": {
+    "regime": "Energy-shock re-tightening. BoE +25bp → 4.00% today (8–1; Mann 50bp), Dec hike ~50% priced. Fed 3.75–4.00% with 2 hike dissents (Cook, Hammack); RBA 4.85%; BoJ 1.25% eyes Dec. Midterm risk cleared → VIX 16.6 (−20%), WTI $88 (−8% Wed).",
+    "alert": "VOL WINDOW 13:30–14:00 GMT / 08:30–09:00 EST — US Oct NFP (cons +59k). SPX Fri expiry implies ±0.87%."
+  },
+  "agenda": [
+    {
+      "day": "THU 05 · TONIGHT",
+      "items": [
+        {
+          "ldn": "21:00",
+          "ny": "16:00",
+          "cat": "EARN",
+          "imp": "M",
+          "text": "AMC: ABNB, BKNG, NET, LITE, TEAM, MNST",
+          "val": "gap @ Fri open"
+        }
+      ]
+    },
+    {
+      "day": "FRI 06 · NEXT SESSION",
+      "items": [
+        {
+          "ldn": "pre",
+          "ny": "BMO",
+          "cat": "EARN",
+          "imp": "M",
+          "text": "MRNA, ENB",
+          "val": ""
+        },
+        {
+          "ldn": "13:30",
+          "ny": "08:30",
+          "cat": "ECO",
+          "imp": "H",
+          "text": "US Nonfarm Payrolls (Oct)",
+          "val": "+59k | pr +29k"
+        },
+        {
+          "ldn": "13:30",
+          "ny": "08:30",
+          "cat": "ECO",
+          "imp": "H",
+          "text": "US Unemployment rate (Oct)",
+          "val": "4.2% | pr 4.2%"
+        },
+        {
+          "ldn": "13:30",
+          "ny": "08:30",
+          "cat": "ECO",
+          "imp": "M",
+          "text": "Canada Labour Force Survey (Oct)",
+          "val": ""
+        },
+        {
+          "ldn": "14:30",
+          "ny": "09:30",
+          "cat": "RISK",
+          "imp": "M",
+          "text": "US cash open — NFP + AMC gaps priced in one print",
+          "val": "SPX ±0.87%"
+        },
+        {
+          "ldn": "16:00",
+          "ny": "11:00",
+          "cat": "EARN",
+          "imp": "M",
+          "text": "DVN, WPM calls",
+          "val": ""
+        }
+      ]
+    }
+  ],
+  "roadmap": {
+    "macro": [
+      "NFP cons +59k (range +50k Barclays → +95k RSM); UR 4.2%. ADP +86k beat (75k exp). Sep +29k; Jul–Aug revised −60k.",
+      "HOT (>95k, AHE ≥0.3%): 2Y ↑, Dec Fed hike odds ↑, USD ↑ vs JPY/AUD — bear-flattener.",
+      "COLD (<30k): 2Y rally, bull-steepener, USD/JPY ↓ into BoJ-Dec pricing; gilts track UST.",
+      "Chair Warsh: employment 'quite positive'. Next: FOMC 8–9 Dec · BoE 17 Dec · BoJ 17–18 Dec."
+    ],
+    "earnings": [
+      "No top-10 SPX constituent reports → index sensitivity LOW.",
+      "AMC gaps at 14:30/09:30 open: ABNB (EPS est $2.89), LITE ($3.82), TEAM ($0.24), MNST ($0.30), NET ($0.02).",
+      "BMO: MRNA, ENB. Calls 16:00/11:00: DVN ($1.24), WPM ($0.93).",
+      "Single-name implied moves: n/v."
+    ]
+  },
+  "horizon": [
+    {
+      "day": "MON 09",
+      "cat": "ECO",
+      "text": "CN CPI/PPI 01:30/20:30 Sun",
+      "note": ""
+    },
+    {
+      "day": "TUE 10",
+      "cat": "ECO",
+      "text": "US CPI Oct 13:30/08:30",
+      "note": "CPI-day spread widening"
+    },
+    {
+      "day": "WED 11",
+      "cat": "RISK",
+      "text": "US Veterans Day: USD bond mkts CLOSED (SIFMA, US/UK/JP); equities OPEN. MSCI Nov review announced",
+      "note": "Bond-ETF NAV stale; MSCI eff. 30 Nov MOC"
+    },
+    {
+      "day": "THU 12",
+      "cat": "EARN",
+      "text": "UK GDP Q3 07:00/02:00 · CSCO AMC (call 21:30/16:30)",
+      "note": ""
+    },
+    {
+      "day": "FRI 13",
+      "cat": "ECO",
+      "text": "EZ GDP flash 10:00/05:00 · US PPI 13:30/08:30",
+      "note": ""
+    },
+    {
+      "day": "MON 16",
+      "cat": "ECO",
+      "text": "JP GDP Q3 23:50/18:50 Sun",
+      "note": ""
+    },
+    {
+      "day": "TUE 17",
+      "cat": "EARN",
+      "text": "NVDA AMC ~21:20/16:20 · HD, DIS BMO · US retail sales 13:30/08:30 · UK jobs 07:00/02:00",
+      "note": "NVDA: SPX/NDX/SMH beta"
+    },
+    {
+      "day": "WED 18",
+      "cat": "CB",
+      "text": "FOMC minutes 19:00/14:00 · UK CPI 07:00/02:00 · AU jobs 00:30 Thu/19:30",
+      "note": "VIX expiry (AM SOQ)"
+    },
+    {
+      "day": "THU 19",
+      "cat": "EARN",
+      "text": "WMT BMO 12:00/07:00 · JP CPI 23:30/18:30",
+      "note": ""
+    },
+    {
+      "day": "FRI 20",
+      "cat": "CB",
+      "text": "PBoC LPR 01:00/20:00 Thu · UK retail 07:00/02:00",
+      "note": "Monthly OPEX; quad witch 18 Dec"
+    }
+  ],
+  "quant": [
+    {
+      "k": "LIQ",
+      "v": "NFP 13:28–13:40 GMT: top-of-book depth trough in UST/ES/FX futures & ECNs; spreads widen — no MKT orders before ~13:35. Wed 11: cash UST shut → futures-only discovery."
+    },
+    {
+      "k": "ETF",
+      "v": "Wed 11: TLT/IEF/LQD/HYG NAVs on stale marks; creation/redemption impaired → premium/discount & tracking error widen. MSCI 11 Nov → index-arb flow into 30 Nov MOC."
+    },
+    {
+      "k": "FX",
+      "v": "EUR/USD: top NFP beta; ECB 2.50% hold vs Fed hike risk = USD skew on beat. GBP/USD 1.346: BoE hawk tilt cushions; R 1.3503 / S 1.3450. USD/JPY ~157: BoJ Dec hint caps topside, downside convex on miss. AUD/USD: RBA 4.85% carry; CN CPI Mon. JPY crosses: carry-unwind risk."
+    },
+    {
+      "k": "RATES",
+      "v": "UST 2Y 4.51 / 10Y 4.85 → 2s10s +34bp; 10Y real 2.62% (2 Nov) → BE ≈2.2%. Gilts 2Y 4.79 / 10Y 5.17 (+38bp). Front-end carries the NFP/CPI duration risk."
+    },
+    {
+      "k": "VOL",
+      "v": "VIX 16.61 (−20%); 1D 12.08; contango, VIX3M/VIX 1.13. SKEW 150.9 vs 146 median → puts still bid post-vote. Dealer gamma / GEX: n/v."
+    }
+  ],
+  "sources": "BoE·Fed·BLS·FRED·SIFMA·MSCI·co. IR·Kiplinger·Saxo·TE·IG"
+}
