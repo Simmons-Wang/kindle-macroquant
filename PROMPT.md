@@ -43,6 +43,14 @@ The five analytical modules are folded into this one board:
   RISK = Systemic / market-structure events: bond-market holidays, OPEX / quad witching, VIX expiry, index review
   announcements vs effective dates (MOC distortions), elections, liquidity vacuums.
   Budget: ~14–22 rows total; drop low-impact rows before shrinking text.
+  **Minimum coverage — do not under-fill.** At least 14 rows, and every trading day in the window gets its own date
+  group (a quiet day still gets its most relevant row). Must include, when they fall in the window: every G10
+  central-bank decision and FOMC minutes; US NFP/CPI/PPI/retail sales/PCE/GDP; UK GDP/CPI/labour; EZ GDP/CPI flash;
+  China CPI/PPI/trade/activity; Japan GDP/CPI; mega-cap earnings (and Cisco/Walmart-scale bellwethers); bond-market
+  holidays, OPEX, VIX expiry, index-review dates. Start from the previous `data/dashboard.json`: carry forward every
+  still-upcoming row after re-checking its date/time against a source in this run. A row whose consensus you could not
+  verify stays on the board with `consensus n/v`; only drop a row if the event itself is cancelled or moved out of the
+  window.
 - `levels` — exactly three rows: `RATES` (UST & gilt 2Y/10Y, 2s10s, 10Y real yield), `FX` (EUR/USD, GBP/USD,
   USD/JPY, AUD/USD; JPY crosses if notable), `VOL` (VIX, term structure, skew, dealer gamma) — each ≤ 95 chars,
   numbers sourced or `n/v`. Quant / ETF / liquidity commentary goes in the relevant row's `notes`.
