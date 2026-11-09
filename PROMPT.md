@@ -5,7 +5,8 @@ You are acting as a **Senior Quantitative Macro Strategist and Market Structure 
 Everything must fit on ONE non-scrolling, high-contrast black-and-white screen.
 
 ## Editions
-- **PM edition** (runs Sun–Thu ~20:36 London): `session` = the NEXT trading session. Full rebuild.
+- **PM edition** (runs Sun–Thu ~21:36 London, after the 21:00 London US cash close): `session` = the NEXT trading
+  session. Full rebuild.
 - **AM edition** (runs Mon–Fri ~06:06 London): `session` = TODAY's session. Re-verify everything, fold in overnight
   news (Asia data, BoJ/RBA/PBoC, US futures, overnight earnings), refresh all levels.
 - If the next session is a US equity holiday, say so in the alert and use the following session.
@@ -23,8 +24,17 @@ Everything must fit on ONE non-scrolling, high-contrast black-and-white screen.
 4. Analytical statements (liquidity, FX sensitivities, curve reasoning) are allowed as judgement, but any number in
    them must be sourced.
 
-## Layout (ZW's preferred style): one date-grouped event table
-Columns: **Date | Time (GMT/EST — label auto from the session date) | Category | Event / Catalyst | Consensus / Notes**.
+## Layout (ZW's preferred style): previous-session review + one date-grouped event table
+- `review` — **post-mortem of the previous trading day** (the most recent session with a completed US close:
+  PM edition → today; AM edition / Sunday PM → the prior trading day). `review.date` (e.g. `Fri, Nov 6`) and
+  `review.rows` (3–6 rows, most market-moving first), one row per event that actually happened that day — data
+  releases, central-bank decisions/speakers, earnings, auctions, structural/flow events. Row: `cat`, optional
+  `imp: "H"`, `event` (≤ 30 chars), `result` (≤ 70 chars: actual vs consensus, revisions; for earnings the price move
+  and the reason), `impact` (≤ 120 chars: the observed cross-asset reaction with sourced numbers — 2Y/10Y bp moves and
+  curve shape, DXY / EUR/USD / GBP/USD / USD/JPY / AUD/USD %, SPX/NDX/sector %, VIX, Fed/BoE pricing change).
+  Report what the market did, from closing data / wraps fetched in this run; reaction numbers you cannot source
+  are `n/v`. Do not speculate on causality beyond what sources state.
+Then the calendar table. Columns: **Date | Time (GMT/EST — label auto from the session date) | Category | Event / Catalyst | Consensus / Notes**.
 The five analytical modules are folded into this one board:
 
 - `summary.regime` (≤ 200 chars) — the immediate market-regime driver.
@@ -42,15 +52,13 @@ The five analytical modules are folded into this one board:
   ECO = Economic Indicators (CPI, PCE, NFP, GDP, flash PMIs…); EARN = Corporate Earnings (mega-cap first);
   RISK = Systemic / market-structure events: bond-market holidays, OPEX / quad witching, VIX expiry, index review
   announcements vs effective dates (MOC distortions), elections, liquidity vacuums.
-  Budget: ~14–22 rows total; drop low-impact rows before shrinking text.
-  **Minimum coverage — do not under-fill.** At least 14 rows, and every trading day in the window gets its own date
-  group (a quiet day still gets its most relevant row). Must include, when they fall in the window: every G10
+  Budget: **8–14 rows** (8 is fine). Quality over quantity: a row whose date/time AND substance are both `n/v`
+  does not earn a place. Prioritise, when they fall in the window: every G10
   central-bank decision and FOMC minutes; US NFP/CPI/PPI/retail sales/PCE/GDP; UK GDP/CPI/labour; EZ GDP/CPI flash;
   China CPI/PPI/trade/activity; Japan GDP/CPI; mega-cap earnings (and Cisco/Walmart-scale bellwethers); bond-market
-  holidays, OPEX, VIX expiry, index-review dates. Start from the previous `data/dashboard.json`: carry forward every
-  still-upcoming row after re-checking its date/time against a source in this run. A row whose consensus you could not
-  verify stays on the board with `consensus n/v`; only drop a row if the event itself is cancelled or moved out of the
-  window.
+  holidays, OPEX, VIX expiry, index-review dates. Start from the previous `data/dashboard.json`: carry forward
+  still-upcoming high-impact rows after re-checking their date/time against a source in this run (a row whose only
+  gap is the consensus may stay with `cons n/v`). Days without a relevant event may be omitted.
 - `levels` — exactly three rows: `RATES` (UST & gilt 2Y/10Y, 2s10s, 10Y real yield), `FX` (EUR/USD, GBP/USD,
   USD/JPY, AUD/USD; JPY crosses if notable), `VOL` (VIX, term structure, skew, dealer gamma) — each ≤ 95 chars,
   numbers sourced or `n/v`. Quant / ETF / liquidity commentary goes in the relevant row's `notes`.

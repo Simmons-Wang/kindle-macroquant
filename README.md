@@ -10,5 +10,5 @@ MacroQuant Intelligence：每日宏观与市场结构看板，显示在越狱 Ki
   - `mq.sh` → `/mnt/us/macroquant/mq.sh`
   - `MacroQuant_Test.sh`、`MacroQuant_Start.sh` → `/mnt/us/documents/`（在书库里点开运行）
 
-发布时间（伦敦）：周日至周四 20:36（PM 版，下一交易日），周一至周五 06:06（AM 版，当天）。
+发布时间（伦敦）：周日至周四 21:36（PM 版，美股收盘后，下一交易日），周一至周五 06:06（AM 版，当天）。
 Kindle 在发布后约 40 分钟唤醒拉图；电池模式下其余时间深度休眠。退出：长按电源键 20–40 秒重启。

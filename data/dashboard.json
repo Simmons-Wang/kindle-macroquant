@@ -1,7 +1,7 @@
 {
  "session": "MON 09 NOV 2026",
  "edition": "AM",
- "generated_utc": "2026-11-09T06:25:00Z",
+ "generated_utc": "2026-11-09T09:54:05Z",
  "summary": {
   "regime": "Asia rebounds (Nikkei +3.5%, Taiex +6%), ES +0.6%, Brent $98 on Iran calm. Dec Fed hike odds ~80% post-NFP; China PPI 5.7% beats 5.3%, CPI 0.7%. NVDA CEO-probe hit AH.",
   "alert": "VOL WINDOW Tue 10 Nov 13:30 GMT / 08:30 EST - US Oct CPI (cons 0.3%, core 0.2%)"
@@ -11,80 +11,184 @@
    "date": "Mon, Nov 9",
    "tag": "Today",
    "rows": [
-    {"ldn": "BMO", "ny": "", "cat": "EARN", "event": "CEG, KKR, FERG, NRG", "notes": "AI-power / alt-asset read; EPS cons, implied moves n/v this run"},
-    {"ldn": "18:00", "ny": "13:00", "cat": "RISK", "event": "UST $58B 3Y auction", "notes": "First supply test after +5bp 2Y Fri; tail -> front-end/USD bid. 10Y Tue, 30Y Thu"},
-    {"ldn": "n/v", "ny": "", "cat": "CB", "imp": "H", "event": "BoE Gov Bailey speaks", "notes": "Time n/v this run. First remarks after hike to 4.00%; gilt 2Y / GBP sensitivity"},
-    {"ldn": "AMC", "ny": "", "cat": "EARN", "event": "TTWO, OXY, RKLB, TTD", "notes": "Also HIMS, MARA, ASTS. EPS cons, implied moves n/v this run"}
+    {
+     "ldn": "BMO",
+     "ny": "",
+     "cat": "EARN",
+     "event": "CEG, KKR, FERG, NRG",
+     "notes": "AI-power / alt-asset read; implied moves n/v"
+    },
+    {
+     "ldn": "18:00",
+     "ny": "13:00",
+     "cat": "RISK",
+     "event": "UST 3Y auction ($58B)",
+     "notes": "First supply test after 2Y +5bp Fri; tail → front-end/USD bid"
+    },
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "event": "TTWO, OXY, TTD",
+     "notes": "EPS cons n/v"
+    }
    ]
   },
   {
    "date": "Tue, Nov 10",
    "rows": [
-    {"ldn": "n/v", "ny": "", "cat": "ECO", "event": "China trade balance (Oct)", "notes": "Due Tue (investingLive); time, cons, prior n/v this run"},
-    {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "imp": "H", "event": "US CPI (Oct)", "notes": "Cons 0.3% m/m, core 0.2% | 0.6%, 0.3%. y/y may be omitted (shutdown gap). Hot -> Dec hike"},
-    {"ldn": "AMC", "ny": "", "cat": "EARN", "imp": "H", "event": "CoreWeave (CRWV)", "notes": "AI-capex credit read after chip rout; EPS cons, implied move n/v this run"}
+    {
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "US CPI (Oct)",
+     "notes": "Cons 0.3% m/m, core 0.2% | 0.6%, 0.3%. Hot → Dec hike locked"
+    },
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "imp": "H",
+     "event": "CoreWeave (CRWV)",
+     "notes": "AI-capex credit read after chip rout"
+    }
    ]
   },
   {
    "date": "Wed, Nov 11",
    "rows": [
-    {"ldn": "All day", "ny": "", "cat": "RISK", "imp": "H", "event": "Veterans Day: US bond mkt", "notes": "No UST auction, EIA shifted to Thu (Investrade); SIFMA close n/v. Bond-ETF NAVs stale"}
+    {
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "imp": "H",
+     "event": "Veterans Day: USD bond mkts shut",
+     "notes": "SIFMA full close US/UK/JP; equities open → bond-ETF NAVs stale, prem/disc widen"
+    }
    ]
   },
   {
    "date": "Thu, Nov 12",
    "rows": [
-    {"ldn": "07:00", "ny": "02:00", "cat": "ECO", "imp": "H", "event": "UK GDP Q3 prelim (+Sep m/m)", "notes": "ONS 07:00 confirmed; cons n/v this run. Weak print tests BoE hike path"},
-    {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "event": "US initial jobless claims", "notes": "Cons n/v this run. 30Y auction 18:00/13:00; EIA crude 17:00/12:00"},
-    {"ldn": "AMC", "ny": "", "cat": "EARN", "imp": "H", "event": "Cisco (CSCO), AMAT", "notes": "AI networking / WFE capex read; EPS cons, implied moves, call time n/v"}
+    {
+     "ldn": "07:00",
+     "ny": "02:00",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "UK GDP Q3 prelim",
+     "notes": "Weak print tests BoE hike path; cons n/v"
+    },
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "imp": "H",
+     "event": "CSCO, AMAT",
+     "notes": "CSCO call 21:30/16:30; AI networking / WFE capex read"
+    }
    ]
   },
   {
    "date": "Fri, Nov 13",
    "rows": [
-    {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "event": "US PPI (Oct)", "notes": "Cons n/v this run. Pipeline read after oil spike; CPI follow-through"},
-    {"ldn": "n/v", "ny": "", "cat": "ECO", "event": "China credit: new loans (Oct)", "notes": "Date/time, cons n/v this run. M2, TSF n/v"}
-   ]
-  },
-  {
-   "date": "Mon, Nov 16",
-   "rows": [
-    {"ldn": "n/v", "ny": "", "cat": "ECO", "imp": "H", "event": "Japan GDP Q3 prelim", "notes": "Date/time, cons n/v this run (ESRI unreachable). USD/JPY 158 intervention zone"}
+    {
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "ECO",
+     "event": "US PPI (Oct)",
+     "notes": "Pipeline read after oil spike; cons n/v"
+    }
    ]
   },
   {
    "date": "Tue, Nov 17",
    "rows": [
-    {"ldn": "n/v", "ny": "", "cat": "ECO", "event": "UK labour market (Sep)", "notes": "Date/time, cons n/v this run. Wage growth feeds BoE Dec decision"},
-    {"ldn": "n/v", "ny": "", "cat": "ECO", "event": "US retail sales (Oct)", "notes": "Date n/v this run (Census unreachable); cons n/v"},
-    {"ldn": "AMC", "ny": "", "cat": "EARN", "imp": "H", "event": "NVIDIA FQ3 (call 22:00/17:00)", "notes": "Release ~21:20/16:20 (NVDA IR). Largest SPX weight; CEO-probe overhang. EPS n/v"}
+    {
+     "ldn": "~21:20",
+     "ny": "~16:20",
+     "cat": "EARN",
+     "imp": "H",
+     "event": "NVDA FQ3 (AMC)",
+     "notes": "Call 22:00/17:00; SPX/NDX/SMH beta; CEO-probe overhang"
+    }
    ]
   },
   {
    "date": "Wed, Nov 18",
    "rows": [
-    {"ldn": "n/v", "ny": "", "cat": "ECO", "imp": "H", "event": "UK CPI (Oct)", "notes": "Date/time, cons n/v this run. Services CPI key for BoE"},
-    {"ldn": "All day", "ny": "", "cat": "RISK", "event": "VIX futures/options expiry", "notes": "Monthly VIX settlement (30d before Dec 18 SPX expiry); vol-of-vol, hedge roll"},
-    {"ldn": "n/v", "ny": "", "cat": "CB", "imp": "H", "event": "FOMC minutes (Oct 27-28)", "notes": "Due ~Nov 18 per Fed 3-week rule; time n/v. Hike appetite into Dec 8-9 FOMC"}
-   ]
-  },
-  {
-   "date": "Thu, Nov 19",
-   "rows": [
-    {"ldn": "n/v", "ny": "", "cat": "EARN", "event": "Walmart (WMT)", "notes": "Consumer bellwether; EPS cons $0.64 (Hudson Labs). Date/time n/v this run"}
+    {
+     "ldn": "19:00",
+     "ny": "14:00",
+     "cat": "CB",
+     "imp": "H",
+     "event": "FOMC minutes (Oct 27–28)",
+     "notes": "Hike appetite into Dec 8–9 FOMC"
+    }
    ]
   },
   {
    "date": "Fri, Nov 20",
    "rows": [
-    {"ldn": "All day", "ny": "", "cat": "RISK", "imp": "H", "event": "Monthly OPEX (equity/index)", "notes": "3rd-Friday expiry; pin risk, gamma roll-off. UK retail sales n/v this run"}
+    {
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "event": "Monthly OPEX",
+     "notes": "Pin risk, gamma roll-off; quad witching 18 Dec"
+    }
    ]
   }
  ],
  "levels": [
-  {"k": "RATES", "v": "UST 2Y 4.52% · 10Y 4.86% (Fri) · 2s10s +34bp · 10Y real 2.60% (Nov 5) · gilt 2Y/10Y n/v"},
-  {"k": "FX", "v": "EUR/USD 1.1148 · USD/JPY 158.22 · DXY 102.2 (Asia) · GBP/USD 1.3356 (Fri) · AUD/USD n/v"},
-  {"k": "VOL", "v": "VIX 25.64 (Fri, -9%) · ES +0.6% o/n · term structure, skew, dealer gamma n/v"}
+  {
+   "k": "RATES",
+   "v": "UST 2Y 4.52% · 10Y 4.86% (Fri) · 2s10s +34bp · 10Y real 2.60% (Nov 5) · gilt 2Y/10Y n/v"
+  },
+  {
+   "k": "FX",
+   "v": "EUR/USD 1.1148 · USD/JPY 158.22 · DXY 102.2 (Asia) · GBP/USD 1.3356 (Fri) · AUD/USD n/v"
+  },
+  {
+   "k": "VOL",
+   "v": "VIX 25.64 (Fri, -9%) · ES +0.6% o/n · term structure, skew, dealer gamma n/v"
+  }
  ],
- "sources": "Reuters/BRecorder·HDFCSky·Xinhua·TradingEconomics·investingLive·Mitrade·Investrade·CappNotes·Fed H.15/FOMC cal·ONS·NVIDIA IR·HudsonLabs"
+ "sources": "Reuters/BRecorder·HDFCSky·Xinhua·TradingEconomics·investingLive·Mitrade·Investrade·CappNotes·Fed H.15/FOMC cal·ONS·NVIDIA IR·HudsonLabs·BLS·StatCan·CappNotes·StockTitan",
+ "review": {
+  "date": "Fri, Nov 6",
+  "rows": [
+   {
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US NFP (Oct)",
+    "result": "+165k vs +59k; UR 4.1% vs 4.2%; AHE +0.4% m/m; Aug–Sep +84k rev",
+    "impact": "Bear-flattener: 2Y +5bp 4.51%, 10Y +2bp 4.86%. DXY +0.76%, EUR/USD −0.82%, GBP/USD −0.90%. Dec hike odds ~78% (pred. mkt)"
+   },
+   {
+    "cat": "ECO",
+    "event": "Canada LFS (Oct)",
+    "result": "+4.7k vs +13.6k; UR 6.7%",
+    "impact": "Labour slack vs US strength; USD/CAD move n/v"
+   },
+   {
+    "cat": "RISK",
+    "event": "AI/chip rebound after Thu rout",
+    "result": "SMH +3.6%, NDX +1.35%, SPX +0.31%, Dow −0.46%",
+    "impact": "Growth over cyclicals despite higher yields; VIX −9% to 25.64 — still elevated"
+   },
+   {
+    "cat": "EARN",
+    "event": "Thu AMC prints",
+    "result": "ABNB +11.7%, NET +9.9%; TEAM −16.2%, MCHP −10.0%",
+    "impact": "High single-name dispersion; low index impact. MCHP weighs on analog semis"
+   },
+   {
+    "cat": "EARN",
+    "event": "MRNA (BMO)",
+    "result": "2026 rev growth guide raised to 15–25%",
+    "impact": "+5.3% close"
+   }
+  ]
+ }
 }

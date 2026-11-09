@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render data/dashboard.json into a 600x800 16-level grayscale PNG for a Kindle (8th gen, 167 ppi).
 
-Layout: header · regime/alert banner · date-grouped event table
+Layout: header · regime/alert banner · previous-session review · date-grouped event table
         (Date | Time GMT/EST | Category | Event / Catalyst | Consensus / Notes) · levels strip · footer.
 
 Usage: python3 render/render.py [--data data/dashboard.json] [--out out]
@@ -26,8 +26,8 @@ NY = ZoneInfo("America/New_York")
 
 # Publishing schedule (London time) — keep in sync with the scheduled tasks.
 RUNS = {  # weekday (Mon=0) -> list of (hh, mm)
-    0: [(6, 6), (20, 36)], 1: [(6, 6), (20, 36)], 2: [(6, 6), (20, 36)],
-    3: [(6, 6), (20, 36)], 4: [(6, 6)], 5: [], 6: [(20, 36)],
+    0: [(6, 6), (21, 36)], 1: [(6, 6), (21, 36)], 2: [(6, 6), (21, 36)],
+    3: [(6, 6), (21, 36)], 4: [(6, 6)], 5: [], 6: [(21, 36)],
 }
 FETCH_LAG_MIN = 40       # Kindle wakes this long after a scheduled run starts
 
@@ -72,6 +72,11 @@ table.bd{border-collapse:collapse;width:100%;table-layout:fixed;margin-top:1px}
 .bd tr.h td.ev{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:2px}
 .bd tr.h td.ev:after{content:' ★';font-family:'DejaVu Sans',sans-serif}
 .bd td.nt{font-size:calc(10.2px*var(--s))}
+.sl{margin-top:calc(5px*var(--s));display:flex;align-items:center;gap:6px;font-weight:700;
+  font-size:calc(9.2px*var(--s));letter-spacing:.5px}
+.sl span{background:#000;color:#fff;padding:1px 5px}
+.rv td.ev i{font-style:normal;font-family:'DejaVu Sans',sans-serif;font-weight:400;margin-right:3px}
+.rv td.ac{font-size:calc(10.2px*var(--s))}
 .lv{margin-top:calc(4px*var(--s));border-top:2px solid #000;padding-top:2px}
 .lv div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:calc(10px*var(--s))}
 .lv b{display:inline-block;width:calc(40px*var(--s))}
@@ -120,6 +125,20 @@ def build_html(d):
                 f'<td class="ev">{esc(r["event"])}</td>'
                 f'<td class="nt">{esc(r.get("notes", ""))}</td></tr>')
 
+    review = ""
+    rv = d.get("review") or {}
+    if rv.get("rows"):
+        rr = ['<colgroup><col style="width:27%"><col style="width:30%"><col></colgroup>',
+              '<tr><th>Event</th><th>Actual vs Consensus</th><th>Market Impact</th></tr>']
+        for r in rv["rows"]:
+            sym = CATS.get(r.get("cat", "").upper(), ("·", ""))[0]
+            cls = ' class="h"' if r.get("imp") == "H" else ""
+            rr.append(f'<tr{cls}><td class="ev"><i>{sym}</i>{esc(r["event"])}</td>'
+                      f'<td class="ac">{esc(r.get("result", ""))}</td>'
+                      f'<td class="nt">{esc(r.get("impact", ""))}</td></tr>')
+        review = (f'<div class="sl"><span>REVIEW · {esc(rv.get("date", "PREVIOUS SESSION")).upper()}</span>'
+                  f'event → market impact</div><table class="bd rv">{"".join(rr)}</table>')
+
     lv = "".join(f'<div><b>{esc(x["k"])}</b>{esc(x["v"])}</div>' for x in d.get("levels", []))
 
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>
@@ -127,6 +146,8 @@ def build_html(d):
  <div class="hdr"><span class="t">MACROQUANT INTELLIGENCE</span>
   <span class="r">{esc(d['session'])} · {esc(d.get('edition',''))} · {esc(gen_s)}</span></div>
  <div class="ban"><div class="rg">{esc(s['regime'])}</div><div class="al">▲ {esc(s['alert'])}</div></div>
+ {review}
+ <div class="sl"><span>CALENDAR · THIS WEEK + NEXT</span>times {lz} / {nz}</div>
  <table class="bd">{''.join(rows)}</table>
  <div class="lv">{lv}</div>
 </div>
