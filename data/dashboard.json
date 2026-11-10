@@ -1,191 +1,81 @@
 {
  "session": "TUE 10 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-09T21:41:07Z",
+ "edition": "AM",
+ "generated_utc": "2026-11-10T06:20:00Z",
  "summary": {
-  "regime": "Risk-on: SPX +2.35%, R2K +3.15%, VIX <20 as oil slides (WTI -4.4%) on Iran de-escalation. Fed 3.75-4.00%; Dec hike ~80% priced (futures) into Oct CPI.",
-  "alert": "VOL WINDOW Tue 10 Nov 13:30 GMT / 08:30 EST - US Oct CPI (cons 0.3%, core 0.2%)"
+  "regime": "Relief rally extends: Nikkei +2.4% >60k, KOSPI +5%, ES +0.1% as WTI holds ~$87 on Iran calm. Fed 3.75-4.00%; Dec hike 78-84% priced (FedWatch) into Oct CPI.",
+  "alert": "VOL WINDOW 13:30 GMT / 08:30 EST US Oct CPI (0.3%/core 0.2%); 10Y auct 18:00/13:00"
  },
  "review": {
   "date": "Mon, Nov 9",
   "rows": [
-   {
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Broad risk-on rally",
-    "result": "SPX +2.35% 7,549.94; Comp +2.74%; Dow +2.15% (+1,104); R2K +3.15%",
-    "impact": "All 11 sectors up: XLI +3.8%, XLK +3.7%, XLE +0.5% laggard. VIX -22% to 19.92. 10Y ~4.86% flat; 2Y n/v"
-   },
-   {
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Oil slump on Iran calm",
+   {"cat": "RISK", "imp": "H", "event": "Broad risk-on rally",
+    "result": "SPX +2.35% 7,549.94 (best since Apr 8); NDX +3.40%; Dow +2.15%; R2K +3.15%",
+    "impact": "All 11 sectors up: XLI +3.8%, XLK +3.7%, XLE +0.5%. SOX +6.85%. VIX -22% to 19.92; MOVE -4.6% 88.5"},
+   {"cat": "RISK", "imp": "H", "event": "Oil slump on Iran calm",
     "result": "WTI -4.4% $86.85, Brent -5.9% $92.57; Trump: more strikes 'highly unlikely'",
-    "impact": "Airlines up, energy lags. DXY -0.60% 101.68, GBP/USD +0.46%, AUD/USD +0.43%; gold +1.0% $4,114.50"
-   },
-   {
-    "cat": "EARN",
-    "event": "NVDA board probe of CEO",
-    "result": "-4.27% to $178.67 (lowest since Apr); AMD ~+12% intraday on upgrade",
-    "impact": "Semis bid despite NVDA; Comp still +2.74%. NVDA AH -0.17%"
-   },
-   {
-    "cat": "RISK",
-    "event": "UST 3Y auction ($58B)",
-    "result": "4.627% vs 4.622% prior; bid/cover 2.53 vs 2.64 avg; dealers 9.48%",
-    "impact": "Soft demand, no rout: 10Y ~4.86%, 30Y 5.26% flat (Pulsafi). Tail vs WI n/v"
-   },
-   {
-    "cat": "EARN",
-    "event": "CEG, NRG (BMO)",
-    "result": "CEG adj EPS $5.06 vs $3.85, FY guide $12.50-12.80; NRG $4.68 vs $3.33, $4B plant sale",
-    "impact": "Utilities XLU +1.5%; single-stock reactions n/v. Gilt 10Y -5bp to 5.10%"
-   }
+    "impact": "DXY -0.56% 101.71; EUR/USD +0.48% 1.1197; GBP/USD +0.64%; USD/JPY -0.52% 157.69; gold +1.9%"},
+   {"cat": "RISK", "event": "UST 3Y auction ($58B)",
+    "result": "4.627%, 0.5bp tail; bid/cover 2.53; directs 35.0% (record)",
+    "impact": "Bear-flattener: 2Y +5bp 4.56%, 10Y +2bp 4.88%, 2s10s 32bp (35); Dec hike 78% (FedWatch)"},
+   {"cat": "EARN", "event": "NVDA board probe of CEO",
+    "result": "-4.27% to $178.67 (7-mo low); AMD +13.3% on Oppenheimer upgrade",
+    "impact": "Semis bid regardless: AVGO +8.8%, MU +6.3%; NDX +3.40% despite NVDA weight"},
+   {"cat": "EARN", "event": "CEG, NRG (BMO)",
+    "result": "CEG adj EPS $5.06 vs $3.89, FY guide up: +10.5%; NRG +10.3% on $4B plant sale",
+    "impact": "Utilities +1.5%. AH: TTD ~+23%, SANM ~+20%, RKLB ~-6%"}
   ]
  },
  "board": [
-  {
-   "date": "Tue, Nov 10",
-   "tag": "Next Session",
-   "rows": [
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "US CPI (Oct)",
-     "notes": "Cons 0.3% m/m, core 0.2% | 0.6%, 0.3%. No y/y (Oct-25 gap). Hot → Dec hike locked"
-    },
-    {
-     "ldn": "AMC",
-     "ny": "",
-     "cat": "EARN",
-     "imp": "H",
-     "event": "CoreWeave (CRWV) Q3",
-     "notes": "Call 22:00/17:00; rev cons $3.54B, EPS -$1.21; debt/AI-capex read; impl. move n/v"
-    }
-   ]
-  },
-  {
-   "date": "Wed, Nov 11",
-   "rows": [
-    {
-     "ldn": "All day",
-     "ny": "",
-     "cat": "RISK",
-     "imp": "H",
-     "event": "Veterans Day: US bond mkt shut",
-     "notes": "SIFMA close; equities open → bond-ETF NAVs stale, prem/disc widen"
-    }
-   ]
-  },
-  {
-   "date": "Thu, Nov 12",
-   "rows": [
-    {
-     "ldn": "07:00",
-     "ny": "02:00",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "UK GDP Q3 first est.",
-     "notes": "Cons +0.7% q/q; tests BoE hike path after 4.00% hike"
-    },
-    {
-     "ldn": "AMC",
-     "ny": "",
-     "cat": "EARN",
-     "imp": "H",
-     "event": "CSCO, AMAT",
-     "notes": "Calls 21:30/16:30; AI networking / WFE capex read"
-    }
-   ]
-  },
-  {
-   "date": "Fri, Nov 13",
-   "rows": [
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "event": "US PPI (Oct)",
-     "notes": "Prior +1.3% m/m; pipeline read after oil spike; cons n/v"
-    }
-   ]
-  },
-  {
-   "date": "Tue, Nov 17",
-   "rows": [
-    {
-     "ldn": "07:00",
-     "ny": "02:00",
-     "cat": "ECO",
-     "event": "UK labour market",
-     "notes": "Unemp 4.7% (Aug); wage growth into BoE; cons n/v"
-    },
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "event": "US retail sales (Oct)",
-     "notes": "Prior +0.8% m/m; HD BMO; cons n/v"
-    },
-    {
-     "ldn": "AMC",
-     "ny": "",
-     "cat": "EARN",
-     "imp": "H",
-     "event": "NVDA FQ3",
-     "notes": "Call 22:00/17:00; guide $108B ±2%, GM ~74%; CEO-probe overhang; SPX/SMH beta"
-    }
-   ]
-  },
-  {
-   "date": "Wed, Nov 18",
-   "rows": [
-    {
-     "ldn": "07:00",
-     "ny": "02:00",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "UK CPI (Oct)",
-     "notes": "Prior 3.5% y/y; BoE sees 4.9% peak Q2-27; cons n/v"
-    },
-    {
-     "ldn": "19:00",
-     "ny": "14:00",
-     "cat": "CB",
-     "imp": "H",
-     "event": "FOMC minutes (Oct 27-28)",
-     "notes": "2 dissents for hike; Dec 8-9 FOMC path; TGT/LOW/TJX BMO"
-    }
-   ]
-  },
-  {
-   "date": "Thu, Nov 19",
-   "rows": [
-    {
-     "ldn": "BMO",
-     "ny": "",
-     "cat": "EARN",
-     "event": "Walmart (WMT)",
-     "notes": "US consumer bellwether; HPQ BMO; implied move n/v"
-    }
-   ]
-  }
+  {"date": "Tue, Nov 10", "tag": "Next Session", "rows": [
+   {"ldn": "09:00", "ny": "04:00", "cat": "CB", "event": "Fed Waller: Economic Outlook",
+    "notes": "BoE Watchers conf, London; Goolsbee/Barkin lean tighter; Bowman 20:30/15:30"},
+   {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "imp": "H", "event": "US CPI (Oct)",
+    "notes": "Cons 0.3% m/m, core 0.2% | 0.6%, 0.3%; y/y cons n/v (Sep 3.7%). Hot → Dec hike locked"},
+   {"ldn": "18:00", "ny": "13:00", "cat": "RISK", "event": "UST 10Y auction ($42B)",
+    "notes": "After soft 3Y (2.53x, 0.5bp tail); 30Y Thu 18:00/13:00; tail risk to long end"},
+   {"ldn": "AMC", "ny": "", "cat": "EARN", "imp": "H", "event": "CoreWeave (CRWV) Q3",
+    "notes": "AI-capex/credit read; call time, cons & implied move n/v"}
+  ]},
+  {"date": "Wed, Nov 11", "rows": [
+   {"ldn": "All day", "ny": "", "cat": "RISK", "imp": "H", "event": "Veterans Day: Fed holiday",
+    "notes": "No US data; equities open; bond-mkt close n/v this run → bond-ETF NAV/prem risk"}
+  ]},
+  {"date": "Thu, Nov 12", "rows": [
+   {"ldn": "07:00", "ny": "02:00", "cat": "ECO", "imp": "H", "event": "UK GDP Q3 first est.",
+    "notes": "Q2 +0.5% q/q; cons n/v; tests BoE hike path"},
+   {"ldn": "AMC", "ny": "", "cat": "EARN", "imp": "H", "event": "CSCO, AMAT",
+    "notes": "Calls 21:30/16:30; AI networking / WFE capex read; implied moves n/v"}
+  ]},
+  {"date": "Fri, Nov 13", "rows": [
+   {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "event": "US PPI (Oct)",
+    "notes": "Prior +1.3% m/m; pipeline read after oil spike; cons n/v"}
+  ]},
+  {"date": "Mon, Nov 16", "rows": [
+   {"ldn": "23:50", "ny": "18:50", "cat": "ECO", "event": "Japan GDP Q3 prelim",
+    "notes": "*Sun 15 Nov LDN/NY (08:50 Mon JST). Q2 +0.4% q/q; cons n/v; USD/JPY ~158"}
+  ]},
+  {"date": "Tue, Nov 17", "rows": [
+   {"ldn": "07:00", "ny": "02:00", "cat": "ECO", "event": "UK labour market",
+    "notes": "Unemp 4.7% (Aug); wage growth into BoE; cons n/v"},
+   {"ldn": "AMC", "ny": "", "cat": "EARN", "imp": "H", "event": "NVDA FQ3",
+    "notes": "Call 22:00/17:00; CEO-probe overhang; SPX/SMH beta; cons & implied move n/v"}
+  ]},
+  {"date": "Wed, Nov 18", "rows": [
+   {"ldn": "07:00", "ny": "02:00", "cat": "ECO", "imp": "H", "event": "UK CPI (Oct)",
+    "notes": "Prior 3.5% y/y; cons n/v"},
+   {"ldn": "19:00", "ny": "14:00", "cat": "CB", "imp": "H", "event": "FOMC minutes (Oct 27-28)",
+    "notes": "Hike-bias detail ahead of Dec 8-9 FOMC; Dec hike 78-84% priced"}
+  ]},
+  {"date": "Thu, Nov 19", "rows": [
+   {"ldn": "n/v", "ny": "", "cat": "EARN", "event": "Walmart (WMT) Q3",
+    "notes": "Date unconfirmed by WMT; EPS cons $0.64, rev $187.2B; consumer bellwether"}
+  ]}
  ],
  "levels": [
-  {
-   "k": "RATES",
-   "v": "UST 2Y n/v (~4.56% intraday) · 10Y 4.86% · 30Y 5.26% · gilt 2Y 4.72%, 10Y 5.10% · real n/v"
-  },
-  {
-   "k": "FX",
-   "v": "EUR/USD 1.121 · GBP/USD 1.3417 (+0.46%) · USD/JPY 158.00 · AUD/USD 0.6894 (+0.43%) · DXY 101.68"
-  },
-  {
-   "k": "VOL",
-   "v": "VIX 19.92 (-22%) · term structure, skew, dealer gamma n/v"
-  }
+  {"k": "RATES", "v": "UST 2Y 4.56% · 10Y 4.88% · 30Y 5.28% · 2s10s 32bp · gilt 2Y/10Y n/v · real n/v"},
+  {"k": "FX", "v": "EUR/USD 1.1197 · GBP/USD 1.3438 · USD/JPY ~157.9-158.0 · AUD/USD n/v · DXY 101.52"},
+  {"k": "VOL", "v": "VIX 19.92 (-22%) · VXN 29.11 · MOVE 88.47 · term structure, skew, gamma n/v"}
  ],
- "sources": "Pulsafi·Investrade·Yahoo/TheStreet·EurasiaBN·Kiplinger·MUFG·TradingKey·TradingEcon·InstaForex·FinSource·ONS·fedratecalc·EarningsWhispers·Delta·TechInsider"
+ "sources": "WeekendSpread·CappNotes·StockTitan·Saxo·Investing.com·MarketAlleys·ONS·gov.uk·Fed·fedratecalc·NVIDIA IR·Cisco IR·AMAT IR·CoinEdition·HudsonLabs·FinanceCalendar·LiteFinance·Xoomar"
 }
