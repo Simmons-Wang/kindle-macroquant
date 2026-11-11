@@ -1,10 +1,10 @@
 {
  "session": "WED 11 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-10T21:45:12Z",
+ "edition": "AM",
+ "generated_utc": "2026-11-11T06:10:24Z",
  "summary": {
-  "regime": "Hot Oct CPI (core 0.3%) + Waller 50bp talk: 10Y ~4.99%, 2Y +19bp, USD bid. Dec hike ~90% 25bp/10% 50bp. UST cash shut Wed (Veterans Day); NVDA -5.5%.",
-  "alert": "UST cash closed Wed (Veterans Day): thin rates. Next: UK GDP Thu 07:00/02:00"
+  "regime": "Hot Oct CPI + Waller 50bp talk: 10Y ~4.99%, Dec hike 88%/50bp 11%. Asia AI rebound (Kospi +1.6%, Taiex +2.1%); NQ fut ~+1%, ES ~+0.5%. UST cash shut today.",
+  "alert": "Veterans Day: no UST cash, thin rates/FX. Next: UK GDP Thu 07:00/02:00"
  },
  "review": {
   "date": "Tue, Nov 10",
@@ -14,52 +14,52 @@
     "imp": "H",
     "event": "US CPI (Oct)",
     "result": "0.4% m/m vs 0.3% cons (Sep 0.6%); core 0.3% vs 0.2%; y/y not published",
-    "impact": "Bear-flattener: 2Y +18.9bp 4.74%, 10Y +12.6bp 4.99%, 30Y +9.3bp 5.35%; 2s10s ~25bp. DXY +0.6% ~102.3"
+    "impact": "Bear-flattener: 2Y +17bp 4.73%, 10Y +10bp 4.98% (>5% intraday), 30Y +9bp 5.35%; 2s10s 32→25bp. DXY +0.58%"
    },
    {
     "cat": "CB",
     "imp": "H",
     "event": "Fed Waller (London)",
-    "result": "Backs >=25bp Dec hike; 50bp 'should be considered' if core >=0.3%",
-    "impact": "Dec FOMC: 90% 25bp / 10% 50bp (FedWatch). USD/JPY +0.56% 158.78; EUR/USD -0.54% 1.1163; GBP -0.74%"
+    "result": "Backs 25bp Dec hike; 50bp 'should be considered' if core >=0.3%",
+    "impact": "FedWatch Dec: 88% 25bp / 11% 50bp. USD/JPY +0.55% 158.77; EUR/USD -0.53% 1.1163; GBP/USD -0.71% 1.3344"
    },
    {
     "cat": "RISK",
     "event": "Equities give back",
     "result": "SPX -0.38% 7,520.93; Nasdaq -0.74% 25,065.88; Dow -0.30%; R2K -0.68%",
-    "impact": "VIX -2.3% to 19.46 (calm); gold -1.87% $4,037.6; WTI -0.44% $86.47; AUD/USD -0.89% 0.6865"
+    "impact": "Tech -1.15%, Fins +0.52%, Energy +0.44%. VIX -2.3% 19.46. Gold -2.05% $4,030; WTI -0.93% $86.04"
    },
    {
     "cat": "EARN",
     "event": "NVDA CEO-probe overhang",
-    "result": "-5.47% to $168.89; shareholder suit, House China cmte queries",
-    "impact": "Worst Dow stock 2nd day; ~-30% since early Oct; AH +0.14%. Goldman: semis oversold"
+    "result": "-5.47%, 2nd straight drop; board probe of CEO, shareholder suit",
+    "impact": "Biggest S&P drag; briefly < $4T mkt cap intraday. Asia AI names rebounded overnight"
    },
    {
     "cat": "EARN",
     "event": "CoreWeave Q3 (AMC)",
-    "result": "Rev ~$3.7B vs $3.6B; EPS -$1.27 vs -$1.46; FY & run-rate guide raised",
-    "impact": "AH: jumped then reversed (headlines); AH % n/v. AI-capex / neocloud credit read"
+    "result": "Rev $3.66B; FY26 rev guide raised to $13.0-13.3B",
+    "impact": "AH +1.5% to +2.6% (sources differ); later reports of ~+13% n/v. Neocloud/AI-capex read"
    },
    {
     "cat": "RISK",
     "event": "UST 10Y auction ($42B)",
-    "result": "Largest tail since Feb, weaker foreign demand; high yld, BTC n/v",
-    "impact": "Added to long-end selloff into close; 10Y ~5% (TE 4.995%)"
+    "result": "Soft: dealers took 10%, most since May; high yld/tail/BTC n/v",
+    "impact": "Added to long-end selloff; 10Y briefly above 5%"
    }
   ]
  },
  "board": [
   {
    "date": "Wed, Nov 11",
-   "tag": "Next Session",
+   "tag": "Today",
    "rows": [
     {
      "ldn": "All day",
      "ny": "",
      "cat": "RISK",
      "event": "Veterans Day: US bond mkt closed",
-     "notes": "Stocks open regular hours; no UST cash → bond-ETF NAV/prem gaps; no US data",
+     "notes": "Stocks open regular hours; no UST cash → bond-ETF NAV gaps; Singles' Day (China) under way",
      "imp": "H"
     }
    ]
@@ -72,7 +72,7 @@
      "ny": "02:00",
      "cat": "ECO",
      "event": "UK GDP Q3 1st est + Sep m/m",
-     "notes": "ONS 07:00; Q2 +0.5% q/q; cons n/v; gilt 10Y 5.21% into BoE hike debate",
+     "notes": "ONS; cons n/v; gilt levels n/v this run; BoE path",
      "imp": "H"
     },
     {
@@ -80,15 +80,15 @@
      "ny": "",
      "cat": "EARN",
      "event": "Cisco (CSCO) Q1 FY27",
-     "notes": "Call 21:30/16:30 (Cisco IR); AI networking read; cons & implied move n/v",
+     "notes": "AI networking read; call time, cons & implied move n/v",
      "imp": "H"
     },
     {
-     "ldn": "AMC",
+     "ldn": "n/v",
      "ny": "",
      "cat": "EARN",
-     "event": "Applied Materials (AMAT)",
-     "notes": "Date per calendar; AMC/call time n/v; WFE capex read; implied move n/v"
+     "event": "Applied Materials, Disney",
+     "notes": "Date per 2 calendars; BMO/AMC timing n/v; WFE capex / consumer read"
     }
    ]
   },
@@ -100,7 +100,20 @@
      "ny": "08:30",
      "cat": "ECO",
      "event": "US PPI (Oct)",
-     "notes": "Pipeline after hot CPI; cons & prior n/v this run. EZ Q3 GDP 2nd est same day (time n/v)"
+     "notes": "BLS; pipeline after hot CPI; cons & prior n/v. EZ Q3 GDP 2nd est same day (time n/v)",
+     "imp": "H"
+    }
+   ]
+  },
+  {
+   "date": "Mon, Nov 16",
+   "rows": [
+    {
+     "ldn": "02:00",
+     "ny": "*21:00",
+     "cat": "ECO",
+     "event": "China IP + retail sales (Oct)",
+     "notes": "*NY time is Sun Nov 15; cons & prior n/v; Singles' Day read"
     }
    ]
   },
@@ -112,29 +125,29 @@
      "ny": "02:00",
      "cat": "ECO",
      "event": "UK labour market",
-     "notes": "Unemp/wages into BoE; cons n/v"
-    },
-    {
-     "ldn": "BMO",
-     "ny": "",
-     "cat": "EARN",
-     "event": "Home Depot (HD), Disney (DIS)",
-     "notes": "Housing/consumer read; cons n/v"
+     "notes": "Unemp (Jul-Sep) fcst 4.7%; AWE cons n/v; BoE"
     },
     {
      "ldn": "13:30",
      "ny": "08:30",
      "cat": "ECO",
      "event": "US retail sales (Oct)",
-     "notes": "Census advance; cons n/v; strong → cements Dec hike",
+     "notes": "Census advance; prior Sep +0.8%; cons n/v; strong → cements Dec hike",
      "imp": "H"
+    },
+    {
+     "ldn": "n/v",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Home Depot (HD)",
+     "notes": "Housing read; BMO/AMC timing n/v; cons n/v"
     },
     {
      "ldn": "AMC",
      "ny": "",
      "cat": "EARN",
      "event": "NVIDIA (NVDA) FQ3",
-     "notes": "CEO-probe overhang; SPX/SMH beta; call time, cons & implied move n/v",
+     "notes": "Confirmed AMC (WSH); CEO-probe overhang; SPX/SMH beta; cons & implied n/v",
      "imp": "H"
     }
    ]
@@ -147,15 +160,15 @@
      "ny": "02:00",
      "cat": "ECO",
      "event": "UK CPI (Oct)",
-     "notes": "Cons n/v; BoE path",
+     "notes": "Prior Sep 3.5% y/y, core 2.8%; cons n/v; BoE path",
      "imp": "H"
     },
     {
-     "ldn": "BMO",
+     "ldn": "n/v",
      "ny": "",
      "cat": "EARN",
      "event": "TGT, LOW, TJX",
-     "notes": "Retail trio; consumer health read; cons n/v"
+     "notes": "Retail trio; timing n/v; consumer health read"
     },
     {
      "ldn": "19:00",
@@ -171,11 +184,11 @@
    "date": "Thu, Nov 19",
    "rows": [
     {
-     "ldn": "BMO",
+     "ldn": "n/v",
      "ny": "",
      "cat": "EARN",
      "event": "Walmart (WMT) Q3",
-     "notes": "Consumer bellwether; cons n/v this run"
+     "notes": "Consumer bellwether; timing & cons n/v"
     }
    ]
   }
@@ -183,16 +196,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.74% · 10Y 4.99% · 30Y 5.35% · 2s10s ~25bp · gilt 10Y 5.21%, 2Y n/v · real n/v"
+   "v": "UST 2Y 4.73% · 10Y ~4.99% · 30Y 5.35% · 2s10s 25bp · gilts n/v · real n/v · cash shut today"
   },
   {
    "k": "FX",
-   "v": "EUR/USD 1.1163 · GBP/USD 1.3342 · USD/JPY 158.78 · AUD/USD 0.6865 · DXY ~102.27 (+0.6%)"
+   "v": "EUR/USD 1.1167 · GBP/USD 1.3344 (Tue) · USD/JPY 158.90 · AUD/USD n/v · DXY 102.25 (Tue)"
   },
   {
    "k": "VOL",
-   "v": "VIX 19.46 (-2.3%) · MOVE, term structure, skew, dealer gamma n/v"
+   "v": "VIX 19.46 (-2.3%) · Brent $92.42 +1% o/n · MOVE, term structure, skew, gamma n/v"
   }
  ],
- "sources": "Kiplinger·Yahoo Finance·TradingEconomics·investingLive·MQL5·TheStreet·fedratecalc·Delta Exchange·ONS·EarningsWhispers·Cisco IR·CryptoBriefing"
+ "sources": "CappNotes·TheStreet·StockTitan·EurasiaBizNews·AP·investingLive·TradingKey·LiveNOW Fox·fedratecalc·Delta Exchange·LiteFinance·WallSt Horizon"
 }
