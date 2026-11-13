@@ -1,14 +1,22 @@
 {
  "session": "FRI 13 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-13T16:28:00Z",
+ "generated_utc": "2026-11-13T17:42:00Z",
  "summary": {
-  "regime": "Bear-flattener: 10Y ~5.1-5.16%, Dec hike still priced. Oct PPI +0.3% m/m (cons +0.4%) soft headline; R2K -1.66%, NVDA CEO exit weighs. Brent ~$95, USD/JPY ~160.",
+  "regime": "Bear-flattener: 10Y ~5.14% (high 5.17%), Dec hike still priced. Oct PPI +0.3% m/m (cons +0.4%), y/y 6.5%; chips/AI sell-off on NVDA CEO exit, Nasdaq -1.4%, VIX ~19.7.",
   "alert": "Jefferson 00:00 Sat LDN (19:00 NY) · NVDA Tue 21:20/16:20"
  },
  "review": {
-  "date": "Fri 13 Nov · as of 16:25 GMT",
+  "date": "Fri 13 Nov · as of 17:25 GMT",
   "rows": [
+   {
+    "when": "17:22",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Tech/crypto sell-off deepens",
+    "result": "Nasdaq -1.38% 25,016, SPX -0.84% 7,529, R2K -0.62% (as of ~17:22)",
+    "impact": "VIX 19.69 +5.3%; 10Y 5.14% (high 5.17%); NVDA -3.3%, AMD ~-9%, AVGO ~-6%; BTC 68.5k -4.7%; WTI 88.45"
+   },
    {
     "when": "15:50",
     "cat": "CB",
@@ -45,14 +53,6 @@
     "result": "Kress interim; NVDA -4.34% (intraday -14%), AMD +5.86%, AVGO +5.54%",
     "impact": "SPX -0.35% 7,592; Nasdaq -0.39%; R2K -1.66%; RSP -0.87%; 377 SPX decliners; VIX 18.70 +6.9%",
     "when": "Thu"
-   },
-   {
-    "cat": "RISK",
-    "imp": "H",
-    "event": "UST 30Y auction tails",
-    "result": "$25B at 5.441%, 0.4bp tail; bid-to-cover 2.36 vs 2.54 prior",
-    "impact": "2Y 4.88% +15bp, 10Y 5.10% +~11bp, 30Y 5.43%; flatter; DXY 103.19 +0.27%; USD/JPY 159.86, >160 intraday",
-    "when": "Thu 18:00"
    }
   ]
  },
@@ -163,7 +163,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 5.16% (Yahoo strip, untimed) · 2Y/30Y n/v this update · gilts n/v"
+   "v": "UST 10Y 5.14% (~17:22) · 2Y/30Y n/v · gilts n/v"
   },
   {
    "k": "FX",
@@ -171,12 +171,12 @@
   },
   {
    "k": "VOL",
-   "v": "VIX 18.12 -3.1% (~14:36) · term structure, skew, MOVE, dealer gamma n/v"
+   "v": "VIX 19.69 +5.3% (~17:22) · term structure, skew, MOVE, dealer gamma n/v"
   },
   {
    "k": "OTHER",
-   "v": "Gold $3,891 · crude Dec $89.45 · BTC $68.8k (~14:36)"
+   "v": "Gold $3,889 · WTI Dec $88.45 · BTC $68.5k (~17:22)"
   }
  ],
- "sources": "CappNotes·Saxo·Finwire·TraderFactor·TradingKey·StockTitan·1trader·NVDA IR·Cabinet Office·Eurostat·FinanceCalendar·Delta·LiteFinance·FedRateCalc"
+ "sources": "CappNotes·Saxo·Finwire·TraderFactor·TradingKey·StockTitan·1trader·NVDA IR·Cabinet Office·Eurostat·FinanceCalendar·Delta·LiteFinance·FedRateCalc·Yahoo Finance·Ted Pillows"
 }
