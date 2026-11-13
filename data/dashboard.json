@@ -1,14 +1,29 @@
 {
  "session": "FRI 13 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-13T12:37:25Z",
+ "generated_utc": "2026-11-13T15:01:52Z",
  "summary": {
-  "regime": "Bear-flattener: 2Y 4.88% (+15bp), 10Y 5.10% after 30Y tail; Dec hike ~87-91% priced. Overnight NDX fut +0.6%, USD/JPY 159.8 near 160, Brent $95. PPI next.",
-  "alert": "US PPI 13:30/08:30 · Bowman 15:50/10:50 · NVDA Tue 21:20/16:20"
+  "regime": "Bear-flattener: 10Y ~5.1-5.16%, Dec hike still priced. Oct PPI +0.3% m/m (cons +0.4%) soft headline; R2K -1.66%, NVDA CEO exit weighs. Brent ~$95, USD/JPY ~160.",
+  "alert": "Bowman 15:50/10:50 · Jefferson 00:00 Sat LDN · NVDA Tue 21:20/16:20"
  },
  "review": {
-  "date": "Fri 13 Nov · as of 12:40 GMT",
+  "date": "Fri 13 Nov · as of 15:00 GMT",
   "rows": [
+   {
+    "when": "13:30",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US PPI (Oct)",
+    "result": "+0.3% m/m vs cons +0.4% (Sep +1.3%); 6.5% y/y vs 6.6% cons; core actual n/v (cons +0.3%)",
+    "impact": "Soft headline; as of ~14:36 SPX -0.12% 7,583, Nasdaq -0.39%, R2K -1.66%, VIX 18.12; 10Y 5.16% (Yahoo strip, untimed); Dec hike still priced"
+   },
+   {
+    "when": "11:27",
+    "cat": "RISK",
+    "event": "Bitcoin falls below $70k",
+    "result": "BTC 68,839, -3.8% (Yahoo ~14:36)",
+    "impact": "Gold $3,891 +0.14%; crude Dec +0.8%; Cerebras +13% premarket on record Q3"
+   },
    {
     "when": "10:00",
     "cat": "ECO",
@@ -39,20 +54,6 @@
     "result": "+0.7% q/q (Saxo); cons n/v",
     "impact": "GBP/USD 1.3232 -0.36%; FTSE 100 +0.25% 10,863; gilt move n/v",
     "when": "Thu 07:00"
-   },
-   {
-    "cat": "RISK",
-    "event": "Oil jumps on Iran comments",
-    "result": "Brent $95.82 +3.30%, WTI $88.74 +2.55%; Trump: no Iran deal needed",
-    "impact": "Gold -2.88% to $3,885 (1-yr low); AUD/USD 0.6808 -0.5%, weakest G10",
-    "when": "Thu"
-   },
-   {
-    "cat": "EARN",
-    "event": "Cisco Q1 FY27 (AMC)",
-    "result": "Record rev $18.5B vs ~$18.1B cons; beat-and-raise; EPS n/v",
-    "impact": "CSCO +~3% AH; AMAT choppy AH despite Q1 guide above cons (CappNotes)",
-    "when": "Thu AMC"
    }
   ]
  },
@@ -61,14 +62,6 @@
    "date": "Fri, Nov 13",
    "tag": "Today",
    "rows": [
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "US PPI (Oct)",
-     "notes": "Cons +0.4% m/m, 6.6% y/y; core +0.3% | Sep +1.3%, 6.3% (DJ via StockTitan)"
-    },
     {
      "ldn": "15:50",
      "ny": "10:50",
@@ -184,7 +177,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 5.12% (08:29) · 2Y 4.88%, 30Y 5.43%, 2s10s +22bp (Thu close) · gilts n/v"
+   "v": "UST 10Y 5.16% (Yahoo strip, untimed) · 2Y/30Y n/v this update · gilts n/v"
   },
   {
    "k": "FX",
@@ -192,7 +185,11 @@
   },
   {
    "k": "VOL",
-   "v": "VIX 18.70 (+1.21, +6.9%) Thu close · term structure, skew, MOVE, dealer gamma n/v"
+   "v": "VIX 18.12 -3.1% (~14:36) · term structure, skew, MOVE, dealer gamma n/v"
+  },
+  {
+   "k": "OTHER",
+   "v": "Gold $3,891 · crude Dec $89.45 · BTC $68.8k (~14:36)"
   }
  ],
  "sources": "CappNotes·Saxo·Finwire·TraderFactor·TradingKey·StockTitan·1trader·NVDA IR·Cabinet Office·Eurostat·FinanceCalendar·Delta·LiteFinance·FedRateCalc"
