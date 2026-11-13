@@ -1,14 +1,21 @@
 {
  "session": "FRI 13 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-13T15:01:52Z",
+ "generated_utc": "2026-11-13T16:03:51Z",
  "summary": {
   "regime": "Bear-flattener: 10Y ~5.1-5.16%, Dec hike still priced. Oct PPI +0.3% m/m (cons +0.4%) soft headline; R2K -1.66%, NVDA CEO exit weighs. Brent ~$95, USD/JPY ~160.",
-  "alert": "Bowman 15:50/10:50 · Jefferson 00:00 Sat LDN · NVDA Tue 21:20/16:20"
+  "alert": "Jefferson 00:00 Sat LDN (19:00 NY) · NVDA Tue 21:20/16:20"
  },
  "review": {
-  "date": "Fri 13 Nov · as of 15:00 GMT",
+  "date": "Fri 13 Nov · as of 16:05 GMT",
   "rows": [
+   {
+    "when": "15:50",
+    "cat": "CB",
+    "event": "Fed's Bowman speaks",
+    "result": "Remarks content n/v (not sourced this run); her 10 Nov speech flagged broadening inflation",
+    "impact": "Reaction n/v; Dec hike pricing last sourced ~87-91%"
+   },
    {
     "when": "13:30",
     "cat": "ECO",
@@ -46,31 +53,10 @@
     "result": "$25B at 5.441%, 0.4bp tail; bid-to-cover 2.36 vs 2.54 prior",
     "impact": "2Y 4.88% +15bp, 10Y 5.10% +~11bp, 30Y 5.43%; flatter; DXY 103.19 +0.27%; USD/JPY 159.86, >160 intraday",
     "when": "Thu 18:00"
-   },
-   {
-    "cat": "ECO",
-    "imp": "H",
-    "event": "UK GDP Q3 1st est",
-    "result": "+0.7% q/q (Saxo); cons n/v",
-    "impact": "GBP/USD 1.3232 -0.36%; FTSE 100 +0.25% 10,863; gilt move n/v",
-    "when": "Thu 07:00"
    }
   ]
  },
  "board": [
-  {
-   "date": "Fri, Nov 13",
-   "tag": "Today",
-   "rows": [
-    {
-     "ldn": "15:50",
-     "ny": "10:50",
-     "cat": "CB",
-     "event": "Fed's Bowman speaks",
-     "notes": "Jefferson 19:00 NY = 00:00 Sat LDN (TraderFactor); Dec hike ~87-91% priced"
-    }
-   ]
-  },
   {
    "date": "Mon, Nov 16",
    "rows": [
