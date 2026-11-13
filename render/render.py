@@ -25,11 +25,26 @@ LDN = ZoneInfo("Europe/London")
 NY = ZoneInfo("America/New_York")
 
 # Publishing schedule (London time) — keep in sync with the scheduled tasks.
-RUNS = {  # weekday (Mon=0) -> list of (hh, mm)
-    0: [(6, 6), (21, 36)], 1: [(6, 6), (21, 36)], 2: [(6, 6), (21, 36)],
-    3: [(6, 6), (21, 36)], 4: [(6, 6)], 5: [], 6: [(21, 36)],
-}
-FETCH_LAG_MIN = 40       # Kindle wakes this long after a scheduled run starts
+#   Mon–Fri: LIVE :06 & :36 from 08:06 to 23:06 (no :36 at 21, 23), night LIVE 01:06 03:06 05:06,
+#            full AM 06:06, full PM 21:36 (Mon–Thu).
+#   Sat–Sun: LIVE every 2 h at odd hours :06; Sun also full PM 21:36.
+def runs_for(day):
+    """List of (hh, mm) run start times (London) on a given date."""
+    wd = day.weekday()
+    if wd <= 4:
+        runs = [(1, 6), (3, 6), (5, 6), (6, 6)] + [(h, 6) for h in range(8, 24)]
+        runs += [(h, 36) for h in range(8, 23) if h != 21]
+        if wd <= 3:
+            runs.append((21, 36))
+    else:
+        runs = [(h, 6) for h in range(1, 24, 2)]
+        if wd == 6:
+            runs.append((21, 36))
+    return sorted(runs)
+
+
+FETCH_LAG_MIN = 15       # Kindle wakes this long after a scheduled run starts
+
 
 # Monochrome stand-ins for the colour dots: shape + label
 CATS = {
@@ -64,7 +79,7 @@ table.bd{border-collapse:collapse;width:100%;table-layout:fixed;margin-top:1px}
 .bd tr.g0 td{border-top:1.5px solid #000}
 .bd td.dt{font-weight:700;border-bottom:1.5px solid #000}
 .bd td.dt .tg{display:block;font-weight:400;font-size:calc(9.2px*var(--s))}
-.bd td.tm{white-space:nowrap;font-variant-numeric:tabular-nums}
+.bd td.tm{font-variant-numeric:tabular-nums}
 .bd td.tm b{display:block}
 .bd td.tm span{font-size:calc(9.2px*var(--s))}
 .bd td.ct i{font-style:normal;font-family:'DejaVu Sans',sans-serif;margin-right:2px}
@@ -128,12 +143,18 @@ def build_html(d):
     review = ""
     rv = d.get("review") or {}
     if rv.get("rows"):
-        rr = ['<colgroup><col style="width:27%"><col style="width:30%"><col></colgroup>',
-              '<tr><th>Event</th><th>Actual vs Consensus</th><th>Market Impact</th></tr>']
+        has_when = any(r.get("when") for r in rv["rows"])
+        if has_when:
+            rr = ['<colgroup><col style="width:11%"><col style="width:24%"><col style="width:27%"><col></colgroup>',
+                  '<tr><th>When</th><th>Event</th><th>Actual vs Consensus</th><th>Market Impact</th></tr>']
+        else:
+            rr = ['<colgroup><col style="width:27%"><col style="width:30%"><col></colgroup>',
+                  '<tr><th>Event</th><th>Actual vs Consensus</th><th>Market Impact</th></tr>']
         for r in rv["rows"]:
             sym = CATS.get(r.get("cat", "").upper(), ("·", ""))[0]
             cls = ' class="h"' if r.get("imp") == "H" else ""
-            rr.append(f'<tr{cls}><td class="ev"><i>{sym}</i>{esc(r["event"])}</td>'
+            when = f'<td class="tm"><b>{esc(r.get("when", ""))}</b></td>' if has_when else ""
+            rr.append(f'<tr{cls}>{when}<td class="ev"><i>{sym}</i>{esc(r["event"])}</td>'
                       f'<td class="ac">{esc(r.get("result", ""))}</td>'
                       f'<td class="nt">{esc(r.get("impact", ""))}</td></tr>')
         review = (f'<div class="sl"><span>REVIEW · {esc(rv.get("date", "PREVIOUS SESSION")).upper()}</span>'
@@ -160,7 +181,7 @@ def next_fetch_epoch(now_utc):
     now_l = now_utc.astimezone(LDN)
     for add in range(0, 8):
         day = (now_l + dt.timedelta(days=add)).date()
-        for hh, mm in RUNS[day.weekday()]:
+        for hh, mm in runs_for(day):
             start = dt.datetime(day.year, day.month, day.day, hh, mm, tzinfo=LDN)
             if start > now_l:  # the NEXT run, never the run that is publishing right now
                 return int((start + dt.timedelta(minutes=FETCH_LAG_MIN)).timestamp())

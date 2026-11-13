@@ -1,52 +1,58 @@
 {
  "session": "FRI 13 NOV 2026",
- "edition": "AM",
- "generated_utc": "2026-11-13T06:11:18Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-13T10:10:04Z",
  "summary": {
   "regime": "Bear-flattener: 2Y 4.88% (+15bp), 10Y 5.10% after 30Y tail; Dec hike ~87-91% priced. Overnight NDX fut +0.6%, USD/JPY 159.8 near 160, Brent $95. PPI next.",
   "alert": "US PPI 13:30/08:30 · Bowman 15:50/10:50 · NVDA Tue 21:20/16:20"
  },
  "review": {
-  "date": "Thu, Nov 12",
+  "date": "Fri 13 Nov · as of 10:10 GMT",
   "rows": [
+   {
+    "when": "10:00",
+    "cat": "ECO",
+    "event": "EZ Q3 GDP 2nd est",
+    "result": "+0.4% q/q, +1.3% y/y = prelim (Q2 +0.6% q/q)",
+    "impact": "No revision → muted; EUR/USD move n/v. Euro Stoxx 50 −0.2%, DAX −0.3% at open; US 10Y 5.12%"
+   },
    {
     "cat": "RISK",
     "imp": "H",
     "event": "Huang resigns as NVDA CEO",
     "result": "Kress interim; NVDA -4.34% (intraday -14%), AMD +5.86%, AVGO +5.54%",
-    "impact": "SPX -0.35% 7,592; Nasdaq -0.39%; R2K -1.66%; RSP -0.87%; 377 SPX decliners; VIX 18.70 +6.9%"
+    "impact": "SPX -0.35% 7,592; Nasdaq -0.39%; R2K -1.66%; RSP -0.87%; 377 SPX decliners; VIX 18.70 +6.9%",
+    "when": "Thu"
    },
    {
     "cat": "RISK",
     "imp": "H",
     "event": "UST 30Y auction tails",
     "result": "$25B at 5.441%, 0.4bp tail; bid-to-cover 2.36 vs 2.54 prior",
-    "impact": "2Y 4.88% +15bp, 10Y 5.10% +~11bp, 30Y 5.43%; flatter; DXY 103.19 +0.27%; USD/JPY 159.86, >160 intraday"
+    "impact": "2Y 4.88% +15bp, 10Y 5.10% +~11bp, 30Y 5.43%; flatter; DXY 103.19 +0.27%; USD/JPY 159.86, >160 intraday",
+    "when": "Thu 18:00"
    },
    {
     "cat": "ECO",
     "imp": "H",
     "event": "UK GDP Q3 1st est",
     "result": "+0.7% q/q (Saxo); cons n/v",
-    "impact": "GBP/USD 1.3232 -0.36%; FTSE 100 +0.25% 10,863; gilt move n/v"
+    "impact": "GBP/USD 1.3232 -0.36%; FTSE 100 +0.25% 10,863; gilt move n/v",
+    "when": "Thu 07:00"
    },
    {
     "cat": "RISK",
     "event": "Oil jumps on Iran comments",
     "result": "Brent $95.82 +3.30%, WTI $88.74 +2.55%; Trump: no Iran deal needed",
-    "impact": "Gold -2.88% to $3,885 (1-yr low); AUD/USD 0.6808 -0.5%, weakest G10"
-   },
-   {
-    "cat": "ECO",
-    "event": "US jobless claims",
-    "result": "200k vs 195k cons (prior 191k); existing home sales 3.75M vs 3.85M",
-    "impact": "Dec Fed: 25bp hike 87%, 50bp 12% (Kalshi); FedWatch hike fully priced, ~13% 50bp"
+    "impact": "Gold -2.88% to $3,885 (1-yr low); AUD/USD 0.6808 -0.5%, weakest G10",
+    "when": "Thu"
    },
    {
     "cat": "EARN",
     "event": "Cisco Q1 FY27 (AMC)",
     "result": "Record rev $18.5B vs ~$18.1B cons; beat-and-raise; EPS n/v",
-    "impact": "CSCO +~3% AH; AMAT choppy AH despite Q1 guide above cons (CappNotes)"
+    "impact": "CSCO +~3% AH; AMAT choppy AH despite Q1 guide above cons (CappNotes)",
+    "when": "Thu AMC"
    }
   ]
  },
@@ -55,13 +61,6 @@
    "date": "Fri, Nov 13",
    "tag": "Today",
    "rows": [
-    {
-     "ldn": "10:00",
-     "ny": "05:00",
-     "cat": "ECO",
-     "event": "EZ Q3 GDP 2nd est",
-     "notes": "Flash +0.4% q/q, 1.3% y/y (Eurostat); cons n/v; 11:00 CET"
-    },
     {
      "ldn": "13:30",
      "ny": "08:30",
@@ -185,7 +184,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.88% · 10Y 5.10% · 30Y 5.43% · 2s10s +22bp (Thu close) · 10Y real n/v · gilts n/v"
+   "v": "UST 10Y 5.12% (08:29) · 2Y 4.88%, 30Y 5.43%, 2s10s +22bp (Thu close) · gilts n/v"
   },
   {
    "k": "FX",

@@ -9,7 +9,33 @@ Everything must fit on ONE non-scrolling, high-contrast black-and-white screen.
   session. Full rebuild.
 - **AM edition** (runs Mon–Fri ~06:06 London): `session` = TODAY's session. Re-verify everything, fold in overnight
   news (Asia data, BoJ/RBA/PBoC, US futures, overnight earnings), refresh all levels.
+- **LIVE edition** (every 30 min Mon–Fri 08:06–23:06 London; every 2 h at night and at weekends — see
+  `runs_for()` in `render/render.py`): a cheap **incremental update** of the existing board, rules below. Not a rebuild.
 - If the next session is a US equity holiday, say so in the alert and use the following session.
+
+## LIVE incremental update (edition `LIVE`)
+Goal: keep the board current between the two full builds at minimum cost. Budget ~6 targeted searches/fetches.
+1. `git pull` first; work from the current `data/dashboard.json`. Note the commit you started from.
+2. **Move what has happened from the calendar into `review`.** A calendar row has happened when its LDN date+time is
+   ≤ now (BMO rows: after 14:30 London on that date; AMC rows: after 21:15 London; `All day`: after 21:00 London).
+   For each, fetch the actual result and the market reaction and add a review row at the TOP with
+   `when` (e.g. `13:30`, `Thu AMC`, `Fri 10:00` if not today), `event`, `result` (actual vs consensus | prior),
+   `impact` (observed move: 2Y/10Y bp, FX %, index/sector %, VIX, CB pricing — label fresh reactions
+   `as of HH:MM`). Then delete the row from `board` (drop empty date groups). If the result is not out yet
+   (delayed release), leave the row on the board.
+3. **Add unscheduled market-moving news since the last update** as review rows (cat RISK or CB), only if material:
+   a surprise central-bank action or comment that moves pricing, a geopolitical / policy shock, an index move > 1%,
+   a 2Y/10Y move > 8bp, a G10 FX move > 0.8%, oil > 3%, VIX > +15%. One quick scan of a live markets blog is enough.
+4. **Review is a rolling log, newest first, max 6 rows.** When full, drop the oldest rows first (older days before
+   today). Set `review.date` to e.g. `Fri 13 Nov · as of 10:36 GMT`.
+5. Refresh `levels` (sourced quotes; mark the time, e.g. `(10:30)`) and `summary.alert` (the next volatility
+   window). Rewrite `summary.regime` only if the regime has materially changed.
+6. Do not research or extend the future calendar (the AM/PM builds do that), except to add a newly announced
+   high-impact event (emergency meeting, unscheduled speech) or fix a time that a source shows has changed.
+7. Set `edition` to `LIVE`, `generated_utc` to now, keep `session` unless the London date rolled over.
+8. Render, check, commit `dashboard: <session> LIVE HH:MM`, push. If the push is rejected because another run
+   pushed first: `git fetch origin main`, take the remote `data/dashboard.json`, re-apply only your own review/levels
+   changes that are not already there, re-render, commit, push once more. Never force-push. If that also fails, stop.
 
 ## Hard rules
 1. **Search and verify before writing.** Every release time, consensus, prior, central-bank date, earnings date and
@@ -28,7 +54,8 @@ Everything must fit on ONE non-scrolling, high-contrast black-and-white screen.
 - `review` — **post-mortem of the previous trading day** (the most recent session with a completed US close:
   PM edition → today; AM edition / Sunday PM → the prior trading day). `review.date` (e.g. `Fri, Nov 6`) and
   `review.rows` (3–6 rows, most market-moving first), one row per event that actually happened that day — data
-  releases, central-bank decisions/speakers, earnings, auctions, structural/flow events. Row: `cat`, optional
+  releases, central-bank decisions/speakers, earnings, auctions, structural/flow events. Row: `when` (LDN time,
+  `BMO`/`AMC`, or `Thu 13:30` when not the review day), `cat`, optional
   `imp: "H"`, `event` (≤ 30 chars), `result` (≤ 70 chars: actual vs consensus, revisions; for earnings the price move
   and the reason), `impact` (≤ 120 chars: the observed cross-asset reaction with sourced numbers — 2Y/10Y bp moves and
   curve shape, DXY / EUR/USD / GBP/USD / USD/JPY / AUD/USD %, SPX/NDX/sector %, VIX, Fed/BoE pricing change).
@@ -74,4 +101,4 @@ python3 render/render.py            # writes out/dashboard.png, out/meta.txt; ex
   `dashboard: <session> <edition>` and `git push origin main`. The Kindle pulls
   `https://raw.githubusercontent.com/Simmons-Wang/kindle-macroquant/main/out/dashboard.png`.
 - Do not change `render/`, `kindle/` or the schedule unless asked.
-- End with a 3-line summary: session, the top catalyst, and any items left `n/v`.
+- End with a 3-line summary: session, the top catalyst (LIVE: what moved into review), and any items left `n/v`.
