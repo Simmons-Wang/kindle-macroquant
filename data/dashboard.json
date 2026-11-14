@@ -1,14 +1,21 @@
 {
  "session": "FRI 13 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-13T22:38:00Z",
+ "generated_utc": "2026-11-14T01:10:00Z",
  "summary": {
   "regime": "Bear-flattener: 10Y ~5.14% (high 5.17%), Dec hike still priced. Oct PPI +0.3% m/m (cons +0.4%), y/y 6.5%; chips/AI sell-off on NVDA CEO exit, Nasdaq -1.4%, VIX ~19.7.",
-  "alert": "Jefferson 00:00 Sat LDN (19:00 NY) · NVDA Tue 21:20/16:20"
+  "alert": "Japan GDP Sun 23:50 LDN (18:50 NY) · China data Mon 02:00 LDN"
  },
  "review": {
-  "date": "Fri 13 Nov · as of 22:40 GMT (US close)",
+  "date": "Sat 14 Nov · as of 01:10 GMT (weekend)",
   "rows": [
+   {
+    "when": "00:00 Sat",
+    "cat": "CB",
+    "event": "Fed's Jefferson speaks",
+    "result": "Remarks content n/v (not sourced this run)",
+    "impact": "Markets closed; reaction n/v. Next live pricing at Sun-evening open"
+   },
    {
     "when": "21:00",
     "cat": "RISK",
@@ -46,13 +53,6 @@
     "event": "Bitcoin falls below $70k",
     "result": "BTC 68,839, -3.8% (Yahoo ~14:36)",
     "impact": "Gold $3,891 +0.14%; crude Dec +0.8%; Cerebras +13% premarket on record Q3"
-   },
-   {
-    "when": "10:00",
-    "cat": "ECO",
-    "event": "EZ Q3 GDP 2nd est",
-    "result": "+0.4% q/q, +1.3% y/y = prelim (Q2 +0.6% q/q)",
-    "impact": "No revision → muted; EUR/USD move n/v. Euro Stoxx 50 −0.2%, DAX −0.3% at open; US 10Y 5.12%"
    }
   ]
  },
