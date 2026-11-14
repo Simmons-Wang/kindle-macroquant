@@ -9,6 +9,7 @@
 # not just lab126_gui -- otherwise Xorg/pillow respawn and fight the display; run from a /tmp copy in its own
 # session (survives /mnt/us being exported over USB); never force suspend while charging/USB is connected;
 # low-battery guard; diagnostics in sys.log.
+# v2.1: flag early (non-RTC) wakes, log both RTC alarms, fsync logs, copy persistent firmware logs to prevboot/.
 
 BASE="https://raw.githubusercontent.com/Simmons-Wang/kindle-macroquant/main/out"
 DIR=/mnt/us/macroquant
@@ -32,7 +33,7 @@ if [ "$MODE" = loop ] && [ "$0" != "$RUN" ]; then
 fi
 
 us_ok() { [ -d "$DIR" ] && touch "$DIR/.rw" 2>/dev/null; }
-log() { us_ok && echo "$(date -u '+%Y-%m-%d %H:%M:%S')Z $*" >> "$LOG"; }
+log() { us_ok && echo "$(date -u '+%Y-%m-%d %H:%M:%S')Z $*" >> "$LOG" && sync; }
 rotate() {
   for f in "$LOG" "$SYSLOG"; do
     if [ -f "$f" ] && [ "$(wc -c < "$f")" -gt 200000 ]; then tail -n 600 "$f" > "$f.1" && mv "$f.1" "$f"; fi
@@ -61,7 +62,23 @@ sysdiag() {  # sysdiag TAG  -> one compact block in sys.log
          "| pwr $(lipc-get-prop com.lab126.powerd state 2>/dev/null)"
     grep -iE 'reboot|reason|watchdog|panic|oops|respawn|crash|oom|killed|segfault|powerd.*(suspend|wakeup)' \
       /var/log/messages 2>/dev/null | tail -n "${2:-12}"
+    for r in /sys/class/rtc/rtc0 /sys/class/rtc/rtc1; do
+      [ -r "$r/wakealarm" ] && echo "   $(basename $r) alarm=$(cat $r/wakealarm 2>/dev/null) now=$(cat $r/since_epoch 2>/dev/null)"
+    done
   } >> "$SYSLOG" 2>/dev/null
+  sync
+}
+
+prevboot() {  # copy whatever persistent logs the firmware keeps, to see why the last reboot happened
+  us_ok || return
+  mkdir -p "$DIR/prevboot"
+  for d in /var/local/log /var/local/upstart /var/log; do
+    [ -d "$d" ] && ls -la "$d" > "$DIR/prevboot/ls_$(echo $d | tr / _).txt" 2>/dev/null
+  done
+  f=$(ls -t /var/local/log/messages* /var/local/log/*.log 2>/dev/null | head -n1)
+  [ -n "$f" ] && { case "$f" in *.gz) zcat "$f" ;; *) cat "$f" ;; esac; } 2>/dev/null | tail -n 400 > "$DIR/prevboot/last_persistent.txt"
+  tail -n 400 /var/log/messages > "$DIR/prevboot/messages_since_boot.txt" 2>/dev/null
+  sync
 }
 
 ldn_hhmm() {
@@ -136,8 +153,14 @@ deep_sleep() {  # deep_sleep SECONDS
       log "suspend refused (elapsed ${el}s: $(tail -n1 /tmp/mq_err 2>/dev/null)) - plain sleep"
       sleep $(( secs - el ))
     else
-      log "woke after ${el}s"
-      sysdiag "resumed" 6
+      if [ $el -lt $(( secs - 120 )) ]; then
+        log "EARLY wake after ${el}s of ${secs}s (not our alarm)"
+        sysdiag "early-wake" 15
+      else
+        log "woke after ${el}s"
+        sysdiag "resumed" 6
+      fi
+      sync
     fi
   else
     log "no writable RTC wakealarm - plain sleep"
@@ -193,6 +216,7 @@ echo $$ > "$DIR/pid"
 rotate
 log "loop start (v2) up=$(cut -d' ' -f1 /proc/uptime)s bat=$(battery)% chg=$(charging)"
 sysdiag "boot-log" 25          # whatever the last boot left in /var/log/messages
+prevboot
 stop_ui
 draw_full
 
