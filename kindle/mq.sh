@@ -1,27 +1,67 @@
 #!/bin/sh
 # MacroQuant Kindle client. Installed at /mnt/us/macroquant/mq.sh
 #   mq.sh once  -> fetch + draw, keep the normal Kindle UI (test)
-#   mq.sh loop  -> battery mode: stop UI, fetch/draw, Wi-Fi off, RTC deep sleep until next publish
+#   mq.sh loop  -> battery mode: stop UI + background services, fetch/draw, Wi-Fi off,
+#                  RTC deep sleep until next publish (plain sleep while charging)
 # Exit loop mode: hold the power button ~20-40 s to reboot.
+#
+# v2 (2026-11-14): stop the full service set used by proven dashboards (x, otaupd, phd, tmd, todo, mcsd),
+# not just lab126_gui -- otherwise Xorg/pillow respawn and fight the display; run from a /tmp copy in its own
+# session (survives /mnt/us being exported over USB); never force suspend while charging/USB is connected;
+# low-battery guard; diagnostics in sys.log.
 
 BASE="https://raw.githubusercontent.com/Simmons-Wang/kindle-macroquant/main/out"
 DIR=/mnt/us/macroquant
+RUN=/tmp/mq_run.sh
+CACHE=/tmp/mq_dash.png
 LOG=$DIR/log.txt
+SYSLOG=$DIR/sys.log
+MODE=${1:-loop}
+
 FBINK=/mnt/us/libkh/bin/fbink
 [ -x "$FBINK" ] || FBINK=/mnt/us/koreader/fbink
 [ -x "$FBINK" ] || FBINK=fbink
-MODE=${1:-loop}
-mkdir -p "$DIR"
+# keep a RAM copy of fbink so drawing still works if /mnt/us is unmounted
+if [ "$MODE" = loop ] && [ -x "$FBINK" ] && [ "$FBINK" != fbink ]; then
+  cp "$FBINK" /tmp/mq_fbink 2>/dev/null && chmod +x /tmp/mq_fbink && FBINK=/tmp/mq_fbink
+fi
 
-log() { echo "$(date -u '+%Y-%m-%d %H:%M:%S')Z $*" >> "$LOG"; }
-if [ -f "$LOG" ] && [ "$(wc -c < "$LOG")" -gt 200000 ]; then tail -n 400 "$LOG" > "$LOG.1" && mv "$LOG.1" "$LOG"; fi
+# Loop mode always runs from a RAM copy, so the script survives /mnt/us going away (USB drive mode).
+if [ "$MODE" = loop ] && [ "$0" != "$RUN" ]; then
+  cp "$0" "$RUN" && chmod +x "$RUN" && exec sh "$RUN" loop
+fi
 
+us_ok() { [ -d "$DIR" ] && touch "$DIR/.rw" 2>/dev/null; }
+log() { us_ok && echo "$(date -u '+%Y-%m-%d %H:%M:%S')Z $*" >> "$LOG"; }
+rotate() {
+  for f in "$LOG" "$SYSLOG"; do
+    if [ -f "$f" ] && [ "$(wc -c < "$f")" -gt 200000 ]; then tail -n 600 "$f" > "$f.1" && mv "$f.1" "$f"; fi
+  done
+}
 kv() { grep "^$1=" "$2" 2>/dev/null | head -n1 | cut -d= -f2; }
 
 battery() {
   b=$(lipc-get-prop com.lab126.powerd battLevel 2>/dev/null)
   [ -n "$b" ] || b=$(gasgauge-info -c 2>/dev/null | tr -dc '0-9')
-  echo "${b:-?}"
+  echo "${b:-0}"
+}
+charging() {  # 1 if on USB/charger power
+  c=$(lipc-get-prop com.lab126.powerd isCharging 2>/dev/null)
+  [ "$c" = 1 ] && { echo 1; return; }
+  for f in /sys/class/power_supply/*/online; do
+    [ -f "$f" ] && [ "$(cat "$f" 2>/dev/null)" = 1 ] && { echo 1; return; }
+  done
+  echo 0
+}
+
+sysdiag() {  # sysdiag TAG  -> one compact block in sys.log
+  us_ok || return
+  {
+    echo "== $(date -u '+%Y-%m-%d %H:%M:%S')Z $1 | up $(cut -d' ' -f1 /proc/uptime)s | bat $(battery)% chg $(charging)" \
+         "| pwr $(lipc-get-prop com.lab126.powerd state 2>/dev/null)"
+    grep -iE 'reboot|reason|watchdog|panic|oops|respawn|crash|oom|killed|segfault|powerd.*(suspend|wakeup)' \
+      /var/log/messages 2>/dev/null | tail -n "${2:-12}"
+  } >> "$SYSLOG" 2>/dev/null
 }
 
 ldn_hhmm() {
@@ -29,7 +69,6 @@ ldn_hhmm() {
   t=$(( $(date +%s) + off ))
   date -u -d "@$t" '+%H:%M' 2>/dev/null || date -u '+%H:%MZ'
 }
-
 status_line() {  # bottom-right overlay inside the reserved 14px footer
   msg="BAT $(battery)% | $(ldn_hhmm) $1"
   $FBINK -q -S 1 -x -$(( ${#msg} + 1 )) -y -1 "$msg" >/dev/null 2>&1
@@ -57,14 +96,15 @@ get() {  # get URL FILE ; falls back to -k only if the CA bundle rejects the cer
 
 fetch() {
   ts=$(date +%s)
-  get "$BASE/meta.txt?t=$ts" "$DIR/meta.new" || return 1
-  get "$BASE/dashboard.png?t=$ts" "$DIR/dash.new" || return 1
-  [ -s "$DIR/dash.new" ] || return 1
+  get "$BASE/meta.txt?t=$ts" /tmp/mq_meta.new || return 1
+  get "$BASE/dashboard.png?t=$ts" /tmp/mq_dash.new || return 1
+  [ -s /tmp/mq_dash.new ] || return 1
   return 0
 }
 
 draw_full() {
-  $FBINK -q -c -f -g file="$DIR/dash.png" >/dev/null 2>&1
+  [ -s "$CACHE" ] || { [ -s "$DIR/dash.png" ] && cp "$DIR/dash.png" "$CACHE"; }
+  [ -s "$CACHE" ] && $FBINK -q -c -f -g file="$CACHE" >/dev/null 2>&1
 }
 
 pick_rtc() {
@@ -77,20 +117,27 @@ deep_sleep() {  # deep_sleep SECONDS
   secs=$1
   [ "$secs" -lt 300 ] && secs=300
   [ "$secs" -gt 43200 ] && secs=43200
-  log "sleep ${secs}s"
   wifi_down
+  if [ "$(charging)" = 1 ]; then          # suspending on USB power is refused or unstable: just wait
+    log "sleep ${secs}s (charging: plain sleep)"
+    sysdiag "pre-sleep(chg)" 4
+    sleep "$secs"
+    return
+  fi
+  log "sleep ${secs}s"
+  sysdiag "pre-suspend" 6
   rtc=$(pick_rtc)
   if [ -n "$rtc" ]; then
-    echo 0 > "$rtc/wakealarm" 2>/dev/null
-    echo "+$secs" > "$rtc/wakealarm" 2>/dev/null
+    { echo 0 > "$rtc/wakealarm"; echo "+$secs" > "$rtc/wakealarm"; } 2>/dev/null
     t0=$(date +%s); sync
-    echo mem > /sys/power/state 2>>"$LOG"
+    echo mem > /sys/power/state 2>>/tmp/mq_err
     el=$(( $(date +%s) - t0 ))
     if [ $el -lt 60 ]; then
-      log "suspend did not happen (elapsed ${el}s) - falling back to plain sleep"
+      log "suspend refused (elapsed ${el}s: $(tail -n1 /tmp/mq_err 2>/dev/null)) - plain sleep"
       sleep $(( secs - el ))
     else
       log "woke after ${el}s"
+      sysdiag "resumed" 6
     fi
   else
     log "no writable RTC wakealarm - plain sleep"
@@ -98,28 +145,41 @@ deep_sleep() {  # deep_sleep SECONDS
   fi
 }
 
+stop_ui() {
+  lipc-set-prop com.lab126.powerd preventScreenSaver 1 2>/dev/null
+  stop lab126_gui >/dev/null 2>&1 || stop framework >/dev/null 2>&1
+  sleep 2
+  # same set as kindle-clock / kindle-voyage-weather; do NOT stop powerd, cmd or wifid (Wi-Fi/battery need them)
+  for j in x otaupd phd tmd todo mcsd webreader; do stop "$j" >/dev/null 2>&1; done
+  { echo powersave > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor; } 2>/dev/null
+  sleep 2
+}
+
 once() {  # returns: 0 new image drawn, 1 same image, 2 fetch failed
   if ! wifi_up; then log "wifi not connected"; return 2; fi
   if ! fetch; then log "fetch failed"; return 2; fi
-  gen=$(kv GENERATED_EPOCH "$DIR/meta.new")
-  last=$(cat "$DIR/last_gen" 2>/dev/null)
-  mv "$DIR/meta.new" "$DIR/meta.txt"
+  gen=$(kv GENERATED_EPOCH /tmp/mq_meta.new)
+  last=$(cat /tmp/mq_last_gen 2>/dev/null || cat "$DIR/last_gen" 2>/dev/null)
+  cp /tmp/mq_meta.new /tmp/mq_meta.txt
+  us_ok && cp /tmp/mq_meta.new "$DIR/meta.txt"
   if [ -n "$gen" ] && [ "$gen" != "$last" ]; then
-    mv "$DIR/dash.new" "$DIR/dash.png"
-    echo "$gen" > "$DIR/last_gen"
+    mv /tmp/mq_dash.new "$CACHE"
+    echo "$gen" > /tmp/mq_last_gen
+    us_ok && { cp "$CACHE" "$DIR/dash.png"; echo "$gen" > "$DIR/last_gen"; }
     draw_full
-    log "new image gen=$gen"
+    log "new image gen=$gen bat=$(battery)%"
     return 0
   fi
-  rm -f "$DIR/dash.new"
+  rm -f /tmp/mq_dash.new
   [ "$MODE" = once ] && draw_full
-  log "no change (gen=$gen)"
+  log "no change (gen=$gen) bat=$(battery)%"
   return 1
 }
 
 # ---------------------------------------------------------------- test mode
 if [ "$MODE" = once ]; then
-  rm -f "$DIR/last_gen"
+  mkdir -p "$DIR"
+  rm -f "$DIR/last_gen" /tmp/mq_last_gen
   once; rc=$?
   if [ $rc -eq 2 ]; then echo "MacroQuant: fetch failed - see $LOG"; exit 1; fi
   status_line "test"
@@ -128,19 +188,27 @@ if [ "$MODE" = once ]; then
 fi
 
 # ---------------------------------------------------------------- battery loop
+mkdir -p "$DIR"
 echo $$ > "$DIR/pid"
-log "loop start"
-lipc-set-prop com.lab126.powerd preventScreenSaver 1 2>/dev/null
-sleep 2
-stop lab126_gui >/dev/null 2>&1 || stop framework >/dev/null 2>&1
-sleep 3
-[ -s "$DIR/dash.png" ] && draw_full
+rotate
+log "loop start (v2) up=$(cut -d' ' -f1 /proc/uptime)s bat=$(battery)% chg=$(charging)"
+sysdiag "boot-log" 25          # whatever the last boot left in /var/log/messages
+stop_ui
+draw_full
 
 retries=0
 while true; do
+  rotate
+  b=$(battery)
+  if [ "$(charging)" = 0 ] && [ "$b" -gt 0 ] && [ "$b" -lt 8 ]; then
+    log "battery ${b}% - pausing updates"
+    status_line "LOW BATTERY - CHARGE ME"
+    deep_sleep 21600
+    continue
+  fi
   once; rc=$?
   now=$(date +%s)
-  nxt=$(kv NEXT_FETCH_EPOCH "$DIR/meta.txt"); nxt=${nxt:-0}
+  nxt=$(kv NEXT_FETCH_EPOCH /tmp/mq_meta.txt); nxt=${nxt:-0}
   case $rc in
     0) retries=0; status_line "new" ;;
     1) status_line "ok" ;;
