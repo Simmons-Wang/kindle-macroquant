@@ -1,13 +1,13 @@
 {
  "session": "TUE 17 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-16T21:48Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-16T22:38Z",
  "summary": {
   "regime": "Risk-off into NVDA: Nasdaq -2.49%, VIX 23.56 (+22%) after Huang exit; 10Y holds 5.12% as Dec Fed hike (25 vs 50bp) is debated. Retail sales, UK CPI, minutes next.",
   "alert": "UK jobs 07:00/02:00 · Retail sales 13:30/08:30 · NVDA 21:20/16:20"
  },
  "review": {
-  "date": "Mon, Nov 16",
+  "date": "Mon, Nov 16 · as of 22:38 GMT",
   "rows": [
    {
     "when": "21:00",
