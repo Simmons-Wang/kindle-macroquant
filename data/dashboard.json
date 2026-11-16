@@ -1,14 +1,22 @@
 {
  "session": "MON 16 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-16T15:37Z",
+ "generated_utc": "2026-11-16T17:08Z",
  "summary": {
   "regime": "Bear-flattener: 10Y 5.15% (+29bp wk), 2Y 4.88% (+37bp); Dec Fed hike leaned. AI shock post-Huang hits Asia chips (Kospi -2.8%, Taiex -4.1%) into Tue NVDA AMC.",
-  "alert": "Warsh 17:00/12:00 · Retail sales Tue 13:30/08:30 · NVDA Tue 21:20/16:20"
+  "alert": "Warsh 17:00/12:00 (result n/v) · Retail sales Tue 13:30/08:30 · NVDA Tue 21:20/16:20"
  },
  "review": {
-  "date": "Mon 16 Nov · as of 15:37 GMT",
+  "date": "Mon 16 Nov · as of 17:08 GMT",
   "rows": [
+   {
+    "when": "12:40",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "US pre-market: chips rout, Huang exit",
+    "result": "Mon: NQ -0.95%, ES -0.35%, YM +0.15% (06:56 ET); NVDA -2.7% pre; AMD/INTC -5.2%, MU -5.3%, AVGO -3.7%",
+    "impact": "2Y -2bp+ after biggest weekly rise in 2y+; FedWatch: Dec hike fully priced, ~8% for 50bp (Reuters). FT: Huang mulls CEO return. Cash-open levels n/v"
+   },
    {
     "when": "13:30",
     "cat": "ECO",
@@ -48,14 +56,6 @@
     "event": "Semis hit: NVDA CEO exit",
     "result": "NVDA -2.0% (after -4.3% Thu); AMD -8.8%, AVGO -4.8%",
     "impact": "Kress interim CEO. Mon Asia: SK Hynix -5.5%, Tokyo Electron -5.2%, TSMC -3.4%; SOX n/v"
-   },
-   {
-    "when": "13:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "US PPI (Oct)",
-    "result": "6.5% y/y, worst since 2022, upward revisions; m/m vs cons n/v",
-    "impact": "10Y 5.15% +5bp, 2Y 4.88%, 6M bill 4.42% (high since Dec-24); Dec hike leaned (Rio Times)"
    }
   ]
  },
@@ -191,7 +191,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.88% · 10Y 5.15% · 30Y 5.47% · 2s10s ~27bp (Fri) · real 10Y, gilts, JGB n/v"
+   "v": "UST 2Y 4.88% · 10Y 5.15% (Fri); Mon 2Y -2bp+ pre-mkt · gilts, JGB n/v"
   },
   {
    "k": "FX",
@@ -199,8 +199,8 @@
   },
   {
    "k": "VOL",
-   "v": "VIX 19.30 (Fri close) · term structure, skew, MOVE, dealer gamma n/v"
+   "v": "VIX 19.30 (Fri) · Brent $95.49, WTI ~$88.56 (pre-mkt; Hormuz tanker incidents) · MOVE, gamma n/v"
   }
  ],
- "sources": "AP·CNBC-TV18·Rio Times·Wolf Street·Newsquawk·TradingKey·learn2.trade·analysisofficial (TE)·She Who Trades·ICE/NYSE"
+ "sources": "AP·CNBC-TV18·Rio Times·Wolf Street·Newsquawk·TradingKey·learn2.trade·analysisofficial (TE)·She Who Trades·ICE/NYSE·Reuters/Kitco·TipRanks"
 }
