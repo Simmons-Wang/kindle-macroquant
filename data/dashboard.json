@@ -1,14 +1,22 @@
 {
  "session": "MON 16 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-15T21:40Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-16T05:06Z",
  "summary": {
   "regime": "Bear-flattener: 10Y 5.15% (~+30bp on wk), Dec Fed hike ~fully priced (Kalshi 91.5%). AI-leadership shock after Huang exit: SOX -3.4%, NVDA -2.0% into Tue AMC print.",
   "alert": "NVDA Tue 21:20/16:20 · Retail sales Tue 13:30/08:30 · FOMC mins Wed 19:00/14:00"
  },
  "review": {
-  "date": "Fri, Nov 13",
+  "date": "Fri, Nov 13 · Mon as of 05:10 GMT",
   "rows": [
+   {
+    "when": "Sun 23:50",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "Japan Q3 GDP prelim",
+    "result": "-0.1% annualized, first contraction in 4 qtrs (Daiwa fcst was +1.0%)",
+    "impact": "Weak consumption, imports jump; yen/JGB/Nikkei reaction n/v"
+   },
    {
     "when": "21:00",
     "cat": "RISK",
@@ -53,14 +61,6 @@
   {
    "date": "Mon, Nov 16",
    "rows": [
-    {
-     "ldn": "n/v",
-     "ny": "",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "Japan Q3 GDP prelim",
-     "notes": "Due Mon 16 Nov JST (Daiwa); Daiwa fcst +1.0% ann, +0.2% q/q; time & cons n/v"
-    },
     {
      "ldn": "17:00",
      "ny": "12:00",
@@ -200,5 +200,5 @@
    "v": "VIX 19.30 +3.2% (Fri close) · term structure, skew, MOVE, dealer gamma n/v"
   }
  ],
- "sources": "CappNotes·Alain Guillot·TradingKey·StockTitan·FXEmpire·learn2.trade·Census·fedratecalc·Investech·S&P Global PMI·Daiwa IR"
+ "sources": "CappNotes·Alain Guillot·TradingKey·StockTitan·FXEmpire·learn2.trade·Census·fedratecalc·Investech·S&P Global PMI·Daiwa IR·WTOP/MLQ (Japan GDP)"
 }
