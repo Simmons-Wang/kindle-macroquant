@@ -1,14 +1,22 @@
 {
  "session": "MON 16 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-16T10:40Z",
+ "generated_utc": "2026-11-16T15:08Z",
  "summary": {
   "regime": "Bear-flattener: 10Y 5.15% (+29bp wk), 2Y 4.88% (+37bp); Dec Fed hike leaned. AI shock post-Huang hits Asia chips (Kospi -2.8%, Taiex -4.1%) into Tue NVDA AMC.",
   "alert": "Warsh 17:00/12:00 · Retail sales Tue 13:30/08:30 · NVDA Tue 21:20/16:20"
  },
  "review": {
-  "date": "Fri, Nov 13 · + overnight to 06:10 GMT (no new verified items 10:40)",
+  "date": "Mon 16 Nov · as of 15:08 GMT",
   "rows": [
+   {
+    "when": "13:30",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "Empire State mfg (Nov)",
+    "result": "7.8 vs cons n/v | prior 25.5 (3-yr high); new orders 3.0 (23.2); prices paid 45.9 (59.5); employees 18.1",
+    "impact": "Headlines at 15:08: tech slipping pre-NVDA, UST yields lower into Warsh 17:00 (CNBC/StockTitan titles); levels n/v"
+   },
    {
     "when": "Sun 23:50",
     "cat": "ECO",
@@ -48,13 +56,6 @@
     "event": "US PPI (Oct)",
     "result": "6.5% y/y, worst since 2022, upward revisions; m/m vs cons n/v",
     "impact": "10Y 5.15% +5bp, 2Y 4.88%, 6M bill 4.42% (high since Dec-24); Dec hike leaned (Rio Times)"
-   },
-   {
-    "when": "All day",
-    "cat": "RISK",
-    "event": "Dollar firm, oil soft",
-    "result": "DXY 103.41 +0.23%; EUR/USD 1.1029 -> 1.1017 Mon Asia",
-    "impact": "Brent $94.91-96.29, WTI ~$88.2-88.5 (Mon Asia, sources differ); gold ~$3,874"
    }
   ]
  },
@@ -63,13 +64,6 @@
    "date": "Mon, Nov 16",
    "tag": "Next Session",
    "rows": [
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "event": "Empire State mfg (Nov)",
-     "notes": "cons n/v | prior n/v; XPEV/BIDU pre-open"
-    },
     {
      "ldn": "17:00",
      "ny": "12:00",
