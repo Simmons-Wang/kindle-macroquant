@@ -1,13 +1,13 @@
 {
  "session": "MON 16 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-16T18:07Z",
+ "generated_utc": "2026-11-16T21:10Z",
  "summary": {
   "regime": "Bear-flattener: 10Y 5.15% (+29bp wk), 2Y 4.88% (+37bp); Dec Fed hike leaned. AI shock post-Huang hits Asia chips (Kospi -3.6%, Taiex -6%) into Tue NVDA AMC.",
-  "alert": "UK labour Tue 07:00/02:00 · Retail sales Tue 13:30/08:30 · NVDA Tue 21:20/16:20"
+  "alert": "NVDA Tue 21:20/16:20 · UK labour 07:00/02:00 · Retail sales 13:30/08:30"
  },
  "review": {
-  "date": "Mon 16 Nov · as of 18:10 GMT",
+  "date": "Mon 16 Nov · as of 21:10 GMT",
   "rows": [
    {
     "when": "17:00",
