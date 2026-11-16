@@ -1,20 +1,28 @@
 {
  "session": "MON 16 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-16T17:40Z",
+ "generated_utc": "2026-11-16T18:07Z",
  "summary": {
-  "regime": "Bear-flattener: 10Y 5.15% (+29bp wk), 2Y 4.88% (+37bp); Dec Fed hike leaned. AI shock post-Huang hits Asia chips (Kospi -2.8%, Taiex -4.1%) into Tue NVDA AMC.",
-  "alert": "Warsh 17:00/12:00 held, remarks n/v · Retail sales Tue 13:30/08:30 · NVDA Tue 21:20/16:20"
+  "regime": "Bear-flattener: 10Y 5.15% (+29bp wk), 2Y 4.88% (+37bp); Dec Fed hike leaned. AI shock post-Huang hits Asia chips (Kospi -3.6%, Taiex -6%) into Tue NVDA AMC.",
+  "alert": "UK labour Tue 07:00/02:00 · Retail sales Tue 13:30/08:30 · NVDA Tue 21:20/16:20"
  },
  "review": {
-  "date": "Mon 16 Nov · as of 17:40 GMT",
+  "date": "Mon 16 Nov · as of 18:10 GMT",
   "rows": [
+   {
+    "when": "17:00",
+    "cat": "CB",
+    "imp": "H",
+    "event": "Warsh at SF Fed AI/jobs conf",
+    "result": "Speech on AI/superintelligence; no monetary-policy comments (investinglive headline)",
+    "impact": "Market reaction n/v; no change to Dec hike pricing sourced"
+   },
    {
     "when": "12:40",
     "cat": "RISK",
     "imp": "H",
     "event": "US pre-market: chips rout, Huang exit",
-    "result": "Mon: NQ -0.95%, ES -0.35%, YM +0.15% (06:56 ET); NVDA -2.7% pre; AMD/INTC -5.2%, MU -5.3%, AVGO -3.7%",
+    "result": "Mon 14:58 GMT: QQQ -1.24%, SPY -0.58%, DIA -0.05% pre; Nikkei -2.4%, Kospi -3.6%, Taiex -6%",
     "impact": "2Y -2bp+ after biggest weekly rise in 2y+; FedWatch: Dec hike fully priced, ~8% for 50bp (Reuters). FT: Huang mulls CEO return. Cash-open levels n/v"
    },
    {
@@ -48,32 +56,10 @@
     "event": "US close: tech-led slide",
     "result": "SPX -0.40% 7,561.67; NDX -1.22%; Dow +0.10%; R2K -0.31%",
     "impact": "VIX 19.30. Mon early futures: ES +0.2%, NQ +0.5% (CNBC-TV18); AP later says lower"
-   },
-   {
-    "when": "All day",
-    "cat": "EARN",
-    "imp": "H",
-    "event": "Semis hit: NVDA CEO exit",
-    "result": "NVDA -2.0% (after -4.3% Thu); AMD -8.8%, AVGO -4.8%",
-    "impact": "Kress interim CEO. Mon Asia: SK Hynix -5.5%, Tokyo Electron -5.2%, TSMC -3.4%; SOX n/v"
    }
   ]
  },
  "board": [
-  {
-   "date": "Mon, Nov 16",
-   "tag": "Next Session",
-   "rows": [
-    {
-     "ldn": "17:00",
-     "ny": "12:00",
-     "cat": "CB",
-     "imp": "H",
-     "event": "Fed Chair Warsh speaks",
-     "notes": "SF Fed productivity conf. opening remarks; Williams also Mon (time n/v)"
-    }
-   ]
-  },
   {
    "date": "Tue, Nov 17",
    "rows": [
@@ -100,7 +86,8 @@
      "event": "NVIDIA (NVDA) FQ3 FY27 AMC",
      "notes": "Rev ~$109B, EPS ~$2.47 (guide $108B±2%, GM 74%); call 22:00/17:00; Kress interim CEO"
     }
-   ]
+   ],
+   "tag": "Next Session"
   },
   {
    "date": "Wed, Nov 18",
@@ -195,11 +182,11 @@
   },
   {
    "k": "FX",
-   "v": "USD/JPY 159.67 · EUR/USD 1.1017 · DXY 103.41 (Fri) · CNH 6.672 · GBP, AUD n/v"
+   "v": "USD/JPY 159.61 · EUR/USD 1.1014 (11:48) · DXY 103.41 (Fri) · CNH 6.672 · GBP, AUD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX 19.30 (Fri) · Brent $95.49, WTI ~$88.56 (pre-mkt; Hormuz tanker incidents) · MOVE, gamma n/v"
+   "v": "VIX 19.30 (Fri) · Brent $95.55 (11:48) · FTSE +0.3%, DAX flat early · MOVE, gamma n/v"
   }
  ],
  "sources": "AP·CNBC-TV18·Rio Times·Wolf Street·Newsquawk·TradingKey·learn2.trade·analysisofficial (TE)·She Who Trades·ICE/NYSE·Reuters/Kitco·TipRanks"
