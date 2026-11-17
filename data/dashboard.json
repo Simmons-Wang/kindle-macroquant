@@ -1,14 +1,22 @@
 {
  "session": "TUE 17 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-17T14:10Z",
+ "generated_utc": "2026-11-17T14:40Z",
  "summary": {
   "regime": "Tech rout + Fed hike pricing: Nasdaq -2.49%, VIX ~23, Dec +25bp ~91% priced. Asia lower (Nikkei -1%, HSI -1.3%), RBA minutes hawkish; US fut -0.4% (10:40), DB -5% on Epstein-payments FT report. NVDA AMC is the pivot.",
-  "alert": "Waller 14:10/09:10 · Hammack 14:30/09:30 · NVDA 21:20/16:20"
+  "alert": "Williams 19:25/14:25 · NVDA 21:20/16:20 · Waller/Hammack remarks n/v · FOMC minutes Wed 19:00/14:00"
  },
  "review": {
-  "date": "Tue, Nov 17 · as of 14:10 GMT (Mon close below)",
+  "date": "Tue, Nov 17 · as of 14:40 GMT (Mon close below)",
   "rows": [
+   {
+    "when": "13:30",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US retail sales (Oct)",
+    "result": "Headline +0.2% m/m vs 0.2% cons | prior 0.8% (in line); ex-auto, control n/v",
+    "impact": "Per FinanceCalendar: USD rose modestly, UST yields steady (as of 14:15); no figures n/v"
+   },
    {
     "when": "11:00",
     "cat": "EARN",
@@ -16,14 +24,6 @@
     "event": "Home Depot (HD) FQ3 BMO",
     "result": "Adj EPS $3.86 vs $3.74 yr ago; comps +2.2%, sales $43.40B (+4.9%); cons n/v",
     "impact": "FY guide: comps ~+1.4%, adj EPS ~+2.0%, sales ~+4.5%; stock reaction n/v"
-   },
-   {
-    "when": "13:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "US retail sales (Oct)",
-    "result": "Actual n/v (not verifiable in this run) vs cons 0.0% headline, +0.4% ex-auto | prior 0.8%",
-    "impact": "Reaction n/v; pre-open fut SPX -0.32%, NDX -0.33%, 10Y 5.12% (-3bp)"
    },
    {
     "when": "07:00",
@@ -185,5 +185,5 @@
    "v": "WTI $86.04 (+0.37%, pre-open) · Brent $92.44 (close) · gold $3,857 · fut SPX -0.32% / NDX -0.33% / Dow -0.42%"
   }
  ],
- "sources": "Motley Fool·CappNotes·Weekend Spread·Reuters (Brecorder/Yahoo)·Kaohoon·NVIDIA IR·Yahoo·TechTimes·IfYouSpent·BEA·ICE/NYSE·ForexFundamentals·FinanceCalendar·Substack·ActionForex"
+ "sources": "Motley Fool·CappNotes·Weekend Spread·Reuters (Brecorder/Yahoo)·Kaohoon·NVIDIA IR·Yahoo·TechTimes·IfYouSpent·BEA·ICE/NYSE·ForexFundamentals·FinanceCalendar·Substack·ActionForex·FinanceCalendar·ForexFundamentals"
 }
