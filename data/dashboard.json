@@ -1,14 +1,22 @@
 {
  "session": "TUE 17 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-17T18:38Z",
+ "generated_utc": "2026-11-17T20:12Z",
  "summary": {
   "regime": "Risk-off deepens: SPX -1.15%, Nasdaq -1.13%, Dow -1.49% midday; VIX ~26; 10Y 5.09%. Musalem flags more hikes (to 4.75-5%). NVDA AMC pivot with Huang-return noise.",
-  "alert": "Williams 19:25/14:25 · NVDA 21:20/16:20 · FOMC minutes Wed 19:00/14:00"
+  "alert": "NVDA 21:20/16:20 (call 22:00/17:00) · FOMC minutes Wed 19:00/14:00"
  },
  "review": {
-  "date": "Tue, Nov 17 · as of 18:40 GMT",
+  "date": "Tue, Nov 17 · as of 20:10 GMT",
   "rows": [
+   {
+    "when": "19:25",
+    "cat": "CB",
+    "imp": "H",
+    "event": "Fed: Williams (NY Fed)",
+    "result": "Remarks n/v this run (Nov 12: more hikes likely, 'inflation persistent')",
+    "impact": "Reaction n/v; Dec 8-9 FOMC hike still base case per Reuters"
+   },
    {
     "when": "18:03",
     "cat": "RISK",
@@ -48,14 +56,6 @@
     "event": "US retail sales (Oct)",
     "result": "+0.2% m/m (Yahoo cons +0.1%; earlier src 0.2%) | prior rev +0.8%; ex-autos & gas +0.5%",
     "impact": "Solid consumer; yields steady-to-lower, 10Y 5.09% (as of ~18:03)"
-   },
-   {
-    "when": "11:00",
-    "cat": "EARN",
-    "imp": "H",
-    "event": "Home Depot (HD) FQ3 BMO",
-    "result": "Rev $43.4B vs $42.8B; adj EPS $3.86 vs $3.85; comps +2.2%",
-    "impact": "CFO McPhail to be CEO 23 Nov; FY guide trimmed (comps ~+1.4%); stock move n/v"
    }
   ]
  },
@@ -64,13 +64,6 @@
    "date": "Tue, Nov 17",
    "tag": "Next Session",
    "rows": [
-    {
-     "ldn": "19:25",
-     "ny": "14:25",
-     "cat": "CB",
-     "event": "Fed: Williams",
-     "notes": "Waller/Hammack remarks n/v; Musalem hawkish (see review); Dec hike size in focus"
-    },
     {
      "ldn": "21:20",
      "ny": "16:20",
