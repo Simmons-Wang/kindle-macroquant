@@ -1,89 +1,87 @@
 {
- "session": "TUE 17 NOV 2026",
- "edition": "LIVE",
- "generated_utc": "2026-11-17T21:08Z",
+ "session": "WED 18 NOV 2026",
+ "edition": "PM",
+ "generated_utc": "2026-11-17T21:41Z",
  "summary": {
-  "regime": "Risk-off deepens: SPX -1.15%, Nasdaq -1.13%, Dow -1.49% midday; VIX ~26; 10Y 5.09%. Musalem flags more hikes (to 4.75-5%). NVDA AMC pivot with Huang-return noise.",
-  "alert": "NVDA 21:20/16:20 (call 22:00/17:00) · FOMC minutes Wed 19:00/14:00 · close n/v"
+  "regime": "Risk-off into NVDA: Dow -955pts, SPX -1.05%, VIX ~25.5; 10Y ~5.10% with Dec hike priced. NVDA beat & $130B guide lift AH ~+2-3%; UK CPI, FOMC minutes next.",
+  "alert": "UK CPI 07:00/02:00 · FOMC minutes 19:00/14:00 · ANT debut Thu"
  },
  "review": {
-  "date": "Tue, Nov 17 · as of 21:08 GMT",
+  "date": "Tue, Nov 17",
   "rows": [
    {
-    "when": "19:25",
-    "cat": "CB",
-    "imp": "H",
-    "event": "Fed: Williams (NY Fed)",
-    "result": "Remarks n/v this run (Nov 12: more hikes likely, 'inflation persistent')",
-    "impact": "Reaction n/v; Dec 8-9 FOMC hike still base case per Reuters"
-   },
-   {
-    "when": "18:03",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "US midday: broad sell-off extends",
-    "result": "SPX 7,331.04 -1.15%; Nasdaq 24,233.91 -1.13%; Dow 50,839.04 -1.49%; R2K -0.89%",
-    "impact": "VIX 25.99 (+13.4%); 10Y 5.09% (-3bp); crude $86.38 +0.8%; gold $3,868 (as of ~18:03, Yahoo)"
-   },
-   {
-    "when": "16:12",
+    "when": "AMC",
     "cat": "EARN",
     "imp": "H",
-    "event": "NVDA pre-results: Huang",
-    "result": "Huang 'honored' to return as CEO if board deems it right (WSJ); CNBC: board not looking to; Kress interim CEO",
-    "impact": "NVDA $153.57 -1.65% (13:03 ET quote, pared from >-3%); chip/optical stocks hit by China DC-equipment curbs"
+    "event": "NVIDIA FQ3 FY27",
+    "result": "Rev $115.8B vs ~$109B; EPS $2.68 vs $2.47; DC $107.6B vs $101.9B",
+    "impact": "Q4 guide $130B±3% vs $125.3B cons, GM 71-72%; NVDA +2.4% AH (16:26 ET), ~+3% 16:39 ET; impl. ~7%"
    },
    {
-    "when": "16:05",
-    "cat": "ECO",
-    "imp": "M",
-    "event": "US NAHB housing index (Nov)",
-    "result": "25 vs 29 cons",
-    "impact": "Lowest since Apr 2012; rate/housing stress"
-   },
-   {
-    "when": "13:28",
-    "cat": "CB",
+    "when": "21:00",
+    "cat": "RISK",
     "imp": "H",
-    "event": "Fed: Musalem (St. Louis)",
-    "result": "Another hike needed soon, more before spring; sees +100-150bp to 4.75-5%",
-    "impact": "Hawkish; supports Dec hike pricing; Waller/Hammack remarks n/v"
+    "event": "US close: 2nd day of selling",
+    "result": "SPX -1.05%, Dow -1.85% (-955pts), Nasdaq -0.91%, R2K -1.33% (24/7 Wall St)",
+    "impact": "VIX 25.46 (+11%); software led losers (CRM -9.6%, NOW -6.8%, INTU -7.1%); 10Y ~5.10% (-2bp, late)"
    },
    {
     "when": "13:30",
     "cat": "ECO",
     "imp": "H",
     "event": "US retail sales (Oct)",
-    "result": "+0.2% m/m (Yahoo cons +0.1%; earlier src 0.2%) | prior rev +0.8%; ex-autos & gas +0.5%",
-    "impact": "Solid consumer; yields steady-to-lower, 10Y 5.09% (as of ~18:03)"
+    "result": "+0.2% m/m vs +0.1% cons (Yahoo) | prior 0.8%; ex-autos & gas +0.5%",
+    "impact": "Solid consumer; Treasuries steady, 10Y ~5.10%; Dec Fed hike still fully priced (TheStreet/CME)"
+   },
+   {
+    "when": "15:00",
+    "cat": "ECO",
+    "event": "US NAHB housing index (Nov)",
+    "result": "25 vs 29 cons | 29; lowest since Apr 2012",
+    "impact": "Rate-driven housing stress; reaction n/v"
+   },
+   {
+    "when": "All day",
+    "cat": "RISK",
+    "event": "FX: dollar at 19-month high",
+    "result": "DXY hit 103.69 (hi since Apr 2025), eased ~103.4-103.5",
+    "impact": "EUR/USD low 1.0983, ~1.1008; GBP/USD low 1.3169, ~1.319; USD/JPY 159.3-159.4 (Tokyo 17:00)"
+   },
+   {
+    "when": "13:28",
+    "cat": "CB",
+    "event": "Fed: Musalem (St. Louis)",
+    "result": "Per Yahoo summary: another hike soon, +100-150bp to 4.75-5% (unverified text)",
+    "impact": "Hawkish; reaction n/v; Williams/Waller remarks n/v"
    }
   ]
  },
  "board": [
   {
-   "date": "Tue, Nov 17",
+   "date": "Wed, Nov 18",
    "tag": "Next Session",
    "rows": [
     {
-     "ldn": "21:20",
-     "ny": "16:20",
-     "cat": "EARN",
-     "imp": "H",
-     "event": "NVIDIA (NVDA) FQ3 FY27 AMC",
-     "notes": "Rev cons $109.15B, EPS $2.47; guide $108B±2%, GM 74%; call 22:00/17:00; impl. move n/v"
-    }
-   ]
-  },
-  {
-   "date": "Wed, Nov 18",
-   "rows": [
-    {
-     "ldn": "n/v",
-     "ny": "",
+     "ldn": "07:00",
+     "ny": "02:00",
      "cat": "ECO",
      "imp": "H",
      "event": "UK CPI (Oct)",
-     "notes": "Cons 3.6% | 3.5%; core prior 2.8%, services 3.7%; time n/v. TGT BMO (call 13:00/08:00)"
+     "notes": "Cons 3.6% | 3.5% (Pantheon); core/services cons n/v; tobacco & fuel +21bp; GBP ~1.319"
+    },
+    {
+     "ldn": "n/v",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Target (TGT), TJX, PANW",
+     "notes": "Retail read-through after +0.2% retail sales; times & cons n/v (Newsquawk: Wed)"
+    },
+    {
+     "ldn": "18:00",
+     "ny": "13:00",
+     "cat": "ECO",
+     "event": "US 20Y bond auction $16B",
+     "notes": "Demand test with 10Y ~5.10%; housing starts (Oct) also Wed, time n/v"
     },
     {
      "ldn": "19:00",
@@ -91,7 +89,7 @@
      "cat": "CB",
      "imp": "H",
      "event": "FOMC minutes (Oct 27-28)",
-     "notes": "Held 3.75-4.00% (10-2; Cook, Hammack for +25bp); Dec 8-9 hike read. ANT prices"
+     "notes": "Held 3.75-4.00% (10-2; Cook, Hammack for +25bp); Dec 8-9 hike priced. ANT IPO prices"
     }
    ]
   },
@@ -99,26 +97,27 @@
    "date": "Thu, Nov 19",
    "rows": [
     {
-     "ldn": "13:00",
-     "ny": "08:00",
+     "ldn": "n/v",
+     "ny": "",
      "cat": "EARN",
      "imp": "H",
-     "event": "Walmart (WMT) FQ3 BMO",
-     "notes": "Guide adj. EPS $0.62-0.64, sales +3.0-3.75% cc; cons n/v. ROST AMC 21:00/16:00"
-    },
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "event": "Jobless claims / Philly Fed",
-     "notes": "Claims 200K | 200K; Philly 19.2 | 20.9; Jefferson speaks (time n/v)"
+     "event": "Walmart (WMT) FQ3",
+     "notes": "Date per TIKR; time n/v. Guide adj EPS $0.62-0.64, sales +3.0-3.75% cc; cons n/v"
     },
     {
      "ldn": "All day",
      "ny": "",
      "cat": "RISK",
-     "event": "Anthropic IPO (ANT) debut",
-     "notes": "Nasdaq; 825M shs at $70-78, prices Wed (CappNotes)"
+     "imp": "H",
+     "event": "Anthropic (ANT) IPO debut",
+     "notes": "Range $70-78, up to $64.4B (Admirals/Newsquawk); AI-chip rule in Fed Register 19 Nov"
+    },
+    {
+     "ldn": "23:30",
+     "ny": "18:30",
+     "cat": "ECO",
+     "event": "Japan CPI (Oct) *Fri JST",
+     "notes": "08:30 JST Fri; cons n/v; prior n/v (src conflict); USD/JPY ~159.3"
     }
    ]
   },
@@ -126,11 +125,35 @@
    "date": "Fri, Nov 20",
    "rows": [
     {
-     "ldn": "17:15",
-     "ny": "12:15",
-     "cat": "CB",
-     "event": "Fed Gov. Cook speaks",
-     "notes": "Oct hawkish dissenter. UMich final cons 51.0 | 51.0; Japan CPI ~2.0% (TE), time n/v"
+     "ldn": "15:00",
+     "ny": "10:00",
+     "cat": "ECO",
+     "event": "UMich sentiment (Nov final)",
+     "notes": "Cons 52 | 51 (Helious); UK retail sales (Oct), China LPR also Fri (times n/v)"
+    }
+   ]
+  },
+  {
+   "date": "Mon, Nov 23",
+   "rows": [
+    {
+     "ldn": "14:45",
+     "ny": "09:45",
+     "cat": "ECO",
+     "event": "US S&P Global flash PMIs (Nov)",
+     "notes": "Cons n/v (Hyperstocks); 2Y note auction 18:00/13:00"
+    }
+   ]
+  },
+  {
+   "date": "Tue, Nov 24",
+   "rows": [
+    {
+     "ldn": "15:00",
+     "ny": "10:00",
+     "cat": "ECO",
+     "event": "Conf. Board confidence (Nov)",
+     "notes": "Cons 92 | 91.7 (Hyperstocks); 5Y note auction 18:00/13:00"
     }
    ]
   },
@@ -142,8 +165,8 @@
      "ny": "08:30",
      "cat": "ECO",
      "imp": "H",
-     "event": "US GDP Q3 2nd + PCE (Oct)",
-     "notes": "BEA schedule (incl. corporate profits); cons n/v"
+     "event": "US PCE (Oct) + GDP Q3 2nd",
+     "notes": "Core PCE 0.3% m/m | 0.3%, 3.2% y/y | 3.1%; GDP cons 3.4%; durables 0% | 1.8%"
     }
    ]
   },
@@ -154,8 +177,8 @@
      "ldn": "All day",
      "ny": "",
      "cat": "RISK",
-     "event": "US Thanksgiving: NYSE closed",
-     "notes": "Fri 27 early close 18:00/13:00 (ICE/NYSE); thin liquidity"
+     "event": "US Thanksgiving: markets shut",
+     "notes": "Stocks & bonds closed; Fri 27 early close 18:00/13:00; claims date conflict (Wed/Fri)"
     }
    ]
   }
@@ -163,20 +186,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 5.09% (-3bp, ~18:03) · 2Y n/v · gilts n/v"
+   "v": "UST 10Y ~5.10% (-2bp, late Tue) · 2Y 4.83% (Mon cls) · gilts n/v · real 10Y n/v"
   },
   {
    "k": "FX",
-   "v": "Dollar index/EURUSD/USDJPY n/v this run (earlier: DXY 103.69 hi, GBP 1.3205)"
+   "v": "DXY ~103.4-103.5 (hi 103.69) · EUR 1.1008 · GBP 1.319 · JPY 159.3 (Tue, intraday)"
   },
   {
    "k": "VOL",
-   "v": "VIX 25.99 (+13.4%, ~18:03) · VXN/MOVE n/v · skew, dealer gamma n/v"
-  },
-  {
-   "k": "CMDTY",
-   "v": "Crude $86.38 (+0.8%, ~18:03) · gold $3,868 (+0.4%) · BTC $63.7K (-2.0%)"
+   "v": "VIX 25.46 (+11.1%, late Tue) · term structure, skew, dealer gamma n/v"
   }
  ],
- "sources": "Yahoo Finance live blog (fetched)·Motley Fool·CappNotes·Weekend Spread·Reuters (Brecorder/Yahoo)·Kaohoon·NVIDIA IR·Yahoo·TechTimes·IfYouSpent·BEA·ICE/NYSE·ForexFundamentals·FinanceCalendar·Substack·ActionForex·FinanceCalendar·ForexFundamentals"
+ "sources": "NVIDIA 8-K (SEC)·CoinDesk·Coinpaper·TipRanks·24/7 Wall St·Yahoo Finance·FX Empire/Yahoo·TheStreet·BigGo·ONS·BritBrief·Newsquawk·Helious·Hyperstocks·FinanceCalendar·TIKR·Admirals"
 }
