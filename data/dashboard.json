@@ -1,61 +1,61 @@
 {
  "session": "TUE 17 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-17T15:37Z",
+ "generated_utc": "2026-11-17T18:38Z",
  "summary": {
-  "regime": "Tech rout + Fed hike pricing: Nasdaq -2.49%, VIX ~23, Dec +25bp ~91% priced. Asia lower (Nikkei -1%, HSI -1.3%), RBA minutes hawkish; US fut mixed pre-open: SPX +0.03%, NDX +0.46%, Dow -0.57%, DB -5% on Epstein-payments FT report. NVDA AMC is the pivot.",
+  "regime": "Risk-off deepens: SPX -1.15%, Nasdaq -1.13%, Dow -1.49% midday; VIX ~26; 10Y 5.09%. Musalem flags more hikes (to 4.75-5%). NVDA AMC pivot with Huang-return noise.",
   "alert": "Williams 19:25/14:25 · NVDA 21:20/16:20 · FOMC minutes Wed 19:00/14:00"
  },
  "review": {
-  "date": "Tue, Nov 17 · as of 15:45 GMT (Mon close below)",
+  "date": "Tue, Nov 17 · as of 18:40 GMT",
   "rows": [
    {
-    "when": "14:10",
+    "when": "18:03",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "US midday: broad sell-off extends",
+    "result": "SPX 7,331.04 -1.15%; Nasdaq 24,233.91 -1.13%; Dow 50,839.04 -1.49%; R2K -0.89%",
+    "impact": "VIX 25.99 (+13.4%); 10Y 5.09% (-3bp); crude $86.38 +0.8%; gold $3,868 (as of ~18:03, Yahoo)"
+   },
+   {
+    "when": "16:12",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "NVDA pre-results: Huang",
+    "result": "Huang 'honored' to return as CEO if board deems it right (WSJ); CNBC: board not looking to; Kress interim CEO",
+    "impact": "NVDA $153.57 -1.65% (13:03 ET quote, pared from >-3%); chip/optical stocks hit by China DC-equipment curbs"
+   },
+   {
+    "when": "16:05",
+    "cat": "ECO",
+    "imp": "M",
+    "event": "US NAHB housing index (Nov)",
+    "result": "25 vs 29 cons",
+    "impact": "Lowest since Apr 2012; rate/housing stress"
+   },
+   {
+    "when": "13:28",
     "cat": "CB",
     "imp": "H",
-    "event": "Fed: Waller, Hammack",
-    "result": "Scheduled 14:10 / 14:30 GMT remarks; content not verified in this run (n/v)",
-    "impact": "No sourced reaction; Williams still due 19:25 GMT"
+    "event": "Fed: Musalem (St. Louis)",
+    "result": "Another hike needed soon, more before spring; sees +100-150bp to 4.75-5%",
+    "impact": "Hawkish; supports Dec hike pricing; Waller/Hammack remarks n/v"
    },
    {
     "when": "13:30",
     "cat": "ECO",
     "imp": "H",
     "event": "US retail sales (Oct)",
-    "result": "Headline +0.2% m/m vs 0.2% cons | prior 0.8% (in line); ex-auto, control n/v",
-    "impact": "Per FinanceCalendar: USD rose modestly, UST yields steady (as of 14:15); no figures n/v"
+    "result": "+0.2% m/m (Yahoo cons +0.1%; earlier src 0.2%) | prior rev +0.8%; ex-autos & gas +0.5%",
+    "impact": "Solid consumer; yields steady-to-lower, 10Y 5.09% (as of ~18:03)"
    },
    {
     "when": "11:00",
     "cat": "EARN",
     "imp": "H",
     "event": "Home Depot (HD) FQ3 BMO",
-    "result": "Adj EPS $3.86 vs $3.74 yr ago; comps +2.2%, sales $43.40B (+4.9%); cons n/v",
-    "impact": "FY guide: comps ~+1.4%, adj EPS ~+2.0%, sales ~+4.5%; stock reaction n/v"
-   },
-   {
-    "when": "07:00",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "UK labour market (Sep)",
-    "result": "Unemp. 4.6% vs 4.7% cons | 4.7%; reg. pay 3.5% vs 3.6% | 3.7%; payrolls -34K; vacancies 690K",
-    "impact": "Claimants +33.2K vs +28.1K cons; LFS rotation flagged; GBP/gilt reaction n/v"
-   },
-   {
-    "when": "21:00",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "US close: tech-led rout",
-    "result": "SPX -1.92% 7,416.59; Nasdaq -2.49% 24,509.76; Dow -1.41%; R2K -1.70%",
-    "impact": "VIX 22.91 (+18.7%); 2Y 4.83% (-5bp), 10Y 5.12% (-3bp); tech -3.24%, staples +0.27%; 355 SPX names down"
-   },
-   {
-    "when": "All day",
-    "cat": "EARN",
-    "imp": "H",
-    "event": "Chips sell off pre-NVDA",
-    "result": "NVDA -4.12% $156.14 (no Huang return; Mizuho, UBS cut PT); AMD -5.6%, MU -7.6%, INTC -7.0%",
-    "impact": "SMH -5.11%, SOXX -5.37%, QQQ -2.67%; BIS closes China chip-rental loophole (SE Asia data centres)"
+    "result": "Rev $43.4B vs $42.8B; adj EPS $3.86 vs $3.85; comps +2.2%",
+    "impact": "CFO McPhail to be CEO 23 Nov; FY guide trimmed (comps ~+1.4%); stock move n/v"
    }
   ]
  },
@@ -69,7 +69,7 @@
      "ny": "14:25",
      "cat": "CB",
      "event": "Fed: Williams",
-     "notes": "Waller/Hammack spoke earlier (see review); Dec hike size in focus"
+     "notes": "Waller/Hammack remarks n/v; Musalem hawkish (see review); Dec hike size in focus"
     },
     {
      "ldn": "21:20",
@@ -170,20 +170,20 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 5.12% (-3bp, pre-open) · 2Y 4.83% (close) · 2s10s ~29bp (close) · gilts n/v"
+   "v": "UST 10Y 5.09% (-3bp, ~18:03) · 2Y n/v · gilts n/v"
   },
   {
    "k": "FX",
-   "v": "EUR/USD 1.0985 low · DXY 103.69 hi (Asia) · USD/JPY ~160 · GBP 1.3205 · AUD 0.6737"
+   "v": "Dollar index/EURUSD/USDJPY n/v this run (earlier: DXY 103.69 hi, GBP 1.3205)"
   },
   {
    "k": "VOL",
-   "v": "VIX 22.79 (pre-open) · close 22.91 · VXN 33.43 · MOVE 101.29 · skew, dealer gamma n/v"
+   "v": "VIX 25.99 (+13.4%, ~18:03) · VXN/MOVE n/v · skew, dealer gamma n/v"
   },
   {
    "k": "CMDTY",
-   "v": "Crude $86.28 (+0.65%, pre-open) · Brent $92.44 (close) · gold $3,862 · fut SPX +0.03% / NDX +0.46%"
+   "v": "Crude $86.38 (+0.8%, ~18:03) · gold $3,868 (+0.4%) · BTC $63.7K (-2.0%)"
   }
  ],
- "sources": "Motley Fool·CappNotes·Weekend Spread·Reuters (Brecorder/Yahoo)·Kaohoon·NVIDIA IR·Yahoo·TechTimes·IfYouSpent·BEA·ICE/NYSE·ForexFundamentals·FinanceCalendar·Substack·ActionForex·FinanceCalendar·ForexFundamentals"
+ "sources": "Yahoo Finance live blog (fetched)·Motley Fool·CappNotes·Weekend Spread·Reuters (Brecorder/Yahoo)·Kaohoon·NVIDIA IR·Yahoo·TechTimes·IfYouSpent·BEA·ICE/NYSE·ForexFundamentals·FinanceCalendar·Substack·ActionForex·FinanceCalendar·ForexFundamentals"
 }
