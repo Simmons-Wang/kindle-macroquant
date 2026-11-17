@@ -185,6 +185,10 @@
   {
    "k": "VOL",
    "v": "VIX 22.91 (close) · VXN 33.43 · MOVE 101.29 · term structure, skew, dealer gamma n/v"
+  },
+  {
+   "k": "CMDTY",
+   "v": "Brent $91.64 (-0.9%) · WTI ~$84.90 · gold $3,879.59 (+0.6%) · Eurostoxx/DAX/FTSE fut -0.6/-0.5/-0.8% (Asia)"
   }
  ],
  "sources": "Motley Fool·CappNotes·Weekend Spread·Reuters (Brecorder/Yahoo)·Kaohoon·NVIDIA IR·Yahoo·TechTimes·IfYouSpent·BEA·ICE/NYSE·ForexFundamentals·FinanceCalendar·Substack·ActionForex"
