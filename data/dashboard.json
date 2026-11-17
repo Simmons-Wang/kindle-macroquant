@@ -1,13 +1,13 @@
 {
  "session": "TUE 17 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-17T10:10Z",
+ "generated_utc": "2026-11-17T12:10Z",
  "summary": {
-  "regime": "Tech rout + Fed hike pricing: Nasdaq -2.49%, VIX ~23, Dec +25bp ~91% priced. Asia lower (Nikkei -1%, HSI -1.3%), RBA minutes hawkish; NQ fut +0.35%. NVDA AMC is the pivot.",
+  "regime": "Tech rout + Fed hike pricing: Nasdaq -2.49%, VIX ~23, Dec +25bp ~91% priced. Asia lower (Nikkei -1%, HSI -1.3%), RBA minutes hawkish; US fut -0.4% (10:40), DB -5% on Epstein-payments FT report. NVDA AMC is the pivot.",
   "alert": "Retail sales 13:30/08:30 · Waller 14:10/09:10 · NVDA 21:20/16:20"
  },
  "review": {
-  "date": "Tue, Nov 17 · as of 10:10 GMT (Mon close below)",
+  "date": "Tue, Nov 17 · as of 12:10 GMT (Mon close below)",
   "rows": [
    {
     "when": "07:00",
@@ -188,7 +188,7 @@
   },
   {
    "k": "CMDTY",
-   "v": "Brent $91.64 (-0.9%) · WTI ~$84.90 · gold $3,879.59 (+0.6%) · Eurostoxx/DAX/FTSE fut -0.6/-0.5/-0.8% (Asia)"
+   "v": "Brent $92.30 (-0.15%) · WTI $85.63 (-0.10%) (10:43) · US fut SPX/NDX -0.37/-0.36% (10:40) · gold n/v"
   }
  ],
  "sources": "Motley Fool·CappNotes·Weekend Spread·Reuters (Brecorder/Yahoo)·Kaohoon·NVIDIA IR·Yahoo·TechTimes·IfYouSpent·BEA·ICE/NYSE·ForexFundamentals·FinanceCalendar·Substack·ActionForex"
