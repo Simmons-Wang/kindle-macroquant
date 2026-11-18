@@ -1,14 +1,22 @@
 {
  "session": "WED 18 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-18T13:40Z",
+ "generated_utc": "2026-11-18T14:10Z",
  "summary": {
   "regime": "Hike-pricing + AI-trade wobble: SPX -1.03%, VIX 25.5, Dec Fed hike ~95%, BoE ~91%. NVDA beat & $130B guide +3-5% AH; NQ fut +0.5%, Asia mixed (HSI -1.1%).",
-  "alert": "Housing starts print 13:30/08:30 (actual n/v) · LOW/TJX BMO · FOMC mins 19:00/14:00 · PANW AMC · ANT debut Thu"
+  "alert": "FOMC mins 19:00/14:00 · PANW AMC · WMT/BABA/PDD BMO Thu · ANT debut Thu"
  },
  "review": {
-  "date": "Wed 18 Nov · as of 13:40 GMT (older rows: Tue 17 Nov)",
+  "date": "Wed 18 Nov · as of 14:10 GMT (older rows: Tue 17 Nov)",
   "rows": [
+   {
+    "when": "13:30",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US housing starts (Oct)",
+    "result": "1.309M, +9.9% m/m vs 1.23M cons | 1.221M prior; permits fell to lowest in >1 yr (level n/v)",
+    "impact": "Rates/equity reaction n/v (as of 14:10)"
+   },
    {
     "when": "BMO",
     "cat": "EARN",
@@ -48,13 +56,6 @@
     "event": "US retail sales (Oct)",
     "result": "+0.2% m/m vs 0.0% cons | 0.8%; import prices +1.1% m/m",
     "impact": "UST 2Y 4.80% (-3bp), 10Y 5.10% (-2bp), 2s10s +30bp; Dec Fed hike ~95% (CME)"
-   },
-   {
-    "when": "All day",
-    "cat": "CB",
-    "event": "Gilts/BoE: 2Y tops 5%",
-    "result": "2Y gilt 5.00% (-1.6bp cls; 3-yr high intraday), 10Y 5.39% (+3.9bp)",
-    "impact": "BoE Dec hike ~91% priced (TE); GBP/USD 1.3206 (+0.16%), near weakest since late Jun"
    }
   ]
  },
@@ -69,13 +70,6 @@
      "cat": "EARN",
      "event": "Lowe's, TJX (Target reported)",
      "notes": "EPS cons LOW $2.86, TJX $1.33; calls 09:00/11:00 ET; LOW beat per Yahoo, details n/v"
-    },
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "event": "US housing starts (Oct)",
-     "notes": "Out 13:30; actual n/v at 13:40 (no source yet). Cons 1.23M | 1.221M (Yahoo: +4.4% m/m; sources conflict); permits cons -1.6% m/m"
     },
     {
      "ldn": "19:00",
