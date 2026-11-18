@@ -1,14 +1,22 @@
 {
  "session": "WED 18 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-18T13:10Z",
+ "generated_utc": "2026-11-18T13:40Z",
  "summary": {
   "regime": "Hike-pricing + AI-trade wobble: SPX -1.03%, VIX 25.5, Dec Fed hike ~95%, BoE ~91%. NVDA beat & $130B guide +3-5% AH; NQ fut +0.5%, Asia mixed (HSI -1.1%).",
-  "alert": "BMO TGT/LOW/TJX · US housing starts 13:30/08:30 · FOMC mins 19:00/14:00 · PANW AMC · ANT debut Thu"
+  "alert": "Housing starts print 13:30/08:30 (actual n/v) · LOW/TJX BMO · FOMC mins 19:00/14:00 · PANW AMC · ANT debut Thu"
  },
  "review": {
-  "date": "Wed 18 Nov · as of 13:10 GMT (rows below: Tue 17 Nov)",
+  "date": "Wed 18 Nov · as of 13:40 GMT (older rows: Tue 17 Nov)",
   "rows": [
+   {
+    "when": "BMO",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "Target FQ3",
+    "result": "Sales $27.1B vs $26.5B; EPS $2.65 vs $2.08 (incl. $0.50 tariff-refund benefit); comps +5.6% vs +3.6%",
+    "impact": "TGT 'moving lower' premarket, % n/v (Yahoo, ~12:44); LOW beat per Yahoo, details n/v; TJX n/v"
+   },
    {
     "when": "07:00",
     "cat": "ECO",
@@ -47,13 +55,6 @@
     "event": "Gilts/BoE: 2Y tops 5%",
     "result": "2Y gilt 5.00% (-1.6bp cls; 3-yr high intraday), 10Y 5.39% (+3.9bp)",
     "impact": "BoE Dec hike ~91% priced (TE); GBP/USD 1.3206 (+0.16%), near weakest since late Jun"
-   },
-   {
-    "when": "All day",
-    "cat": "RISK",
-    "event": "FX: dollar at 19-month high",
-    "result": "DXY hit fresh 19-mo high intraday, 103.52 (-0.06%) in Asia",
-    "impact": "EUR/USD 1.0992-1.1003; USD/JPY 159.35; AUD 0.674 (+0.1%); gold -1.5% to $3,793"
    }
   ]
  },
@@ -66,15 +67,15 @@
      "ldn": "BMO",
      "ny": "",
      "cat": "EARN",
-     "event": "Target, Lowe's, TJX",
-     "notes": "EPS cons TGT $2.03, LOW $2.86, TJX $1.33; calls 08:00/09:00/11:00 ET"
+     "event": "Lowe's, TJX (Target reported)",
+     "notes": "EPS cons LOW $2.86, TJX $1.33; calls 09:00/11:00 ET; LOW beat per Yahoo, details n/v"
     },
     {
      "ldn": "13:30",
      "ny": "08:30",
      "cat": "ECO",
      "event": "US housing starts (Oct)",
-     "notes": "Cons 1.23M | 1.221M (day conflict across sources)"
+     "notes": "Out 13:30; actual n/v at 13:40 (no source yet). Cons 1.23M | 1.221M (Yahoo: +4.4% m/m; sources conflict); permits cons -1.6% m/m"
     },
     {
      "ldn": "19:00",
@@ -186,7 +187,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.80 10Y 5.10 (Tue cls) 2s10s +30bp · Gilt 2Y 5.00 10Y 5.39 · real 10Y n/v"
+   "v": "UST 10Y 5.10 (~12:44) 2Y n/v · Gilt 2Y 5.00 10Y 5.39 (Tue) · real 10Y n/v"
   },
   {
    "k": "FX",
@@ -194,7 +195,11 @@
   },
   {
    "k": "VOL",
-   "v": "VIX 25.45 (+11%, Tue cls) · Brent ~$92.5-93.5 · gold $3,793 · term, skew, gamma n/v"
+   "v": "VIX 24.72 (fut-hrs, ~12:44) · Crude Dec $84.28 · gold $3,750 · term, skew, gamma n/v"
+  },
+  {
+   "k": "FUT",
+   "v": "ES 7,368.75 (+0.13%) · NQ 27,211.75 (+0.50%) · YM 50,708 (-0.21%) · RTY 2,698.9 (-0.45%) (~12:44)"
   }
  ],
  "sources": "US Treasury·ONS·TechFlow/CNBC·Bloomberg via Swissinfo·ABC·Upstox·Mint/TradingView·Stocktitan·Substack/TE·Hyperstocks·Helious·LiteFinance·TradingEconomics·ForexFundamentals·RenCap"
