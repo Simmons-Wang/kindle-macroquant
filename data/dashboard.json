@@ -1,14 +1,22 @@
 {
  "session": "WED 18 NOV 2026",
- "edition": "AM",
- "generated_utc": "2026-11-18T06:12Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-18T08:12Z",
  "summary": {
   "regime": "Hike-pricing + AI-trade wobble: SPX -1.03%, VIX 25.5, Dec Fed hike ~95%, BoE ~91%. NVDA beat & $130B guide +3-5% AH; NQ fut +0.5%, Asia mixed (HSI -1.1%).",
-  "alert": "UK CPI 07:00/02:00 · FOMC mins 19:00/14:00 · PANW AMC · ANT debut Thu"
+  "alert": "BMO TGT/LOW/TJX · US housing starts 13:30/08:30 · FOMC mins 19:00/14:00 · PANW AMC · ANT debut Thu"
  },
  "review": {
-  "date": "Tue, Nov 17",
+  "date": "Wed 18 Nov · as of 08:10 GMT (rows below: Tue 17 Nov)",
   "rows": [
+   {
+    "when": "07:00",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "UK CPI (Oct)",
+    "result": "3.6% y/y vs 3.5% prior (cons n/v, sources conflict); core 2.8% | 2.8%; services 3.7%; m/m +0.5%",
+    "impact": "Fuel/tobacco-led, 12-mo high, 4th straight rise; gilt/GBP/FTSE reaction n/v (as of 08:10)"
+   },
    {
     "when": "AMC",
     "cat": "EARN",
@@ -54,14 +62,6 @@
    "date": "Wed, Nov 18",
    "tag": "Next Session",
    "rows": [
-    {
-     "ldn": "07:00",
-     "ny": "02:00",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "UK CPI (Oct)",
-     "notes": "Cons 3.6-3.7% | 3.5%; core 2.8% | 2.8%; services n/v | 3.7%; BoE Dec hike ~91%"
-    },
     {
      "ldn": "BMO",
      "ny": "",
