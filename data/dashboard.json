@@ -1,14 +1,22 @@
 {
  "session": "WED 18 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-17T21:41Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-18T03:07Z",
  "summary": {
   "regime": "Risk-off into NVDA: Dow -955pts, SPX -1.05%, VIX ~25.5; 10Y ~5.10% with Dec hike priced. NVDA beat & $130B guide lift AH ~+2-3%; UK CPI, FOMC minutes next.",
   "alert": "UK CPI 07:00/02:00 · FOMC minutes 19:00/14:00 · ANT debut Thu"
  },
  "review": {
-  "date": "Tue, Nov 17",
+  "date": "Wed 18 Nov · as of 03:10 GMT",
   "rows": [
+   {
+    "when": "03:10",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Asia opens: NVDA beat lifts tech",
+    "result": "KOSPI hi +3.3%, Nikkei +0.6%, MSCI APxJ +0.9%; ES fut +0.5% (Reuters)",
+    "impact": "as of 03:10: 10Y 5.123% (+2.2bp), DXY 103.66, USDJPY 159.49, Brent $93.00 (-0.2%); NVDA ~+4.7% AH"
+   },
    {
     "when": "AMC",
     "cat": "EARN",
@@ -46,13 +54,6 @@
     "event": "FX: dollar at 19-month high",
     "result": "DXY hit 103.69 (hi since Apr 2025), eased ~103.4-103.5",
     "impact": "EUR/USD low 1.0983, ~1.1008; GBP/USD low 1.3169, ~1.319; USD/JPY 159.3-159.4 (Tokyo 17:00)"
-   },
-   {
-    "when": "13:28",
-    "cat": "CB",
-    "event": "Fed: Musalem (St. Louis)",
-    "result": "Per Yahoo summary: another hike soon, +100-150bp to 4.75-5% (unverified text)",
-    "impact": "Hawkish; reaction n/v; Williams/Waller remarks n/v"
    }
   ]
  },
@@ -186,16 +187,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y ~5.10% (-2bp, late Tue) · 2Y 4.83% (Mon cls) · gilts n/v · real 10Y n/v"
+   "v": "UST 10Y 5.123% (+2.2bp, 03:10) · 2Y n/v · gilts n/v · real 10Y n/v"
   },
   {
    "k": "FX",
-   "v": "DXY ~103.4-103.5 (hi 103.69) · EUR 1.1008 · GBP 1.319 · JPY 159.3 (Tue, intraday)"
+   "v": "DXY 103.66 (03:10; hi since Apr 2025) · EUR n/v · GBP n/v · JPY 159.49"
   },
   {
    "k": "VOL",
-   "v": "VIX 25.46 (+11.1%, late Tue) · term structure, skew, dealer gamma n/v"
+   "v": "VIX 25.46 (Tue cls) · Brent $93.00 · term structure, skew, gamma n/v"
   }
  ],
- "sources": "NVIDIA 8-K (SEC)·CoinDesk·Coinpaper·TipRanks·24/7 Wall St·Yahoo Finance·FX Empire/Yahoo·TheStreet·BigGo·ONS·BritBrief·Newsquawk·Helious·Hyperstocks·FinanceCalendar·TIKR·Admirals"
+ "sources": "NVIDIA 8-K (SEC)·CoinDesk·Coinpaper·TipRanks·24/7 Wall St·Yahoo Finance·FX Empire/Yahoo·TheStreet·BigGo·ONS·BritBrief·Newsquawk·Helious·Hyperstocks·FinanceCalendar·TIKR·Admirals·Reuters/Yahoo"
 }
