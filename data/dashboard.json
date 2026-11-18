@@ -1,14 +1,22 @@
 {
  "session": "WED 18 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-18T14:10Z",
+ "generated_utc": "2026-11-18T15:08Z",
  "summary": {
   "regime": "Hike-pricing + AI-trade wobble: SPX -1.03%, VIX 25.5, Dec Fed hike ~95%, BoE ~91%. NVDA beat & $130B guide +3-5% AH; NQ fut +0.5%, Asia mixed (HSI -1.1%).",
-  "alert": "FOMC mins 19:00/14:00 · PANW AMC · WMT/BABA/PDD BMO Thu · ANT debut Thu"
+  "alert": "FOMC mins 19:00/14:00 · ANT IPO pricing tonight, debut Thu · PANW AMC · WMT/BABA/PDD BMO Thu"
  },
  "review": {
-  "date": "Wed 18 Nov · as of 14:10 GMT (older rows: Tue 17 Nov)",
+  "date": "Wed 18 Nov · as of 15:10 GMT (older rows: Tue 17 Nov)",
   "rows": [
+   {
+    "when": "BMO",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "Lowe's FQ3 / TJX FQ3",
+    "result": "LOW beat estimates per Yahoo (EPS/rev/comps/guide n/v); TJX results n/v",
+    "impact": "LOW, TJX premarket % n/v; TGT 'moving lower' despite beat (Yahoo pre-open)"
+   },
    {
     "when": "13:30",
     "cat": "ECO",
@@ -48,14 +56,6 @@
     "event": "US close: broad sell-off",
     "result": "SPX -1.03% 7,340.5 (low since Jul), Ndq -0.74%, Dow -1.64%, R2K -1.50%",
     "impact": "VIX 25.45 (+11.1%); all 11 sectors down, fins -1.87%; CRM -9.5%, INTU -7.2%, NOW -6.5%; AVGO +2.5%"
-   },
-   {
-    "when": "13:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "US retail sales (Oct)",
-    "result": "+0.2% m/m vs 0.0% cons | 0.8%; import prices +1.1% m/m",
-    "impact": "UST 2Y 4.80% (-3bp), 10Y 5.10% (-2bp), 2s10s +30bp; Dec Fed hike ~95% (CME)"
    }
   ]
  },
@@ -64,13 +64,6 @@
    "date": "Wed, Nov 18",
    "tag": "Next Session",
    "rows": [
-    {
-     "ldn": "BMO",
-     "ny": "",
-     "cat": "EARN",
-     "event": "Lowe's, TJX (Target reported)",
-     "notes": "EPS cons LOW $2.86, TJX $1.33; calls 09:00/11:00 ET; LOW beat per Yahoo, details n/v"
-    },
     {
      "ldn": "19:00",
      "ny": "14:00",
