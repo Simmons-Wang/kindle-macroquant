@@ -1,14 +1,30 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T17:08Z",
+ "generated_utc": "2026-11-19T17:36Z",
  "summary": {
-  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
-  "alert": "Goolsbee 17:30/12:30 · TIPS 18:00/13:00 · ANT first trade (time n/v) · Barkin 19:00/14:00"
+  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT opened $111.50 (+34%), faded to ~$101; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
+  "alert": "TIPS 18:00/13:00 · Barkin 19:00/14:00 · Barr 19:15/14:15 · INTU/ROST AMC"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 17:08 GMT",
+  "date": "Thu, Nov 19 · as of 17:40 GMT",
   "rows": [
+   {
+    "when": "Open",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Anthropic (ANT) Nasdaq debut",
+    "result": "Opened $111.50 (+34% vs $83 IPO), trimmed to ~$101 (MLQ); Fortune: ~+30%, ~$2T mkt cap",
+    "impact": "Index/NVDA reaction n/v as of 17:40; exact open time n/v"
+   },
+   {
+    "when": "17:30",
+    "cat": "CB",
+    "imp": "M",
+    "event": "Fed Goolsbee",
+    "result": "Remarks content n/v (no sourced text this run)",
+    "impact": "Reaction n/v as of 17:40"
+   },
    {
     "when": "15:00",
     "cat": "ECO",
@@ -34,28 +50,12 @@
     "impact": "Reaction n/v (no sourced 2Y/10Y move this run)"
    },
    {
-    "when": "Pre-mkt",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "ANT debut pre-market bid",
-    "result": "NQ fut ~+2.1% to 27,766, ES fut >+1.2%, Dow fut ~+0.7% (Forbes, 06:25 ET); NVDA +1.8% pre-mkt",
-    "impact": "Gray-market indications 20-26% above $83 IPO price (not a trade); first trade n/v"
-   },
-   {
     "when": "12:00",
     "cat": "EARN",
     "imp": "H",
     "event": "Walmart (WMT) FQ3",
     "result": "Rev $188.8B (+5.2%) vs cons $186.5B; adj EPS $0.65 vs $0.64; FY27 outlook raised",
     "impact": "Stock reaction n/v (no sourced move this run); read-through for US consumer; UST 10Y ~5.05 early Thu"
-   },
-   {
-    "when": "19:00",
-    "cat": "CB",
-    "imp": "H",
-    "event": "FOMC minutes (Oct 27-28)",
-    "result": "Almost all see further hikes likely; two say >25bp could be justified in Dec",
-    "impact": "Dec hike fully priced, 50bp odds 8% (4%); UST 2Y 4.81 (flat), 10Y 5.07 (-4bp); DXY +0.2%"
    }
   ]
  },
@@ -65,26 +65,18 @@
    "tag": "Today",
    "rows": [
     {
-     "ldn": "17:30",
-     "ny": "12:30",
-     "cat": "CB",
-     "event": "Fed Goolsbee",
-     "notes": "Barkin 19:00/14:00, Barr 19:15/14:15"
-    },
-    {
-     "ldn": "All day",
-     "ny": "",
-     "cat": "RISK",
-     "imp": "H",
-     "event": "Anthropic (ANT) Nasdaq debut",
-     "notes": "IPO $83 raised $81.3B (~$1.5T val.); first-trade time/price n/v; gray-mkt +20-26% indication only"
-    },
-    {
      "ldn": "18:00",
      "ny": "13:00",
      "cat": "RISK",
      "event": "US 10Y TIPS auction $19B",
      "notes": "Prior 2.653%; 10Y nominal 5.07 into sale; real 10Y n/v"
+    },
+    {
+     "ldn": "19:00",
+     "ny": "14:00",
+     "cat": "CB",
+     "event": "Fed Barkin; Barr 19:15/14:15",
+     "notes": "Hike-path comments; Dec hike fully priced (earlier read)"
     },
     {
      "ldn": "AMC",
