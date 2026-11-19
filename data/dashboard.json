@@ -1,14 +1,22 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T15:10Z",
+ "generated_utc": "2026-11-19T15:40Z",
  "summary": {
   "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
-  "alert": "Goolsbee 17:30/12:30 · ANT first trade (time n/v) · TIPS 18:00/13:00 · Barkin 19:00/14:00"
+  "alert": "Goolsbee 17:30/12:30 · TIPS 18:00/13:00 · ANT first trade (time n/v) · Barkin 19:00/14:00"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 15:10 GMT",
+  "date": "Thu, Nov 19 · as of 15:40 GMT",
   "rows": [
+   {
+    "when": "15:00",
+    "cat": "ECO",
+    "imp": "M",
+    "event": "Conf. Board LEI (Oct)",
+    "result": "Actual n/v (release page not fetchable this run) vs cons 0.0% | prior 0.0%",
+    "impact": "Reaction n/v as of 15:40"
+   },
    {
     "when": "14:25",
     "cat": "CB",
@@ -48,14 +56,6 @@
     "event": "FOMC minutes (Oct 27-28)",
     "result": "Almost all see further hikes likely; two say >25bp could be justified in Dec",
     "impact": "Dec hike fully priced, 50bp odds 8% (4%); UST 2Y 4.81 (flat), 10Y 5.07 (-4bp); DXY +0.2%"
-   },
-   {
-    "when": "Tue AMC",
-    "cat": "EARN",
-    "imp": "H",
-    "event": "NVIDIA FQ3 (Wed reaction)",
-    "result": "Beat on revenue and profit, strong forecast; gains reversed in cash session",
-    "impact": "NVDA -2.9% to $151; SPX -0.2% 7,324 (5th loss), Dow -1.1%, NDX +0.42%; VIX 24.6 (-3.5%)"
    }
   ]
  },
@@ -69,7 +69,7 @@
      "ny": "12:30",
      "cat": "CB",
      "event": "Fed Goolsbee",
-     "notes": "Barkin 19:00/14:00, Barr 19:15/14:15; LEI 15:00/10:00 0.0% | 0.0% (result n/v)"
+     "notes": "Barkin 19:00/14:00, Barr 19:15/14:15"
     },
     {
      "ldn": "All day",
