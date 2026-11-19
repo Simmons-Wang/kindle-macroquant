@@ -1,14 +1,22 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T14:15Z",
+ "generated_utc": "2026-11-19T15:10Z",
  "summary": {
   "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
-  "alert": "Jefferson 14:25/09:25 · ANT first trade (time n/v) · Goolsbee 17:30/12:30 · TIPS 18:00/13:00"
+  "alert": "Goolsbee 17:30/12:30 · ANT first trade (time n/v) · TIPS 18:00/13:00 · Barkin 19:00/14:00"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 14:15 GMT",
+  "date": "Thu, Nov 19 · as of 15:10 GMT",
   "rows": [
+   {
+    "when": "14:25",
+    "cat": "CB",
+    "imp": "H",
+    "event": "Lagarde; Fed Jefferson",
+    "result": "Remarks content n/v (no sourced text for today this run)",
+    "impact": "Reaction n/v; no sourced 2Y/10Y move as of 15:10"
+   },
    {
     "when": "13:30",
     "cat": "ECO",
@@ -48,14 +56,6 @@
     "event": "NVIDIA FQ3 (Wed reaction)",
     "result": "Beat on revenue and profit, strong forecast; gains reversed in cash session",
     "impact": "NVDA -2.9% to $151; SPX -0.2% 7,324 (5th loss), Dow -1.1%, NDX +0.42%; VIX 24.6 (-3.5%)"
-   },
-   {
-    "when": "07:00",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "UK CPI (Oct)",
-    "result": "3.6% y/y vs 3.7% fcst; core 2.8%; services 3.7%",
-    "impact": "Gilt 10Y eased toward 5.3%; BoE Dec hike odds 80% (from 90%); GBP/USD 1.3152"
    }
   ]
  },
@@ -65,11 +65,11 @@
    "tag": "Today",
    "rows": [
     {
-     "ldn": "13:30",
-     "ny": "08:30",
+     "ldn": "17:30",
+     "ny": "12:30",
      "cat": "CB",
-     "event": "Lagarde; Fed Jefferson 14:25/09:25",
-     "notes": "Goolsbee 17:30/12:30, Barkin 19:00/14:00, Barr 19:15/14:15; LEI 15:00/10:00 0.0% | 0.0%"
+     "event": "Fed Goolsbee",
+     "notes": "Barkin 19:00/14:00, Barr 19:15/14:15; LEI 15:00/10:00 0.0% | 0.0% (result n/v)"
     },
     {
      "ldn": "All day",
