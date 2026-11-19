@@ -1,14 +1,22 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T17:36Z",
+ "generated_utc": "2026-11-19T18:06Z",
  "summary": {
   "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT opened $111.50 (+34%), faded to ~$101; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
-  "alert": "TIPS 18:00/13:00 · Barkin 19:00/14:00 · Barr 19:15/14:15 · INTU/ROST AMC"
+  "alert": "Barkin 19:00/14:00 · Barr 19:15/14:15 · INTU/ROST AMC · Fri OPEX"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 17:40 GMT",
+  "date": "Thu, Nov 19 · as of 18:10 GMT",
   "rows": [
+   {
+    "when": "18:00",
+    "cat": "RISK",
+    "imp": "M",
+    "event": "US 10Y TIPS auction $19B",
+    "result": "Results n/v (no sourced page this run) | prior 2.653%",
+    "impact": "Real-yield reaction n/v as of 18:10"
+   },
    {
     "when": "Open",
     "cat": "RISK",
@@ -48,14 +56,6 @@
     "event": "US jobless claims; Philly Fed (Nov)",
     "result": "Initial claims 203k (wk to Nov 14) vs cons 200k | prior 198k; Philly Fed fell to a six-month low, prices paid jumped (level n/v)",
     "impact": "Reaction n/v (no sourced 2Y/10Y move this run)"
-   },
-   {
-    "when": "12:00",
-    "cat": "EARN",
-    "imp": "H",
-    "event": "Walmart (WMT) FQ3",
-    "result": "Rev $188.8B (+5.2%) vs cons $186.5B; adj EPS $0.65 vs $0.64; FY27 outlook raised",
-    "impact": "Stock reaction n/v (no sourced move this run); read-through for US consumer; UST 10Y ~5.05 early Thu"
    }
   ]
  },
@@ -64,13 +64,6 @@
    "date": "Thu, Nov 19",
    "tag": "Today",
    "rows": [
-    {
-     "ldn": "18:00",
-     "ny": "13:00",
-     "cat": "RISK",
-     "event": "US 10Y TIPS auction $19B",
-     "notes": "Prior 2.653%; 10Y nominal 5.07 into sale; real 10Y n/v"
-    },
     {
      "ldn": "19:00",
      "ny": "14:00",
