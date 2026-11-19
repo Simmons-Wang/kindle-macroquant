@@ -1,13 +1,13 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T20:07Z",
+ "generated_utc": "2026-11-19T20:37Z",
  "summary": {
   "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT opened $111.50 (+34%), faded to $95.80; QQQ -1.1%, DIA -1.5% (13:04 ET); Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
-  "alert": "INTU/ROST AMC · Fri OPEX · UMich 15:00/10:00"
+  "alert": "INTU/ROST AMC 21:15/16:15 · Fri OPEX · UMich 15:00/10:00"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 20:10 GMT",
+  "date": "Thu, Nov 19 · as of 20:40 GMT",
   "rows": [
    {
     "when": "19:15",
@@ -22,8 +22,8 @@
     "cat": "RISK",
     "imp": "H",
     "event": "US equities fade into afternoon",
-    "result": "QQQ -1.14%, DIA -1.53% at 13:04 ET (QQQ +2.06% at 10:04); S&P fell 5 straight days to Wed",
-    "impact": "S&P 500 level, VIX, 2Y/10Y n/v as of 13:04 ET; ANT $95.80"
+    "result": "Dow -1,000 pts, S&P/Nasdaq tank (Yahoo live headline); QQQ -1.14% at 13:04 ET (+2.06% at 10:04)",
+    "impact": "Close, VIX, 2Y/10Y n/v as of 20:40; AP: \"indexes drop\" despite ANT debut; ANT $95.80 (13:04 ET)"
    },
    {
     "when": "19:00",
