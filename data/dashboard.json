@@ -1,13 +1,13 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T15:40Z",
+ "generated_utc": "2026-11-19T16:40Z",
  "summary": {
   "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
   "alert": "Goolsbee 17:30/12:30 · TIPS 18:00/13:00 · ANT first trade (time n/v) · Barkin 19:00/14:00"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 15:40 GMT",
+  "date": "Thu, Nov 19 · as of 16:40 GMT",
   "rows": [
    {
     "when": "15:00",
@@ -175,7 +175,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y ~4.80 10Y ~5.05 (early Thu) · real 10Y n/v · Gilt 10Y ~5.30 (Wed)"
+   "v": "UST 10Y 5.07 (-4bp, pre-open) · 2Y ~4.80 · real 10Y n/v · Gilt 10Y ~5.30 (Wed)"
   },
   {
    "k": "FX",
@@ -183,7 +183,7 @@
   },
   {
    "k": "VOL",
-   "v": "VIX 24.56 (05:00 CET) · Brent ~$92 · gold 3,694 15-mo low (Asia) · term, skew, gamma n/v"
+   "v": "VIX 22.32 (pre-open, ~12:00 GMT) · Brent ~$92 · gold 3,694 15-mo low (Asia) · term, skew, gamma n/v"
   }
  ],
  "sources": "TheStreet Pro·AP/ClickOnDetroit·Reuters/Yahoo·CNBC TV18·Investing.com·Mitrade·TradingEconomics·Zacks·Business Wire/Finviz·Coinotag·SoFi·FinanceCalendar·Business Wire·Saxo"
