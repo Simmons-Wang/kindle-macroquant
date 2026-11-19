@@ -1,14 +1,22 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T18:06Z",
+ "generated_utc": "2026-11-19T19:07Z",
  "summary": {
   "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT opened $111.50 (+34%), faded to ~$101; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
-  "alert": "Barkin 19:00/14:00 · Barr 19:15/14:15 · INTU/ROST AMC · Fri OPEX"
+  "alert": "Barr 19:15/14:15 · INTU/ROST AMC · Fri OPEX"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 18:10 GMT",
+  "date": "Thu, Nov 19 · as of 19:10 GMT",
   "rows": [
+   {
+    "when": "19:00",
+    "cat": "CB",
+    "imp": "M",
+    "event": "Fed Barkin",
+    "result": "Remarks content n/v (no sourced page dated today this run)",
+    "impact": "Reaction n/v as of 19:10"
+   },
    {
     "when": "18:00",
     "cat": "RISK",
@@ -48,14 +56,6 @@
     "event": "Lagarde; Fed Jefferson",
     "result": "Remarks content n/v (no sourced text for today this run)",
     "impact": "Reaction n/v; no sourced 2Y/10Y move as of 15:10"
-   },
-   {
-    "when": "13:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "US jobless claims; Philly Fed (Nov)",
-    "result": "Initial claims 203k (wk to Nov 14) vs cons 200k | prior 198k; Philly Fed fell to a six-month low, prices paid jumped (level n/v)",
-    "impact": "Reaction n/v (no sourced 2Y/10Y move this run)"
    }
   ]
  },
@@ -65,10 +65,10 @@
    "tag": "Today",
    "rows": [
     {
-     "ldn": "19:00",
-     "ny": "14:00",
+     "ldn": "19:15",
+     "ny": "14:15",
      "cat": "CB",
-     "event": "Fed Barkin; Barr 19:15/14:15",
+     "event": "Fed Barr",
      "notes": "Hike-path comments; Dec hike fully priced (earlier read)"
     },
     {
