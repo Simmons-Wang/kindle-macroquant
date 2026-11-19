@@ -1,13 +1,13 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T11:07Z",
+ "generated_utc": "2026-11-19T12:07Z",
  "summary": {
   "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); AU jobs -43.5k.",
-  "alert": "WMT 12:00/07:00 · claims+Philly 13:30/08:30 · ANT debut · TIPS 18:00/13:00"
+  "alert": "WMT result n/v 12:00/07:00 · claims+Philly 13:30/08:30 · ANT debut · TIPS 18:00/13:00"
  },
  "review": {
-  "date": "Wed, Nov 18 · as of 11:07 GMT",
+  "date": "Wed, Nov 18 · as of 12:07 GMT",
   "rows": [
    {
     "when": "19:00",
@@ -61,7 +61,7 @@
      "cat": "EARN",
      "imp": "H",
      "event": "Walmart (WMT) FQ3",
-     "notes": "EPS cons $0.64; rev $186.5B (Zacks) / $187.3B; call 13:00/08:00; WSM also BMO"
+     "notes": "Released 12:00/07:00; actual n/v (not verified this run) | cons EPS $0.64, rev $186.5B; call 13:00/08:00"
     },
     {
      "ldn": "13:30",
