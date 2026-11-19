@@ -1,14 +1,30 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T19:07Z",
+ "generated_utc": "2026-11-19T20:07Z",
  "summary": {
-  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT opened $111.50 (+34%), faded to ~$101; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
-  "alert": "Barr 19:15/14:15 · INTU/ROST AMC · Fri OPEX"
+  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT opened $111.50 (+34%), faded to $95.80; QQQ -1.1%, DIA -1.5% (13:04 ET); Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
+  "alert": "INTU/ROST AMC · Fri OPEX · UMich 15:00/10:00"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 19:10 GMT",
+  "date": "Thu, Nov 19 · as of 20:10 GMT",
   "rows": [
+   {
+    "when": "19:15",
+    "cat": "CB",
+    "imp": "M",
+    "event": "Fed Barr (AI remarks)",
+    "result": "Content n/v (no sourced text this run)",
+    "impact": "Reaction n/v as of 20:10"
+   },
+   {
+    "when": "18:04",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "US equities fade into afternoon",
+    "result": "QQQ -1.14%, DIA -1.53% at 13:04 ET (QQQ +2.06% at 10:04); S&P fell 5 straight days to Wed",
+    "impact": "S&P 500 level, VIX, 2Y/10Y n/v as of 13:04 ET; ANT $95.80"
+   },
    {
     "when": "19:00",
     "cat": "CB",
@@ -30,16 +46,8 @@
     "cat": "RISK",
     "imp": "H",
     "event": "Anthropic (ANT) Nasdaq debut",
-    "result": "Opened $111.50 (+34% vs $83 IPO), trimmed to ~$101 (MLQ); Fortune: ~+30%, ~$2T mkt cap",
-    "impact": "Index/NVDA reaction n/v as of 17:40; exact open time n/v"
-   },
-   {
-    "when": "17:30",
-    "cat": "CB",
-    "imp": "M",
-    "event": "Fed Goolsbee",
-    "result": "Remarks content n/v (no sourced text this run)",
-    "impact": "Reaction n/v as of 17:40"
+    "result": "Opened $111.50 (11:48 ET, +34% vs $83 IPO), high $114.99; $95.80 at 13:04 ET (StockTitan)",
+    "impact": "QQQ -1.14% / DIA -1.53% at 13:04 ET (was QQQ +2.06% at 10:04); VIX n/v"
    },
    {
     "when": "15:00",
@@ -48,14 +56,6 @@
     "event": "Conf. Board LEI (Oct)",
     "result": "Actual n/v (release page not fetchable this run) vs cons 0.0% | prior 0.0%",
     "impact": "Reaction n/v as of 15:40"
-   },
-   {
-    "when": "14:25",
-    "cat": "CB",
-    "imp": "H",
-    "event": "Lagarde; Fed Jefferson",
-    "result": "Remarks content n/v (no sourced text for today this run)",
-    "impact": "Reaction n/v; no sourced 2Y/10Y move as of 15:10"
    }
   ]
  },
@@ -64,13 +64,6 @@
    "date": "Thu, Nov 19",
    "tag": "Today",
    "rows": [
-    {
-     "ldn": "19:15",
-     "ny": "14:15",
-     "cat": "CB",
-     "event": "Fed Barr",
-     "notes": "Hike-path comments; Dec hike fully priced (earlier read)"
-    },
     {
      "ldn": "AMC",
      "ny": "",
@@ -171,5 +164,5 @@
    "v": "VIX 22.32 (pre-open, ~12:00 GMT) · Brent ~$92 · gold 3,694 15-mo low (Asia) · term, skew, gamma n/v"
   }
  ],
- "sources": "TheStreet Pro·AP/ClickOnDetroit·Reuters/Yahoo·CNBC TV18·Investing.com·Mitrade·TradingEconomics·Zacks·Business Wire/Finviz·Coinotag·SoFi·FinanceCalendar·Business Wire·Saxo"
+ "sources": "TheStreet Pro·AP/ClickOnDetroit·Reuters/Yahoo·CNBC TV18·Investing.com·Mitrade·TradingEconomics·Zacks·Business Wire/Finviz·Coinotag·SoFi·FinanceCalendar·Business Wire·Saxo·StockTitan"
 }
