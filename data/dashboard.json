@@ -1,14 +1,22 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T13:15Z",
+ "generated_utc": "2026-11-19T13:40Z",
  "summary": {
-  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); AU jobs -43.5k.",
-  "alert": "WMT result n/v (12:00/07:00 released; not verified) · claims+Philly 13:30/08:30 · ANT debut · TIPS 18:00/13:00"
+  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k.",
+  "alert": "Claims+Philly actual n/v · Jefferson 14:25/09:25 · ANT debut · TIPS 18:00/13:00"
  },
  "review": {
-  "date": "Wed, Nov 18 · as of 13:15 GMT",
+  "date": "Thu, Nov 19 · as of 13:40 GMT",
   "rows": [
+   {
+    "when": "12:00",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "Walmart (WMT) FQ3",
+    "result": "Rev $188.8B (+5.2%) vs cons $186.5B; adj EPS $0.65 vs $0.64; FY27 outlook raised",
+    "impact": "Stock reaction n/v (no sourced move this run); read-through for US consumer; UST 10Y ~5.05 early Thu"
+   },
    {
     "when": "19:00",
     "cat": "CB",
@@ -56,20 +64,12 @@
    "tag": "Today",
    "rows": [
     {
-     "ldn": "12:00",
-     "ny": "07:00",
-     "cat": "EARN",
-     "imp": "H",
-     "event": "Walmart (WMT) FQ3",
-     "notes": "Released 12:00/07:00; actual n/v (not verified this run) | cons EPS $0.64, rev $186.5B; call 13:00/08:00"
-    },
-    {
      "ldn": "13:30",
      "ny": "08:30",
      "cat": "ECO",
      "imp": "H",
      "event": "US jobless claims; Philly Fed",
-     "notes": "Claims 198k | 200k; Philly 20.6 | 20.9; prices paid prior 43.2; implied move n/v"
+     "notes": "Released 13:30/08:30; actuals n/v (not verified this run) | cons claims 200k, Philly 20.9; prior 198k / 20.6"
     },
     {
      "ldn": "13:30",
@@ -182,16 +182,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.81 10Y 5.07 (2s10s +26bp) · real 10Y n/v · Gilt 10Y ~5.30, 2Y >5.0 (Wed)"
+   "v": "UST 2Y ~4.80 10Y ~5.05 (early Thu) · real 10Y n/v · Gilt 10Y ~5.30 (Wed)"
   },
   {
    "k": "FX",
-   "v": "DXY +0.2% (19-mo high) · EUR 1.0961 · GBP 1.3152 · JPY 158.6 · AUD n/v (Asia Thu)"
+   "v": "USD/JPY >159.5 · EUR ~1.095 · GBP near 1.3136 2026 low (early Thu) · AUD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX 24.56 (-3.5%) · Brent $92.0 WTI $83.0 · gold ~$3,740 · term, skew, gamma n/v"
+   "v": "VIX 24.56 (05:00 CET) · Brent ~$92 · gold 3,694 15-mo low (Asia) · term, skew, gamma n/v"
   }
  ],
- "sources": "TheStreet Pro·AP/ClickOnDetroit·Reuters/Yahoo·CNBC TV18·Investing.com·Mitrade·TradingEconomics·Zacks·Business Wire/Finviz·Coinotag·SoFi·FinanceCalendar"
+ "sources": "TheStreet Pro·AP/ClickOnDetroit·Reuters/Yahoo·CNBC TV18·Investing.com·Mitrade·TradingEconomics·Zacks·Business Wire/Finviz·Coinotag·SoFi·FinanceCalendar·Business Wire·Saxo"
 }
