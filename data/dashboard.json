@@ -1,197 +1,197 @@
 {
-  "session": "THU 19 NOV 2026",
-  "edition": "LIVE",
-  "generated_utc": "2026-11-19T08:08Z",
-  "summary": {
-    "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); AU jobs -43.5k.",
-    "alert": "WMT 12:00/07:00 · claims+Philly 13:30/08:30 · ANT debut · TIPS 18:00/13:00"
-  },
-  "review": {
-    "date": "Wed, Nov 18 · as of 08:10 GMT",
-    "rows": [
-      {
-        "when": "19:00",
-        "cat": "CB",
-        "imp": "H",
-        "event": "FOMC minutes (Oct 27-28)",
-        "result": "Almost all see further hikes likely; two say >25bp could be justified in Dec",
-        "impact": "Dec hike fully priced, 50bp odds 8% (4%); UST 2Y 4.81 (flat), 10Y 5.07 (-4bp); DXY +0.2%"
-      },
-      {
-        "when": "Tue AMC",
-        "cat": "EARN",
-        "imp": "H",
-        "event": "NVIDIA FQ3 (Wed reaction)",
-        "result": "Beat on revenue and profit, strong forecast; gains reversed in cash session",
-        "impact": "NVDA -2.9% to $151; SPX -0.2% 7,324 (5th loss), Dow -1.1%, NDX +0.42%; VIX 24.6 (-3.5%)"
-      },
-      {
-        "when": "07:00",
-        "cat": "ECO",
-        "imp": "H",
-        "event": "UK CPI (Oct)",
-        "result": "3.6% y/y vs 3.7% fcst; core 2.8%; services 3.7%",
-        "impact": "Gilt 10Y eased toward 5.3%; BoE Dec hike odds 80% (from 90%); GBP/USD 1.3152"
-      },
-      {
-        "when": "All day",
-        "cat": "RISK",
-        "event": "Sector rotation / commodities",
-        "result": "Cons. disc. +2.2% best; energy -3.5%, health care -2.2%, materials -1.2%",
-        "impact": "WTI -3.2% $83.26; gold -3.5% ~$3,730 (lowest since Sep 2025); copper -5.3%; R2K +0.5%"
-      },
-      {
-        "when": "AMC",
-        "cat": "RISK",
-        "imp": "H",
-        "event": "Anthropic IPO pricing",
-        "result": "Priced $83 vs $70-78 range (Bloomberg); ~$1.5T fully diluted val. (Reuters)",
-        "impact": "NQ fut +0.9-1.0%, ES +0.5-0.6% in Asia; Nasdaq debut Thu"
-      }
-    ]
-  },
-  "board": [
+ "session": "THU 19 NOV 2026",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-19T10:07Z",
+ "summary": {
+  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); AU jobs -43.5k.",
+  "alert": "WMT 12:00/07:00 · claims+Philly 13:30/08:30 · ANT debut · TIPS 18:00/13:00"
+ },
+ "review": {
+  "date": "Wed, Nov 18 · as of 08:10 GMT",
+  "rows": [
+   {
+    "when": "19:00",
+    "cat": "CB",
+    "imp": "H",
+    "event": "FOMC minutes (Oct 27-28)",
+    "result": "Almost all see further hikes likely; two say >25bp could be justified in Dec",
+    "impact": "Dec hike fully priced, 50bp odds 8% (4%); UST 2Y 4.81 (flat), 10Y 5.07 (-4bp); DXY +0.2%"
+   },
+   {
+    "when": "Tue AMC",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "NVIDIA FQ3 (Wed reaction)",
+    "result": "Beat on revenue and profit, strong forecast; gains reversed in cash session",
+    "impact": "NVDA -2.9% to $151; SPX -0.2% 7,324 (5th loss), Dow -1.1%, NDX +0.42%; VIX 24.6 (-3.5%)"
+   },
+   {
+    "when": "07:00",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "UK CPI (Oct)",
+    "result": "3.6% y/y vs 3.7% fcst; core 2.8%; services 3.7%",
+    "impact": "Gilt 10Y eased toward 5.3%; BoE Dec hike odds 80% (from 90%); GBP/USD 1.3152"
+   },
+   {
+    "when": "All day",
+    "cat": "RISK",
+    "event": "Sector rotation / commodities",
+    "result": "Cons. disc. +2.2% best; energy -3.5%, health care -2.2%, materials -1.2%",
+    "impact": "WTI -3.2% $83.26; gold -3.5% ~$3,730 (lowest since Sep 2025); copper -5.3%; R2K +0.5%"
+   },
+   {
+    "when": "AMC",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Anthropic IPO pricing",
+    "result": "Priced $83 vs $70-78 range (Bloomberg); ~$1.5T fully diluted val. (Reuters)",
+    "impact": "NQ fut +0.9-1.0%, ES +0.5-0.6% in Asia; Nasdaq debut Thu"
+   }
+  ]
+ },
+ "board": [
+  {
+   "date": "Thu, Nov 19",
+   "tag": "Today",
+   "rows": [
     {
-      "date": "Thu, Nov 19",
-      "tag": "Today",
-      "rows": [
-        {
-          "ldn": "12:00",
-          "ny": "07:00",
-          "cat": "EARN",
-          "imp": "H",
-          "event": "Walmart (WMT) FQ3",
-          "notes": "EPS cons $0.64; rev $186.5B (Zacks) / $187.3B; call 13:00/08:00; WSM also BMO"
-        },
-        {
-          "ldn": "13:30",
-          "ny": "08:30",
-          "cat": "ECO",
-          "imp": "H",
-          "event": "US jobless claims; Philly Fed",
-          "notes": "Claims 198k | 200k; Philly 20.6 | 20.9; prices paid prior 43.2; implied move n/v"
-        },
-        {
-          "ldn": "13:30",
-          "ny": "08:30",
-          "cat": "CB",
-          "event": "Lagarde; Fed Jefferson 14:25/09:25",
-          "notes": "Goolsbee 17:30/12:30, Barkin 19:00/14:00, Barr 19:15/14:15; LEI 15:00/10:00 0.0% | 0.0%"
-        },
-        {
-          "ldn": "All day",
-          "ny": "",
-          "cat": "RISK",
-          "imp": "H",
-          "event": "Anthropic (ANT) Nasdaq debut",
-          "notes": "IPO $83, ~$1.5T val.; first-trade time n/v; AI/software flow, index-inclusion talk n/v"
-        },
-        {
-          "ldn": "18:00",
-          "ny": "13:00",
-          "cat": "RISK",
-          "event": "US 10Y TIPS auction $19B",
-          "notes": "Prior 2.653%; 10Y nominal 5.07 into sale; real 10Y n/v"
-        },
-        {
-          "ldn": "AMC",
-          "ny": "",
-          "cat": "EARN",
-          "event": "Intuit (INTU), Ross (ROST)",
-          "notes": "After close; cons n/v; software sentiment read vs ANT debut"
-        }
-      ]
+     "ldn": "12:00",
+     "ny": "07:00",
+     "cat": "EARN",
+     "imp": "H",
+     "event": "Walmart (WMT) FQ3",
+     "notes": "EPS cons $0.64; rev $186.5B (Zacks) / $187.3B; call 13:00/08:00; WSM also BMO"
     },
     {
-      "date": "Fri, Nov 20",
-      "rows": [
-        {
-          "ldn": "15:00",
-          "ny": "10:00",
-          "cat": "ECO",
-          "event": "UMich sentiment (Nov final)",
-          "notes": "Cons n/v; infl. expectations focus with Dec hike fully priced"
-        },
-        {
-          "ldn": "All day",
-          "ny": "",
-          "cat": "RISK",
-          "imp": "H",
-          "event": "Monthly OPEX",
-          "notes": "Monthly options expiry (TheStreet); VIX 24.6 into expiry; gamma n/v"
-        }
-      ]
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "US jobless claims; Philly Fed",
+     "notes": "Claims 198k | 200k; Philly 20.6 | 20.9; prices paid prior 43.2; implied move n/v"
     },
     {
-      "date": "Tue, Nov 24",
-      "rows": [
-        {
-          "ldn": "15:00",
-          "ny": "10:00",
-          "cat": "ECO",
-          "event": "Conf. Board confidence (Nov)",
-          "notes": "Cons n/v; Germany Ifo 09:30/04:30"
-        }
-      ]
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "CB",
+     "event": "Lagarde; Fed Jefferson 14:25/09:25",
+     "notes": "Goolsbee 17:30/12:30, Barkin 19:00/14:00, Barr 19:15/14:15; LEI 15:00/10:00 0.0% | 0.0%"
     },
     {
-      "date": "Wed, Nov 25",
-      "rows": [
-        {
-          "ldn": "00:30",
-          "ny": "*19:30",
-          "cat": "ECO",
-          "event": "Australia CPI (Oct, monthly)",
-          "notes": "*Tue NY. Cons n/v; AU jobs -43.5k, unemp 4.9% (Oct) cuts against RBA hawks"
-        },
-        {
-          "ldn": "13:30",
-          "ny": "08:30",
-          "cat": "ECO",
-          "imp": "H",
-          "event": "US PCE (Oct) + GDP Q3 2nd",
-          "notes": "Prior PCE 3.6% y/y, core 3.1% (core +0.3% m/m); cons n/v; new home sales same day"
-        }
-      ]
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "imp": "H",
+     "event": "Anthropic (ANT) Nasdaq debut",
+     "notes": "IPO $83, ~$1.5T val.; first-trade time n/v; AI/software flow, index-inclusion talk n/v"
     },
     {
-      "date": "Thu, Nov 26",
-      "rows": [
-        {
-          "ldn": "All day",
-          "ny": "",
-          "cat": "RISK",
-          "event": "US Thanksgiving: markets shut",
-          "notes": "NYSE/Nasdaq closed; thin global liquidity; claims day n/v"
-        }
-      ]
+     "ldn": "18:00",
+     "ny": "13:00",
+     "cat": "RISK",
+     "event": "US 10Y TIPS auction $19B",
+     "notes": "Prior 2.653%; 10Y nominal 5.07 into sale; real 10Y n/v"
     },
     {
-      "date": "Fri, Nov 27",
-      "rows": [
-        {
-          "ldn": "All day",
-          "ny": "",
-          "cat": "RISK",
-          "event": "US post-holiday session",
-          "notes": "Early close expected; exact stock/bond close times n/v this run"
-        }
-      ]
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Intuit (INTU), Ross (ROST)",
+     "notes": "After close; cons n/v; software sentiment read vs ANT debut"
     }
-  ],
-  "levels": [
+   ]
+  },
+  {
+   "date": "Fri, Nov 20",
+   "rows": [
     {
-      "k": "RATES",
-      "v": "UST 2Y 4.81 10Y 5.07 (2s10s +26bp) · real 10Y n/v · Gilt 10Y ~5.30, 2Y >5.0 (Wed)"
+     "ldn": "15:00",
+     "ny": "10:00",
+     "cat": "ECO",
+     "event": "UMich sentiment (Nov final)",
+     "notes": "Cons n/v; infl. expectations focus with Dec hike fully priced"
     },
     {
-      "k": "FX",
-      "v": "DXY +0.2% (19-mo high) · EUR 1.0961 · GBP 1.3152 · JPY 158.6 · AUD n/v (Asia Thu)"
-    },
-    {
-      "k": "VOL",
-      "v": "VIX 24.56 (-3.5%) · Brent $92.0 WTI $83.0 · gold ~$3,740 · term, skew, gamma n/v"
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "imp": "H",
+     "event": "Monthly OPEX",
+     "notes": "Monthly options expiry (TheStreet); VIX 24.6 into expiry; gamma n/v"
     }
-  ],
-  "sources": "TheStreet Pro·AP/ClickOnDetroit·Reuters/Yahoo·CNBC TV18·Investing.com·Mitrade·TradingEconomics·Zacks·Business Wire/Finviz·Coinotag·SoFi·FinanceCalendar"
+   ]
+  },
+  {
+   "date": "Tue, Nov 24",
+   "rows": [
+    {
+     "ldn": "15:00",
+     "ny": "10:00",
+     "cat": "ECO",
+     "event": "Conf. Board confidence (Nov)",
+     "notes": "Cons n/v; Germany Ifo 09:30/04:30"
+    }
+   ]
+  },
+  {
+   "date": "Wed, Nov 25",
+   "rows": [
+    {
+     "ldn": "00:30",
+     "ny": "*19:30",
+     "cat": "ECO",
+     "event": "Australia CPI (Oct, monthly)",
+     "notes": "*Tue NY. Cons n/v; AU jobs -43.5k, unemp 4.9% (Oct) cuts against RBA hawks"
+    },
+    {
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "US PCE (Oct) + GDP Q3 2nd",
+     "notes": "Prior PCE 3.6% y/y, core 3.1% (core +0.3% m/m); cons n/v; new home sales same day"
+    }
+   ]
+  },
+  {
+   "date": "Thu, Nov 26",
+   "rows": [
+    {
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "event": "US Thanksgiving: markets shut",
+     "notes": "NYSE/Nasdaq closed; thin global liquidity; claims day n/v"
+    }
+   ]
+  },
+  {
+   "date": "Fri, Nov 27",
+   "rows": [
+    {
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "event": "US post-holiday session",
+     "notes": "Early close expected; exact stock/bond close times n/v this run"
+    }
+   ]
+  }
+ ],
+ "levels": [
+  {
+   "k": "RATES",
+   "v": "UST 2Y 4.81 10Y 5.07 (2s10s +26bp) · real 10Y n/v · Gilt 10Y ~5.30, 2Y >5.0 (Wed)"
+  },
+  {
+   "k": "FX",
+   "v": "DXY +0.2% (19-mo high) · EUR 1.0961 · GBP 1.3152 · JPY 158.6 · AUD n/v (Asia Thu)"
+  },
+  {
+   "k": "VOL",
+   "v": "VIX 24.56 (-3.5%) · Brent $92.0 WTI $83.0 · gold ~$3,740 · term, skew, gamma n/v"
+  }
+ ],
+ "sources": "TheStreet Pro·AP/ClickOnDetroit·Reuters/Yahoo·CNBC TV18·Investing.com·Mitrade·TradingEconomics·Zacks·Business Wire/Finviz·Coinotag·SoFi·FinanceCalendar"
 }
