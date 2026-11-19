@@ -1,14 +1,30 @@
 {
  "session": "THU 19 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-19T13:40Z",
+ "generated_utc": "2026-11-19T14:15Z",
  "summary": {
-  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k.",
-  "alert": "Claims+Philly actual n/v · Jefferson 14:25/09:25 · ANT debut · TIPS 18:00/13:00"
+  "regime": "Hawkish Fed (Dec hike fully priced, 50bp 8%) + DXY at 19-mo high vs AI bid: ANT debut lifts NQ fut +0.9%, ES +0.5%; Asia mixed (HSI -1.9%, Taiex -3.1%); WMT beat/raise; AU jobs -43.5k. Claims 203k vs 200k; Philly Fed six-month low.",
+  "alert": "Jefferson 14:25/09:25 · ANT first trade (time n/v) · Goolsbee 17:30/12:30 · TIPS 18:00/13:00"
  },
  "review": {
-  "date": "Thu, Nov 19 · as of 13:40 GMT",
+  "date": "Thu, Nov 19 · as of 14:15 GMT",
   "rows": [
+   {
+    "when": "13:30",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US jobless claims; Philly Fed (Nov)",
+    "result": "Initial claims 203k (wk to Nov 14) vs cons 200k | prior 198k; Philly Fed fell to a six-month low, prices paid jumped (level n/v)",
+    "impact": "Reaction n/v (no sourced 2Y/10Y move this run)"
+   },
+   {
+    "when": "Pre-mkt",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "ANT debut pre-market bid",
+    "result": "NQ fut ~+2.1% to 27,766, ES fut >+1.2%, Dow fut ~+0.7% (Forbes, 06:25 ET); NVDA +1.8% pre-mkt",
+    "impact": "Gray-market indications 20-26% above $83 IPO price (not a trade); first trade n/v"
+   },
    {
     "when": "12:00",
     "cat": "EARN",
@@ -40,21 +56,6 @@
     "event": "UK CPI (Oct)",
     "result": "3.6% y/y vs 3.7% fcst; core 2.8%; services 3.7%",
     "impact": "Gilt 10Y eased toward 5.3%; BoE Dec hike odds 80% (from 90%); GBP/USD 1.3152"
-   },
-   {
-    "when": "All day",
-    "cat": "RISK",
-    "event": "Sector rotation / commodities",
-    "result": "Cons. disc. +2.2% best; energy -3.5%, health care -2.2%, materials -1.2%",
-    "impact": "WTI -3.2% $83.26; gold -3.5% ~$3,730 (lowest since Sep 2025); copper -5.3%; R2K +0.5%"
-   },
-   {
-    "when": "AMC",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Anthropic IPO pricing",
-    "result": "Priced $83 vs $70-78 range (Bloomberg); ~$1.5T fully diluted val. (Reuters)",
-    "impact": "NQ fut +0.9-1.0%, ES +0.5-0.6% in Asia; Nasdaq debut Thu"
    }
   ]
  },
@@ -63,14 +64,6 @@
    "date": "Thu, Nov 19",
    "tag": "Today",
    "rows": [
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "US jobless claims; Philly Fed",
-     "notes": "Released 13:30/08:30; actuals n/v (not verified this run) | cons claims 200k, Philly 20.9; prior 198k / 20.6"
-    },
     {
      "ldn": "13:30",
      "ny": "08:30",
@@ -84,7 +77,7 @@
      "cat": "RISK",
      "imp": "H",
      "event": "Anthropic (ANT) Nasdaq debut",
-     "notes": "IPO $83, ~$1.5T val.; first-trade time n/v; AI/software flow, index-inclusion talk n/v"
+     "notes": "IPO $83 raised $81.3B (~$1.5T val.); first-trade time/price n/v; gray-mkt +20-26% indication only"
     },
     {
      "ldn": "18:00",
