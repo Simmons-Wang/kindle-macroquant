@@ -1,21 +1,29 @@
 {
  "session": "FRI 20 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-20T17:36Z",
+ "generated_utc": "2026-11-20T19:37Z",
  "summary": {
-  "regime": "AI-led selloff spreads: Nikkei -5.1%, Kospi -5.2%, DAX -1.3% (11:48); S&P fut -0.2%. UST10Y ~5.05% (Thu) with Dec Fed hike fully priced; USD/JPY 159.1. OPEX today.",
+  "regime": "AI-chip rout deepens: SPY -2.2%, QQQ -3.9% at 13:01 ET, S&P and Dow in correction; Nikkei -5.1%, Kospi -5.2%, Taiex -5.7%. Cook flags hike risk; Dec Fed hike priced. VIX ~31 pre-mkt.",
   "alert": "US close 21:00/16:00 · Mon EZ flash PMIs 09:00/04:00 · Wed PCE 13:30/08:30"
  },
  "review": {
-  "date": "Fri 20 Nov · as of 17:36 GMT",
+  "date": "Fri 20 Nov · as of 19:37 GMT",
   "rows": [
+   {
+    "when": "US session",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "US AI-chip rout: S&P/Dow in correction",
+    "result": "SPY -2.22% · QQQ -3.87% · DIA -0.81% at 18:01 GMT (13:01 ET); Dow ~-6% wk, worst since Apr 2025 (CNBC). NVDA -7.2% AVGO -11.9% MU -13.0% AMD -11.3%; ANT -12.8%",
+    "impact": "VIX 30.99 pre-mkt (highest since Mar); 10Y 4.989% (-6bp, 05:45 ET); closes, 2Y n/v (as of 19:37)"
+   },
    {
     "when": "17:15",
     "cat": "CB",
     "imp": "H",
     "event": "Fed Cook speaks",
-    "result": "Remarks and any policy signal n/v (no source page retrieved this run)",
-    "impact": "Yield/USD/equity reaction n/v (as of 17:36)"
+    "result": "Cook (Chile): waiting longer on hikes 'risks getting behind the curve'; preferred a hike in Oct (stocks.titan/CNBC cite, 13:03 ET)",
+    "impact": "Equities kept sliding after; yield/USD reaction n/v (as of 19:37)"
    },
    {
     "when": "15:00",
@@ -46,14 +54,6 @@
     "event": "Fed Waller speaks",
     "result": "Today's remarks n/v. Earlier: floated 50bp Dec hike, 'shock people' (Seoul Econ Daily)",
     "impact": "CME Dec 50bp odds 10.0% (3.1%), 25bp 90.0%; reading time n/v. Yield/USD reaction n/v (as of 13:42)"
-   },
-   {
-    "when": "Asia/EU",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Asia AI rout, Europe lower",
-    "result": "Nikkei -5.1% to 56,436.65 · Kospi -5.2% to 4,869.96 · DAX -1.3% · FTSE -0.3% (AP, 11:48)",
-    "impact": "S&P fut -0.2% to 7,181 (as of 11:48) · USD/JPY 159.08 (159.60) · EUR/USD 1.0979 · Brent 92.06 · WTI 83.70"
    }
   ]
  },
@@ -145,7 +145,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.78 · 10Y 5.05 (-1.4bp) · 2s10s +27bp · 10Y TIPS auct 2.90% · JGB10 2.80 · gilts n/v"
+   "v": "UST 10Y 4.989 (-6bp, 05:45 ET) · 2Y n/v · JGB10 2.80 · gilts n/v"
   },
   {
    "k": "FX",
@@ -153,8 +153,8 @@
   },
   {
    "k": "VOL",
-   "v": "VIX ~28.3 late Thu · MOVE 96.0 (Thu) · Brent 92.06 · WTI 83.70 (11:48) · gold ~$3,568 (15:36) · term, skew, gamma n/v"
+   "v": "VIX 30.99 (pre-mkt, highest since Mar) · Brent 92.06 · WTI 83.70 (11:48 GMT) · gold ~$3,568 (15:36) · MOVE, skew n/v"
   }
  ],
- "sources": "The Weekend Spread·investingLive·ONS·ForexFundamentals·FinanceCalendar·Hyperstocks·LiteFinance·Intuit IR·Ross IR·Investing.com·ForexFundamentals (UK retail)·Seoul Econ Daily·Kitco·investingLive·24/7 Wall St"
+ "sources": "The Weekend Spread·investingLive·ONS·ForexFundamentals·FinanceCalendar·Hyperstocks·LiteFinance·Intuit IR·Ross IR·Investing.com·ForexFundamentals (UK retail)·Seoul Econ Daily·Kitco·investingLive·24/7 Wall St·CNBC via StockTitan"
 }
