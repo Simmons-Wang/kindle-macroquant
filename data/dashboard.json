@@ -1,187 +1,76 @@
 {
  "session": "FRI 20 NOV 2026",
- "edition": "LIVE",
- "generated_utc": "2026-11-19T22:36Z",
+ "edition": "AM",
+ "generated_utc": "2026-11-20T06:10Z",
  "summary": {
-  "regime": "Risk-off on ANT debut day: S&P -2.0%, Nasdaq -2.25%, VIX 27.98; Philly Fed slumps to 6.3. 10Y 5.05% with Dec Fed hike ~91% priced (Kalshi, Wed); USD/JPY ~159. OPEX Fri.",
-  "alert": "UK retail 07:00/02:00 · OPEX 14:30/09:30 · UMich 15:00/10:00"
+  "regime": "AI-led selloff spreads to Asia: Nikkei -4.7%, Kospi -5.1%; NQ fut -0.7%. UST10Y ~5.05% with Dec Fed hike fully priced; USD/JPY 159.2, gold 3,530. OPEX today.",
+  "alert": "UK retail 07:00/02:00 · Waller 13:25/08:25 · OPEX 14:30/09:30 · UMich 15:00/10:00"
  },
  "review": {
-  "date": "Thu, Nov 19 (US close) · as of 22:36 GMT",
+  "date": "Thu, Nov 19 (US close + overnight)",
   "rows": [
-   {
-    "when": "Close",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "US stocks slide into close",
-    "result": "Dow -2.19% (-1,101) · S&P -2.02% · Nasdaq -2.25% · R2K -1.82% (Yahoo)",
-    "impact": "VIX 27.98 (+13.8%, ~29 intraday = Mar high) · UST10Y 5.05 (-1bp) · gold fut -2.1% · WTI +0.9% · 2Y/FX n/v"
-   },
-   {
-    "when": "Open",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Anthropic (ANT) Nasdaq debut",
-    "result": "IPO $83; opened $111.50 (+34%), hi 114.99 lo 92.72; closed $97.17 (+17.1%)",
-    "impact": "Mega-caps lower 15:02 ET: AMZN -4.1%, NVDA -2.7%, GOOGL -2.5%, MSFT -1.8%; AH ANT 95.69 (-1.5%)"
-   },
-   {
-    "when": "13:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "Philly Fed (Nov)",
-    "result": "6.3 vs cons 18 | prior 20.9; lowest since May",
-    "impact": "10Y 5.05 (-1bp on day) despite hawkish Fed backdrop; Dec pricing at close n/v"
-   },
-   {
-    "when": "13:30",
-    "cat": "ECO",
-    "event": "Initial jobless claims",
-    "result": "203k vs cons 197k (Yahoo) | prior 202k (wk to Nov 14)",
-    "impact": "Labour market still tight; isolated reaction n/v"
-   },
-   {
-    "when": "Intraday",
-    "cat": "EARN",
-    "event": "AMD hit by short report",
-    "result": "AMD ~-8-9% after Hunterbrook short report (Yahoo)",
-    "impact": "Semis weak with NVDA -2.7%, AVGO -2.3% (15:02 ET); sector close % n/v"
-   },
-   {
-    "when": "AMC",
-    "cat": "EARN",
-    "event": "Intuit (INTU), Ross (ROST)",
-    "result": "Results n/v (no 19 Nov source readable as of 22:36 GMT)",
-    "impact": "After-hours reaction n/v"
-   }
+   {"when": "Close", "cat": "RISK", "imp": "H", "event": "6th straight S&P loss",
+    "result": "SPY -1.96% (below 200d) · QQQ -2.19% · DIA -2.18% · IWM -2.19% (ETF proxies)",
+    "impact": "VIX ~28.3 late (24.56 Wed) · 2Y 4.78 · 10Y 5.05 (-1.4bp) · DXY 19m high 103.97 · gold -1.4% · WTI +0.7%"},
+   {"when": "Open", "cat": "RISK", "imp": "H", "event": "Anthropic (ANT) Nasdaq debut",
+    "result": "IPO $83 (upsized, 980m sh); opened +34%, closed ~+17%",
+    "impact": "Tech reversal: Nasdaq swung >+2% to >-2%; NVDA -3.3%, AVGO -2.1%; Asia AI names hit overnight"},
+   {"when": "13:30", "cat": "ECO", "imp": "H", "event": "Philly Fed (Nov)",
+    "result": "6.3 vs cons 18 | prior 20.9; new orders -0.4, prices paid 58.2 (43.2)",
+    "impact": "10Y 5.05 (-1.4bp) as Dec hike still 100% priced; Barr: policy needs further adjustment"},
+   {"when": "13:30", "cat": "ECO", "event": "Initial jobless claims",
+    "result": "203k vs cons 198k | prior 202k; continuing 1.763m (+70k)",
+    "impact": "Isolated reaction n/v; 10Y TIPS reopen 2.903%, highest since 2002"},
+   {"when": "AMC", "cat": "EARN", "event": "Ross Stores (ROST) Q3",
+    "result": "EPS 1.91 vs 1.86, rev 6.26B vs 6.23B; comps +8%; FY EPS raised",
+    "impact": "AH -5.1% to 208.75 after -3.4% cash session (Investing.com)"},
+   {"when": "AMC", "cat": "EARN", "event": "Intuit (INTU) Q1 FY27",
+    "result": "Rev 4.35B (+12%); adj EPS 2.91 (new basis) vs 2.46; Mailchimp sold for $3.68B",
+    "impact": "Q2 rev guide +6-7%; headlines 'stock tumbles' on soft outlook; AH % n/v"}
   ]
  },
  "board": [
-  {
-   "date": "Fri, Nov 20",
-   "tag": "Next Session",
-   "rows": [
-    {
-     "ldn": "07:00",
-     "ny": "02:00",
-     "cat": "ECO",
-     "event": "UK retail sales (Oct)",
-     "notes": "Cons 0.0% m/m | prior -0.4%; GBP near 1.31; Moody's on UK late; UK-EU summit"
-    },
-    {
-     "ldn": "All day",
-     "ny": "",
-     "cat": "CB",
-     "event": "ECB Lagarde, Cipollone speak",
-     "notes": "Times n/v; also Japan CPI (Oct), China LPR, German PPI (Newsquawk)"
-    },
-    {
-     "ldn": "14:30",
-     "ny": "09:30",
-     "cat": "RISK",
-     "imp": "H",
-     "event": "Monthly OPEX (SPX AM settle)",
-     "notes": "VIX 27.98 into expiry after 2% SPX drop; gamma/implied move n/v"
-    },
-    {
-     "ldn": "15:00",
-     "ny": "10:00",
-     "cat": "ECO",
-     "event": "UMich sentiment (Nov final)",
-     "notes": "Cons 51.5 | prior 51.0; 1y/5y infl. expectations focus with Dec hike priced"
-    }
-   ]
-  },
-  {
-   "date": "Mon, Nov 23",
-   "rows": [
-    {
-     "ldn": "14:45",
-     "ny": "09:45",
-     "cat": "ECO",
-     "event": "US S&P Global flash PMIs (Nov)",
-     "notes": "Cons n/v; EZ/UK flash times n/v; 2Y note auction 18:00/13:00"
-    }
-   ]
-  },
-  {
-   "date": "Tue, Nov 24",
-   "rows": [
-    {
-     "ldn": "15:00",
-     "ny": "10:00",
-     "cat": "ECO",
-     "event": "Conf. Board confidence (Nov)",
-     "notes": "Cons 92 | prior 91.7; Germany Ifo 09:30/04:30; 5Y auction 18:00/13:00"
-    }
-   ]
-  },
-  {
-   "date": "Wed, Nov 25",
-   "rows": [
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "US PCE (Oct)",
-     "notes": "Core cons 0.3% m/m, 3.2% y/y | prior 3.1%; headline prior 3.6% y/y; claims moved to Wed"
-    },
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "event": "GDP Q3 2nd est + durables (Oct)",
-     "notes": "GDP cons 3.4% (adv 3.4%); durables cons 0.0% | prior 1.8%; 7Y auction 18:00/13:00"
-    },
-    {
-     "ldn": "19:00",
-     "ny": "14:00",
-     "cat": "CB",
-     "event": "Fed Beige Book",
-     "notes": "Last read before Dec 9 FOMC; Philly Fed 6.3 shows regional softening"
-    }
-   ]
-  },
-  {
-   "date": "Thu, Nov 26",
-   "rows": [
-    {
-     "ldn": "All day",
-     "ny": "",
-     "cat": "RISK",
-     "imp": "H",
-     "event": "US Thanksgiving: markets shut",
-     "notes": "NYSE/Nasdaq and bonds closed (Helious); thin global liquidity"
-    }
-   ]
-  },
-  {
-   "date": "Fri, Nov 27",
-   "rows": [
-    {
-     "ldn": "18:00",
-     "ny": "13:00",
-     "cat": "RISK",
-     "event": "US early close (stocks)",
-     "notes": "Bonds 19:00/14:00 (SIFMA rec.); claims & goods trade 13:30/08:30"
-    }
-   ]
-  }
+  {"date": "Fri, Nov 20", "tag": "Next Session", "rows": [
+    {"ldn": "07:00", "ny": "02:00", "cat": "ECO", "event": "UK retail sales (Oct)",
+     "notes": "Cons 0.0% m/m | prior -0.4% (ONS/ForexFundamentals); GBP/USD 1.311"},
+    {"ldn": "13:25", "ny": "08:25", "cat": "CB", "imp": "H", "event": "Fed Waller speaks",
+     "notes": "Dec hike priced; Paulson o/n: more tightening at deliberate pace; Cook 17:15/12:15"},
+    {"ldn": "14:30", "ny": "09:30", "cat": "RISK", "imp": "H", "event": "Monthly OPEX (SPX AM settle)",
+     "notes": "VIX ~28 into expiry after 6-day slide; gamma/implied move n/v"},
+    {"ldn": "15:00", "ny": "10:00", "cat": "ECO", "event": "UMich sentiment (Nov final)",
+     "notes": "Cons 51.5 | prior 48.0; 1y infl exp prior 4.7%, 5y 3.5%"}
+  ]},
+  {"date": "Mon, Nov 23", "rows": [
+    {"ldn": "09:00", "ny": "04:00", "cat": "ECO", "event": "EZ flash PMIs (Nov)",
+     "notes": "DE 08:30, UK 09:30 LDN; cons n/v; EUR/USD 1.098 on French political risk"},
+    {"ldn": "14:45", "ny": "09:45", "cat": "ECO", "event": "US S&P Global flash PMIs (Nov)",
+     "notes": "Cons n/v; 2Y note auction 18:00/13:00"}
+  ]},
+  {"date": "Tue, Nov 24", "rows": [
+    {"ldn": "15:00", "ny": "10:00", "cat": "ECO", "event": "Conf. Board confidence (Nov)",
+     "notes": "Cons 92 | prior 91.7; 5Y note auction 18:00/13:00"}
+  ]},
+  {"date": "Wed, Nov 25", "rows": [
+    {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "imp": "H", "event": "US PCE (Oct)",
+     "notes": "Core cons 0.3% m/m, 3.2% y/y | prior 3.1%; headline prior 3.6% y/y; claims Wed"},
+    {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "event": "GDP Q3 2nd est + durables (Oct)",
+     "notes": "GDP cons 3.4% (adv 3.4%); durables cons 0.0% | prior 1.8%; 7Y auction 18:00/13:00"},
+    {"ldn": "19:00", "ny": "14:00", "cat": "CB", "event": "Fed Beige Book",
+     "notes": "Last read before Dec FOMC; Philly Fed 6.3 shows regional softening"}
+  ]},
+  {"date": "Thu, Nov 26", "rows": [
+    {"ldn": "All day", "ny": "", "cat": "RISK", "imp": "H", "event": "US Thanksgiving: markets shut",
+     "notes": "NYSE/Nasdaq and bond market closed (LiteFinance); thin global liquidity"}
+  ]},
+  {"date": "Fri, Nov 27", "rows": [
+    {"ldn": "18:00", "ny": "13:00", "cat": "RISK", "event": "US early close (stocks)",
+     "notes": "Bond early close n/v; goods trade & inventories 13:30/08:30"}
+  ]}
  ],
  "levels": [
-  {
-   "k": "RATES",
-   "v": "UST 10Y 5.05 (-1bp, Thu) · 2Y 4.80, 2s10s ~27bp (Wed) · real 10Y n/v · gilts n/v"
-  },
-  {
-   "k": "FX",
-   "v": "DXY 103.80 YTD high · USD/JPY 159.31 · GBP 1.3147 (all Wed) · EUR, AUD, Thu closes n/v"
-  },
-  {
-   "k": "VOL",
-   "v": "VIX 27.98 (+13.8%, Thu) · WTI 83.08 · gold 3,665 (fut) · term, skew, gamma n/v"
-  }
+  {"k": "RATES", "v": "UST 2Y 4.78 · 10Y 5.05 (-1.4bp) · 2s10s +27bp · 10Y TIPS auct 2.90% · JGB10 2.80 · gilts n/v"},
+  {"k": "FX", "v": "USD/JPY 159.2 · EUR/USD 1.098 · AUD/USD 0.666 · GBP/USD 1.311 (Thu) · USD/CNY fix 6.7131"},
+  {"k": "VOL", "v": "VIX ~28.3 late Thu · MOVE 96.0 · Brent 92.4 · gold 3,530 (-2.6% o/n) · term, skew, gamma n/v"}
  ],
- "sources": "Yahoo Finance live·StockTitan·Bloomingbit·note.com·Newsquawk·ForexFundamentals·Helious·Hyperstocks·SimianX·FinanceCalendar·MUFG"
+ "sources": "The Weekend Spread·investingLive·ONS·ForexFundamentals·FinanceCalendar·Hyperstocks·LiteFinance·Intuit IR·Ross IR·Investing.com"
 }
