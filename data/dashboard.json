@@ -1,21 +1,21 @@
 {
  "session": "FRI 20 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-20T20:37Z",
+ "generated_utc": "2026-11-20T22:37Z",
  "summary": {
-  "regime": "AI-chip rout deepens: SPY -2.2%, QQQ -3.9% at 13:01 ET, S&P and Dow in correction; Nikkei -5.1%, Kospi -5.2%, Taiex -5.7%. Cook flags hike risk; Dec Fed hike priced. VIX ~31 pre-mkt.",
-  "alert": "US close 21:00/16:00 · Mon EZ flash PMIs 09:00/04:00 · Wed PCE 13:30/08:30"
+  "regime": "AI-chip rout: S&P -3.7% to 6,910, Nasdaq -5.3%, S&P wk -8.6% (worst since Apr 2025), 7 straight losses; Dec Fed hike near-fully priced after hot Oct CPI. 10Y 4.93%.",
+  "alert": "Mon EZ flash PMIs 09:00/04:00 · US PMIs 14:45/09:45 · Wed PCE 13:30/08:30"
  },
  "review": {
-  "date": "Fri 20 Nov · as of 20:37 GMT",
+  "date": "Fri 20 Nov · as of 22:45 GMT",
   "rows": [
    {
-    "when": "US session",
+    "when": "AMC close",
     "cat": "RISK",
     "imp": "H",
-    "event": "US AI-chip rout: S&P/Dow in correction",
-    "result": "SPY -2.22% · QQQ -3.87% · DIA -0.81% at 18:01 GMT (13:01 ET); Dow ~-6% wk, worst since Apr 2025 (CNBC). NVDA -7.2% AVGO -11.9% MU -13.0% AMD -11.3%; ANT -12.8%",
-    "impact": "VIX 30.99 pre-mkt (highest since Mar); 10Y 4.989% (-6bp, 05:45 ET); closes, 2Y n/v (as of 19:37)"
+    "event": "US close: S&P, Dow in correction",
+    "result": "S&P 6,910 -3.7% · Nasdaq -5.3% (neg YTD) · Dow -1.9%; wk S&P -8.6%, Nasdaq -10.0% (AP/Reuters)",
+    "impact": "NVDA -13.8% MU -13.9% AMD -13.3% AVGO -12.1% SOX -10.7%; 10Y 4.93% (-11bp); ANT -9.1%; VIX, 2Y n/v (as of 22:45)"
    },
    {
     "when": "17:15",
@@ -46,14 +46,6 @@
     "event": "Monthly OPEX (SPX AM settle)",
     "result": "Settlement and expiry flows n/v",
     "impact": "Post-expiry price action n/v (as of 15:36)"
-   },
-   {
-    "when": "13:25",
-    "cat": "CB",
-    "imp": "H",
-    "event": "Fed Waller speaks",
-    "result": "Today's remarks n/v. Earlier: floated 50bp Dec hike, 'shock people' (Seoul Econ Daily)",
-    "impact": "CME Dec 50bp odds 10.0% (3.1%), 25bp 90.0%; reading time n/v. Yield/USD reaction n/v (as of 13:42)"
    }
   ]
  },
@@ -145,7 +137,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.989 (-6bp, 05:45 ET) · 2Y n/v · JGB10 2.80 · gilts n/v"
+   "v": "UST 10Y 4.93 (-11bp, close) · 2Y n/v · JGB10 2.80 · gilts n/v"
   },
   {
    "k": "FX",
@@ -153,8 +145,8 @@
   },
   {
    "k": "VOL",
-   "v": "VIX 30.99 (pre-mkt, highest since Mar) · Brent 92.06 · WTI 83.70 (11:48 GMT) · gold ~$3,568 (15:36) · MOVE, skew n/v"
+   "v": "VIX n/v (30.99 pre-mkt) · Brent 92.57 (close, AP) · gold ~$3,568 (15:36) · MOVE, skew n/v"
   }
  ],
- "sources": "The Weekend Spread·investingLive·ONS·ForexFundamentals·FinanceCalendar·Hyperstocks·LiteFinance·Intuit IR·Ross IR·Investing.com·ForexFundamentals (UK retail)·Seoul Econ Daily·Kitco·investingLive·24/7 Wall St·CNBC via StockTitan"
+ "sources": "The Weekend Spread·investingLive·ONS·ForexFundamentals·FinanceCalendar·Hyperstocks·LiteFinance·Intuit IR·Ross IR·Investing.com·ForexFundamentals (UK retail)·Seoul Econ Daily·Kitco·investingLive·24/7 Wall St·CNBC via StockTitan·AP/Spectrum·Reuters/MarketScreener·Econcurrents"
 }
