@@ -1,14 +1,22 @@
 {
  "session": "FRI 20 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-20T11:42Z",
+ "generated_utc": "2026-11-20T12:37Z",
  "summary": {
-  "regime": "AI-led selloff spreads to Asia: Nikkei -4.7%, Kospi -5.1%; NQ fut -0.7%. UST10Y ~5.05% with Dec Fed hike fully priced; USD/JPY 159.2, gold 3,530. OPEX today.",
+  "regime": "AI-led selloff spreads: Nikkei -5.1%, Kospi -5.2%, DAX -1.3% (11:48); S&P fut -0.2%. UST10Y ~5.05% (Thu) with Dec Fed hike fully priced; USD/JPY 159.1. OPEX today.",
   "alert": "Waller 13:25/08:25 · OPEX 14:30/09:30 · UMich 15:00/10:00 · Cook 17:15/12:15"
  },
  "review": {
-  "date": "Fri 20 Nov · as of 11:42 GMT (+ Thu US close)",
+  "date": "Fri 20 Nov · as of 11:48 GMT (+ Thu US close)",
   "rows": [
+   {
+    "when": "Asia/EU",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Asia AI rout, Europe lower",
+    "result": "Nikkei -5.1% to 56,436.65 · Kospi -5.2% to 4,869.96 · DAX -1.3% · FTSE -0.3% (AP, 11:48)",
+    "impact": "S&P fut -0.2% to 7,181 (as of 11:48) · USD/JPY 159.08 (159.60) · EUR/USD 1.0979 · Brent 92.06 · WTI 83.70"
+   },
    {
     "when": "07:00",
     "cat": "ECO",
@@ -47,13 +55,6 @@
     "event": "Initial jobless claims",
     "result": "203k vs cons 198k | prior 202k; continuing 1.763m (+70k)",
     "impact": "Isolated reaction n/v; 10Y TIPS reopen 2.903%, highest since 2002"
-   },
-   {
-    "when": "AMC",
-    "cat": "EARN",
-    "event": "Ross Stores (ROST) Q3",
-    "result": "EPS 1.91 vs 1.86, rev 6.26B vs 6.23B; comps +8%; FY EPS raised",
-    "impact": "AH -5.1% to 208.75 after -3.4% cash session (Investing.com)"
    }
   ]
  },
@@ -178,11 +179,11 @@
   },
   {
    "k": "FX",
-   "v": "USD/JPY 159.2 · EUR/USD 1.098 · AUD/USD 0.666 · GBP/USD 1.311 (Thu) · USD/CNY fix 6.7131"
+   "v": "USD/JPY 159.08 (11:48) · EUR/USD 1.0979 (11:48) · AUD/USD 0.666 (Thu) · GBP/USD n/v · USD/CNY fix 6.7131"
   },
   {
    "k": "VOL",
-   "v": "VIX ~28.3 late Thu · MOVE 96.0 · Brent 92.4 · gold 3,530 (-2.6% o/n) · term, skew, gamma n/v"
+   "v": "VIX ~28.3 late Thu · MOVE 96.0 (Thu) · Brent 92.06 · WTI 83.70 (11:48) · gold, term, skew, gamma n/v"
   }
  ],
  "sources": "The Weekend Spread·investingLive·ONS·ForexFundamentals·FinanceCalendar·Hyperstocks·LiteFinance·Intuit IR·Ross IR·Investing.com·ForexFundamentals (UK retail)"
