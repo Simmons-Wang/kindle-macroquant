@@ -1,10 +1,10 @@
 {
  "session": "MON 23 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-22T21:40Z",
+ "edition": "AM",
+ "generated_utc": "2026-11-23T06:10Z",
  "summary": {
-  "regime": "AI-chip rout: S&P -8.6% wk to 6,910 (correction), Nasdaq -10% (neg YTD), VIX 35.9; NVDA SEC probe. Dec Fed hike ~90% priced (Kalshi); 2Y 4.63.",
-  "alert": "Mon flash PMIs 09:00/04:00 & 14:45/09:45 · Wed PCE+GDP 13:30/08:30"
+  "regime": "Relief bid after AI-chip rout: ES +2.2%, NQ +2.9%; Kospi -3% (F4 meeting), TAIEX +2.5%, Japan shut. Bessent: Fed risks overtightening; Dec hike ~90%.",
+  "alert": "Flash PMIs 09:00/04:00 EZ, 09:30 UK, 14:45/09:45 US · Wed PCE 13:30/08:30"
  },
  "review": {
   "date": "Fri, Nov 20",
@@ -14,44 +14,44 @@
     "cat": "RISK",
     "imp": "H",
     "event": "US close: S&P in correction",
-    "result": "S&P 6,910 -3.7% (7th loss) · Nasdaq 22,618 -5.3% · Dow 48,147 -1.9%; wk S&P -8.6%, Nasdaq -10.0%",
-    "impact": "Tech -7.3%, staples +0.7% only gainer; VIX 35.89 (+26%, high since Mar); R2K -2.8%; 376/123 decliners"
+    "result": "S&P -3.7% (7th loss) · Nasdaq -5.3% (YTD gains erased) · NDX -5.6%, worst week since Mar 2020",
+    "impact": "VIX 35.89 (high since Apr 2025); HY yields 8.51% (19-mth high), spreads 344bp; Hang Seng -1.9%"
    },
    {
     "when": "Fri",
     "cat": "EARN",
     "imp": "H",
-    "event": "NVDA -14% on SEC probe report",
-    "result": "NVDA -14.0% to $125.53 (Reuters: SEC reviewing accounting); wk -22.9%",
-    "impact": "SOX -10.7% (wk ~-17%, worst since 2001); AMD -13.3% MU -13.9% AVGO -12.2%; Nikkei -5.1% TAIEX -6.2%"
+    "event": "NVDA -14% on SEC review report",
+    "result": "NVDA $125.53 -14.0%, wk -22.9%; Dell -11.0%; MS -5.3%",
+    "impact": "Nikkei -5.1%, TAIEX -6.2% (wk ~-18%, worst since 1991); ASML -9.3%; copper -9% wk"
    },
    {
     "when": "Fri",
     "cat": "RISK",
-    "event": "Bull flattener / safe haven",
-    "result": "UST 2Y 4.63% (-13bp), 10Y 4.92% (-12bp), 2s10s 29bp; wk 2Y -25bp, 10Y -23bp",
-    "impact": "DXY 103.84 (-0.1%); USD/JPY -0.7% (~159.0); gold -4.6% ~$3,515; BTC <$60k; Brent $92.57 (+0.6%)"
+    "event": "Bull flattener / haven bid",
+    "result": "UST 2Y 4.61% (-15bp; wk -20bp) · 5Y 4.71 · 30Y 5.30 (-11bp); 10Y ~4.94 Sun eve",
+    "impact": "Dollar & bonds held gains into Asia (Reuters); gold -3.4% to ~$3,562 (1-yr low); Brent <$92, 3rd wkly fall"
    },
    {
-    "when": "17:15",
-    "cat": "CB",
-    "event": "Fed Cook, Paulson hawkish",
-    "result": "Cook: waiting 'risks falling behind the curve'; Paulson open to back-to-back hikes",
-    "impact": "Dec 9 hike 90% / hold 9% (Kalshi); futures near-certain 25bp; Fed funds 3.75-4.00%"
+    "when": "Fri",
+    "cat": "EARN",
+    "event": "Anthropic IPO first full day",
+    "result": "Closed $88.91, -8.5% on first full trading day",
+    "impact": "Added to AI-valuation stress; isolated index impact n/v"
    },
    {
     "when": "15:00",
     "cat": "ECO",
     "event": "UMich sentiment (Nov final)",
-    "result": "51.5, in line with estimates | prelim 51.0; 1Y infl. exp. 3.7%",
-    "impact": "Isolated rates/FX reaction n/v; close wraps call the tape chip-driven"
+    "result": "51.5, 3-month high; 1Y infl. exp. 3.7%, 5-10Y 3.3%",
+    "impact": "Isolated rates/FX reaction n/v; tape chip-driven"
    },
    {
     "when": "16:30",
     "cat": "RISK",
     "event": "Europe/UK closes lower",
-    "result": "FTSE 100 -1.0% to 10,346 · STOXX 600 -2.0% · DAX -2.6% · CAC -1.9%",
-    "impact": "Miners and banks led FTSE lower; gilt yields n/v"
+    "result": "STOXX 600 -2.0% to 625.65 (wk -5.8%) · DAX -2.6% · FTSE 100 -1.0% to 10,346",
+    "impact": "Euro Stoxx 50 wk -7.0%; gilt yields n/v"
    }
   ]
  },
@@ -61,26 +61,33 @@
    "tag": "Next Session",
    "rows": [
     {
+     "ldn": "08:30",
+     "ny": "03:30",
+     "cat": "ECO",
+     "event": "DE flash PMIs (Nov)",
+     "notes": "Cons mfg 54, svcs 52.3, comp 53.3 | prior n/v (AskTraders)"
+    },
+    {
      "ldn": "09:00",
      "ny": "04:00",
      "cat": "ECO",
      "event": "EZ flash PMIs (Nov)",
-     "notes": "Mfg 52.8 | 52.7, svcs 51.8 | 51.4; DE 08:30, UK 09:30 (53 | 52.8 both)"
+     "notes": "Mfg 52.8 | 52.7, svcs 51.8 | 51.4, comp 51.9 | 51.7; UK 09:30: comp 53.2 | 52.9"
     },
     {
      "ldn": "14:45",
      "ny": "09:45",
      "cat": "ECO",
+     "imp": "H",
      "event": "US S&P Global flash PMIs (Nov)",
-     "notes": "Mfg 54.6 | 54.9, svcs 55.8 | 56.1 (ActionForex)",
-     "imp": "H"
+     "notes": "Mfg 54.6 | 54.9, svcs 55.8 | 56.1, comp 55.6 | 55.9; AU comp fell to 46.1"
     },
     {
-     "ldn": "21:00",
-     "ny": "16:00",
+     "ldn": "n/v",
+     "ny": "",
      "cat": "CB",
      "event": "Fed Williams (NY) speaks",
-     "notes": "After hawkish Cook/Paulson; Dec hike ~90% priced; topic n/v"
+     "notes": "Mount Saint Vincent event; time n/v; Zoom AMC (EPS ~1.00)"
     }
    ]
   },
@@ -92,7 +99,7 @@
      "ny": "10:00",
      "cat": "ECO",
      "event": "Conf. Board confidence (Nov)",
-     "notes": "Cons 92.1 | 91.7 (alt 92.5); BMO ADI, MDT, BBY, DLTR"
+     "notes": "Cons 92.0-92.5 | 91.7; BMO Best Buy (EPS 1.48)"
     },
     {
      "ldn": "AMC",
@@ -100,7 +107,7 @@
      "cat": "EARN",
      "imp": "H",
      "event": "Dell, Workday, HP, Autodesk",
-     "notes": "DELL EPS est 6.59, rev $49.2B (+82% y/y); AI-server read after chip rout; implied n/v"
+     "notes": "DELL EPS 6.55-6.61, rev ~$49.2B (+82%); implied ±12.5% (CMC); WDAY 1.28"
     }
    ]
   },
@@ -111,23 +118,23 @@
      "ldn": "13:30",
      "ny": "08:30",
      "cat": "ECO",
+     "imp": "H",
      "event": "US PCE (Oct)",
-     "notes": "Core 0.3% m/m, 3.2% y/y | 3.1%; headline 0.3% m/m | 0.5%, prior 3.6% y/y",
-     "imp": "H"
+     "notes": "Core 0.3% m/m, 3.2% y/y | 3.1%; headline 0.3% | 0.5% m/m, 3.8% | 3.6% y/y"
     },
     {
      "ldn": "13:30",
      "ny": "08:30",
      "cat": "ECO",
      "event": "Q3 GDP 2nd est + durables + claims",
-     "notes": "GDP 3.5% | 3.4%; durables 0.5% | 1.9%; claims 200K | 203K"
+     "notes": "GDP 3.4-3.5% | 3.4%; durables 0.4-0.5% | 1.8-1.9%; claims 200K | 203K"
     },
     {
-     "ldn": "19:00",
-     "ny": "14:00",
+     "ldn": "n/v",
+     "ny": "",
      "cat": "CB",
      "event": "Fed Beige Book",
-     "notes": "Last regional read before Dec 8-9 FOMC; Deere BMO (EPS est 4.06)"
+     "notes": "Time n/v; last regional read before Dec 9 FOMC; Deere BMO (EPS 4.07)"
     }
    ]
   },
@@ -140,14 +147,14 @@
      "cat": "RISK",
      "imp": "H",
      "event": "US Thanksgiving: markets shut",
-     "notes": "NYSE/Nasdaq & bonds closed; BoK decision (cons +25bp to 3.25%); thin liquidity"
+     "notes": "NYSE/Nasdaq closed; BoK decision (cons +25bp to 3.25%); thin liquidity"
     },
     {
-     "ldn": "12:30",
-     "ny": "07:30",
+     "ldn": "n/v",
+     "ny": "",
      "cat": "CB",
      "event": "ECB accounts (Oct meeting)",
-     "notes": "ECB Dec hike ~91% priced (CappNotes/Barchart)"
+     "notes": "Time n/v; ECB held at last meeting"
     }
    ]
   },
@@ -159,7 +166,7 @@
      "ny": "13:00",
      "cat": "RISK",
      "event": "US early close (stocks 13:00 ET)",
-     "notes": "Bonds 14:00 ET; goods trade -133.1B | -135.9B 13:30/08:30; FR/ES flash CPI"
+     "notes": "Goods trade 13:30/08:30 -131/-133B | -135B; FR/ES flash CPI; Tokyo CPI"
     }
    ]
   },
@@ -170,8 +177,8 @@
      "ldn": "15:00",
      "ny": "10:00",
      "cat": "ECO",
-     "event": "ISM manufacturing (Nov) + JOLTS",
-     "notes": "ISM prior 55.5, cons n/v; JOLTS (Oct) 10:00 ET per BLS"
+     "event": "JOLTS (Oct) + ISM mfg (Nov)",
+     "notes": "JOLTS 10:00 ET per BLS; ISM time/cons n/v"
     }
    ]
   },
@@ -182,9 +189,9 @@
      "ldn": "13:30",
      "ny": "08:30",
      "cat": "ECO",
+     "imp": "H",
      "event": "US payrolls (Nov)",
-     "notes": "BLS confirmed 08:30 ET; cons n/v; last NFP before Dec 8-9 FOMC",
-     "imp": "H"
+     "notes": "BLS confirmed 08:30 ET; cons n/v; last NFP before Dec 8-9 FOMC"
     }
    ]
   }
@@ -192,16 +199,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.63 (-13bp) · 10Y 4.92 (-12bp) · 2s10s 29bp · 30Y 5.31 · gilts, 10Y real n/v"
+   "v": "UST 2Y 4.61-4.64 · 10Y ~4.94 · 2s10s ~31bp · 30Y 5.30 · gilts, 10Y real n/v"
   },
   {
    "k": "FX",
-   "v": "EUR/USD 1.0968 · GBP/USD ~1.310 (2026 low) · USD/JPY ~159.0 · DXY 103.84 · AUD n/v (Fri close)"
+   "v": "EUR/USD 1.0978 · GBP/USD 1.3101 · USD/JPY 158.90 · AUD/USD 0.6637 · NZD 0.5473 (Asia)"
   },
   {
    "k": "VOL",
-   "v": "VIX 35.89 (+26%) · term structure, skew, dealer gamma n/v · Brent 92.57 · gold ~$3,515"
+   "v": "VIX 35.89 (Fri) · term str., skew, gamma n/v · ES +2.2% · gold ~$3,562 · Brent <92"
   }
  ],
- "sources": "CappNotes·The Closing Print·CEO Economy·Open Outcry·FXEmpire·ActionForex·Newsquawk·FinancialJuice·Rio Times·ifyouspent·TheStreet·BLS·FinanceCalendar"
+ "sources": "Saxo·MUFG·Reuters/MarketScreener·Al Jazeera·AskTraders·CMC·ByteSEU·TradingEcon·FinanceCalendar·BLS·JournalArta"
 }
