@@ -1,14 +1,30 @@
 {
  "session": "MON 23 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-23T08:37Z",
+ "generated_utc": "2026-11-23T09:37Z",
  "summary": {
-  "regime": "Relief bid after AI-chip rout: ES +2.2%, NQ +2.9%; Kospi -3% (F4 meeting), TAIEX +2.5%, Japan shut. Bessent: Fed risks overtightening; Dec hike ~90%.",
-  "alert": "Flash PMIs 09:00/04:00 EZ, 09:30 UK, 14:45/09:45 US · Wed PCE 13:30/08:30"
+  "regime": "Relief bid after AI-chip rout: ES +2.7%, NQ +3.4% (09:12); NVDA +8-9% pre-mkt; EZ PMI mixed (DE strong, FR weak). Kospi -3%, Japan shut. Bessent: Fed risks overtightening.",
+  "alert": "US flash PMIs 14:45/09:45 · Wed PCE 13:30/08:30"
  },
  "review": {
-  "date": "Fri, Nov 20 · LIVE 08:36 GMT: nothing new verified",
+  "date": "Mon 23 Nov · as of 09:40 GMT",
   "rows": [
+   {
+    "when": "09:00",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "EZ/DE/FR flash PMIs (Nov)",
+    "result": "EZ comp 51.7=prior; mfg 52.9 vs 52.8; svcs 51.2 vs 51.8 | 51.4; DE comp 55.0 (56m high); FR 46.2",
+    "impact": "Germany mfg-led, France contracting; EZ svcs 5-mth low. EUR reaction n/v; UK 09:30 flash n/v"
+   },
+   {
+    "when": "09:12",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Relief rally in US futures",
+    "result": "ES +2.7%, NQ +3.4%, YM +1.9%, RTY +2.3% as of 09:12; NVDA ~+8-9% pre-mkt on Trump/Huang",
+    "impact": "Gold ~$3,612 +2.8%; silver -15% (headline); WTI ~$82.6 -1.0%; VIX 30.6 per Yahoo (basis n/v)"
+   },
    {
     "when": "21:00",
     "cat": "RISK",
@@ -33,20 +49,6 @@
     "impact": "Dollar & bonds held gains into Asia (Reuters); gold -3.4% to ~$3,562 (1-yr low); Brent <$92, 3rd wkly fall"
    },
    {
-    "when": "Fri",
-    "cat": "EARN",
-    "event": "Anthropic IPO first full day",
-    "result": "Closed $88.91, -8.5% on first full trading day",
-    "impact": "Added to AI-valuation stress; isolated index impact n/v"
-   },
-   {
-    "when": "15:00",
-    "cat": "ECO",
-    "event": "UMich sentiment (Nov final)",
-    "result": "51.5, 3-month high; 1Y infl. exp. 3.7%, 5-10Y 3.3%",
-    "impact": "Isolated rates/FX reaction n/v; tape chip-driven"
-   },
-   {
     "when": "16:30",
     "cat": "RISK",
     "event": "Europe/UK closes lower",
@@ -60,20 +62,6 @@
    "date": "Mon, Nov 23",
    "tag": "Next Session",
    "rows": [
-    {
-     "ldn": "08:30",
-     "ny": "03:30",
-     "cat": "ECO",
-     "event": "DE flash PMIs (Nov)",
-     "notes": "Cons mfg 54, svcs 52.3, comp 53.3 | prior n/v (AskTraders)"
-    },
-    {
-     "ldn": "09:00",
-     "ny": "04:00",
-     "cat": "ECO",
-     "event": "EZ flash PMIs (Nov)",
-     "notes": "Mfg 52.8 | 52.7, svcs 51.8 | 51.4, comp 51.9 | 51.7; UK 09:30: comp 53.2 | 52.9"
-    },
     {
      "ldn": "14:45",
      "ny": "09:45",
@@ -207,7 +195,7 @@
   },
   {
    "k": "VOL",
-   "v": "VIX 35.89 (Fri) · term str., skew, gamma n/v · ES +2.2% · gold ~$3,562 · Brent <92"
+   "v": "VIX ~30.6 (Yahoo 09:12) · term str., skew, gamma n/v · ES +2.7% · gold ~$3,612 · WTI ~82.6"
   }
  ],
  "sources": "Saxo·MUFG·Reuters/MarketScreener·Al Jazeera·AskTraders·CMC·ByteSEU·TradingEcon·FinanceCalendar·BLS·JournalArta"
