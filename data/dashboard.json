@@ -1,13 +1,13 @@
 {
  "session": "MON 23 NOV 2026",
- "edition": "AM",
- "generated_utc": "2026-11-23T06:10Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-23T08:10Z",
  "summary": {
   "regime": "Relief bid after AI-chip rout: ES +2.2%, NQ +2.9%; Kospi -3% (F4 meeting), TAIEX +2.5%, Japan shut. Bessent: Fed risks overtightening; Dec hike ~90%.",
   "alert": "Flash PMIs 09:00/04:00 EZ, 09:30 UK, 14:45/09:45 US · Wed PCE 13:30/08:30"
  },
  "review": {
-  "date": "Fri, Nov 20",
+  "date": "Fri, Nov 20 · LIVE 08:10 GMT: nothing new verified",
   "rows": [
    {
     "when": "21:00",
