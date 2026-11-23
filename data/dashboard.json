@@ -1,66 +1,202 @@
 {
  "session": "TUE 24 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-23T21:43Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-23T22:37Z",
  "summary": {
   "regime": "AI relief rally on Huang's return: NVDA ~+31%, S&P ~+5%, VIX ~27 (-24%). DXY 19-mth high, 2Y up; Dec Fed hike ~fully priced, 50bp bets gone. PCE/GDP Wed.",
-  "alert": "Tue AMC Dell call 21:30/16:30, WDAY/HPQ · Wed 13:30/08:30 PCE+GDP · Thu US shut"
+  "alert": "Tue 15:00/10:00 Conf. Board · AMC Dell call, WDAY/HPQ · Wed 13:30/08:30 PCE+GDP · Thu US shut"
  },
  "review": {
-  "date": "Mon, Nov 23",
+  "date": "Mon, Nov 23 · as of 22:40 GMT",
   "rows": [
-   {"when": "13:55", "cat": "EARN", "imp": "H", "event": "Nvidia reinstates Huang as CEO",
+   {
+    "when": "Mon AMC",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "HPE FQ4 results + FY27 guide",
+    "result": "Adj EPS 1.43 vs 1.27 cons; rev $14.55B vs $14.35B; Q1 EPS guide 1.30-1.40 vs 1.08, FY27 EPS 5.05-5.35 vs 4.74; +$5B buyback",
+    "impact": "HPE -6% after hours (as of 16:47 ET) after +18% regular session; ZM result n/v"
+   },
+   {
+    "when": "13:55",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "Nvidia reinstates Huang as CEO",
     "result": "NVDA closed ~+31% (~$1T added, mkt cap ~$4T); ~$165 at 13:21 ET vs $125.53 Fri",
-    "impact": "S&P ~+5%, NDX >6%, Comp best day since Apr 2025, Dow ~+1,400pt; MU +19%, DELL +20% (intraday)"},
-   {"when": "18:21", "cat": "RISK", "imp": "H", "event": "Cross-asset: risk-on, USD bid",
+    "impact": "S&P ~+5%, NDX >6%, Comp best day since Apr 2025, Dow ~+1,400pt; MU +19%, DELL +20% (intraday)"
+   },
+   {
+    "when": "18:21",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Cross-asset: risk-on, USD bid",
     "result": "UST 10Y 4.94% (+2.6bp, 13:21 ET); 2Y 4.66-4.72% (+5 to +11bp, srcs differ); 30Y ~5.30%",
-    "impact": "VIX 27.2 (-24%, 13:21 ET) after >40 last wk; DXY 104.1-104.3 (+0.3-0.4%, 19-mth high); gold +4% ~$3,657; WTI -2.7%"},
-   {"when": "14:45", "cat": "ECO", "imp": "H", "event": "US flash composite PMI (Nov)",
+    "impact": "VIX 27.2 (-24%, 13:21 ET) after >40 last wk; DXY 104.1-104.3 (+0.3-0.4%, 19-mth high); gold +4% ~$3,657; WTI -2.7%"
+   },
+   {
+    "when": "14:45",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US flash composite PMI (Nov)",
     "result": "54.6 vs 55.9 Oct (S&P Global), still expansionary; svcs/mfg cons n/v this run",
-    "impact": "Dec Fed hike ≥25bp near fully priced, 50bp expectations dissipated (Reuters); hike % n/v"},
-   {"when": "Mon", "cat": "RISK", "event": "UST 2Y auction $69B",
+    "impact": "Dec Fed hike ≥25bp near fully priced, 50bp expectations dissipated (Reuters); hike % n/v"
+   },
+   {
+    "when": "Mon",
+    "cat": "RISK",
+    "event": "UST 2Y auction $69B",
     "result": "Bid-to-cover 2.65x, slightly above average (Reuters)",
-    "impact": "Front end cheapened on day; 5Y $70B Tue, 7Y $44B later this week"},
-   {"when": "BMO", "cat": "EARN", "event": "CRWD to buy ZS, $43.9B stock",
+    "impact": "Front end cheapened on day; 5Y $70B Tue, 7Y $44B later this week"
+   },
+   {
+    "when": "BMO",
+    "cat": "EARN",
+    "event": "CRWD to buy ZS, $43.9B stock",
     "result": "1.135 CRWD per ZS share, ~34% premium",
-    "impact": "ZS +13-18%, CRWD -9 to -11% intraday ($203.73 at 12:12 ET)"},
-   {"when": "Asia", "cat": "RISK", "event": "Kospi -3.3%, Tokyo shut",
-    "result": "Kospi 4,708.54; Hang Seng -0.1%; Shanghai +0.2% (AP, before NVDA news)",
-    "impact": "Europe opened +0.5-0.6% (FTSE 10,394, DAX 24,962); USD/JPY 159.13 early"}
+    "impact": "ZS +13-18%, CRWD -9 to -11% intraday ($203.73 at 12:12 ET)"
+   }
   ]
  },
  "board": [
-  {"date": "Mon, Nov 23", "tag": "Tonight", "rows": [
-   {"ldn": "AMC", "ny": "", "cat": "EARN", "event": "Zoom, HPE", "notes": "ZM EPS cons 1.49, rev $1.28B; HPE EPS 1.28, rev $14.43B (Newsquawk); implied n/v"}
-  ]},
-  {"date": "Tue, Nov 24", "tag": "Next Session", "rows": [
-   {"ldn": "BMO", "ny": "", "cat": "EARN", "event": "Best Buy, Medtronic, Analog Dev.", "notes": "EPS cons BBY 1.50, MDT 1.34, ADI 3.92 (Digrin); ADI 07:00 ET; implied n/v"},
-   {"ldn": "15:00", "ny": "10:00", "cat": "ECO", "event": "Conf. Board confidence (Nov)", "notes": "Cons n/v; $70B 5Y auction today (time n/v)"},
-   {"ldn": "AMC", "ny": "", "cat": "EARN", "imp": "H", "event": "Dell, Workday, HP, Autodesk", "notes": "DELL EPS 6.75/rev $50.3B vs guide 6.50/$49.0B; WDAY 2.80; HPQ 0.76; ADSK 3.13"}
-  ]},
-  {"date": "Wed, Nov 25", "rows": [
-   {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "imp": "H", "event": "US PCE (Oct)", "notes": "Core 0.3% m/m, ~3.2% y/y; headline 0.3% m/m, 3.8% y/y | prior n/v"},
-   {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "event": "Q3 GDP 2nd est + durables + claims", "notes": "GDP 3.1-3.6% (srcs differ) | 3.4%; durables +1.1%; claims 200K | 203K"},
-   {"ldn": "19:00", "ny": "14:00", "cat": "CB", "event": "Fed Beige Book", "notes": "Last regional read before Dec 9 FOMC; Deere call 10:00 ET (release time n/v)"}
-  ]},
-  {"date": "Thu, Nov 26", "rows": [
-   {"ldn": "All day", "ny": "", "cat": "RISK", "imp": "H", "event": "US Thanksgiving: markets shut", "notes": "NYSE/Nasdaq closed; thin liquidity, Europe-only session"},
-   {"ldn": "23:30", "ny": "18:30", "cat": "ECO", "event": "Tokyo CPI (Nov)", "notes": "08:30 JST *Fri; cons n/v; BoJ/JPY sensitivity with USD/JPY near 159"}
-  ]},
-  {"date": "Fri, Nov 27", "rows": [
-   {"ldn": "18:00", "ny": "13:00", "cat": "RISK", "event": "US early close (stocks 13:00 ET)", "notes": "CME/SIFMA early close also listed; DE flash CPI (time n/v)"}
-  ]},
-  {"date": "Tue, Dec 1", "rows": [
-   {"ldn": "15:00", "ny": "10:00", "cat": "ECO", "event": "JOLTS (Oct) + ISM mfg (Nov)", "notes": "JOLTS 10:00 ET per BLS; ISM time/cons n/v; EZ flash CPI same day"}
-  ]},
-  {"date": "Fri, Dec 4", "rows": [
-   {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "imp": "H", "event": "US payrolls (Nov)", "notes": "BLS 08:30 ET; cons n/v; last NFP before Dec 8-9 FOMC; CPI Dec 10"}
-  ]}
+  {
+   "date": "Mon, Nov 23",
+   "tag": "Tonight",
+   "rows": [
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Zoom",
+     "notes": "ZM EPS cons 1.49, rev $1.28B (Newsquawk); result not verified this run"
+    }
+   ]
+  },
+  {
+   "date": "Tue, Nov 24",
+   "tag": "Next Session",
+   "rows": [
+    {
+     "ldn": "BMO",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Best Buy, Medtronic, Analog Dev.",
+     "notes": "EPS cons BBY 1.50, MDT 1.34, ADI 3.92 (Digrin); ADI 07:00 ET; implied n/v"
+    },
+    {
+     "ldn": "15:00",
+     "ny": "10:00",
+     "cat": "ECO",
+     "event": "Conf. Board confidence (Nov)",
+     "notes": "Cons n/v; $70B 5Y auction today (time n/v)"
+    },
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "imp": "H",
+     "event": "Dell, Workday, HP, Autodesk",
+     "notes": "DELL EPS 6.75/rev $50.3B vs guide 6.50/$49.0B; WDAY 2.80; HPQ 0.76; ADSK 3.13"
+    }
+   ]
+  },
+  {
+   "date": "Wed, Nov 25",
+   "rows": [
+    {
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "US PCE (Oct)",
+     "notes": "Core 0.3% m/m, ~3.2% y/y; headline 0.3% m/m, 3.8% y/y | prior n/v"
+    },
+    {
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "ECO",
+     "event": "Q3 GDP 2nd est + durables + claims",
+     "notes": "GDP 3.1-3.6% (srcs differ) | 3.4%; durables +1.1%; claims 200K | 203K"
+    },
+    {
+     "ldn": "19:00",
+     "ny": "14:00",
+     "cat": "CB",
+     "event": "Fed Beige Book",
+     "notes": "Last regional read before Dec 9 FOMC; Deere call 10:00 ET (release time n/v)"
+    }
+   ]
+  },
+  {
+   "date": "Thu, Nov 26",
+   "rows": [
+    {
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "imp": "H",
+     "event": "US Thanksgiving: markets shut",
+     "notes": "NYSE/Nasdaq closed; thin liquidity, Europe-only session"
+    },
+    {
+     "ldn": "23:30",
+     "ny": "18:30",
+     "cat": "ECO",
+     "event": "Tokyo CPI (Nov)",
+     "notes": "08:30 JST *Fri; cons n/v; BoJ/JPY sensitivity with USD/JPY near 159"
+    }
+   ]
+  },
+  {
+   "date": "Fri, Nov 27",
+   "rows": [
+    {
+     "ldn": "18:00",
+     "ny": "13:00",
+     "cat": "RISK",
+     "event": "US early close (stocks 13:00 ET)",
+     "notes": "CME/SIFMA early close also listed; DE flash CPI (time n/v)"
+    }
+   ]
+  },
+  {
+   "date": "Tue, Dec 1",
+   "rows": [
+    {
+     "ldn": "15:00",
+     "ny": "10:00",
+     "cat": "ECO",
+     "event": "JOLTS (Oct) + ISM mfg (Nov)",
+     "notes": "JOLTS 10:00 ET per BLS; ISM time/cons n/v; EZ flash CPI same day"
+    }
+   ]
+  },
+  {
+   "date": "Fri, Dec 4",
+   "rows": [
+    {
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "US payrolls (Nov)",
+     "notes": "BLS 08:30 ET; cons n/v; last NFP before Dec 8-9 FOMC; CPI Dec 10"
+    }
+   ]
+  }
  ],
  "levels": [
-  {"k": "RATES", "v": "UST 10Y 4.94% · 2Y 4.66-4.72 · 30Y ~5.30 (13:21 ET, srcs vary) · 2s10s, real yld, gilts n/v"},
-  {"k": "FX", "v": "DXY 104.1-104.3 (19-mth high) · EUR/USD 1.0982, USD/JPY 159.13 (AP early) · GBP, AUD n/v"},
-  {"k": "VOL", "v": "VIX 27.2 (-24%, 13:21 ET; >40 last wk) · term structure, skew, dealer gamma n/v"}
+  {
+   "k": "RATES",
+   "v": "UST 10Y 4.94% · 2Y 4.66-4.72 · 30Y ~5.30 (13:21 ET, srcs vary) · 2s10s, real yld, gilts n/v"
+  },
+  {
+   "k": "FX",
+   "v": "DXY 104.1-104.3 (19-mth high) · EUR/USD 1.0982, USD/JPY 159.13 (AP early) · GBP, AUD n/v"
+  },
+  {
+   "k": "VOL",
+   "v": "VIX 27.2 (-24%, 13:21 ET; >40 last wk) · term structure, skew, dealer gamma n/v"
+  }
  ],
  "sources": "Reuters/Yahoo·Kitco·AP/BNN·StockTitan·LePrivateBanker·Finviz·247WallSt·Quackonomist·FinanceCalendar·Digrin·IfYouSpent·BLS"
 }
