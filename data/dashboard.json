@@ -1,14 +1,22 @@
 {
  "session": "TUE 24 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-24T15:37Z",
+ "generated_utc": "2026-11-24T16:37Z",
  "summary": {
-  "regime": "AI relief rally fading: US tech -1.7% Tue after S&P +4.7% Mon; Asia +4-9% on Huang. Dec Fed hike ~fully priced. New-tariff report adds risk. PCE Wed.",
-  "alert": "18:00/13:00 5Y auction $70B · 21:05/16:05 Dell · AMC Workday, HP, Autodesk · Wed 13:30 PCE · Conf Board (15:00) result n/v"
+  "regime": "AI relief rally fading: Nasdaq ~-1.6% Tue after S&P +4.7% Mon; CB confidence 103.3 big beat; Dec Fed 25bp hike ~95% priced. PCE Wed.",
+  "alert": "18:00/13:00 5Y auction $70B · 21:05/16:05 Dell · AMC Workday, HP, Autodesk · Wed 13:30 PCE · MDT/ADI/DLTR results n/v"
  },
  "review": {
-  "date": "Tue, Nov 24 · as of 15:36 GMT (prev: Mon 23)",
+  "date": "Tue, Nov 24 · as of ~15:20 GMT (prev: Mon 23)",
   "rows": [
+   {
+    "when": "15:00",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US Conf. Board consumer confidence (Nov)",
+    "result": "103.3 vs 92.1 exp (calendar) | prior ~91.9 (+11.4 pts); highest since Jan 2025",
+    "impact": "Big beat; Yahoo header ~10:17 ET: S&P 7,192.9 (-0.6%), Nasdaq 23,716.6 (-1.6%), Dow +0.4%, 10Y 4.916%; Dec hike odds ~95% for 25bp (reaction attribution n/v)"
+   },
    {
     "when": "14:36",
     "cat": "RISK",
@@ -48,14 +56,6 @@
     "event": "Cross-asset close: USD bid",
     "result": "UST 10Y 4.92% (~flat), 2Y 4.63%, 2s10s ~29bp, 30Y 5.29% (-2bp)",
     "impact": "DXY 104.35 (+0.5%); EUR/USD 1.0904 (-0.6%), GBP 1.3029 (-0.4%), USD/JPY 158.94 (+0.3%); gold +3.4%, WTI -3.9% $80.17"
-   },
-   {
-    "when": "14:45",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "US flash PMIs (Nov)",
-    "result": "Composite 54.6 vs 55.9 prior (lowest since Jul); svcs 54.7 vs 55.7 exp; mfg 54.5",
-    "impact": "CME: Dec 9 25bp hike ~98% (from ~88% Fri), 50bp largely priced out; Williams: Fed has 'work to do'"
    }
   ]
  },
@@ -70,13 +70,6 @@
      "cat": "EARN",
      "event": "Medtronic, ADI, DLTR (BMO done)",
      "notes": "Results/reaction n/v this run; EPS cons MDT 1.33, ADI 3.89, DLTR 0.91"
-    },
-    {
-     "ldn": "15:00",
-     "ny": "10:00",
-     "cat": "ECO",
-     "event": "Conf. Board confidence (Nov)",
-     "notes": "Cons 92.5 | 91.7; Richmond Fed 10:00 ET; Case-Shiller 09:00 ET | result not retrieved this run"
     },
     {
      "ldn": "18:00",
@@ -191,15 +184,15 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.93% (AP early Tue; 4.94% Mon 13:21 ET) · 2Y 4.66-4.72 (Mon) · 2s10s, real yld, gilts n/v"
+   "v": "UST 10Y 4.916% (~10:17 ET) · 2Y, 2s10s, real yld, gilts n/v"
   },
   {
    "k": "FX",
-   "v": "USD/JPY 158.92 · EUR/USD 1.0913 (AP early Tue) · DXY 104.1-104.3 Mon · GBP, AUD n/v"
+   "v": "USD/JPY, EUR/USD, DXY n/v this run (last: USD/JPY 158.92, EUR/USD 1.0913 early Tue)"
   },
   {
    "k": "VOL/OIL",
-   "v": "VIX n/v (jumped, no level) · Brent lowest since late Aug (no level) · S&P ~7,157, Comp ~23,680 (14:36 GMT) · term structure, skew, gamma n/v"
+   "v": "VIX 27.35 (+2.7%) · WTI Jan 81.33 (+1.5%) · S&P 7,192.9, Nasdaq 23,716.6 (~10:17 ET); term structure, skew, gamma n/v"
   }
  ],
  "sources": "AP/Yahoo·CappNotes·STL·Reuters·ABC·RTTNews·Newsquawk·AskTraders·Investrade·Letters·LiteFinance·BLS·ForexFundamentals·TedPillows"
