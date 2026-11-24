@@ -1,14 +1,29 @@
 {
  "session": "TUE 24 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-24T16:37Z",
+ "generated_utc": "2026-11-24T17:37Z",
  "summary": {
-  "regime": "AI relief rally fading: Nasdaq ~-1.6% Tue after S&P +4.7% Mon; CB confidence 103.3 big beat; Dec Fed 25bp hike ~95% priced. PCE Wed.",
+  "regime": "AI relief rally reversing: Nasdaq -2.1%, NVDA -7.8% Tue after +31.5% Mon; 10Y 4.89%; Dec Fed 25bp hike ~95% priced. PCE Wed.",
   "alert": "18:00/13:00 5Y auction $70B · 21:05/16:05 Dell · AMC Workday, HP, Autodesk · Wed 13:30 PCE · MDT/ADI/DLTR results n/v"
  },
  "review": {
-  "date": "Tue, Nov 24 · as of ~15:20 GMT (prev: Mon 23)",
+  "date": "Tue, Nov 24 · as of 15:45 GMT (prev: Mon 23)",
   "rows": [
+   {
+    "when": "15:45",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "AI stocks slide again",
+    "result": "S&P -1.0%, Nasdaq -2.1%, Dow ~flat; NVDA -7.8% after +31.5% Mon (10:45 ET)",
+    "impact": "10Y 4.89% vs 4.92% Mon close; Brent +0.6% $87.22; CoreWeave -11.5%, GE Vernova -5.5% (AP, 10:45 ET); VIX n/v"
+   },
+   {
+    "when": "BMO",
+    "cat": "EARN",
+    "event": "Dollar Tree FQ3",
+    "result": "Beat expectations; EPS/cons n/v",
+    "impact": "DLTR +11.7% (AP, 10:45 ET); Kohl's +13.9% on profit vs ~breakeven exp"
+   },
    {
     "when": "15:00",
     "cat": "ECO",
@@ -40,22 +55,6 @@
     "event": "Asia follows Nvidia/Huang rally",
     "result": "Nikkei +3.9% 58,654; Kospi +6.5% 5,014; Taiex >+9%; ASX200 +1.7%; HSI +0.2%; CSI SH +0.7%",
     "impact": "Tokyo Electron +10.5%, Advantest +14.1%, SK Hynix +8.6%; US futures 'edged higher' (AP, early Tue); Brent -0.5% $86.27"
-   },
-   {
-    "when": "13:55",
-    "cat": "EARN",
-    "imp": "H",
-    "event": "Nvidia reinstates Huang as CEO",
-    "result": "NVDA +31.5% to ~$165.05; SOXX +13.6%, TSM +14.1%, MU +19.0%, DELL +20.5%",
-    "impact": "S&P +4.73% 7,237, Comp +6.51%, NDX +6.86%, Dow +3.01%; Tech +8.97%, Energy -1.06%; VIX 26.62 (-25.8%)"
-   },
-   {
-    "when": "21:00",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Cross-asset close: USD bid",
-    "result": "UST 10Y 4.92% (~flat), 2Y 4.63%, 2s10s ~29bp, 30Y 5.29% (-2bp)",
-    "impact": "DXY 104.35 (+0.5%); EUR/USD 1.0904 (-0.6%), GBP 1.3029 (-0.4%), USD/JPY 158.94 (+0.3%); gold +3.4%, WTI -3.9% $80.17"
    }
   ]
  },
@@ -68,8 +67,8 @@
      "ldn": "BMO",
      "ny": "",
      "cat": "EARN",
-     "event": "Medtronic, ADI, DLTR (BMO done)",
-     "notes": "Results/reaction n/v this run; EPS cons MDT 1.33, ADI 3.89, DLTR 0.91"
+     "event": "Medtronic, ADI (BMO)",
+     "notes": "Results/reaction n/v this run; EPS cons MDT 1.33, ADI 3.89"
     },
     {
      "ldn": "18:00",
@@ -184,7 +183,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.916% (~10:17 ET) · 2Y, 2s10s, real yld, gilts n/v"
+   "v": "UST 10Y 4.89% (10:45 ET, AP) · 2Y, 2s10s, real yld, gilts n/v"
   },
   {
    "k": "FX",
@@ -192,7 +191,7 @@
   },
   {
    "k": "VOL/OIL",
-   "v": "VIX 27.35 (+2.7%) · WTI Jan 81.33 (+1.5%) · S&P 7,192.9, Nasdaq 23,716.6 (~10:17 ET); term structure, skew, gamma n/v"
+   "v": "VIX 30.13 (+13%, Yahoo, untimed) · Brent $87.22 (+0.6%, 10:45 ET) · S&P -1.0%, Nasdaq -2.1% (10:45 ET); WTI, term structure, gamma n/v"
   }
  ],
  "sources": "AP/Yahoo·CappNotes·STL·Reuters·ABC·RTTNews·Newsquawk·AskTraders·Investrade·Letters·LiteFinance·BLS·ForexFundamentals·TedPillows"
