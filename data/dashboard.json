@@ -1,14 +1,22 @@
 {
  "session": "TUE 24 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-24T13:40Z",
+ "generated_utc": "2026-11-24T14:40Z",
  "summary": {
   "regime": "AI relief rally extends to Asia (Taiex +9%, Kospi +7%, Nikkei +4%) after S&P +4.7% on Huang's return. Dec Fed hike ~fully priced, USD at 19-mth high. PCE Wed.",
   "alert": "15:00/10:00 Conf Board · 18:00/13:00 5Y auction · 21:05/16:05 Dell · Wed 13:30 PCE"
  },
  "review": {
-  "date": "Tue, Nov 24 · as of 13:40 GMT (prev: Mon 23)",
+  "date": "Tue, Nov 24 · as of 14:40 GMT (prev: Mon 23)",
   "rows": [
+   {
+    "when": "BMO",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "Best Buy FQ3 + raised FY guide",
+    "result": "Adj EPS 1.62 (beat by 0.13); rev $10.24B vs 9.91B; comp +6.1% vs 2.3% exp",
+    "impact": "BBY +6.1% premarket (07:55 ET); FY EPS guide 6.90-7.05 vs 6.81 exp; US online comp +10.8%"
+   },
    {
     "when": "02:00-08:00",
     "cat": "RISK",
@@ -47,13 +55,6 @@
     "event": "HPE FQ4 + FY27 guide",
     "result": "Beat; guide above ests; +$5B buyback",
     "impact": "HPE ~-5% after hours, after +17.4% in session"
-   },
-   {
-    "when": "AMC",
-    "cat": "EARN",
-    "event": "Zoom FQ3",
-    "result": "Rev $1.290B (+4.9%); FY27 adj EPS guide 6.24-6.25 (was 6.08-6.12)",
-    "impact": "ZM -0.96% after hours at $85.20"
    }
   ]
  },
@@ -66,8 +67,8 @@
      "ldn": "BMO",
      "ny": "",
      "cat": "EARN",
-     "event": "Medtronic, ADI, Best Buy, DLTR",
-     "notes": "EPS cons MDT 1.33 (06:45 ET), ADI 3.89, BBY 1.49 (07:00), DLTR 0.91 (06:30); implied n/v"
+     "event": "Medtronic, ADI, DLTR (BMO done)",
+     "notes": "Results/reaction n/v this run; EPS cons MDT 1.33, ADI 3.89, DLTR 0.91"
     },
     {
      "ldn": "15:00",
