@@ -1,14 +1,22 @@
 {
  "session": "TUE 24 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-24T18:38Z",
+ "generated_utc": "2026-11-24T19:41Z",
  "summary": {
-  "regime": "AI relief rally reversing: Nasdaq -2.1%, NVDA -7.8% Tue after +31.5% Mon; 10Y 4.89%; Dec Fed 25bp hike ~95% priced. PCE Wed.",
-  "alert": "21:05/16:05 Dell · AMC Workday, HP, Autodesk · Wed 13:30 PCE · Wed 18:00 7Y auction $44B · MDT/ADI results n/v"
+  "regime": "AI relief rally reversing: Nasdaq -1.7%, NVDA -7.5% Tue after +31.5% Mon; ADI -16%; 10Y 4.91%; Dec Fed 25bp hike ~95% priced. PCE Wed.",
+  "alert": "21:05/16:05 Dell · AMC Workday, HP, Autodesk · Wed 13:30 PCE · Wed 18:00 7Y auction $44B"
  },
  "review": {
-  "date": "Tue, Nov 24 · as of 18:37 GMT (prev: Mon 23)",
+  "date": "Tue, Nov 24 · as of 19:40 GMT (prev: Mon 23)",
   "rows": [
+   {
+    "when": "BMO",
+    "cat": "EARN",
+    "imp": "H",
+    "event": "Analog Devices FQ4",
+    "result": "Rev +42% to $4.37B; Q1 guide $4.4B ±150M; EPS vs cons n/v",
+    "impact": "ADI -16.1% (13:01 ET, StockTitan) vs -9.4% at 08:00 ET; chip-sector read-across; Medtronic result n/v"
+   },
    {
     "when": "18:00",
     "cat": "RISK",
@@ -18,12 +26,12 @@
     "impact": "Indirect 54.3% (avg 61.9%), direct 36.7% (avg 25.5%), dealers 9.0% (avg 12.6%); soft indirect bid, market reaction n/v (investinglive 18:06 GMT)"
    },
    {
-    "when": "15:45",
+    "when": "19:05",
     "cat": "RISK",
     "imp": "H",
     "event": "AI stocks slide again",
-    "result": "S&P -1.0%, Nasdaq -2.1%, Dow ~flat; NVDA -7.8% after +31.5% Mon (10:45 ET)",
-    "impact": "10Y 4.89% vs 4.92% Mon close; Brent +0.6% $87.22; CoreWeave -11.5%, GE Vernova -5.5% (AP, 10:45 ET); VIX n/v"
+    "result": "S&P -0.7%, Nasdaq -1.7%, Dow +0.7% (+338pts); NVDA -7.5% after +31.5% Mon (14:05 ET)",
+    "impact": "10Y 4.91% vs 4.92% Mon (AP); Brent +2.1% $88.49; MU -10.2%, AMD -9.1%, INTC -7.5% (13:01 ET); Anthropic -9.3% <$83 IPO px; VIX n/v"
    },
    {
     "when": "BMO",
@@ -47,14 +55,6 @@
     "event": "US tech gives back part of Nvidia surge",
     "result": "S&P ~7,157 (-1.1%), Nasdaq Comp ~23,680 (-1.7%), Dow loss <0.5%; NVDA -5% to -6% after +31.5% Mon (as of 14:36 GMT)",
     "impact": "Report of new US tariffs on China, EU and 14 others weighed on futures (single source); Brent lowest since late Aug; Treasuries rallied pre-5Y auction; yield levels, VIX n/v"
-   },
-   {
-    "when": "BMO",
-    "cat": "EARN",
-    "imp": "H",
-    "event": "Best Buy FQ3 + raised FY guide",
-    "result": "Adj EPS 1.62 (beat by 0.13); rev $10.24B vs 9.91B; comp +6.1% vs 2.3% exp",
-    "impact": "BBY +6.1% premarket (07:55 ET); FY EPS guide 6.90-7.05 vs 6.81 exp; US online comp +10.8%"
    }
   ]
  },
@@ -67,8 +67,8 @@
      "ldn": "BMO",
      "ny": "",
      "cat": "EARN",
-     "event": "Medtronic, ADI (BMO)",
-     "notes": "Results/reaction n/v this run; EPS cons MDT 1.33, ADI 3.89"
+     "event": "Medtronic (BMO)",
+     "notes": "Result/reaction n/v this run; EPS cons 1.33"
     },
     {
      "ldn": "AMC",
@@ -176,7 +176,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.89% (10:45 ET, AP) · 2Y, 2s10s, real yld, gilts n/v"
+   "v": "UST 10Y 4.91% (14:05 ET, AP) · 2Y, 2s10s, real yld, gilts n/v"
   },
   {
    "k": "FX",
@@ -184,8 +184,8 @@
   },
   {
    "k": "VOL/OIL",
-   "v": "VIX 30.13 (+13%, Yahoo, untimed) · Brent $87.22 (+0.6%, 10:45 ET) · S&P -1.0%, Nasdaq -2.1% (10:45 ET); WTI, term structure, gamma n/v"
+   "v": "VIX n/v · Brent $88.49 (+2.1%, AP) · S&P -0.7%, Nasdaq -1.7%, Dow +0.7% (14:05 ET); WTI, term structure, gamma n/v"
   }
  ],
- "sources": "AP/Yahoo·CappNotes·STL·Reuters·ABC·RTTNews·Newsquawk·AskTraders·Investrade·Letters·LiteFinance·BLS·ForexFundamentals·TedPillows"
+ "sources": "AP/Yahoo·CappNotes·STL·Reuters·ABC·RTTNews·Newsquawk·AskTraders·Investrade·Letters·LiteFinance·BLS·ForexFundamentals·TedPillows·StockTitan·BNN/AP"
 }
