@@ -1,14 +1,22 @@
 {
  "session": "TUE 24 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-24T14:40Z",
+ "generated_utc": "2026-11-24T15:37Z",
  "summary": {
-  "regime": "AI relief rally extends to Asia (Taiex +9%, Kospi +7%, Nikkei +4%) after S&P +4.7% on Huang's return. Dec Fed hike ~fully priced, USD at 19-mth high. PCE Wed.",
-  "alert": "15:00/10:00 Conf Board · 18:00/13:00 5Y auction · 21:05/16:05 Dell · Wed 13:30 PCE"
+  "regime": "AI relief rally fading: US tech -1.7% Tue after S&P +4.7% Mon; Asia +4-9% on Huang. Dec Fed hike ~fully priced. New-tariff report adds risk. PCE Wed.",
+  "alert": "18:00/13:00 5Y auction $70B · 21:05/16:05 Dell · AMC Workday, HP, Autodesk · Wed 13:30 PCE · Conf Board (15:00) result n/v"
  },
  "review": {
-  "date": "Tue, Nov 24 · as of 14:40 GMT (prev: Mon 23)",
+  "date": "Tue, Nov 24 · as of 15:36 GMT (prev: Mon 23)",
   "rows": [
+   {
+    "when": "14:36",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "US tech gives back part of Nvidia surge",
+    "result": "S&P ~7,157 (-1.1%), Nasdaq Comp ~23,680 (-1.7%), Dow loss <0.5%; NVDA -5% to -6% after +31.5% Mon (as of 14:36 GMT)",
+    "impact": "Report of new US tariffs on China, EU and 14 others weighed on futures (single source); Brent lowest since late Aug; Treasuries rallied pre-5Y auction; yield levels, VIX n/v"
+   },
    {
     "when": "BMO",
     "cat": "EARN",
@@ -48,13 +56,6 @@
     "event": "US flash PMIs (Nov)",
     "result": "Composite 54.6 vs 55.9 prior (lowest since Jul); svcs 54.7 vs 55.7 exp; mfg 54.5",
     "impact": "CME: Dec 9 25bp hike ~98% (from ~88% Fri), 50bp largely priced out; Williams: Fed has 'work to do'"
-   },
-   {
-    "when": "AMC",
-    "cat": "EARN",
-    "event": "HPE FQ4 + FY27 guide",
-    "result": "Beat; guide above ests; +$5B buyback",
-    "impact": "HPE ~-5% after hours, after +17.4% in session"
    }
   ]
  },
@@ -75,7 +76,7 @@
      "ny": "10:00",
      "cat": "ECO",
      "event": "Conf. Board confidence (Nov)",
-     "notes": "Cons 92.5 | 91.7; Richmond Fed 10:00 ET; Case-Shiller 09:00 ET"
+     "notes": "Cons 92.5 | 91.7; Richmond Fed 10:00 ET; Case-Shiller 09:00 ET | result not retrieved this run"
     },
     {
      "ldn": "18:00",
@@ -198,8 +199,8 @@
   },
   {
    "k": "VOL/OIL",
-   "v": "VIX 27.2 (Mon 13:21 ET) · Brent $86.27, WTI $79.90 (AP early Tue) · term structure, skew, gamma n/v"
+   "v": "VIX n/v (jumped, no level) · Brent lowest since late Aug (no level) · S&P ~7,157, Comp ~23,680 (14:36 GMT) · term structure, skew, gamma n/v"
   }
  ],
- "sources": "AP/Yahoo·CappNotes·STL·Reuters·ABC·RTTNews·Newsquawk·AskTraders·Investrade·Letters·LiteFinance·BLS·ForexFundamentals"
+ "sources": "AP/Yahoo·CappNotes·STL·Reuters·ABC·RTTNews·Newsquawk·AskTraders·Investrade·Letters·LiteFinance·BLS·ForexFundamentals·TedPillows"
 }
