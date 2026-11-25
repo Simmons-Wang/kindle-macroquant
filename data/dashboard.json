@@ -1,99 +1,102 @@
 {
- "session": "WED 25 NOV 2026",
- "edition": "LIVE",
- "generated_utc": "2026-11-25T20:36Z",
+ "session": "FRI 27 NOV 2026",
+ "edition": "PM",
+ "generated_utc": "2026-11-25T21:55Z",
  "summary": {
-  "regime": "Risk-off deepening: S&P -2.8%, Nasdaq -4.1%, VIX 33.7 (16:31) as chip rout continues; new US tariffs up to 20% proposed. Dec Fed 25bp hike ~98% priced after hot PCE/GDP.",
-  "alert": "Thu US shut (Thanksgiving) · Fri 18:00/13:00 early close · Dec 4 NFP · levels as of 16:31"
+  "regime": "AI/chip rout reversed: S&P low -3.2% closed -0.25%, Dow +0.33%. Hot core PCE 3.3% + GDP 4.3% keep Dec 9 hike ~96% priced; Sec 301 tariffs, Brent +3.5%.",
+  "alert": "Thu US shut · Fri thin: stocks 18:00/13:00, bonds 19:00/14:00 · NFP Dec 4 13:30/08:30"
  },
  "review": {
-  "date": "Wed, Nov 25 · as of 20:36 GMT",
+  "date": "Wed, Nov 25",
   "rows": [
    {
-    "when": "19:00",
-    "cat": "CB",
-    "event": "Fed Beige Book",
-    "result": "Released 14:00 ET; district summary and tone n/v (no source found this run)",
-    "impact": "Last read before Dec 8-9 FOMC; Dec hike ~98% (CME, 16:31); post-release reaction n/v"
-   },
-   {
-    "when": "16:31",
+    "when": "Close",
     "cat": "RISK",
     "imp": "H",
-    "event": "Wall St sell-off + new US tariffs",
-    "result": "Tariffs up to 20% on China, EU +12 partners (08:19 ET; Jan at earliest); S&P 6,996 -2.84%, Nasdaq Comp 22,754 -4.13%, Dow 49,257 -1.52%, R2K -1.71%",
-    "impact": "as of 16:31: VIX 33.65 +27.6%; NDX briefly -20% from record; SOX ~-6%; 10Y 4.81% -7bp; gold -2.9%; crude +1.5%; Dec hike ~98% (CME)"
-   },
-   {
-    "when": "13:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "US Q3 GDP (2nd est) + claims",
-    "result": "GDP 4.3% saar vs 3.5% cons | 3.4% adv; claims 189k vs 200k cons | 202k; durables n/v",
-    "impact": "hot data adds to hike pricing; 10Y -8bp as risk-off dominates; USD/JPY, 2Y n/v"
+    "event": "AI rout reverses into close",
+    "result": "S&P 7,183 -0.25% (low -3.2%); Nasdaq -0.62% (low -4.6%); Dow +0.33%",
+    "impact": "Dow erased 1,100pt drop to 50,183; SOX -0.65%; NVDA -3.9%, MU -4.5%; R2K +0.71%; VIX hi 34.95, close n/v"
    },
    {
     "when": "13:30",
     "cat": "ECO",
     "imp": "H",
     "event": "US PCE (Oct)",
-    "result": "Core 3.3% y/y vs 3.2% cons | 3.1%; core 0.3% m/m in line; headline 3.8% y/y in line | 3.6%; income +0.7%, saving rate 4.1%",
-    "impact": "Core +0.1pt hot; SPY -0.19%, QQQ -0.28%, IWM -0.07% vs pre-print (08:30 ET; SPY -2.0%, QQQ -3.0% vs Tue close); TLT flat; Dec 25bp hike 94% (Polymarket)"
+    "result": "Core 3.3% y/y vs 3.2% | 3.1%; core m/m 0.3% in line; headline 3.8%",
+    "impact": "Hike pricing held: Dec 9 +25bp 96.4% (FatTail 15:45 ET); 10Y ~4.85% -6bp (15:00 ET) as risk-off dominated; 2Y n/v"
    },
    {
-    "when": "O/N",
+    "when": "13:30",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US Q3 GDP (2nd est)",
+    "result": "4.3% saar vs 3.5% cons | 3.4% adv; claims, durables actuals n/v",
+    "impact": "USD/JPY 159.32 +0.16%, EUR/USD 1.0935 -0.26% (ECB fix 15:00 GMT); DXY 103.70 -0.1% (15:00 ET)"
+   },
+   {
+    "when": "Intraday",
     "cat": "RISK",
     "imp": "H",
-    "event": "Asia chip rout",
-    "result": "Kospi -4.6% to 4,777 (halt at open); Nikkei -3.2%, Taiex -8.2% (early)",
-    "impact": "TSMC -8.3%, SK Hynix -9%, TEL/Advantest -11%; NQ fut -1.17% (21:51 ET); USD/JPY 159.22; AUD -0.12%"
+    "event": "US Sec 301 tariffs on 14",
+    "result": "China +20% on top of 25%; EU, Japan hit; Jan at earliest",
+    "impact": "AUD/USD 0.6570 -1.08% (ECB fix); Brent settles $94.61 +3.5% also on Ras Tanura drone strike; gold ~$3,598"
    },
    {
-    "when": "AMC",
+    "when": "19:00",
+    "cat": "CB",
+    "event": "Fed Beige Book",
+    "result": "8/12 districts grew (Oct 9); wages moderate (from modest)",
+    "impact": "Little dovish ammunition; hike still ~fully priced; post-release move n/v"
+   },
+   {
+    "when": "Tue AMC",
     "cat": "EARN",
-    "imp": "H",
     "event": "Dell Q3 FY27",
-    "result": "Record rev $54.9B, adj EPS beat; FY guide raised; AI backlog $132.3B",
-    "impact": "DELL -11.8% in session pre-print; AH move conflicting (+4% Cappnotes, <+1% Saxo) n/v; AMBA -37% AH"
+    "result": "Record AI backlog; DELL +0.60% to $297.06 after low $265",
+    "impact": "Held up vs chip peers (NVDA -3.9%, MU -4.5%); tape driven by tariffs/AI rout"
    }
   ]
  },
  "board": [
   {
-   "date": "Wed, Nov 25",
-   "tag": "Today",
-   "rows": [
-    {
-     "ldn": "15:00",
-     "ny": "10:00",
-     "cat": "ECO",
-     "event": "US new home sales (Oct)",
-     "notes": "Released 10:00 ET; actual n/v (not found in sources). Cons -5.3% m/m | prior -0.6%; EIA crude 15:30/10:30"
-    }
-   ]
-  },
-  {
    "date": "Thu, Nov 26",
+   "tag": "Tonight",
    "rows": [
     {
      "ldn": "All day",
      "ny": "",
      "cat": "RISK",
      "imp": "H",
-     "event": "US Thanksgiving: NYSE/Nasdaq shut",
-     "notes": "US cash markets closed; Europe-only liquidity"
+     "event": "US Thanksgiving: stocks & bonds shut",
+     "notes": "Europe-only liquidity; US futures thin"
+    },
+    {
+     "ldn": "23:30",
+     "ny": "18:30",
+     "cat": "ECO",
+     "event": "Tokyo CPI (Nov)",
+     "notes": "08:30 JST Fri; cons/prior n/v; USD/JPY 159.3 near intervention zone (judgement)"
     }
    ]
   },
   {
    "date": "Fri, Nov 27",
+   "tag": "Next Session",
    "rows": [
     {
      "ldn": "18:00",
      "ny": "13:00",
      "cat": "RISK",
+     "imp": "H",
      "event": "US stocks early close",
-     "notes": "13:00 ET (Cappnotes); bond/CME times n/v; month-end flows into thin tape"
+     "notes": "Half-day + month-end rebalancing into thin tape; implied move n/v"
+    },
+    {
+     "ldn": "19:00",
+     "ny": "14:00",
+     "cat": "RISK",
+     "event": "US bond market early close",
+     "notes": "SIFMA 14:00 ET recommendation"
     }
    ]
   },
@@ -101,11 +104,18 @@
    "date": "Mon, Nov 30",
    "rows": [
     {
+     "ldn": "01:05",
+     "ny": "*Sun",
+     "cat": "CB",
+     "event": "BoJ Gov Ueda speech",
+     "notes": "NY 20:05 Sun; Dec BoJ hike signal watch; USD/JPY 159.3"
+    },
+    {
      "ldn": "01:30",
      "ny": "*Sun",
      "cat": "ECO",
      "event": "China official PMIs (Nov)",
-     "notes": "NY 20:30 Sun; cons n/v; Caixin mfg Tue 01:45 LDN"
+     "notes": "NY 20:30 Sun; cons n/v; RatingDog mfg Tue 01:45 LDN"
     }
    ]
   },
@@ -124,8 +134,16 @@
      "ldn": "15:00",
      "ny": "10:00",
      "cat": "ECO",
-     "event": "US ISM mfg + JOLTS (Oct)",
-     "notes": "JOLTS prior 7.52M; cons n/v; SharkNinja joins S&P 500 pre-open Dec 2 (MOC)"
+     "imp": "H",
+     "event": "US ISM mfg (Nov)",
+     "notes": "Cons n/v; JOLTS (Oct) same time, prior 7.52M"
+    },
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Marvell Q3 FY27",
+     "notes": "Call 16:30 ET; rev guide mid $3.15B; EPS cons n/v; AI-chip sentiment test"
     }
    ]
   },
@@ -149,7 +167,7 @@
      "ny": "10:00",
      "cat": "ECO",
      "event": "US ISM services (Nov)",
-     "notes": "Cons n/v"
+     "notes": "Prior 54.5; cons n/v"
     }
    ]
   },
@@ -170,16 +188,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.81% (-7bp, 16:31) · 30Y 5.24% · 2Y n/v · Dec hike ~98% (CME)"
+   "v": "UST 10Y ~4.85% -6bp (15:00 ET) · 2Y, 2s10s, real n/v · gilts n/v · Dec hike 96.4%"
   },
   {
    "k": "FX",
-   "v": "DXY 103.87 fut +0.11% · USD/JPY n/v · EUR/USD n/v · GBP/USD n/v"
+   "v": "EUR/USD 1.0935 -0.26% · GBP/USD 1.3060 · USD/JPY 159.32 · AUD/USD 0.6570 -1.08% (ECB fix)"
   },
   {
    "k": "VOL",
-   "v": "VIX 33.65 +27.6% (16:31) · S&P 6,996 · NDX Comp 22,754 · Gold 3,488 -2.9% · Crude 83.27 +1.5% · BTC 58.2k"
+   "v": "VIX hi 34.95, close n/v · skew/gamma n/v · Brent 94.61 +3.5% · Gold ~3,598"
   }
  ],
- "sources": "Cappnotes·Investrade·Yahoo/Fool·VistaP·Saxo·KotakNeo·Stocktwits·Investing·MarketMath·TradingEcon·WickCheck·FedRateCalc·FinanceCalendar"
+ "sources": "AP/947qdr·TradingKey·ChipDispatch·Yahoo·FatTail·InvestingLive·Fed·WickCheck·LiteFinance·MarketAlleys·Fool"
 }
