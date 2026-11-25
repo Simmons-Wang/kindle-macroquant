@@ -1,14 +1,30 @@
 {
  "session": "WED 25 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-25T13:38Z",
+ "generated_utc": "2026-11-25T15:38Z",
  "summary": {
-  "regime": "AI unwind hits Asia: Kospi -4.6%, Taiex -8% intraday after SOX -8%; NQ fut -1.2%. Dec Fed 25bp hike ~96% priced; PCE/GDP set size. Sec 301 tariffs due.",
-  "alert": "15:00/10:00 new home sales · 19:00/14:00 Beige Book · 20:00/15:00 SIFMA early close · Thu US shut"
+  "regime": "Risk-off: S&P -2.3%, Nasdaq -3.6%, VIX 33.6 (15:35) as chip rout deepens; new US tariffs up to 20% proposed. Dec Fed 25bp hike ~98% priced after hot PCE/GDP.",
+  "alert": "19:00/14:00 Beige Book · 20:00/15:00 SIFMA early close · Thu US shut · tariff hearings TBD"
  },
  "review": {
-  "date": "Tue, Nov 24 (close) + Asia o/n + PCE · as of 13:40 GMT",
+  "date": "Wed, Nov 25 · as of 15:35 GMT",
   "rows": [
+   {
+    "when": "15:35",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Wall St sell-off + new US tariffs",
+    "result": "Tariffs up to 20% on China, EU +12 partners (08:19 ET; effective Jan at earliest); S&P 7,033.61 -2.33%, Nasdaq Comp -3.61%, Dow -1.25%, R2K -2.01%",
+    "impact": "as of ~15:35: VIX 33.62 +27%; SOX >-6%, NVDA -7.5%; NDX heading for bear-market close; 10Y 4.82% -8bp; gold -3.5%; crude +1.3%; Dec hike ~98% (FedWatch)"
+   },
+   {
+    "when": "13:30",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US Q3 GDP (2nd est) + claims",
+    "result": "GDP 4.3% saar vs 3.5% cons | 3.4% adv; claims 189k vs 200k cons | 202k; durables n/v",
+    "impact": "hot data adds to hike pricing; 10Y -8bp as risk-off dominates; USD/JPY, 2Y n/v"
+   },
    {
     "when": "13:30",
     "cat": "ECO",
@@ -40,22 +56,6 @@
     "event": "Chip rout, Dow > 50k",
     "result": "S&P 7,201 -0.50%, NDX -1.99%, Dow 50,019 +0.85%, R2K +0.57%",
     "impact": "SOXX -8.3%, NVDA -5.9%, MU -11%, AMD -8.9%; XLK -3.3%, XLV +3.0%; 10Y 4.904% -1.4bp; DXY -0.47%"
-   },
-   {
-    "when": "BMO",
-    "cat": "EARN",
-    "imp": "H",
-    "event": "Analog Devices FQ4",
-    "result": "EPS $4.06 vs $3.88; rev $4.37B vs $4.32B; Q1 rev guide $4.4B vs $4.31B",
-    "impact": "ADI -17.4% despite beat; Semtech -17.0%; HPE -16.3% (Mon AMC margin warning)"
-   },
-   {
-    "when": "15:00",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "Conf. Board confidence (Nov)",
-    "result": "103.3 vs 92.2-92.5 cons | 91.9 rev; highest since Jan 2025",
-    "impact": "FedWatch Dec 25bp hike 96.4%, 50bp 3.6%; 2Y 4.63% unch; VIX 26.36 -1.0%; gold -2.5%"
    }
   ]
  },
@@ -65,19 +65,11 @@
    "tag": "Today",
    "rows": [
     {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "imp": "H",
-     "event": "Q3 GDP 2nd est + claims, durables",
-     "notes": "Released 13:30; actuals not verified (n/v). Cons: GDP 3.5% | 3.4% (XTB); claims 200k | 203k; durables 0.7% | 1.9%"
-    },
-    {
      "ldn": "15:00",
      "ny": "10:00",
      "cat": "ECO",
      "event": "US new home sales (Oct)",
-     "notes": "Cons 650k | 676k; EIA crude 15:30/10:30, prior +3.38M"
+     "notes": "Released; actual n/v. Cons -5.3% m/m | prior -0.6%; EIA crude 15:30/10:30"
     },
     {
      "ldn": "19:00",
@@ -193,15 +185,15 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.63% unch · 10Y 4.904% (-1.4bp) · 2s10s +27bp · gilt 10Y ~5.23% (Nov 23) · real n/v"
+   "v": "UST 10Y 4.82% (-8bp, 15:35) · 30Y 5.24% · 2Y n/v · Dec hike ~98% (FedWatch)"
   },
   {
    "k": "FX",
-   "v": "DXY 103.83 (-0.47%) · USD/JPY 159.22 · EUR/USD 1.097 · AUD/USD -0.12% o/n · GBP/USD n/v"
+   "v": "DXY n/v · USD/JPY n/v · EUR/USD n/v · GBP/USD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX n/v · SPY 704.25 / QQQ 619.06 pre-mkt (08:30 ET) · term, skew, gamma n/v · Brent/WTI n/v"
+   "v": "VIX 33.62 +27% (15:35) · S&P 7,033.6 · NDX Comp 22,878 · Gold 3,466.6 -3.5% · Crude 83.13 +1.3% · BTC 58.2k"
   }
  ],
  "sources": "Cappnotes·Investrade·Yahoo/Fool·VistaP·Saxo·KotakNeo·Stocktwits·Investing·MarketMath·TradingEcon·WickCheck·FedRateCalc·FinanceCalendar"
