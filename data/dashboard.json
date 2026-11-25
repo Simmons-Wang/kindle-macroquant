@@ -1,13 +1,13 @@
 {
  "session": "WED 25 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-25T19:37Z",
+ "generated_utc": "2026-11-25T20:36Z",
  "summary": {
   "regime": "Risk-off deepening: S&P -2.8%, Nasdaq -4.1%, VIX 33.7 (16:31) as chip rout continues; new US tariffs up to 20% proposed. Dec Fed 25bp hike ~98% priced after hot PCE/GDP.",
-  "alert": "20:00/15:00 SIFMA early close · Thu US shut · Fri 18:00/13:00 early close · levels as of 16:31"
+  "alert": "Thu US shut (Thanksgiving) · Fri 18:00/13:00 early close · Dec 4 NFP · levels as of 16:31"
  },
  "review": {
-  "date": "Wed, Nov 25 · as of 19:40 GMT",
+  "date": "Wed, Nov 25 · as of 20:36 GMT",
   "rows": [
    {
     "when": "19:00",
@@ -69,13 +69,6 @@
      "cat": "ECO",
      "event": "US new home sales (Oct)",
      "notes": "Released 10:00 ET; actual n/v (not found in sources). Cons -5.3% m/m | prior -0.6%; EIA crude 15:30/10:30"
-    },
-    {
-     "ldn": "20:00",
-     "ny": "15:00",
-     "cat": "RISK",
-     "event": "SIFMA early bond close",
-     "notes": "Pre-Thanksgiving thin liquidity (Market Math); Sec 301 tariff unveil 'this week'"
     }
    ]
   },
