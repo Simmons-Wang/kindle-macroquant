@@ -1,14 +1,22 @@
 {
  "session": "WED 25 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-25T12:38Z",
+ "generated_utc": "2026-11-25T13:38Z",
  "summary": {
   "regime": "AI unwind hits Asia: Kospi -4.6%, Taiex -8% intraday after SOX -8%; NQ fut -1.2%. Dec Fed 25bp hike ~96% priced; PCE/GDP set size. Sec 301 tariffs due.",
-  "alert": "13:30/08:30 PCE+GDP+claims (in ~1h) · 19:00/14:00 Beige Book · Thu US shut"
+  "alert": "15:00/10:00 new home sales · 19:00/14:00 Beige Book · 20:00/15:00 SIFMA early close · Thu US shut"
  },
  "review": {
-  "date": "Tue, Nov 24 (close) + Asia o/n · as of 12:37 GMT · no new verified moves since 08:10",
+  "date": "Tue, Nov 24 (close) + Asia o/n + PCE · as of 13:40 GMT",
   "rows": [
+   {
+    "when": "13:30",
+    "cat": "ECO",
+    "imp": "H",
+    "event": "US PCE (Oct)",
+    "result": "Core 3.3% y/y vs 3.2% cons | 3.1%; core 0.3% m/m in line; headline 3.8% y/y in line | 3.6%; income +0.7%, saving rate 4.1%",
+    "impact": "Core +0.1pt hot; SPY -0.19%, QQQ -0.28%, IWM -0.07% vs pre-print (08:30 ET; SPY -2.0%, QQQ -3.0% vs Tue close); TLT flat; Dec 25bp hike 94% (Polymarket)"
+   },
    {
     "when": "O/N",
     "cat": "RISK",
@@ -48,13 +56,6 @@
     "event": "Conf. Board confidence (Nov)",
     "result": "103.3 vs 92.2-92.5 cons | 91.9 rev; highest since Jan 2025",
     "impact": "FedWatch Dec 25bp hike 96.4%, 50bp 3.6%; 2Y 4.63% unch; VIX 26.36 -1.0%; gold -2.5%"
-   },
-   {
-    "when": "O/N",
-    "cat": "ECO",
-    "event": "Australia CPI (Oct)",
-    "result": "4.9% y/y vs 4.7% cons | 4.3%; Japan services PPI 4.2% y/y | 3.8%",
-    "impact": "AUD/USD -0.12% (weakest G10, Saxo); RBA pricing n/v"
    }
   ]
  },
@@ -68,16 +69,8 @@
      "ny": "08:30",
      "cat": "ECO",
      "imp": "H",
-     "event": "US PCE (Oct)",
-     "notes": "Core 0.3% m/m, 3.2% y/y | 3.1%; headline 3.8% y/y | 3.6%; income 0.4%, spend 0.4%"
-    },
-    {
-     "ldn": "13:30",
-     "ny": "08:30",
-     "cat": "ECO",
-     "imp": "H",
      "event": "Q3 GDP 2nd est + claims, durables",
-     "notes": "GDP cons n/v (Investing 3.4% | 2.2%?); claims 201k | 203k; durables 0.7% | 1.8%"
+     "notes": "Released 13:30; actuals not verified (n/v). Cons: GDP 3.5% | 3.4% (XTB); claims 200k | 203k; durables 0.7% | 1.9%"
     },
     {
      "ldn": "15:00",
@@ -208,7 +201,7 @@
   },
   {
    "k": "VOL",
-   "v": "VIX 26.36 (-1.0%) · term, skew, gamma n/v · Brent $90.25, WTI $80.86 (-1.3%, 21:51 ET)"
+   "v": "VIX n/v · SPY 704.25 / QQQ 619.06 pre-mkt (08:30 ET) · term, skew, gamma n/v · Brent/WTI n/v"
   }
  ],
  "sources": "Cappnotes·Investrade·Yahoo/Fool·VistaP·Saxo·KotakNeo·Stocktwits·Investing·MarketMath·TradingEcon·WickCheck·FedRateCalc·FinanceCalendar"
