@@ -1,14 +1,21 @@
 {
  "session": "WED 25 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-25T18:37Z",
+ "generated_utc": "2026-11-25T19:37Z",
  "summary": {
   "regime": "Risk-off deepening: S&P -2.8%, Nasdaq -4.1%, VIX 33.7 (16:31) as chip rout continues; new US tariffs up to 20% proposed. Dec Fed 25bp hike ~98% priced after hot PCE/GDP.",
-  "alert": "19:00/14:00 Beige Book (next, ~20 min) · 20:00/15:00 SIFMA early close · Thu US shut · levels as of 16:31 (no newer verified quotes)"
+  "alert": "20:00/15:00 SIFMA early close · Thu US shut · Fri 18:00/13:00 early close · levels as of 16:31"
  },
  "review": {
-  "date": "Wed, Nov 25 · as of 16:31 GMT",
+  "date": "Wed, Nov 25 · as of 19:40 GMT",
   "rows": [
+   {
+    "when": "19:00",
+    "cat": "CB",
+    "event": "Fed Beige Book",
+    "result": "Released 14:00 ET; district summary and tone n/v (no source found this run)",
+    "impact": "Last read before Dec 8-9 FOMC; Dec hike ~98% (CME, 16:31); post-release reaction n/v"
+   },
    {
     "when": "16:31",
     "cat": "RISK",
@@ -48,14 +55,6 @@
     "event": "Dell Q3 FY27",
     "result": "Record rev $54.9B, adj EPS beat; FY guide raised; AI backlog $132.3B",
     "impact": "DELL -11.8% in session pre-print; AH move conflicting (+4% Cappnotes, <+1% Saxo) n/v; AMBA -37% AH"
-   },
-   {
-    "when": "Close",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Chip rout, Dow > 50k",
-    "result": "S&P 7,201 -0.50%, NDX -1.99%, Dow 50,019 +0.85%, R2K +0.57%",
-    "impact": "SOXX -8.3%, NVDA -5.9%, MU -11%, AMD -8.9%; XLK -3.3%, XLV +3.0%; 10Y 4.904% -1.4bp; DXY -0.47%"
    }
   ]
  },
@@ -70,13 +69,6 @@
      "cat": "ECO",
      "event": "US new home sales (Oct)",
      "notes": "Released 10:00 ET; actual n/v (not found in sources). Cons -5.3% m/m | prior -0.6%; EIA crude 15:30/10:30"
-    },
-    {
-     "ldn": "19:00",
-     "ny": "14:00",
-     "cat": "CB",
-     "event": "Fed Beige Book",
-     "notes": "Last before Dec 8-9 FOMC; 7Y auction time conflicting (11:30 vs 13:00 ET) n/v"
     },
     {
      "ldn": "20:00",
