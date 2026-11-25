@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-25T21:55Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-25T22:40Z",
  "summary": {
-  "regime": "AI/chip rout reversed: S&P low -3.2% closed -0.25%, Dow +0.33%. Hot core PCE 3.3% + GDP 4.3% keep Dec 9 hike ~96% priced; Sec 301 tariffs, Brent +3.5%.",
+  "regime": "AI/chip rout reversed: S&P closed -0.25%, Dow +0.33%, VIX 28.29. Core PCE 3.3% and GDP 4.3%; Dec hike 98% priced; new Sec 301 tariffs.",
   "alert": "Thu US shut · Fri thin: stocks 18:00/13:00, bonds 19:00/14:00 · NFP Dec 4 13:30/08:30"
  },
  "review": {
-  "date": "Wed, Nov 25",
+  "date": "Wed, Nov 25 · as of 22:40 GMT",
   "rows": [
    {
     "when": "Close",
@@ -15,7 +15,7 @@
     "imp": "H",
     "event": "AI rout reverses into close",
     "result": "S&P 7,183 -0.25% (low -3.2%); Nasdaq -0.62% (low -4.6%); Dow +0.33%",
-    "impact": "Dow erased 1,100pt drop to 50,183; SOX -0.65%; NVDA -3.9%, MU -4.5%; R2K +0.71%; VIX hi 34.95, close n/v"
+    "impact": "Dow erased 1,100pt drop to 50,183; SOX -0.65%; NVDA -3.9%, MU -4.5%; R2K +0.71%; VIX 28.29 +7.3%"
    },
    {
     "when": "13:30",
@@ -23,14 +23,14 @@
     "imp": "H",
     "event": "US PCE (Oct)",
     "result": "Core 3.3% y/y vs 3.2% | 3.1%; core m/m 0.3% in line; headline 3.8%",
-    "impact": "Hike pricing held: Dec 9 +25bp 96.4% (FatTail 15:45 ET); 10Y ~4.85% -6bp (15:00 ET) as risk-off dominated; 2Y n/v"
+    "impact": "10Y 4.848% -5.6bp as risk-off dominated; Dec hike 98% priced; 2Y move n/v"
    },
    {
     "when": "13:30",
     "cat": "ECO",
     "imp": "H",
     "event": "US Q3 GDP (2nd est)",
-    "result": "4.3% saar vs 3.5% cons | 3.4% adv; claims, durables actuals n/v",
+    "result": "4.3% saar vs 3.5% cons | 3.4% adv; claims 189k vs 200k; durables n/v",
     "impact": "USD/JPY 159.32 +0.16%, EUR/USD 1.0935 -0.26% (ECB fix 15:00 GMT); DXY 103.70 -0.1% (15:00 ET)"
    },
    {
@@ -39,7 +39,7 @@
     "imp": "H",
     "event": "US Sec 301 tariffs on 14",
     "result": "China +20% on top of 25%; EU, Japan hit; Jan at earliest",
-    "impact": "AUD/USD 0.6570 -1.08% (ECB fix); Brent settles $94.61 +3.5% also on Ras Tanura drone strike; gold ~$3,598"
+    "impact": "AUD/USD 0.6570 -1.08% (ECB fix); WTI fut $84.19 +2.6%, gold fut $3,608 +0.5%; Brent n/v"
    },
    {
     "when": "19:00",
@@ -188,16 +188,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y ~4.85% -6bp (15:00 ET) · 2Y, 2s10s, real n/v · gilts n/v · Dec hike 96.4%"
+   "v": "UST 10Y 4.848% -5.6bp (close) · 2Y, 2s10s, real n/v · gilts n/v · Dec hike 98%"
   },
   {
    "k": "FX",
-   "v": "EUR/USD 1.0935 -0.26% · GBP/USD 1.3060 · USD/JPY 159.32 · AUD/USD 0.6570 -1.08% (ECB fix)"
+   "v": "EUR/USD 1.0935 -0.26% · GBP/USD 1.3060 -0.29% · USD/JPY 159.32 · AUD/USD 0.6570 (15:00)"
   },
   {
    "k": "VOL",
-   "v": "VIX hi 34.95, close n/v · skew/gamma n/v · Brent 94.61 +3.5% · Gold ~3,598"
+   "v": "VIX 28.29 +7.3% (close) · skew/gamma n/v · WTI fut 84.19 +2.6% · Gold fut 3,608"
   }
  ],
- "sources": "AP/947qdr·TradingKey·ChipDispatch·Yahoo·FatTail·InvestingLive·Fed·WickCheck·LiteFinance·MarketAlleys·Fool"
+ "sources": "Yahoo·MarketAlleys·Investing/Reuters·AP/947qdr·TradingKey·ChipDispatch·Fed·InvestingLive·Fool"
 }
