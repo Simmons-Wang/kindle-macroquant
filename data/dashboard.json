@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
- "edition": "PM",
- "generated_utc": "2026-11-26T21:51Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-26T22:37Z",
  "summary": {
   "regime": "US shut; Europe ~+2% as tech rebounds and WSJ says new US tariffs on EU/JP/KR may be ≤15%. Hormuz vessel hits keep oil bid; Fed hike odds high into Dec 9 FOMC.",
   "alert": "Tokyo CPI 23:30/18:30 · Fri US early close 18:00/13:00 · Fed blackout Sat"
  },
  "review": {
-  "date": "Thu 26 Nov (US Thanksgiving)",
+  "date": "Thu 26 Nov (US Thanksgiving) · as of 22:37 GMT",
   "rows": [
    {
     "when": "15:17",
@@ -21,9 +21,9 @@
     "when": "Thu",
     "cat": "RISK",
     "imp": "H",
-    "event": "Hormuz: vessels targeted",
-    "result": "Reports of ships hit revive supply risk (AP)",
-    "impact": "Brent $91.36 +0.79%, WTI $84.63 +1.14% at 15:17 (Longbridge); cash yields n/v"
+    "event": "Gulf scare lifts oil",
+    "result": "IRGC claims mines hit 2 tankers; Houthis claim Ras Tanura hit (Wed)",
+    "impact": "Brent settled $96.57, +$1.96 (Reuters); WTI $84.84 +1.39% at 18:21, no settle"
    },
    {
     "when": "Thu",
@@ -207,8 +207,8 @@
   },
   {
    "k": "VOL",
-   "v": "VIX/term/skew/gamma n/v (US shut) · Brent $91.36, WTI $84.63 (15:17) · S&P fut +0.5%"
+   "v": "VIX/term/skew/gamma n/v (US shut) · Brent settle $96.57 · WTI $84.84 (18:21)"
   }
  ],
- "sources": "AP(BNN/ABC/ClickOnDetroit)/Longbridge/Newsquawk/Xinhua·ICE·SIFMA·FINRA·BLS·ISM·NBS·ABS·Eurostat via FinanceCal·INSEE·OPEC·MSCI·Fed·RBA·co IR/investingLive"
+ "sources": "AP(BNN/ABC/ClickOnDetroit)/Longbridge/Newsquawk/Xinhua·ICE·SIFMA·FINRA·BLS·ISM·NBS·ABS·Eurostat via FinanceCal·INSEE·OPEC·MSCI·Fed·RBA·co IR/investingLive·Reuters via Investing.com"
 }
