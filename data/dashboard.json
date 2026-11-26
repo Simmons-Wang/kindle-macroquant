@@ -1,14 +1,22 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T15:38Z",
+ "generated_utc": "2026-11-26T16:39Z",
  "summary": {
   "regime": "Relief rally in Europe on benign tariffs; US shut. Gulf escalation (Kuwait, Ras Tanura) lifts oil.",
   "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 15:38 GMT",
+  "date": "Thu 26 Nov · as of 16:39 GMT",
   "rows": [
+   {
+    "when": "15:17",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Europe relief rally in cash",
+    "result": "Intraday, not close: benign tariffs, US shut; STOXX 600 +1.66% ~14:04",
+    "impact": "FTSE 100 +1.88%, DAX +2.23%, CAC +1.83%, FTSE MIB +2.46% (HKEJ/Longbridge 15:17)"
+   },
    {
     "when": "14:05",
     "cat": "RISK",
@@ -16,14 +24,6 @@
     "event": "Ras Tanura loadings reported halted",
     "result": "CNN sources via Newsquawk, after Wed attack; restart timing unclear",
     "impact": "Brent up ~1.7% in Newsquawk 15:20 wrap (range $89.75-92.08, contract not named)"
-   },
-   {
-    "when": "~14:04",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Europe relief rally in cash",
-    "result": "STOXX 600 +1.66% in afternoon (+1.7% at 10:20); benign tariffs, US shut",
-    "impact": "DAX +1.91%, CAC +1.63%, FTSE 100 +1.6%, FTSE MIB +2.2%"
    },
    {
     "when": "13:01",
@@ -198,8 +198,8 @@
   },
   {
    "k": "VOL",
-   "v": "VIX, term, skew, gamma n/v · Brent ~+1.7% (15:20)"
+   "v": "VIX, term, skew, gamma n/v · Brent +1.7% (15:20) vs $91.36 +0.8% (15:17, other src)"
   }
  ],
- "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/Investing/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
+ "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
 }
