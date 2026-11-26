@@ -1,83 +1,73 @@
 {
  "session": "FRI 27 NOV 2026",
- "edition": "LIVE",
- "generated_utc": "2026-11-26T20:38Z",
+ "edition": "PM",
+ "generated_utc": "2026-11-26T21:51Z",
  "summary": {
-  "regime": "Relief rally in Europe on benign tariffs; US shut. Gulf risk (Kuwait, Ras Tanura, Hormuz mine claims) lifts oil.",
-  "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
+  "regime": "US shut; Europe ~+2% as tech rebounds and WSJ says new US tariffs on EU/JP/KR may be ≤15%. Hormuz vessel hits keep oil bid; Fed hike odds high into Dec 9 FOMC.",
+  "alert": "Tokyo CPI 23:30/18:30 · Fri US early close 18:00/13:00 · Fed blackout Sat"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 20:38 GMT",
+  "date": "Thu 26 Nov (US Thanksgiving)",
   "rows": [
    {
-    "when": "16:30",
+    "when": "15:17",
     "cat": "RISK",
     "imp": "H",
-    "event": "Europe relief rally holds to close",
-    "result": "Close: FTSE 100 +1.97%, DAX +2.35%, CAC +1.82% (24/7 Wall St); US shut",
-    "impact": "STOXX 600 +2.04%, FTSE MIB +2.74% late, pre-auction (UCapital ~16:14)"
+    "event": "Europe rallies, US shut",
+    "result": "FTSE +1.88%, DAX +2.23%, CAC +1.83%, MIB +2.46% late intraday; close n/v",
+    "impact": "S&P fut +0.5% (AP); Wed: SPX -0.25%, NDX -0.64%, Nvidia -3.9%"
    },
    {
     "when": "Thu",
     "cat": "RISK",
     "imp": "H",
-    "event": "Hormuz: tankers reported mined",
-    "result": "Iran Guards: 2 tankers hit mines; state media dates it Wed; time n/v",
-    "impact": "Jan Brent $96.25 +1.73% at 14:25, intraday (UnbiasedHeadlines); full verification n/v"
+    "event": "Hormuz: vessels targeted",
+    "result": "Reports of ships hit revive supply risk (AP)",
+    "impact": "Brent $91.36 +0.79%, WTI $84.63 +1.14% at 15:17 (Longbridge); cash yields n/v"
    },
    {
-    "when": "14:05",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Ras Tanura loadings reported halted",
-    "result": "CNN sources via Newsquawk, after Wed attack; restart timing unclear",
-    "impact": "Brent up ~1.7% in Newsquawk 15:20 wrap (range $89.75-92.08, contract not named)"
-   },
-   {
-    "when": "13:01",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Kuwait: Iran drone attack reported",
-    "result": "2 Italians killed; Kuwait reserves self-defence right (Iran Intl 15:34)",
-    "impact": "Crude firmer on strikes (Newsquawk 15:20); EU's von der Leyen urges more pressure on Iran (15:52)"
-   },
-   {
-    "when": "12:30",
+    "when": "Thu",
     "cat": "CB",
     "imp": "H",
     "event": "ECB account (Oct 28-29)",
-    "result": "Many could have backed a hike then; 25bp on Dec 17 since signalled",
-    "impact": "Futures price 90% for 25bp Dec hike (~14:04); EUR, Bund reaction n/v"
+    "result": "Officials unanimously agreed inflation outlook deteriorated; AI-growth doubts",
+    "impact": "EUR/USD 1.0968 vs 1.0974 early (AP); Bund, Dec ECB pricing reaction n/v"
    },
    {
-    "when": "10:30",
+    "when": "Thu",
     "cat": "CB",
-    "imp": "H",
-    "event": "BoE FSR: capital rules eased",
-    "result": "-60bp for big UK-focused banks, -30bp major-bank aggregate; CCyB 2%",
-    "impact": "UK banks (NatWest, Lloyds, Barclays) +3% on news (Reuters); gilt, GBP reaction n/v"
+    "event": "De Cos picked as next ECB pres",
+    "result": "EU summit nod; formal appointment Dec, Lagarde leaves Feb 7 2027 (Xinhua)",
+    "impact": "EUR, Bund reaction n/v"
+   },
+   {
+    "when": "Thu",
+    "cat": "CB",
+    "event": "BoE FSR: bank capital cut",
+    "result": "Capital requirements -30bp; warns further cuts risk instability",
+    "impact": "UK banks, gilt and GBP reaction n/v this run"
+   },
+   {
+    "when": "Asia",
+    "cat": "RISK",
+    "event": "Asia rebounds on AI names",
+    "result": "Nikkei +0.9% 57,499 (SoftBank +7.3%), HSI +1.2%, Kospi +0.3% after -6.2%",
+    "impact": "USD/JPY 159.30 from 159.16 (AP); Taiex +2.5%"
    }
   ]
  },
  "board": [
   {
    "date": "Thu, Nov 26",
-   "tag": "Today",
+   "tag": "Tonight",
    "rows": [
-    {
-     "ldn": "All day",
-     "ny": "",
-     "cat": "RISK",
-     "imp": "H",
-     "event": "US Thanksgiving: stocks & bonds shut",
-     "notes": "UK & Japan USD desks shut too; Europe-only liquidity"
-    },
     {
      "ldn": "23:30",
      "ny": "18:30",
      "cat": "ECO",
+     "imp": "H",
      "event": "Tokyo CPI (Nov)",
-     "notes": "08:30 JST Fri; cons/prior n/v; BoJ read"
+     "notes": "08:30 JST Fri; core cons 3.0% | prior 2.6%; BoJ Dec 17-18 hike read"
     }
    ]
   },
@@ -91,7 +81,19 @@
      "cat": "RISK",
      "imp": "H",
      "event": "US stocks early close",
-     "notes": "Month-end rebal; bonds close 19:00/14:00; implied move n/v"
+     "notes": "Bonds 19:00/14:00 (SIFMA); Fed blackout from Sat; implied move n/v"
+    }
+   ]
+  },
+  {
+   "date": "Sun, Nov 29",
+   "rows": [
+    {
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "event": "OPEC+ 7-country meeting",
+     "notes": "Output policy amid Gulf disruption; time n/v"
     }
    ]
   },
@@ -99,18 +101,18 @@
    "date": "Mon, Nov 30",
    "rows": [
     {
-     "ldn": "01:05",
-     "ny": "*Sun",
-     "cat": "CB",
-     "event": "BoJ Gov Ueda speech",
-     "notes": "NY 20:05 Sun; Dec BoJ hike signal watch"
-    },
-    {
      "ldn": "01:30",
      "ny": "*Sun",
      "cat": "ECO",
-     "event": "China official PMIs (Nov)",
-     "notes": "NY 20:30 Sun; cons/prior n/v; RatingDog mfg Tue 01:45 LDN"
+     "event": "China NBS PMIs (Nov)",
+     "notes": "NY 20:30 Sun; prior mfg 49.3, non-mfg 49.7; cons n/v"
+    },
+    {
+     "ldn": "21:00",
+     "ny": "16:00",
+     "cat": "RISK",
+     "event": "MSCI Nov review effective",
+     "notes": "At close: MOC volume distortion; index weights n/v"
     }
    ]
   },
@@ -123,28 +125,35 @@
      "cat": "ECO",
      "imp": "H",
      "event": "EZ flash HICP (Nov)",
-     "notes": "Time conflict (ECB cal 15:00); cons/prior n/v"
+     "notes": "Prior 4.0%, core 2.5%; cons n/v; ECB Dec 17 hike pricing"
     },
     {
      "ldn": "15:00",
      "ny": "10:00",
      "cat": "ECO",
      "imp": "H",
-     "event": "US ISM mfg (Nov)",
-     "notes": "Cons/prior n/v; JOLTS (Oct) same time"
+     "event": "US ISM mfg (Nov) + JOLTS",
+     "notes": "Prior 55.5, prices 75.2; JOLTS prior ~7.5m; cons n/v"
     },
     {
      "ldn": "AMC",
      "ny": "",
      "cat": "EARN",
-     "event": "Marvell / CrowdStrike Q3 FY27",
-     "notes": "Calls 16:30 / 17:00 ET; EPS cons n/v"
+     "event": "CrowdStrike / Marvell Q3 FY27",
+     "notes": "Calls 17:00 ET / 16:30 ET; EPS cons, implied move n/v"
     }
    ]
   },
   {
    "date": "Wed, Dec 2",
    "rows": [
+    {
+     "ldn": "00:30",
+     "ny": "*Tue",
+     "cat": "ECO",
+     "event": "Australia Q3 GDP",
+     "notes": "NY 19:30 Tue; prior +0.4% q/q, 2.1% y/y; RBA Dec 8"
+    },
     {
      "ldn": "13:15",
      "ny": "08:15",
@@ -169,7 +178,7 @@
      "ny": "10:00",
      "cat": "ECO",
      "event": "US ISM services (Nov)",
-     "notes": "Prior 54.5; cons n/v"
+     "notes": "Date unconfirmed by ISM; prior 54.5, prices 73.0; cons n/v"
     }
    ]
   },
@@ -182,7 +191,7 @@
      "cat": "ECO",
      "imp": "H",
      "event": "US payrolls (Nov)",
-     "notes": "Prior +165k, UR 4.1%, AHE 0.4%; cons n/v; pre-FOMC"
+     "notes": "Prior +165k, UR 4.1%, AHE 0.4%; cons n/v; last print pre-FOMC Dec 9"
     }
    ]
   }
@@ -190,16 +199,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "(Newsquawk 15:20) UST fut -4 ticks · Bund fut -45 ticks · cash yields, 2s10s, real n/v"
+   "v": "US cash shut · UST/gilt 2Y/10Y, 2s10s, real n/v · ECB depo 2.50% · Fed hike odds n/v (fresh)"
   },
   {
    "k": "FX",
-   "v": "(15:20) EUR 1.0957-89 · JPY 158.95-159.33 · DXY 103.62-84 · early GBP 1.3097, AUD .6648"
+   "v": "(AP early) EUR/USD 1.0968 · USD/JPY 159.30 · GBP/USD, AUD/USD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX/term/skew/gamma n/v · Jan Brent $96.25 (14:25) · NQ wrap $89.75-92.08, month n/v"
+   "v": "VIX/term/skew/gamma n/v (US shut) · Brent $91.36, WTI $84.63 (15:17) · S&P fut +0.5%"
   }
  ],
- "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/IranIntl/24/7WallSt/UCapital/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR/Investing.com/UnbiasedHeadlines/FinanceFeeds"
+ "sources": "AP(BNN/ABC/ClickOnDetroit)/Longbridge/Newsquawk/Xinhua·ICE·SIFMA·FINRA·BLS·ISM·NBS·ABS·Eurostat via FinanceCal·INSEE·OPEC·MSCI·Fed·RBA·co IR/investingLive"
 }
