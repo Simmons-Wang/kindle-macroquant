@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T19:37Z",
+ "generated_utc": "2026-11-26T20:38Z",
  "summary": {
-  "regime": "Relief rally in Europe on benign tariffs; US shut. Gulf escalation (Kuwait, Ras Tanura) lifts oil.",
+  "regime": "Relief rally in Europe on benign tariffs; US shut. Gulf risk (Kuwait, Ras Tanura, Hormuz mine claims) lifts oil.",
   "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 19:37 GMT",
+  "date": "Thu 26 Nov · as of 20:38 GMT",
   "rows": [
    {
     "when": "16:30",
@@ -16,6 +16,14 @@
     "event": "Europe relief rally holds to close",
     "result": "Close: FTSE 100 +1.97%, DAX +2.35%, CAC +1.82% (24/7 Wall St); US shut",
     "impact": "STOXX 600 +2.04%, FTSE MIB +2.74% late, pre-auction (UCapital ~16:14)"
+   },
+   {
+    "when": "Thu",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Hormuz: tankers reported mined",
+    "result": "Iran Guards: 2 tankers hit mines; state media dates it Wed; time n/v",
+    "impact": "Jan Brent $96.25 +1.73% at 14:25, intraday (UnbiasedHeadlines); full verification n/v"
    },
    {
     "when": "14:05",
@@ -48,14 +56,6 @@
     "event": "BoE FSR: capital rules eased",
     "result": "-60bp for big UK-focused banks, -30bp major-bank aggregate; CCyB 2%",
     "impact": "UK banks (NatWest, Lloyds, Barclays) +3% on news (Reuters); gilt, GBP reaction n/v"
-   },
-   {
-    "when": "Wed cl",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "AI rout reverses into close",
-    "result": "S&P 7,183 -0.25% (low -3.2%); Nasdaq -0.62% (low -4.6%); Dow +0.33%",
-    "impact": "NVDA -3.9%, MU -4.5%; R2K +0.7%; VIX 28.29 +7.3% (>30 AM)"
    }
   ]
  },
@@ -194,12 +194,12 @@
   },
   {
    "k": "FX",
-   "v": "(15:20) EUR 1.0957-89 · JPY 158.95-159.33 flat · DXY 103.62-84 flat · GBP, AUD levels n/v"
+   "v": "(15:20) EUR 1.0957-89 · JPY 158.95-159.33 · DXY 103.62-84 · early GBP 1.3097, AUD .6648"
   },
   {
    "k": "VOL",
-   "v": "VIX, term, skew, gamma n/v · (15:20) Brent +1.7% $89.75-92.08, WTI +1.3%; settle n/v"
+   "v": "VIX/term/skew/gamma n/v · Jan Brent $96.25 (14:25) · NQ wrap $89.75-92.08, month n/v"
   }
  ],
- "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/IranIntl/24/7WallSt/UCapital/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
+ "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/IranIntl/24/7WallSt/UCapital/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR/Investing.com/UnbiasedHeadlines/FinanceFeeds"
 }
