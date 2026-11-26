@@ -1,14 +1,22 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T10:38Z",
+ "generated_utc": "2026-11-26T11:38Z",
  "summary": {
   "regime": "Relief bounce: STOXX 600 +1.7% (10:20) on tech & banks as AI selloff eases; US shut. Gulf oil risk live.",
-  "alert": "BoE FSR 10:30 detail n/v · ECB acct 12:30/07:30 · Tokyo CPI 23:30/18:30"
+  "alert": "ECB account 12:30/07:30 · Tokyo CPI 23:30/18:30 · US shut today"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 10:38 GMT",
+  "date": "Thu 26 Nov · as of 11:38 GMT",
   "rows": [
+   {
+    "when": "10:30",
+    "cat": "CB",
+    "imp": "H",
+    "event": "BoE FSR: capital rules eased",
+    "result": "-60bp for big UK-focused banks, -30bp major-bank aggregate; CCyB 2%",
+    "impact": "Flags AI debt, higher yields, energy. Gilt, GBP, bank-share reaction to FSR n/v"
+   },
    {
     "when": "10:20",
     "cat": "RISK",
@@ -48,14 +56,6 @@
     "event": "US Q3 GDP (2nd est)",
     "result": "4.3% saar vs 3.5%; claims 189k vs 200k; durables +0.2% vs +0.6%",
     "impact": "DXY 103.71 -0.1%; 7Y auction tailed ~1bp (4.708%)"
-   },
-   {
-    "when": "Wed",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "US Sec 301 tariffs on 14",
-    "result": "China 20% (40% if no deal); allies capped 15%; Jan earliest",
-    "impact": "AUD/USD 0.6631 -0.2% (low -1.2%); Japan MoF warns on FX"
    }
   ]
  },
@@ -71,14 +71,6 @@
      "imp": "H",
      "event": "US Thanksgiving: stocks & bonds shut",
      "notes": "UK & Japan USD desks shut too; Europe-only liquidity"
-    },
-    {
-     "ldn": "10:30",
-     "ny": "05:30",
-     "cat": "CB",
-     "imp": "H",
-     "event": "BoE Financial Stability Report",
-     "notes": "Due 10:30; report text n/v at 10:38 (BoE page fetched showed placeholder)"
     },
     {
      "ldn": "12:30",
@@ -205,16 +197,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "(AM wrap) UST 10Y 4.85% · Bund 10Y 3.25% · gilt 10Y 5.14% · 2Y, 2s10s, real n/v"
+   "v": "(~04:00) UST 2Y 4.650% · 10Y 4.864% · 2s10s +21bp · gilts, Bund, real n/v"
   },
   {
    "k": "FX",
-   "v": "(AM wrap) EUR/USD 1.0973 · GBP/USD 1.3110 · USD/JPY 159.17 · DXY, AUD n/v"
+   "v": "(~04:00) EUR/USD 1.0960 · USD/JPY 159.20 · AUD/USD 0.6631 · GBP, DXY n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX 28.29 (Wed cl) · term, SKEW, gamma n/v · Brent 93.77 -0.9% (AM wrap)"
+   "v": "Wed cl: VIX 28.29, SKEW 142.06 · Dec fut 24.55 o/n · gamma n/v · Brent live n/v"
   }
  ],
- "sources": "Reuters/Investing·Bloomberg/Swissinfo·Newsquawk·Saxo·Reuters/BR·TE·AP·SIFMA·BoE·BLS·ISM·NBS·co IR·TheNational"
+ "sources": "BoE FSR via Reuters/AOL·Investing·Newsquawk·Saxo·Reuters/BR·TE·AP·SIFMA·BLS·ISM·NBS·co IR·TheNational"
 }
