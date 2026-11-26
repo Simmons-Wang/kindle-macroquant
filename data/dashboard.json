@@ -1,28 +1,29 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T08:08Z",
+ "generated_utc": "2026-11-26T08:45Z",
  "summary": {
-  "regime": "Tech-led rebound: Estoxx50 fut +2.2%, Nikkei +1.4% (06:10); US shut. Gulf shipping risk live; BoK hiked to 3.25%.",
+  "regime": "Relief bounce: STOXX 600 +1.3%, DAX +1.7% (AM) as AI selloff eases; US shut. Gulf oil-supply risk live.",
   "alert": "BoE FSR 10:30/05:30 · ECB acct 12:30/07:30 · US shut · Tokyo CPI 23:30/18:30"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 08:08 GMT",
+  "date": "Thu 26 Nov · as of 08:45 GMT",
   "rows": [
    {
-    "when": "06:10",
+    "when": "AM",
     "cat": "RISK",
     "imp": "H",
-    "event": "Europe/US futures rebound",
-    "result": "Estoxx50 fut +2.2%, DAX fut +2.0% after cash -1.8%/-1.3% Wed",
-    "impact": "As of 06:10: ES +0.6%, NQ +0.9%; Nikkei +1.4%, HSI +1.6%; DXY 103.83 +0.1%"
+    "event": "Europe relief rally in cash",
+    "result": "STOXX 600 +1.3%, DAX +1.7%, CAC +1.5%, FTSE 100 +1.3%, MIB +2.3%",
+    "impact": "AI selloff eases, thin holiday trade, tariffs seen benign; 06:10 fut: ES +0.6%, NQ +0.9%"
    },
    {
-    "when": "Overnight",
+    "when": "AM",
     "cat": "RISK",
-    "event": "Gulf shipping risk flares",
-    "result": "Tanker reports blast west of Dubai; Iran claims mine strikes on ships",
-    "impact": "Brent $94.71 +0.1%, WTI $84.03 +0.4% (01:37 GMT)"
+    "imp": "H",
+    "event": "Houthis claim Ras Tanura hit",
+    "result": "Claim; no damage confirmation seen. Saudis said Wed 4 drones downed",
+    "impact": "Brent $95.31 +0.7%, WTI $84.37 +0.8% (~05:13); tanker blast reported off Dubai"
    },
    {
     "when": "Wed cl",
@@ -204,16 +205,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "Wed cl: UST 2Y ~4.63% 10Y ~4.85% · Gilt 2Y 4.79% 10Y 5.14% · Bund 10Y 3.22% (06:10)"
+   "v": "UST 10Y 4.848% (Wed) · Bund 10Y 3.22% (06:10) · 2Y, gilts, 2s10s, real yld n/v"
   },
   {
    "k": "FX",
-   "v": "(06:10) EUR/USD 1.0959 · GBP/USD 1.3099 · USD/JPY 159.18 · AUD/USD 0.6631 (Wed cl)"
+   "v": "(06:10) EUR/USD 1.0959 · GBP/USD 1.3099 · USD/JPY 159.18 · DXY 103.83 · AUD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX/term/skew/gamma n/v · Brent 94.71 · WTI 84.03 (01:37) · Gold ~3,575 (Asia AM)"
+   "v": "VIX/term/skew/gamma n/v · Brent 95.31 · WTI 84.37 (~05:13) · Gold <3,600 (06:10)"
   }
  ],
- "sources": "Newsquawk·Saxo·Reuters/BR·TE·Fool·VistaP·CappNotes·Reuters/AP·ABC·AjuPress·SIFMA·BoE·BLS·ISM·NBS·co IR"
+ "sources": "Newsquawk·Saxo·Reuters/BR·TE·Fool·VistaP·CappNotes·Reuters/AP·ABC·AjuPress·SIFMA·BoE·BLS·ISM·NBS·co IR·Investing·TheNational"
 }
