@@ -1,14 +1,22 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T14:38Z",
+ "generated_utc": "2026-11-26T15:38Z",
  "summary": {
-  "regime": "Relief rally: STOXX 600 +1.66%, DAX +1.91% as tariffs seen benign; US shut. Gulf oil risk live.",
+  "regime": "Relief rally in Europe on benign tariffs; US shut. Gulf escalation (Kuwait, Ras Tanura) lifts oil.",
   "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 14:38 GMT",
+  "date": "Thu 26 Nov · as of 15:38 GMT",
   "rows": [
+   {
+    "when": "14:05",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Ras Tanura loadings reported halted",
+    "result": "CNN sources via Newsquawk, after Wed attack; restart timing unclear",
+    "impact": "Brent up ~1.7% in Newsquawk 15:20 wrap (range $89.75-92.08, contract not named)"
+   },
    {
     "when": "~14:04",
     "cat": "RISK",
@@ -18,12 +26,12 @@
     "impact": "DAX +1.91%, CAC +1.63%, FTSE 100 +1.6%, FTSE MIB +2.2%"
    },
    {
-    "when": "13:08",
+    "when": "13:01",
     "cat": "RISK",
     "imp": "H",
-    "event": "Houthis claim Ras Tanura hit",
-    "result": "Claim; damage not verified. OPEC+ meets Sun 29 Nov",
-    "impact": "Brent Jan $95.58 +1.0% vs $94.61 settle; day range $93.48-96.20"
+    "event": "Kuwait: Iran drone attack reported",
+    "result": "Kuwait Army: drones targeted vital sites; blasts per Saberen News",
+    "impact": "Brent $91.30 to $91.90 within minutes (Newsquawk; contract not named)"
    },
    {
     "when": "12:30",
@@ -48,14 +56,6 @@
     "event": "AI rout reverses into close",
     "result": "S&P 7,183 -0.25% (low -3.2%); Nasdaq -0.62% (low -4.6%); Dow +0.33%",
     "impact": "NVDA -3.9%, MU -4.5%; R2K +0.7%; VIX 28.29 +7.3% (>30 AM)"
-   },
-   {
-    "when": "Wed 13:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "US PCE (Oct)",
-    "result": "Core 3.3% y/y vs 3.2% | 3.1%; core m/m 0.3% in line; headline 3.8%",
-    "impact": "Bull flattener: 10Y -6bp on AM wrap; Dec hike ~98% priced"
    }
   ]
  },
@@ -190,16 +190,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y fell up to 10bp to 4.8% (Asia) · 2Y, gilts, Bund, real yld n/v"
+   "v": "(~15:20) UST fut -4 ticks · Bund fut -45 ticks · cash yields, 2s10s, real yld n/v"
   },
   {
    "k": "FX",
-   "v": "(pg ~14:04) EUR 1.0985 · GBP 1.3112 · JPY 159.19 · AUD .6641 · DXY 103.62"
+   "v": "(ranges ~15:20) EUR 1.0957-89 · JPY 158.95-159.33 · DXY 103.62-84 · GBP, AUD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX, term, skew, gamma n/v · Brent Jan $95.58 (13:08)"
+   "v": "VIX, term, skew, gamma n/v · Brent ~+1.7% (15:20)"
   }
  ],
- "sources": "Reuters(BoE FSR, ECB acct)/Investing/FXEmpire·FinanceFeeds·PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
+ "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/Investing/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
 }
