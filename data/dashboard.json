@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T18:38Z",
+ "generated_utc": "2026-11-26T19:37Z",
  "summary": {
   "regime": "Relief rally in Europe on benign tariffs; US shut. Gulf escalation (Kuwait, Ras Tanura) lifts oil.",
   "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 18:38 GMT",
+  "date": "Thu 26 Nov · as of 19:37 GMT",
   "rows": [
    {
     "when": "16:30",
@@ -30,8 +30,8 @@
     "cat": "RISK",
     "imp": "H",
     "event": "Kuwait: Iran drone attack reported",
-    "result": "Kuwait Army: drones targeted vital sites; blasts per Saberen News",
-    "impact": "Brent $91.30 to $91.90 within minutes (Newsquawk; contract not named)"
+    "result": "2 Italians killed; Kuwait reserves self-defence right (Iran Intl 15:34)",
+    "impact": "Crude firmer on strikes (Newsquawk 15:20); EU's von der Leyen urges more pressure on Iran (15:52)"
    },
    {
     "when": "12:30",
@@ -194,12 +194,12 @@
   },
   {
    "k": "FX",
-   "v": "EUR 1.0972 -0.09% (UCapital, late) · range 1.0957-89, JPY 158.95-159.33 (15:20) · GBP, AUD n/v"
+   "v": "(15:20) EUR 1.0957-89 · JPY 158.95-159.33 flat · DXY 103.62-84 flat · GBP, AUD levels n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX, term, skew, gamma n/v · Brent sources conflict: +1.7% (15:20) vs -3.2% (16:14)"
+   "v": "VIX, term, skew, gamma n/v · (15:20) Brent +1.7% $89.75-92.08, WTI +1.3%; settle n/v"
   }
  ],
- "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/24/7WallSt/UCapital/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
+ "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/IranIntl/24/7WallSt/UCapital/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
 }
