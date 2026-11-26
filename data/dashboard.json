@@ -1,21 +1,21 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T17:44Z",
+ "generated_utc": "2026-11-26T18:38Z",
  "summary": {
   "regime": "Relief rally in Europe on benign tariffs; US shut. Gulf escalation (Kuwait, Ras Tanura) lifts oil.",
   "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 17:44 GMT",
+  "date": "Thu 26 Nov · as of 18:38 GMT",
   "rows": [
    {
-    "when": "15:17",
+    "when": "16:30",
     "cat": "RISK",
     "imp": "H",
-    "event": "Europe relief rally in cash",
-    "result": "Intraday; close n/v: benign tariffs, US shut; STOXX 600 +1.66% ~14:04",
-    "impact": "FTSE 100 +1.88%, DAX +2.23%, CAC +1.83%, FTSE MIB +2.46% (HKEJ/Longbridge 15:17)"
+    "event": "Europe relief rally holds to close",
+    "result": "Close: FTSE 100 +1.97%, DAX +2.35%, CAC +1.82% (24/7 Wall St); US shut",
+    "impact": "STOXX 600 +2.04%, FTSE MIB +2.74% late, pre-auction (UCapital ~16:14)"
    },
    {
     "when": "14:05",
@@ -194,12 +194,12 @@
   },
   {
    "k": "FX",
-   "v": "(ranges ~15:20) EUR 1.0957-89 · JPY 158.95-159.33 · DXY 103.62-84 · GBP, AUD n/v"
+   "v": "EUR 1.0972 -0.09% (UCapital, late) · range 1.0957-89, JPY 158.95-159.33 (15:20) · GBP, AUD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX, term, skew, gamma n/v · Brent +1.7%, range $89.75-92.08 (15:20); close n/v"
+   "v": "VIX, term, skew, gamma n/v · Brent sources conflict: +1.7% (15:20) vs -3.2% (16:14)"
   }
  ],
- "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
+ "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/24/7WallSt/UCapital/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
 }
