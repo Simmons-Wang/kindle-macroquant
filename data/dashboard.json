@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
- "edition": "LIVE",
- "generated_utc": "2026-11-25T22:40Z",
+ "edition": "AM",
+ "generated_utc": "2026-11-26T06:25Z",
  "summary": {
-  "regime": "AI/chip rout reversed: S&P closed -0.25%, Dow +0.33%, VIX 28.29. Core PCE 3.3% and GDP 4.3%; Dec hike 98% priced; new Sec 301 tariffs.",
-  "alert": "Thu US shut · Fri thin: stocks 18:00/13:00, bonds 19:00/14:00 · NFP Dec 4 13:30/08:30"
+  "regime": "Asia rebounds on AI bid (Nikkei +1.3%, Kospi +1.2%) after US pared losses; BoK hikes to 3.25%. Core PCE 3.3%, Dec Fed hike ~98%; Brent $94.8.",
+  "alert": "US shut today · BoE FSR 10:30/05:30 · Fri closes 18:00/13:00 · NFP Dec 4 13:30/08:30"
  },
  "review": {
-  "date": "Wed, Nov 25 · as of 22:40 GMT",
+  "date": "Wed, Nov 25",
   "rows": [
    {
     "when": "Close",
@@ -15,7 +15,7 @@
     "imp": "H",
     "event": "AI rout reverses into close",
     "result": "S&P 7,183 -0.25% (low -3.2%); Nasdaq -0.62% (low -4.6%); Dow +0.33%",
-    "impact": "Dow erased 1,100pt drop to 50,183; SOX -0.65%; NVDA -3.9%, MU -4.5%; R2K +0.71%; VIX 28.29 +7.3%"
+    "impact": "NVDA -3.9%, MU -4.5%; R2K +0.7%; VIX 28.29 +7.3% (>30 AM)"
    },
    {
     "when": "13:30",
@@ -23,44 +23,44 @@
     "imp": "H",
     "event": "US PCE (Oct)",
     "result": "Core 3.3% y/y vs 3.2% | 3.1%; core m/m 0.3% in line; headline 3.8%",
-    "impact": "10Y 4.848% -5.6bp as risk-off dominated; Dec hike 98% priced; 2Y move n/v"
+    "impact": "Bull flattener: 2Y 4.61% -2bp, 10Y 4.85% -6bp; Dec hike ~98% priced"
    },
    {
     "when": "13:30",
     "cat": "ECO",
     "imp": "H",
     "event": "US Q3 GDP (2nd est)",
-    "result": "4.3% saar vs 3.5% cons | 3.4% adv; claims 189k vs 200k; durables n/v",
-    "impact": "USD/JPY 159.32 +0.16%, EUR/USD 1.0935 -0.26% (ECB fix 15:00 GMT); DXY 103.70 -0.1% (15:00 ET)"
+    "result": "4.3% saar vs 3.5%; claims 189k vs 200k; durables +0.2% vs +0.6%",
+    "impact": "DXY 103.71 -0.1%; 7Y auction tailed ~1bp (4.708%)"
    },
    {
     "when": "Intraday",
     "cat": "RISK",
     "imp": "H",
     "event": "US Sec 301 tariffs on 14",
-    "result": "China +20% on top of 25%; EU, Japan hit; Jan at earliest",
-    "impact": "AUD/USD 0.6570 -1.08% (ECB fix); WTI fut $84.19 +2.6%, gold fut $3,608 +0.5%; Brent n/v"
+    "result": "China 20% (40% if no deal); allies capped 15%; Jan earliest",
+    "impact": "AUD/USD 0.6631 -0.2% (low -1.2%); Japan MoF warns on FX"
    },
    {
-    "when": "19:00",
-    "cat": "CB",
-    "event": "Fed Beige Book",
-    "result": "8/12 districts grew (Oct 9); wages moderate (from modest)",
-    "impact": "Little dovish ammunition; hike still ~fully priced; post-release move n/v"
+    "when": "Intraday",
+    "cat": "RISK",
+    "event": "Houthi strike, Ras Tanura",
+    "result": "550k bpd Saudi refinery hit",
+    "impact": "Brent $94.61 +3.5%, WTI $83.68 +2.0%"
    },
    {
     "when": "Tue AMC",
     "cat": "EARN",
     "event": "Dell Q3 FY27",
-    "result": "Record AI backlog; DELL +0.60% to $297.06 after low $265",
-    "impact": "Held up vs chip peers (NVDA -3.9%, MU -4.5%); tape driven by tariffs/AI rout"
+    "result": "EPS $9.45, rev $54.9B beat; AI backlog $132.3B",
+    "impact": "DELL -8.7% at open on inventory worries, closed +0.6%"
    }
   ]
  },
  "board": [
   {
    "date": "Thu, Nov 26",
-   "tag": "Tonight",
+   "tag": "Today",
    "rows": [
     {
      "ldn": "All day",
@@ -68,14 +68,29 @@
      "cat": "RISK",
      "imp": "H",
      "event": "US Thanksgiving: stocks & bonds shut",
-     "notes": "Europe-only liquidity; US futures thin"
+     "notes": "UK & Japan USD desks shut too; Europe-only liquidity"
+    },
+    {
+     "ldn": "10:30",
+     "ny": "05:30",
+     "cat": "CB",
+     "imp": "H",
+     "event": "BoE Financial Stability Report",
+     "notes": "Gilt 10Y 5.14%, 2Y 4.79% (Wed close)"
+    },
+    {
+     "ldn": "12:30",
+     "ny": "07:30",
+     "cat": "CB",
+     "event": "ECB account (Oct 28-29 mtg)",
+     "notes": "EUR/USD 1.096; Lagarde slot today n/v"
     },
     {
      "ldn": "23:30",
      "ny": "18:30",
      "cat": "ECO",
      "event": "Tokyo CPI (Nov)",
-     "notes": "08:30 JST Fri; cons/prior n/v; USD/JPY 159.3 near intervention zone (judgement)"
+     "notes": "08:30 JST Fri; cons 2.9% | 2.8%; USD/JPY 159.1 vs 160"
     }
    ]
   },
@@ -89,14 +104,7 @@
      "cat": "RISK",
      "imp": "H",
      "event": "US stocks early close",
-     "notes": "Half-day + month-end rebalancing into thin tape; implied move n/v"
-    },
-    {
-     "ldn": "19:00",
-     "ny": "14:00",
-     "cat": "RISK",
-     "event": "US bond market early close",
-     "notes": "SIFMA 14:00 ET recommendation"
+     "notes": "Month-end rebal; bonds close 19:00/14:00; implied move n/v"
     }
    ]
   },
@@ -108,14 +116,14 @@
      "ny": "*Sun",
      "cat": "CB",
      "event": "BoJ Gov Ueda speech",
-     "notes": "NY 20:05 Sun; Dec BoJ hike signal watch; USD/JPY 159.3"
+     "notes": "NY 20:05 Sun; Dec BoJ hike signal watch"
     },
     {
      "ldn": "01:30",
      "ny": "*Sun",
      "cat": "ECO",
      "event": "China official PMIs (Nov)",
-     "notes": "NY 20:30 Sun; cons n/v; RatingDog mfg Tue 01:45 LDN"
+     "notes": "NY 20:30 Sun; cons/prior n/v; RatingDog mfg Tue 01:45 LDN"
     }
    ]
   },
@@ -128,7 +136,7 @@
      "cat": "ECO",
      "imp": "H",
      "event": "EZ flash HICP (Nov)",
-     "notes": "Prior 4.0% y/y; cons n/v"
+     "notes": "Time conflict (ECB cal 15:00); cons/prior n/v"
     },
     {
      "ldn": "15:00",
@@ -136,14 +144,14 @@
      "cat": "ECO",
      "imp": "H",
      "event": "US ISM mfg (Nov)",
-     "notes": "Cons n/v; JOLTS (Oct) same time, prior 7.52M"
+     "notes": "Cons/prior n/v; JOLTS (Oct) same time"
     },
     {
      "ldn": "AMC",
      "ny": "",
      "cat": "EARN",
-     "event": "Marvell Q3 FY27",
-     "notes": "Call 16:30 ET; rev guide mid $3.15B; EPS cons n/v; AI-chip sentiment test"
+     "event": "Marvell / CrowdStrike Q3 FY27",
+     "notes": "Calls 16:30 / 17:00 ET; EPS cons n/v"
     }
    ]
   },
@@ -155,7 +163,14 @@
      "ny": "08:15",
      "cat": "ECO",
      "event": "US ADP employment (Nov)",
-     "notes": "Cons n/v"
+     "notes": "Prior +86k; cons n/v"
+    },
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Salesforce / Snowflake Q3 FY27",
+     "notes": "Calls 17:00 ET; cons n/v; AI-software read"
     }
    ]
   },
@@ -180,7 +195,7 @@
      "cat": "ECO",
      "imp": "H",
      "event": "US payrolls (Nov)",
-     "notes": "Prior +165k, UR 4.1%, AHE 0.4%; cons n/v; last NFP before Dec 8-9 FOMC"
+     "notes": "Prior +165k, UR 4.1%, AHE 0.4%; cons n/v; pre-FOMC"
     }
    ]
   }
@@ -188,16 +203,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.848% -5.6bp (close) · 2Y, 2s10s, real n/v · gilts n/v · Dec hike 98%"
+   "v": "UST 2Y 4.61% -2bp · 10Y 4.85% -6bp · 2s10s +24bp · real n/v · Gilt 2Y 4.79% 10Y 5.14%"
   },
   {
    "k": "FX",
-   "v": "EUR/USD 1.0935 -0.26% · GBP/USD 1.3060 -0.29% · USD/JPY 159.32 · AUD/USD 0.6570 (15:00)"
+   "v": "EUR/USD 1.0961 · GBP/USD ~1.31 (NY cl) · USD/JPY 159.12 · AUD/USD 0.6625 (Asia AM)"
   },
   {
    "k": "VOL",
-   "v": "VIX 28.29 +7.3% (close) · skew/gamma n/v · WTI fut 84.19 +2.6% · Gold fut 3,608"
+   "v": "VIX 28.29 +7.3% (Wed cl) · term/skew/gamma n/v · Brent 94.8 · WTI 84.3 · Gold ~3,570"
   }
  ],
- "sources": "Yahoo·MarketAlleys·Investing/Reuters·AP/947qdr·TradingKey·ChipDispatch·Fed·InvestingLive·Fool"
+ "sources": "Fool·VistaP·CappNotes·Newsquawk·Saxo·Reuters/AP·ABC·TE·AjuPress·SIFMA·BoE·BLS·ISM·NBS·co IR"
 }
