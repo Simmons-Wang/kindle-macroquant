@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T11:38Z",
+ "generated_utc": "2026-11-26T12:38Z",
  "summary": {
   "regime": "Relief bounce: STOXX 600 +1.7% (10:20) on tech & banks as AI selloff eases; US shut. Gulf oil risk live.",
-  "alert": "ECB account 12:30/07:30 · Tokyo CPI 23:30/18:30 · US shut today"
+  "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 11:38 GMT",
+  "date": "Thu 26 Nov · as of 12:38 GMT",
   "rows": [
    {
     "when": "10:30",
@@ -77,7 +77,7 @@
      "ny": "07:30",
      "cat": "CB",
      "event": "ECB account (Oct 28-29 mtg)",
-     "notes": "EUR/USD 1.096; Lagarde slot today n/v"
+     "notes": "Content/reaction n/v at 12:38; Lagarde slot today n/v"
     },
     {
      "ldn": "23:30",
@@ -201,7 +201,7 @@
   },
   {
    "k": "FX",
-   "v": "(~04:00) EUR/USD 1.0960 · USD/JPY 159.20 · AUD/USD 0.6631 · GBP, DXY n/v"
+   "v": "(AM wrap) EUR 1.096 · GBP 1.3097 · JPY 159.19 · AUD 0.6648 · DXY 103.71"
   },
   {
    "k": "VOL",
