@@ -1,16 +1,31 @@
 {
  "session": "FRI 27 NOV 2026",
- "edition": "AM",
- "generated_utc": "2026-11-26T06:25Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-26T08:08Z",
  "summary": {
-  "regime": "Asia rebounds on AI bid (Nikkei +1.3%, Kospi +1.2%) after US pared losses; BoK hikes to 3.25%. Core PCE 3.3%, Dec Fed hike ~98%; Brent $94.8.",
-  "alert": "US shut today · BoE FSR 10:30/05:30 · Fri closes 18:00/13:00 · NFP Dec 4 13:30/08:30"
+  "regime": "Tech-led rebound: Estoxx50 fut +2.2%, Nikkei +1.4% (06:10); US shut. Gulf shipping risk live; BoK hiked to 3.25%.",
+  "alert": "BoE FSR 10:30/05:30 · ECB acct 12:30/07:30 · US shut · Tokyo CPI 23:30/18:30"
  },
  "review": {
-  "date": "Wed, Nov 25",
+  "date": "Thu 26 Nov · as of 08:08 GMT",
   "rows": [
    {
-    "when": "Close",
+    "when": "06:10",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Europe/US futures rebound",
+    "result": "Estoxx50 fut +2.2%, DAX fut +2.0% after cash -1.8%/-1.3% Wed",
+    "impact": "As of 06:10: ES +0.6%, NQ +0.9%; Nikkei +1.4%, HSI +1.6%; DXY 103.83 +0.1%"
+   },
+   {
+    "when": "Overnight",
+    "cat": "RISK",
+    "event": "Gulf shipping risk flares",
+    "result": "Tanker reports blast west of Dubai; Iran claims mine strikes on ships",
+    "impact": "Brent $94.71 +0.1%, WTI $84.03 +0.4% (01:37 GMT)"
+   },
+   {
+    "when": "Wed cl",
     "cat": "RISK",
     "imp": "H",
     "event": "AI rout reverses into close",
@@ -18,15 +33,15 @@
     "impact": "NVDA -3.9%, MU -4.5%; R2K +0.7%; VIX 28.29 +7.3% (>30 AM)"
    },
    {
-    "when": "13:30",
+    "when": "Wed 13:30",
     "cat": "ECO",
     "imp": "H",
     "event": "US PCE (Oct)",
     "result": "Core 3.3% y/y vs 3.2% | 3.1%; core m/m 0.3% in line; headline 3.8%",
-    "impact": "Bull flattener: 2Y 4.61% -2bp, 10Y 4.85% -6bp; Dec hike ~98% priced"
+    "impact": "Bull flattener: 10Y -6bp on AM wrap; Dec hike ~98% priced"
    },
    {
-    "when": "13:30",
+    "when": "Wed 13:30",
     "cat": "ECO",
     "imp": "H",
     "event": "US Q3 GDP (2nd est)",
@@ -34,26 +49,12 @@
     "impact": "DXY 103.71 -0.1%; 7Y auction tailed ~1bp (4.708%)"
    },
    {
-    "when": "Intraday",
+    "when": "Wed",
     "cat": "RISK",
     "imp": "H",
     "event": "US Sec 301 tariffs on 14",
     "result": "China 20% (40% if no deal); allies capped 15%; Jan earliest",
     "impact": "AUD/USD 0.6631 -0.2% (low -1.2%); Japan MoF warns on FX"
-   },
-   {
-    "when": "Intraday",
-    "cat": "RISK",
-    "event": "Houthi strike, Ras Tanura",
-    "result": "550k bpd Saudi refinery hit",
-    "impact": "Brent $94.61 +3.5%, WTI $83.68 +2.0%"
-   },
-   {
-    "when": "Tue AMC",
-    "cat": "EARN",
-    "event": "Dell Q3 FY27",
-    "result": "EPS $9.45, rev $54.9B beat; AI backlog $132.3B",
-    "impact": "DELL -8.7% at open on inventory worries, closed +0.6%"
    }
   ]
  },
@@ -203,16 +204,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.61% -2bp · 10Y 4.85% -6bp · 2s10s +24bp · real n/v · Gilt 2Y 4.79% 10Y 5.14%"
+   "v": "Wed cl: UST 2Y ~4.63% 10Y ~4.85% · Gilt 2Y 4.79% 10Y 5.14% · Bund 10Y 3.22% (06:10)"
   },
   {
    "k": "FX",
-   "v": "EUR/USD 1.0961 · GBP/USD ~1.31 (NY cl) · USD/JPY 159.12 · AUD/USD 0.6625 (Asia AM)"
+   "v": "(06:10) EUR/USD 1.0959 · GBP/USD 1.3099 · USD/JPY 159.18 · AUD/USD 0.6631 (Wed cl)"
   },
   {
    "k": "VOL",
-   "v": "VIX 28.29 +7.3% (Wed cl) · term/skew/gamma n/v · Brent 94.8 · WTI 84.3 · Gold ~3,570"
+   "v": "VIX/term/skew/gamma n/v · Brent 94.71 · WTI 84.03 (01:37) · Gold ~3,575 (Asia AM)"
   }
  ],
- "sources": "Fool·VistaP·CappNotes·Newsquawk·Saxo·Reuters/AP·ABC·TE·AjuPress·SIFMA·BoE·BLS·ISM·NBS·co IR"
+ "sources": "Newsquawk·Saxo·Reuters/BR·TE·Fool·VistaP·CappNotes·Reuters/AP·ABC·AjuPress·SIFMA·BoE·BLS·ISM·NBS·co IR"
 }
