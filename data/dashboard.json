@@ -1,21 +1,37 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T12:38Z",
+ "generated_utc": "2026-11-26T13:39Z",
  "summary": {
   "regime": "Relief bounce: STOXX 600 +1.7% (10:20) on tech & banks as AI selloff eases; US shut. Gulf oil risk live.",
   "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 12:38 GMT",
+  "date": "Thu 26 Nov · as of 13:39 GMT",
   "rows": [
+   {
+    "when": "13:08",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Houthis claim Ras Tanura hit",
+    "result": "Claim; damage not verified. OPEC+ meets Sun 29 Nov",
+    "impact": "Brent Jan $95.58 +1.0% vs $94.61 settle; day range $93.48-96.20"
+   },
+   {
+    "when": "12:30",
+    "cat": "CB",
+    "imp": "H",
+    "event": "ECB account (Oct 28-29)",
+    "result": "Many could have backed a hike then; 25bp on Dec 17 since signalled",
+    "impact": "EUR, Bund, pricing reaction n/v. Held rates; warned inflation likely higher than thought"
+   },
    {
     "when": "10:30",
     "cat": "CB",
     "imp": "H",
     "event": "BoE FSR: capital rules eased",
     "result": "-60bp for big UK-focused banks, -30bp major-bank aggregate; CCyB 2%",
-    "impact": "Flags AI debt, higher yields, energy. Gilt, GBP, bank-share reaction to FSR n/v"
+    "impact": "UK banks (NatWest, Lloyds, Barclays) +3% on news (Reuters); gilt, GBP reaction n/v"
    },
    {
     "when": "10:20",
@@ -24,14 +40,6 @@
     "event": "Europe relief rally in cash",
     "result": "STOXX 600 +1.7% at 636.44; banks +2.4%, tech ~+2.5%",
     "impact": "AI selloff and tariff fears ease; US shut. AM wrap: Bund 10Y 3.25% +2bp, gilt 10Y 5.14% +1bp"
-   },
-   {
-    "when": "AM",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Houthis claim Ras Tanura hit",
-    "result": "Claim; no damage confirmation seen. Saudis said Wed 4 drones downed",
-    "impact": "Brent $95.31 +0.7% ~05:13; later AM wrap $93.77 -0.9%"
    },
    {
     "when": "Wed cl",
@@ -48,14 +56,6 @@
     "event": "US PCE (Oct)",
     "result": "Core 3.3% y/y vs 3.2% | 3.1%; core m/m 0.3% in line; headline 3.8%",
     "impact": "Bull flattener: 10Y -6bp on AM wrap; Dec hike ~98% priced"
-   },
-   {
-    "when": "Wed 13:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "US Q3 GDP (2nd est)",
-    "result": "4.3% saar vs 3.5%; claims 189k vs 200k; durables +0.2% vs +0.6%",
-    "impact": "DXY 103.71 -0.1%; 7Y auction tailed ~1bp (4.708%)"
    }
   ]
  },
@@ -73,18 +73,11 @@
      "notes": "UK & Japan USD desks shut too; Europe-only liquidity"
     },
     {
-     "ldn": "12:30",
-     "ny": "07:30",
-     "cat": "CB",
-     "event": "ECB account (Oct 28-29 mtg)",
-     "notes": "Content/reaction n/v at 12:38; Lagarde slot today n/v"
-    },
-    {
      "ldn": "23:30",
      "ny": "18:30",
      "cat": "ECO",
      "event": "Tokyo CPI (Nov)",
-     "notes": "08:30 JST Fri; cons 2.9% | 2.8%; USD/JPY 159.1 vs 160"
+     "notes": "08:30 JST Fri; cons/prior n/v; BoJ read"
     }
    ]
   },
@@ -197,16 +190,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "(~04:00) UST 2Y 4.650% · 10Y 4.864% · 2s10s +21bp · gilts, Bund, real n/v"
+   "v": "UST 10Y fell up to 10bp to 4.8% (Asia) · 2Y, gilts, Bund, real yld n/v"
   },
   {
    "k": "FX",
-   "v": "(AM wrap) EUR 1.096 · GBP 1.3097 · JPY 159.19 · AUD 0.6648 · DXY 103.71"
+   "v": "(~12:45) EUR 1.0973 · JPY 159.14 · DXY 103.71 · GBP, AUD n/v"
   },
   {
    "k": "VOL",
-   "v": "Wed cl: VIX 28.29, SKEW 142.06 · Dec fut 24.55 o/n · gamma n/v · Brent live n/v"
+   "v": "VIX, term, skew, gamma n/v · Brent Jan $95.58 (13:08)"
   }
  ],
- "sources": "BoE FSR via Reuters/AOL·Investing·Newsquawk·Saxo·Reuters/BR·TE·AP·SIFMA·BLS·ISM·NBS·co IR·TheNational"
+ "sources": "Reuters(BoE FSR, ECB acct)/Investing/WHBL/KFGO·PiQ·Euronext·E8·FinanceFeeds·TheNational·AP·SIFMA·BLS·ISM·NBS·co IR"
 }
