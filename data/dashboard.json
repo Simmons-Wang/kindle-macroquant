@@ -1,20 +1,20 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T16:39Z",
+ "generated_utc": "2026-11-26T17:44Z",
  "summary": {
   "regime": "Relief rally in Europe on benign tariffs; US shut. Gulf escalation (Kuwait, Ras Tanura) lifts oil.",
   "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 16:39 GMT",
+  "date": "Thu 26 Nov · as of 17:44 GMT",
   "rows": [
    {
     "when": "15:17",
     "cat": "RISK",
     "imp": "H",
     "event": "Europe relief rally in cash",
-    "result": "Intraday, not close: benign tariffs, US shut; STOXX 600 +1.66% ~14:04",
+    "result": "Intraday; close n/v: benign tariffs, US shut; STOXX 600 +1.66% ~14:04",
     "impact": "FTSE 100 +1.88%, DAX +2.23%, CAC +1.83%, FTSE MIB +2.46% (HKEJ/Longbridge 15:17)"
    },
    {
@@ -190,7 +190,7 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "(~15:20) UST fut -4 ticks · Bund fut -45 ticks · cash yields, 2s10s, real yld n/v"
+   "v": "(Newsquawk 15:20) UST fut -4 ticks · Bund fut -45 ticks · cash yields, 2s10s, real n/v"
   },
   {
    "k": "FX",
@@ -198,7 +198,7 @@
   },
   {
    "k": "VOL",
-   "v": "VIX, term, skew, gamma n/v · Brent +1.7% (15:20) vs $91.36 +0.8% (15:17, other src)"
+   "v": "VIX, term, skew, gamma n/v · Brent +1.7%, range $89.75-92.08 (15:20); close n/v"
   }
  ],
  "sources": "Reuters(BoE FSR, ECB acct)/Newsquawk/Longbridge/PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
