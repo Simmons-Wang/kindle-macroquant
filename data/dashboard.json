@@ -1,14 +1,22 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-26T13:39Z",
+ "generated_utc": "2026-11-26T14:38Z",
  "summary": {
-  "regime": "Relief bounce: STOXX 600 +1.7% (10:20) on tech & banks as AI selloff eases; US shut. Gulf oil risk live.",
+  "regime": "Relief rally: STOXX 600 +1.66%, DAX +1.91% as tariffs seen benign; US shut. Gulf oil risk live.",
   "alert": "Tokyo CPI 23:30/18:30 · US shut · Fri early close 18:00/13:00"
  },
  "review": {
-  "date": "Thu 26 Nov · as of 13:39 GMT",
+  "date": "Thu 26 Nov · as of 14:38 GMT",
   "rows": [
+   {
+    "when": "~14:04",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "Europe relief rally in cash",
+    "result": "STOXX 600 +1.66% in afternoon (+1.7% at 10:20); benign tariffs, US shut",
+    "impact": "DAX +1.91%, CAC +1.63%, FTSE 100 +1.6%, FTSE MIB +2.2%"
+   },
    {
     "when": "13:08",
     "cat": "RISK",
@@ -23,7 +31,7 @@
     "imp": "H",
     "event": "ECB account (Oct 28-29)",
     "result": "Many could have backed a hike then; 25bp on Dec 17 since signalled",
-    "impact": "EUR, Bund, pricing reaction n/v. Held rates; warned inflation likely higher than thought"
+    "impact": "Futures price 90% for 25bp Dec hike (~14:04); EUR, Bund reaction n/v"
    },
    {
     "when": "10:30",
@@ -32,14 +40,6 @@
     "event": "BoE FSR: capital rules eased",
     "result": "-60bp for big UK-focused banks, -30bp major-bank aggregate; CCyB 2%",
     "impact": "UK banks (NatWest, Lloyds, Barclays) +3% on news (Reuters); gilt, GBP reaction n/v"
-   },
-   {
-    "when": "10:20",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Europe relief rally in cash",
-    "result": "STOXX 600 +1.7% at 636.44; banks +2.4%, tech ~+2.5%",
-    "impact": "AI selloff and tariff fears ease; US shut. AM wrap: Bund 10Y 3.25% +2bp, gilt 10Y 5.14% +1bp"
    },
    {
     "when": "Wed cl",
@@ -194,12 +194,12 @@
   },
   {
    "k": "FX",
-   "v": "(~12:45) EUR 1.0973 · JPY 159.14 · DXY 103.71 · GBP, AUD n/v"
+   "v": "(pg ~14:04) EUR 1.0985 · GBP 1.3112 · JPY 159.19 · AUD .6641 · DXY 103.62"
   },
   {
    "k": "VOL",
    "v": "VIX, term, skew, gamma n/v · Brent Jan $95.58 (13:08)"
   }
  ],
- "sources": "Reuters(BoE FSR, ECB acct)/Investing/WHBL/KFGO·PiQ·Euronext·E8·FinanceFeeds·TheNational·AP·SIFMA·BLS·ISM·NBS·co IR"
+ "sources": "Reuters(BoE FSR, ECB acct)/Investing/FXEmpire·FinanceFeeds·PiQ·WHBL/KFGO·AP·SIFMA·BLS·ISM·NBS·co IR"
 }
