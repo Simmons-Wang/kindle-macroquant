@@ -1,21 +1,28 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T16:39Z",
+ "generated_utc": "2026-11-27T17:38Z",
  "summary": {
-  "regime": "Holiday-thin half day: China support pledge lifts Asia, Europe; ECB 1y CPI expectations jump to 3.5%; UST yields up on reopen; Gulf risk persists.",
+  "regime": "Holiday-thin half day: China pledge and tech rebound lift stocks; hawkish ECB minutes; UST yields up about 8bp; Gulf risk persists.",
   "alert": "Next: US early close, stocks 18:00/13:00 · bonds 19:00/14:00 · thin depth"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 16:39 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 17:40 GMT",
   "rows": [
    {
-    "when": "14:30",
+    "when": "17:32",
     "cat": "RISK",
     "imp": "H",
-    "event": "US stocks open higher",
-    "result": "Early cash: S&P 7,265 +1.15%, Nasdaq +1.47%, Dow +1.02% (Yahoo)",
-    "impact": "As of 14:39 fetch (quotes unstamped): VIX 25.57 -4.6%, UST 10Y 4.906% +0.2bp (Yahoo)"
+    "event": "US rally, yields jump",
+    "result": "S&P 7,283 +1.39%, Nasdaq +1.86%, Dow +1.17% (Yahoo, mid-session)",
+    "impact": "VIX 24.88 -7.2%; UST 10Y 4.93% about +8bp (Yahoo, 12:32 ET); 2Y 4.69% +6bp (Investing, unstamped)"
+   },
+   {
+    "when": "16:30",
+    "cat": "RISK",
+    "event": "Europe closes higher; ECB minutes",
+    "result": "STOXX 600 643.85 +1.0%, DAX +0.9%, CAC +0.6%, FTSE +0.8%",
+    "impact": "Minutes hawkish: further tightening likely necessary; front-end EUR yields up, more hikes priced; bp n/v"
    },
    {
     "when": "09:20",
@@ -38,7 +45,7 @@
     "imp": "H",
     "event": "France + Spain flash CPI",
     "result": "HICP y/y: FR 3.2% vs 3.6% cons; ES 4.1% vs 4.7% | 4.9%",
-    "impact": "ES core 2.6%; FR CPI 2.9% vs 3.2% cons; STOXX 600 +1.0%, DAX +0.8% (Investing); EUR n/v"
+    "impact": "ES core 2.6%; FR CPI 2.9% vs 3.2% cons; EUR reaction n/v"
    },
    {
     "when": "Fri",
@@ -47,13 +54,6 @@
     "event": "China pledges market support",
     "result": "State Council backs bigger 'national team' role; Huijin to stabilise",
     "impact": "Close: Shanghai +3.3%, CSI 300 nearly +4%, STAR 50 ~+12% (XTB)"
-   },
-   {
-    "when": "Fri",
-    "cat": "RISK",
-    "event": "Iran/Gulf risk persists",
-    "result": "Trump cites US naval blockade, threatens Iran site if no deal (Newsquawk)",
-    "impact": "(06:37) Brent ~$97.23, WTI ~$86.20; drones aimed at Ras Tanura intercepted"
    }
   ]
  },
@@ -193,16 +193,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.897% +5bp (investingLive 12:53); Yahoo 4.906% (unstamped) · 2Y, gilts n/v"
+   "v": "UST 10Y 4.93% +8bp (Yahoo 17:32) · 2Y 4.69% +6bp (Investing, unstamped) · gilts n/v"
   },
   {
    "k": "FX",
-   "v": "EUR/USD ~1.095 -0.16%, DXY ~103.8 (TMGM, pre-US open) · GBP, JPY, AUD n/v"
+   "v": "DXY 103.94 +0.33% (Investing, unstamped) · EUR, GBP, JPY, AUD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX 25.57 -4.6% (Yahoo, unstamped early-session strip) · term, skew, gamma n/v"
+   "v": "VIX 24.88 -7.2% (Yahoo 17:32) · term, skew, gamma n/v"
   }
  ],
- "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·TipRanks·investingLive"
+ "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·TipRanks·investingLive·Fool·Investing PH"
 }
