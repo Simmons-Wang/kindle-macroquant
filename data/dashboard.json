@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T12:38Z",
+ "generated_utc": "2026-11-27T13:39Z",
  "summary": {
   "regime": "Holiday-thin half day: China support pledge lifts Asia, Europe; ECB 1y CPI expectations jump to 3.5%; UST yields up on reopen; Gulf risk persists.",
-  "alert": "US stocks shut 18:00/13:00 · bonds 19:00/14:00 · thin liquidity into month-end"
+  "alert": "US open 14:30/09:30 · early close: stocks 18:00/13:00, bonds 19:00/14:00"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 12:38 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 13:39 GMT",
   "rows": [
    {
     "when": "09:20",
@@ -193,15 +193,15 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 2Y 4.685% · 10Y 4.918% (o/n); 4.848% (10:00), srcs differ · gilt 10Y 5.16%"
+   "v": "UST 10Y 4.848% (Yahoo 12:53) vs 4.918% o/n (Saxo), 2Y 4.685% o/n · gilt n/v"
   },
   {
    "k": "FX",
-   "v": "Early: EUR/USD 1.097 · GBP/USD >1.31 · USD/JPY >159 · AUD/USD n/v"
+   "v": "Saxo early (~04:00): EUR/USD 1.098 · USD/JPY ~159.35 · GBP/USD, AUD/USD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX 24.96 (10:13) · S&P fut +1.9% (11:00) · gamma n/v · Brent $92–98, srcs differ"
+   "v": "VIX 25.19 · S&P fut +1.64%, NDX fut +2.30%, WTI $84.83 (Yahoo 12:53) · gamma n/v"
   }
  ],
  "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews"
