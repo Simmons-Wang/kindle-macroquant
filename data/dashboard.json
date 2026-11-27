@@ -1,14 +1,22 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T13:39Z",
+ "generated_utc": "2026-11-27T14:39Z",
  "summary": {
   "regime": "Holiday-thin half day: China support pledge lifts Asia, Europe; ECB 1y CPI expectations jump to 3.5%; UST yields up on reopen; Gulf risk persists.",
-  "alert": "US open 14:30/09:30 · early close: stocks 18:00/13:00, bonds 19:00/14:00"
+  "alert": "Next: US early close, stocks 18:00/13:00 · bonds 19:00/14:00 · thin depth"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 13:39 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 14:39 GMT",
   "rows": [
+   {
+    "when": "14:30",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "US stocks open higher",
+    "result": "Early cash: S&P 7,265 +1.15%, Nasdaq +1.47%, Dow +1.02% (Yahoo)",
+    "impact": "As of 14:39 fetch (quotes unstamped): VIX 25.57 -4.6%, UST 10Y 4.906% +0.2bp (Yahoo)"
+   },
    {
     "when": "09:20",
     "cat": "RISK",
@@ -46,14 +54,6 @@
     "event": "Iran/Gulf risk persists",
     "result": "Trump cites US naval blockade, threatens Iran site if no deal (Newsquawk)",
     "impact": "(06:37) Brent ~$97.23, WTI ~$86.20; drones aimed at Ras Tanura intercepted"
-   },
-   {
-    "when": "23:30",
-    "cat": "ECO",
-    "imp": "H",
-    "event": "Tokyo CPI (Nov)",
-    "result": "Core 2.9% vs 3.0% cons | 2.6%; core-core 2.5% | 2.6%; headline 2.8%",
-    "impact": "USD/JPY 159.29, JGB 10Y 2.630% unch (Bloomberg); BoJ Dec 17-18 hike to 1.5% expected"
    }
   ]
  },
@@ -193,16 +193,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.848% (Yahoo 12:53) vs 4.918% o/n (Saxo), 2Y 4.685% o/n · gilt n/v"
+   "v": "UST 10Y 4.906% (Yahoo), 2Y 4.68% · gilt 10Y 5.172% (TradingEcon), 2Y n/v (14:39)"
   },
   {
    "k": "FX",
-   "v": "Saxo early (~04:00): EUR/USD 1.098 · USD/JPY ~159.35 · GBP/USD, AUD/USD n/v"
+   "v": "EUR/USD 1.095 · GBP/USD 1.312 · USD/JPY 159.46 · AUD/USD 0.665 (TradingEcon, 14:39)"
   },
   {
    "k": "VOL",
-   "v": "VIX 25.19 · S&P fut +1.64%, NDX fut +2.30%, WTI $84.83 (Yahoo 12:53) · gamma n/v"
+   "v": "VIX 25.57 -4.6% (Yahoo, 14:39; unstamped) · term, skew, gamma n/v"
   }
  ],
- "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews"
+ "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics"
 }
