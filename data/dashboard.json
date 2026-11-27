@@ -1,21 +1,21 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T17:38Z",
+ "generated_utc": "2026-11-27T18:42Z",
  "summary": {
-  "regime": "Holiday-thin half day: China pledge and tech rebound lift stocks; hawkish ECB minutes; UST yields up about 8bp; Gulf risk persists.",
-  "alert": "Next: US early close, stocks 18:00/13:00 · bonds 19:00/14:00 · thin depth"
+  "regime": "Holiday-thin half day: tech rebound lifts US stocks and VIX falls; 10Y yield up; ECB minutes hawkish.",
+  "alert": "Next: US bonds early close 19:00/14:00 · Sun OPEC+ meeting (time n/v)"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 17:40 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 18:42 GMT",
   "rows": [
    {
-    "when": "17:32",
+    "when": "18:00",
     "cat": "RISK",
     "imp": "H",
-    "event": "US rally, yields jump",
-    "result": "S&P 7,283 +1.39%, Nasdaq +1.86%, Dow +1.17% (Yahoo, mid-session)",
-    "impact": "VIX 24.88 -7.2%; UST 10Y 4.93% about +8bp (Yahoo, 12:32 ET); 2Y 4.69% +6bp (Investing, unstamped)"
+    "event": "US stocks half-day close",
+    "result": "S&P 7,297.49 +1.60%, Nasdaq +2.31%, Dow +1.18% (Yahoo close)",
+    "impact": "SOX nearly +5%, Micron >7%; VIX 23.81 -11.1%, 10Y 4.94% +8.8bp (Yahoo, unstamped, as of 18:42)"
    },
    {
     "when": "16:30",
@@ -62,14 +62,6 @@
    "date": "Fri, Nov 27",
    "tag": "Today",
    "rows": [
-    {
-     "ldn": "18:00",
-     "ny": "13:00",
-     "cat": "RISK",
-     "imp": "H",
-     "event": "US stocks early close",
-     "notes": "NYSE/Nasdaq 1pm ET (options 1:15); month-end flows, thin depth; implied move n/v"
-    },
     {
      "ldn": "19:00",
      "ny": "14:00",
@@ -193,16 +185,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.93% +8bp (Yahoo 17:32) · 2Y 4.69% +6bp (Investing, unstamped) · gilts n/v"
+   "v": "UST 10Y 4.94% +8.8bp (Yahoo, seen 18:42) · 2Y, 2s10s, real, gilts n/v"
   },
   {
    "k": "FX",
-   "v": "DXY 103.94 +0.33% (Investing, unstamped) · EUR, GBP, JPY, AUD n/v"
+   "v": "Fri pre-US: EUR/USD 1.0955-85 range, AUD >0.668 (Marc) · DXY, GBP, JPY n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX 24.88 -7.2% (Yahoo 17:32) · term, skew, gamma n/v"
+   "v": "VIX 23.81 -11.1% (Yahoo, seen 18:42) · term, skew, gamma n/v"
   }
  ],
- "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·TipRanks·investingLive·Fool·Investing PH"
+ "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·TipRanks·investingLive·Fool·Investing PH·MarcToMarket"
 }
