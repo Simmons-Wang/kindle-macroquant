@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T10:38Z",
+ "generated_utc": "2026-11-27T11:38Z",
  "summary": {
   "regime": "Holiday-thin half day: China support pledge lifts Asia, Europe; ECB 1y CPI expectations jump to 3.5%; UST yields up on reopen; Gulf risk persists.",
   "alert": "US stocks shut 18:00/13:00 · bonds 19:00/14:00 · thin liquidity into month-end"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 10:38 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 11:38 GMT",
   "rows": [
    {
     "when": "09:00",
@@ -23,7 +23,7 @@
     "imp": "H",
     "event": "France + Spain flash CPI",
     "result": "HICP y/y: FR 3.2% vs 3.6% cons; ES 4.1% vs 4.7% | 4.9%",
-    "impact": "ES core 2.6%; FR CPI 2.9% vs 3.2% cons; (08:08) STOXX 600 +0.9%, DAX +0.7%; yields, EUR n/v"
+    "impact": "ES core 2.6%; FR CPI 2.9% vs 3.2% cons; STOXX 600 +1.0%, DAX +0.8% (Investing); EUR n/v"
    },
    {
     "when": "Fri",
@@ -194,16 +194,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "Fri early: UST 2Y 4.685% (+4bp) · 10Y 4.918% (+6) · gilt 10Y ~5.16% (Thu)"
+   "v": "UST 2Y 4.685% · 10Y 4.918% (o/n); 4.848% (10:00), srcs differ · gilt 10Y 5.16%"
   },
   {
    "k": "FX",
-   "v": "Fri early: EUR/USD 1.098 · USD/JPY 159.35 · Thu ECB ref: GBP 1.3104, AUD .6635"
+   "v": "Early: EUR/USD 1.098 · USD/JPY 159.35 · GBP/USD n/v · AUD/USD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX 26.80 o/n, backwardated · skew 142 · gamma n/v · Brent $92–97, sources differ"
+   "v": "VIX 24.84 (10:00) · skew 142 (o/n) · gamma n/v · Brent $92–97, sources differ"
   }
  ],
- "sources": "Saxo·XTB·Reuters via Investing.com·PiQ·Newsquawk(StockNow)·ECB ref(MarketAlleys)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·FinanceCalendar·company IR"
+ "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR"
 }
