@@ -1,21 +1,28 @@
 {
  "session": "FRI 27 NOV 2026",
- "edition": "AM",
- "generated_utc": "2026-11-27T06:15Z",
+ "edition": "LIVE",
+ "generated_utc": "2026-11-27T08:10Z",
  "summary": {
   "regime": "Holiday-thin half day: S&P fut +0.9%, UST 10Y +4bp to 4.90% as cash reopens; swaps fully price a Dec Fed hike. New US tariffs, Gulf strikes keep WTI $85; Tokyo core 2.9%.",
   "alert": "US stocks shut 18:00/13:00 · bonds 19:00/14:00 · thin liquidity into month-end"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Asia Fri",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 08:10 GMT",
   "rows": [
    {
-    "when": "Thu",
-    "cat": "RISK",
+    "when": "Fri",
+    "cat": "ECO",
     "imp": "H",
-    "event": "Europe rallies, US shut",
-    "result": "Stoxx600 +1.7%, DAX +2.1% 25,215, FTSE +1.8% 10,609, CAC +1.6% (Saxo)",
-    "impact": "UK, Bund 10Y +2bp; Wed SPX -0.5%, NDX briefly bear mkt; S&P fut +0.9% Fri 10:14 Tokyo"
+    "event": "France flash CPI (Nov)",
+    "result": "HICP 3.2% vs 3.6% cons | 3.7%; CPI 2.9% vs 3.2% | 3.4%",
+    "impact": "Energy, services slowed (INSEE via Reuters); OAT, Bund, EUR reaction n/v"
+   },
+   {
+    "when": "Fri",
+    "cat": "RISK",
+    "event": "Iran/Gulf risk persists",
+    "result": "Trump cites US naval blockade, threatens Iran site if no deal (Newsquawk)",
+    "impact": "(06:37) Brent ~$97.23, WTI ~$86.20; drones aimed at Ras Tanura intercepted"
    },
    {
     "when": "23:30",
@@ -29,16 +36,17 @@
     "when": "Thu",
     "cat": "RISK",
     "imp": "H",
-    "event": "New US tariff round",
-    "result": "On China, EU, ~dozen others; Japan protests 15% levy, Thailand 18% (Saxo)",
-    "impact": "UST 10Y +4bp to 4.90% on reopen; EUR/USD 1.0966; tariff attribution n/v"
+    "event": "Europe rallies, US shut",
+    "result": "Stoxx600 +1.7%, DAX +2.1% 25,215, FTSE +1.8% 10,609, CAC +1.6% (Saxo)",
+    "impact": "UK, Bund 10Y +2bp; Wed SPX -0.5%, NDX briefly bear mkt; S&P fut +0.9% Fri 10:14 Tokyo"
    },
    {
     "when": "Thu",
     "cat": "RISK",
-    "event": "Gulf strikes lift oil",
-    "result": "Houthis hit Saudi refinery; drones at Ras Tanura intercepted (Saxo)",
-    "impact": "Brent >$96 (+2%), Asia $96.29; WTI catch-up +2.1% to $85.43 (AP)"
+    "imp": "H",
+    "event": "New US tariff round",
+    "result": "On China, EU, ~dozen others; Japan protests 15% levy, Thailand 18% (Saxo)",
+    "impact": "UST 10Y +4bp to 4.90% on reopen; EUR/USD 1.0966; tariff attribution n/v"
    },
    {
     "when": "Thu",
@@ -46,13 +54,6 @@
     "event": "ECB account (Oct 28-29)",
     "result": "Officials agreed inflation outlook deteriorated; De Cos set as next ECB pres",
     "impact": "EUR/USD 1.0967 vs 1.0975 (AP); Dec ECB pricing reaction n/v"
-   },
-   {
-    "when": "Thu",
-    "cat": "CB",
-    "event": "BoE FSR: bank capital cut",
-    "result": "FPC proposes 30bp cut to UK lenders' capital requirements",
-    "impact": "Gilt 10Y +2bp (Saxo); UK banks, GBP reaction n/v"
    }
   ]
  },
@@ -61,69 +62,147 @@
    "date": "Fri, Nov 27",
    "tag": "Today",
    "rows": [
-    {"ldn": "18:00", "ny": "13:00", "cat": "RISK", "imp": "H", "event": "US stocks early close",
-     "notes": "NYSE/Nasdaq 1pm ET (options 1:15); month-end flows, thin depth; implied move n/v"},
-    {"ldn": "19:00", "ny": "14:00", "cat": "RISK", "event": "US bond market early close",
-     "notes": "SIFMA 2pm ET; Fed blackout from Sat ahead of Dec FOMC"}
+    {
+     "ldn": "18:00",
+     "ny": "13:00",
+     "cat": "RISK",
+     "imp": "H",
+     "event": "US stocks early close",
+     "notes": "NYSE/Nasdaq 1pm ET (options 1:15); month-end flows, thin depth; implied move n/v"
+    },
+    {
+     "ldn": "19:00",
+     "ny": "14:00",
+     "cat": "RISK",
+     "event": "US bond market early close",
+     "notes": "SIFMA 2pm ET; Fed blackout from Sat ahead of Dec FOMC"
+    }
    ]
   },
   {
    "date": "Sun, Nov 29",
    "rows": [
-    {"ldn": "All day", "ny": "", "cat": "RISK", "event": "OPEC+ 7-country meeting",
-     "notes": "Dec output held at Sept level on Nov 1; Gulf disruption; time n/v"}
+    {
+     "ldn": "All day",
+     "ny": "",
+     "cat": "RISK",
+     "event": "OPEC+ 7-country meeting",
+     "notes": "Dec output held at Sept level on Nov 1; Gulf disruption; time n/v"
+    }
    ]
   },
   {
    "date": "Mon, Nov 30",
    "rows": [
-    {"ldn": "01:30", "ny": "*Sun", "cat": "ECO", "event": "China NBS PMIs (Nov)",
-     "notes": "NY 20:30 Sun; prior mfg 49.3, non-mfg 49.7; cons n/v"},
-    {"ldn": "n/v", "ny": "", "cat": "ECO", "event": "Germany flash CPI (Nov)",
-     "notes": "Destatis time n/v; Oct 2.8% y/y; cons n/v; EZ HICP lead"}
+    {
+     "ldn": "01:30",
+     "ny": "*Sun",
+     "cat": "ECO",
+     "event": "China NBS PMIs (Nov)",
+     "notes": "NY 20:30 Sun; prior mfg 49.3, non-mfg 49.7; cons n/v"
+    },
+    {
+     "ldn": "n/v",
+     "ny": "",
+     "cat": "ECO",
+     "event": "Germany flash CPI (Nov)",
+     "notes": "Destatis time n/v; Oct 2.8% y/y; cons n/v; EZ HICP lead"
+    }
    ]
   },
   {
    "date": "Tue, Dec 1",
    "rows": [
-    {"ldn": "10:00", "ny": "05:00", "cat": "ECO", "imp": "H", "event": "EZ flash HICP (Nov)",
-     "notes": "Cons 3.9% | prior 4.0%; core n/v; ECB Dec 17 pricing"},
-    {"ldn": "15:00", "ny": "10:00", "cat": "ECO", "imp": "H", "event": "US ISM mfg (Nov) + JOLTS (Oct)",
-     "notes": "ISM cons/prior n/v; JOLTS prior 7.523m, cons n/v"},
-    {"ldn": "AMC", "ny": "", "cat": "EARN", "event": "Marvell Q3 FY27",
-     "notes": "Call 16:30 ET; AI-semis read; cons, implied move n/v (CRWD reported Nov 23)"}
+    {
+     "ldn": "10:00",
+     "ny": "05:00",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "EZ flash HICP (Nov)",
+     "notes": "Cons 3.9% | prior 4.0%; core n/v; ECB Dec 17 pricing"
+    },
+    {
+     "ldn": "15:00",
+     "ny": "10:00",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "US ISM mfg (Nov) + JOLTS (Oct)",
+     "notes": "ISM cons/prior n/v; JOLTS prior 7.523m, cons n/v"
+    },
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Marvell Q3 FY27",
+     "notes": "Call 16:30 ET; AI-semis read; cons, implied move n/v (CRWD reported Nov 23)"
+    }
    ]
   },
   {
    "date": "Wed, Dec 2",
    "rows": [
-    {"ldn": "00:30", "ny": "*Tue", "cat": "ECO", "event": "Australia Q3 GDP",
-     "notes": "NY 19:30 Tue; prior, cons n/v"},
-    {"ldn": "13:15", "ny": "08:15", "cat": "ECO", "event": "US ADP employment (Nov)",
-     "notes": "Cons, prior n/v"},
-    {"ldn": "AMC", "ny": "", "cat": "EARN", "event": "Salesforce / Snowflake Q3 FY27",
-     "notes": "Both calls 17:00 ET; cons n/v; AI-software read"}
+    {
+     "ldn": "00:30",
+     "ny": "*Tue",
+     "cat": "ECO",
+     "event": "Australia Q3 GDP",
+     "notes": "NY 19:30 Tue; prior, cons n/v"
+    },
+    {
+     "ldn": "13:15",
+     "ny": "08:15",
+     "cat": "ECO",
+     "event": "US ADP employment (Nov)",
+     "notes": "Cons, prior n/v"
+    },
+    {
+     "ldn": "AMC",
+     "ny": "",
+     "cat": "EARN",
+     "event": "Salesforce / Snowflake Q3 FY27",
+     "notes": "Both calls 17:00 ET; cons n/v; AI-software read"
+    }
    ]
   },
   {
    "date": "Thu, Dec 3",
    "rows": [
-    {"ldn": "15:00", "ny": "10:00", "cat": "ECO", "event": "US ISM services (Nov)",
-     "notes": "Prior 54.5 (Oct, cons was 54.8); cons n/v"}
+    {
+     "ldn": "15:00",
+     "ny": "10:00",
+     "cat": "ECO",
+     "event": "US ISM services (Nov)",
+     "notes": "Prior 54.5 (Oct, cons was 54.8); cons n/v"
+    }
    ]
   },
   {
    "date": "Fri, Dec 4",
    "rows": [
-    {"ldn": "13:30", "ny": "08:30", "cat": "ECO", "imp": "H", "event": "US payrolls (Nov)",
-     "notes": "Prior +165k, UR 4.1%; cons n/v; last print before Dec FOMC"}
+    {
+     "ldn": "13:30",
+     "ny": "08:30",
+     "cat": "ECO",
+     "imp": "H",
+     "event": "US payrolls (Nov)",
+     "notes": "Prior +165k, UR 4.1%; cons n/v; last print before Dec FOMC"
+    }
    ]
   }
  ],
  "levels": [
-  {"k": "RATES", "v": "UST 10Y 4.90% (+4bp, Asia) · 2Y, 2s10s, real n/v · gilt/Bund 10Y +2bp Thu · Dec Fed +25bp fully priced"},
-  {"k": "FX", "v": "(10:14 Tokyo) EUR/USD 1.0966 · USD/JPY 159.29 · AUD/USD 0.6643 · GBP/USD n/v · CNH 6.6607"},
-  {"k": "VOL", "v": "VIX/term/skew/gamma n/v · Brent $96.29 · WTI $85.43 · gold ~$3,565 · BTC ~$60.7k"}
+  {
+   "k": "RATES",
+   "v": "(06:37) UST 2Y 4.69% · 10Y 4.92% · 2s10s +23bp · Bund 10Y 3.25% · gilts, real n/v"
+  },
+  {
+   "k": "FX",
+   "v": "(06:37) EUR/USD 1.0977 · GBP/USD 1.3123 · USD/JPY 159.36 (06:50) · AUD/USD 0.6671"
+  },
+  {
+   "k": "VOL",
+   "v": "VIX/term/skew/gamma n/v · (06:37) Brent $97.23 · WTI $86.20 · gold $3,651 · BTC $61.7k"
+  }
  ],
- "sources": "Bloomberg via swissinfo·AP(ClickOnDetroit)·Saxo·investingLive·ActionForex·NYSE·Kiplinger/SIFMA·OPEC·NBS·FinanceCalendar·forexfundamentals·Marvell/Salesforce/Snowflake(StockTitan)/CrowdStrike IR"
+ "sources": "Reuters(WBOW)·iux24·Open Range Capital·Newsquawk(StockNow)·Bloomberg via swissinfo·AP·Saxo·NYSE·SIFMA·OPEC·NBS·FinanceCalendar·company IR"
 }
