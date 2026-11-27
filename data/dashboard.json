@@ -1,21 +1,28 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T18:42Z",
+ "generated_utc": "2026-11-27T19:38Z",
  "summary": {
   "regime": "Holiday-thin half day: tech rebound lifts US stocks and VIX falls; 10Y yield up; ECB minutes hawkish.",
-  "alert": "Next: US bonds early close 19:00/14:00 · Sun OPEC+ meeting (time n/v)"
+  "alert": "Next: Sun OPEC+ (time n/v) · China PMIs Mon 01:30 LDN / Sun 20:30 NY"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 18:42 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 19:38 GMT",
   "rows": [
+   {
+    "when": "19:00",
+    "cat": "RISK",
+    "event": "US bond early close",
+    "result": "Yields up on day; exact 14:00 ET closing prints n/v",
+    "impact": "As of 19:38: 10Y 4.94% +8.8bp (Yahoo); 2Y 4.72% ~+6bp (TradingEconomics); unstamped"
+   },
    {
     "when": "18:00",
     "cat": "RISK",
     "imp": "H",
     "event": "US stocks half-day close",
     "result": "S&P 7,297.49 +1.60%, Nasdaq +2.31%, Dow +1.18% (Yahoo close)",
-    "impact": "SOX nearly +5%, Micron >7%; VIX 23.81 -11.1%, 10Y 4.94% +8.8bp (Yahoo, unstamped, as of 18:42)"
+    "impact": "SOX nearly +5%, Micron >7%; VIX 23.81 -11.2% (Yahoo closed-market box)"
    },
    {
     "when": "16:30",
@@ -46,31 +53,10 @@
     "event": "France + Spain flash CPI",
     "result": "HICP y/y: FR 3.2% vs 3.6% cons; ES 4.1% vs 4.7% | 4.9%",
     "impact": "ES core 2.6%; FR CPI 2.9% vs 3.2% cons; EUR reaction n/v"
-   },
-   {
-    "when": "Fri",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "China pledges market support",
-    "result": "State Council backs bigger 'national team' role; Huijin to stabilise",
-    "impact": "Close: Shanghai +3.3%, CSI 300 nearly +4%, STAR 50 ~+12% (XTB)"
    }
   ]
  },
  "board": [
-  {
-   "date": "Fri, Nov 27",
-   "tag": "Today",
-   "rows": [
-    {
-     "ldn": "19:00",
-     "ny": "14:00",
-     "cat": "RISK",
-     "event": "US bond market early close",
-     "notes": "SIFMA 2pm ET; Fed blackout from Sat ahead of Dec FOMC"
-    }
-   ]
-  },
   {
    "date": "Sun, Nov 29",
    "rows": [
@@ -185,15 +171,15 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.94% +8.8bp (Yahoo, seen 18:42) · 2Y, 2s10s, real, gilts n/v"
+   "v": "UST 10Y 4.94%, 2Y 4.72%, gilt 10Y 5.18% (TE/Yahoo 19:38) · real n/v"
   },
   {
    "k": "FX",
-   "v": "Fri pre-US: EUR/USD 1.0955-85 range, AUD >0.668 (Marc) · DXY, GBP, JPY n/v"
+   "v": "DXY 104.05, EUR 1.0933, GBP 1.3093, JPY 159.57, AUD 0.6646 (TE 19:38)"
   },
   {
    "k": "VOL",
-   "v": "VIX 23.81 -11.1% (Yahoo, seen 18:42) · term, skew, gamma n/v"
+   "v": "VIX 23.81 -11.2% (Yahoo, Fri) · term, skew, gamma n/v"
   }
  ],
  "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·TipRanks·investingLive·Fool·Investing PH·MarcToMarket"
