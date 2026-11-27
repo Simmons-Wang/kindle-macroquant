@@ -1,21 +1,29 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T08:10Z",
+ "generated_utc": "2026-11-27T08:40Z",
  "summary": {
-  "regime": "Holiday-thin half day: S&P fut +0.9%, UST 10Y +4bp to 4.90% as cash reopens; swaps fully price a Dec Fed hike. New US tariffs, Gulf strikes keep WTI $85; Tokyo core 2.9%.",
+  "regime": "Holiday-thin half day: China support pledge lifts China >3% intraday, STOXX 600 +0.9% (08:12); Spain HICP 4.1% well below 4.7% cons; Gulf risk persists.",
   "alert": "US stocks shut 18:00/13:00 · bonds 19:00/14:00 · thin liquidity into month-end"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 08:10 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 08:40 GMT",
   "rows": [
    {
     "when": "Fri",
     "cat": "ECO",
     "imp": "H",
-    "event": "France flash CPI (Nov)",
-    "result": "HICP 3.2% vs 3.6% cons | 3.7%; CPI 2.9% vs 3.2% | 3.4%",
-    "impact": "Energy, services slowed (INSEE via Reuters); OAT, Bund, EUR reaction n/v"
+    "event": "France + Spain flash CPI",
+    "result": "HICP y/y: FR 3.2% vs 3.6% cons; ES 4.1% vs 4.7% | 4.9%",
+    "impact": "Spain core 2.6%; (08:12) STOXX 600 +0.9%, tech +2.3%; yields, EUR reaction n/v"
+   },
+   {
+    "when": "Fri",
+    "cat": "RISK",
+    "imp": "H",
+    "event": "China pledges market support",
+    "result": "State Council backs bigger 'national team' role; Huijin to stabilise",
+    "impact": "Intraday: Shanghai, CSI 300 >+3%, STAR 50 +12%, Hang Seng +2%; yuan reversed losses"
    },
    {
     "when": "Fri",
@@ -47,13 +55,6 @@
     "event": "New US tariff round",
     "result": "On China, EU, ~dozen others; Japan protests 15% levy, Thailand 18% (Saxo)",
     "impact": "UST 10Y +4bp to 4.90% on reopen; EUR/USD 1.0966; tariff attribution n/v"
-   },
-   {
-    "when": "Thu",
-    "cat": "CB",
-    "event": "ECB account (Oct 28-29)",
-    "result": "Officials agreed inflation outlook deteriorated; De Cos set as next ECB pres",
-    "impact": "EUR/USD 1.0967 vs 1.0975 (AP); Dec ECB pricing reaction n/v"
    }
   ]
  },
@@ -193,16 +194,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "(06:37) UST 2Y 4.69% · 10Y 4.92% · 2s10s +23bp · Bund 10Y 3.25% · gilts, real n/v"
+   "v": "Live n/v · Wed settle: UST 2Y 4.64% · 10Y 4.85% · 2s10s +21bp · Bund, gilts n/v"
   },
   {
    "k": "FX",
-   "v": "(06:37) EUR/USD 1.0977 · GBP/USD 1.3123 · USD/JPY 159.36 (06:50) · AUD/USD 0.6671"
+   "v": "ECB ref Thu 26: EUR/USD 1.0975 · GBP/USD 1.3104 · USD/JPY 159.26 · AUD/USD 0.6635"
   },
   {
    "k": "VOL",
-   "v": "VIX/term/skew/gamma n/v · (06:37) Brent $97.23 · WTI $86.20 · gold $3,651 · BTC $61.7k"
+   "v": "VIX/term/skew/gamma n/v · Brent $96.57 (Thu settle) · WTI $84.84 (Thu) · BTC >$61k"
   }
  ],
- "sources": "Reuters(WBOW)·iux24·Open Range Capital·Newsquawk(StockNow)·Bloomberg via swissinfo·AP·Saxo·NYSE·SIFMA·OPEC·NBS·FinanceCalendar·company IR"
+ "sources": "Reuters via Investing.com·PiQ·Newsquawk(StockNow)·Concept Trader·ECB ref(MarketAlleys)·Bloomberg via swissinfo·Saxo·NYSE·SIFMA·OPEC·NBS·FinanceCalendar·company IR"
 }
