@@ -1,27 +1,27 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T19:38Z",
+ "generated_utc": "2026-11-27T20:43Z",
  "summary": {
   "regime": "Holiday-thin half day: tech rebound lifts US stocks and VIX falls; 10Y yield up; ECB minutes hawkish.",
   "alert": "Next: Sun OPEC+ (time n/v) · China PMIs Mon 01:30 LDN / Sun 20:30 NY"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 19:38 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 20:43 GMT",
   "rows": [
    {
     "when": "19:00",
     "cat": "RISK",
     "event": "US bond early close",
-    "result": "Yields up on day; exact 14:00 ET closing prints n/v",
-    "impact": "As of 19:38: 10Y 4.94% +8.8bp (Yahoo); 2Y 4.72% ~+6bp (TradingEconomics); unstamped"
+    "result": "10Y 4.94% vs 4.85% late Wed (AP); official 2Y close n/v",
+    "impact": "2Y 4.69% +6bp, 10Y 4.92% +7bp earlier Fri (WSJ/Tradeweb, time n/v)"
    },
    {
     "when": "18:00",
     "cat": "RISK",
     "imp": "H",
     "event": "US stocks half-day close",
-    "result": "S&P 7,297.49 +1.60%, Nasdaq +2.31%, Dow +1.18% (Yahoo close)",
+    "result": "S&P 7,297.49 +1.6%, Nasdaq +2.3%, Dow +1.2% (AP close)",
     "impact": "SOX nearly +5%, Micron >7%; VIX 23.81 -11.2% (Yahoo closed-market box)"
    },
    {
@@ -36,7 +36,7 @@
     "cat": "RISK",
     "event": "OPEC+ deal in principle",
     "result": "Q1 2027 output targets to stay unchanged (3 sources); not yet final",
-    "impact": "At 11:00: Brent $92 +1.5%, WTI $85.39 +2.0% (SquawkNews); not attributed to OPEC+"
+    "impact": "11:00: Brent $92 +1.5% (SquawkNews); later AP: down 0.9–1.4%, $90.42–90.84"
    },
    {
     "when": "09:00",
@@ -171,16 +171,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.94%, 2Y 4.72%, gilt 10Y 5.18% (TE/Yahoo 19:38) · real n/v"
+   "v": "UST 10Y 4.94% (AP), 2Y 4.69%, gilt 10Y 5.195% (WSJ, earlier) · real n/v"
   },
   {
    "k": "FX",
-   "v": "DXY 104.05, EUR 1.0933, GBP 1.3093, JPY 159.57, AUD 0.6646 (TE 19:38)"
+   "v": "DXY +0.32%, EUR -0.27%, JPY +0.16%, GBP 1.3124 (Fri PM, time n/v) · AUD n/v"
   },
   {
    "k": "VOL",
    "v": "VIX 23.81 -11.2% (Yahoo, Fri) · term, skew, gamma n/v"
   }
  ],
- "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·TipRanks·investingLive·Fool·Investing PH·MarcToMarket"
+ "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·TipRanks·investingLive·Fool·Investing PH·MarcToMarket·AP·WSJ·The Library"
 }
