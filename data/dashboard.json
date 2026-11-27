@@ -1,19 +1,19 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T20:43Z",
+ "generated_utc": "2026-11-27T22:37Z",
  "summary": {
   "regime": "Holiday-thin half day: tech rebound lifts US stocks and VIX falls; 10Y yield up; ECB minutes hawkish.",
   "alert": "Next: Sun OPEC+ (time n/v) · China PMIs Mon 01:30 LDN / Sun 20:30 NY"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 20:43 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 22:37 GMT",
   "rows": [
    {
     "when": "19:00",
     "cat": "RISK",
     "event": "US bond early close",
-    "result": "10Y 4.94% vs 4.85% late Wed (AP); official 2Y close n/v",
+    "result": "10Y 4.94%, +9bp (The Library, 21:30 UTC; AP agrees on level); 2Y close n/v",
     "impact": "2Y 4.69% +6bp, 10Y 4.92% +7bp earlier Fri (WSJ/Tradeweb, time n/v)"
    },
    {
@@ -171,11 +171,11 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y 4.94% (AP), 2Y 4.69%, gilt 10Y 5.195% (WSJ, earlier) · real n/v"
+   "v": "UST 10Y 4.94% +9bp (close), 2Y 4.69% (intraday), gilt 10Y 5.195% (earlier) · real n/v"
   },
   {
    "k": "FX",
-   "v": "DXY +0.32%, EUR -0.27%, JPY +0.16%, GBP 1.3124 (Fri PM, time n/v) · AUD n/v"
+   "v": "21:30: DXY 104.05 +0.36%, EUR 1.0936, JPY 159.55 · PM: GBP 1.3124, AUD 0.665"
   },
   {
    "k": "VOL",
