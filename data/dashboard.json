@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T15:43Z",
+ "generated_utc": "2026-11-27T16:39Z",
  "summary": {
   "regime": "Holiday-thin half day: China support pledge lifts Asia, Europe; ECB 1y CPI expectations jump to 3.5%; UST yields up on reopen; Gulf risk persists.",
   "alert": "Next: US early close, stocks 18:00/13:00 · bonds 19:00/14:00 · thin depth"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 15:43 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 16:39 GMT",
   "rows": [
    {
     "when": "14:30",
@@ -193,16 +193,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "UST 10Y ~4.92% (FinScans 13:55); Yahoo strip 4.906% (unstamped) · 2Y, gilts n/v"
+   "v": "UST 10Y 4.897% +5bp (investingLive 12:53); Yahoo 4.906% (unstamped) · 2Y, gilts n/v"
   },
   {
    "k": "FX",
-   "v": "EUR/USD ~1.095 -0.16%, DXY ~103.8 (FinScans 13:55) · GBP, JPY, AUD n/v"
+   "v": "EUR/USD ~1.095 -0.16%, DXY ~103.8 (TMGM, pre-US open) · GBP, JPY, AUD n/v"
   },
   {
    "k": "VOL",
    "v": "VIX 25.57 -4.6% (Yahoo, unstamped early-session strip) · term, skew, gamma n/v"
   }
  ],
- "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·FinScans"
+ "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews·TradingEconomics·TipRanks·investingLive"
 }
