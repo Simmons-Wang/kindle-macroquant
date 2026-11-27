@@ -1,14 +1,22 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T08:40Z",
+ "generated_utc": "2026-11-27T09:39Z",
  "summary": {
-  "regime": "Holiday-thin half day: China support pledge lifts China >3% intraday, STOXX 600 +0.9% (08:12); Spain HICP 4.1% well below 4.7% cons; Gulf risk persists.",
+  "regime": "Holiday-thin half day: China support pledge lifts Asia, Europe; ECB 1y CPI expectations jump to 3.5%; UST yields up on reopen; Gulf risk persists.",
   "alert": "US stocks shut 18:00/13:00 · bonds 19:00/14:00 · thin liquidity into month-end"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 08:40 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 09:39 GMT",
   "rows": [
+   {
+    "when": "09:00",
+    "cat": "CB",
+    "imp": "H",
+    "event": "ECB consumer survey (Oct)",
+    "result": "1y CPI expectations 3.5% vs 3.1% prior; 3y 3.0% | 2.9%; 5y 2.5% unch",
+    "impact": "Perceived CPI 4.1% | 3.6%; Reuters: Dec 17 hike all but promised; market reaction n/v"
+   },
    {
     "when": "Fri",
     "cat": "ECO",
@@ -23,7 +31,7 @@
     "imp": "H",
     "event": "China pledges market support",
     "result": "State Council backs bigger 'national team' role; Huijin to stabilise",
-    "impact": "Intraday: Shanghai, CSI 300 >+3%, STAR 50 +12%, Hang Seng +2%; yuan reversed losses"
+    "impact": "Close: Shanghai +3.3%, CSI 300 nearly +4%, STAR 50 ~+12% (XTB)"
    },
    {
     "when": "Fri",
@@ -39,14 +47,6 @@
     "event": "Tokyo CPI (Nov)",
     "result": "Core 2.9% vs 3.0% cons | 2.6%; core-core 2.5% | 2.6%; headline 2.8%",
     "impact": "USD/JPY 159.29, JGB 10Y 2.630% unch (Bloomberg); BoJ Dec 17-18 hike to 1.5% expected"
-   },
-   {
-    "when": "Thu",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "Europe rallies, US shut",
-    "result": "Stoxx600 +1.7%, DAX +2.1% 25,215, FTSE +1.8% 10,609, CAC +1.6% (Saxo)",
-    "impact": "UK, Bund 10Y +2bp; Wed SPX -0.5%, NDX briefly bear mkt; S&P fut +0.9% Fri 10:14 Tokyo"
    },
    {
     "when": "Thu",
@@ -194,16 +194,16 @@
  "levels": [
   {
    "k": "RATES",
-   "v": "Live n/v · Wed settle: UST 2Y 4.64% · 10Y 4.85% · 2s10s +21bp · Bund, gilts n/v"
+   "v": "Fri early: UST 2Y 4.685% (+4bp) · 10Y 4.918% (+6) · gilt 10Y ~5.16% (Thu)"
   },
   {
    "k": "FX",
-   "v": "ECB ref Thu 26: EUR/USD 1.0975 · GBP/USD 1.3104 · USD/JPY 159.26 · AUD/USD 0.6635"
+   "v": "Fri early: EUR/USD 1.098 · USD/JPY 159.35 · Thu ECB ref: GBP 1.3104, AUD .6635"
   },
   {
    "k": "VOL",
-   "v": "VIX/term/skew/gamma n/v · Brent $96.57 (Thu settle) · WTI $84.84 (Thu) · BTC >$61k"
+   "v": "VIX 26.80 o/n, backwardated · skew 142 · gamma n/v · Brent $92–97, sources differ"
   }
  ],
- "sources": "Reuters via Investing.com·PiQ·Newsquawk(StockNow)·Concept Trader·ECB ref(MarketAlleys)·Bloomberg via swissinfo·Saxo·NYSE·SIFMA·OPEC·NBS·FinanceCalendar·company IR"
+ "sources": "Saxo·XTB·Reuters via Investing.com·PiQ·Newsquawk(StockNow)·ECB ref(MarketAlleys)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·FinanceCalendar·company IR"
 }
