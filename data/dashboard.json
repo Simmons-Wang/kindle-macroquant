@@ -1,13 +1,13 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T09:39Z",
+ "generated_utc": "2026-11-27T10:38Z",
  "summary": {
   "regime": "Holiday-thin half day: China support pledge lifts Asia, Europe; ECB 1y CPI expectations jump to 3.5%; UST yields up on reopen; Gulf risk persists.",
   "alert": "US stocks shut 18:00/13:00 · bonds 19:00/14:00 · thin liquidity into month-end"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 09:39 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 10:38 GMT",
   "rows": [
    {
     "when": "09:00",
@@ -23,7 +23,7 @@
     "imp": "H",
     "event": "France + Spain flash CPI",
     "result": "HICP y/y: FR 3.2% vs 3.6% cons; ES 4.1% vs 4.7% | 4.9%",
-    "impact": "Spain core 2.6%; (08:12) STOXX 600 +0.9%, tech +2.3%; yields, EUR reaction n/v"
+    "impact": "ES core 2.6%; FR CPI 2.9% vs 3.2% cons; (08:08) STOXX 600 +0.9%, DAX +0.7%; yields, EUR n/v"
    },
    {
     "when": "Fri",
