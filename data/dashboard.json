@@ -1,14 +1,21 @@
 {
  "session": "FRI 27 NOV 2026",
  "edition": "LIVE",
- "generated_utc": "2026-11-27T11:38Z",
+ "generated_utc": "2026-11-27T12:38Z",
  "summary": {
   "regime": "Holiday-thin half day: China support pledge lifts Asia, Europe; ECB 1y CPI expectations jump to 3.5%; UST yields up on reopen; Gulf risk persists.",
   "alert": "US stocks shut 18:00/13:00 · bonds 19:00/14:00 · thin liquidity into month-end"
  },
  "review": {
-  "date": "Thu 26 Nov (US shut) + Fri · as of 11:38 GMT",
+  "date": "Thu 26 Nov (US shut) + Fri · as of 12:38 GMT",
   "rows": [
+   {
+    "when": "09:20",
+    "cat": "RISK",
+    "event": "OPEC+ deal in principle",
+    "result": "Q1 2027 output targets to stay unchanged (3 sources); not yet final",
+    "impact": "At 11:00: Brent $92 +1.5%, WTI $85.39 +2.0% (SquawkNews); not attributed to OPEC+"
+   },
    {
     "when": "09:00",
     "cat": "CB",
@@ -47,14 +54,6 @@
     "event": "Tokyo CPI (Nov)",
     "result": "Core 2.9% vs 3.0% cons | 2.6%; core-core 2.5% | 2.6%; headline 2.8%",
     "impact": "USD/JPY 159.29, JGB 10Y 2.630% unch (Bloomberg); BoJ Dec 17-18 hike to 1.5% expected"
-   },
-   {
-    "when": "Thu",
-    "cat": "RISK",
-    "imp": "H",
-    "event": "New US tariff round",
-    "result": "On China, EU, ~dozen others; Japan protests 15% levy, Thailand 18% (Saxo)",
-    "impact": "UST 10Y +4bp to 4.90% on reopen; EUR/USD 1.0966; tariff attribution n/v"
    }
   ]
  },
@@ -88,7 +87,7 @@
      "ny": "",
      "cat": "RISK",
      "event": "OPEC+ 7-country meeting",
-     "notes": "Dec output held at Sept level on Nov 1; Gulf disruption; time n/v"
+     "notes": "Reported deal in principle: Q1 2027 targets unch; capacity review too; time n/v"
     }
    ]
   },
@@ -198,12 +197,12 @@
   },
   {
    "k": "FX",
-   "v": "Early: EUR/USD 1.098 · USD/JPY 159.35 · GBP/USD n/v · AUD/USD n/v"
+   "v": "Early: EUR/USD 1.097 · GBP/USD >1.31 · USD/JPY >159 · AUD/USD n/v"
   },
   {
    "k": "VOL",
-   "v": "VIX 24.84 (10:00) · skew 142 (o/n) · gamma n/v · Brent $92–97, sources differ"
+   "v": "VIX 24.96 (10:13) · S&P fut +1.9% (11:00) · gamma n/v · Brent $92–98, srcs differ"
   }
  ],
- "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR"
+ "sources": "Saxo·Yahoo·Investing·XTB·Newsquawk(StockNow)·Bloomberg via swissinfo·NYSE·SIFMA·OPEC·NBS·company IR·SquawkNews·TMGM·JBizNews"
 }
